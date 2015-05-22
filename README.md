@@ -11,4 +11,6 @@ make restore
 
 # Run kestrel and serve the web app on http://localhost:5004
 make run
+
+# Ctrl-D will then stop the container
 ```
