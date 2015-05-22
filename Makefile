@@ -7,7 +7,7 @@ RUN_OPTS=--volume=$(CURDIR)/${APP}:/app \
 	${DOCKER_IMAGE}
 
 run:
-	docker run -i -t -p 5004:5004 ${RUN_OPTS} dnx . kestrel
+	docker run -i -p 5004:5004 ${RUN_OPTS} dnx . kestrel
 
 restore:
 	docker run ${RUN_OPTS} dnu restore
