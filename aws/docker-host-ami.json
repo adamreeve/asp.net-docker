@@ -1,0 +1,39 @@
+{
+    "description":
+        "Image for running Docker containers in AWS Cloud Formation based on Fedora 21"
+    ,
+
+    "variables": {
+        "aws_access_key": "",
+        "aws_secret_key": ""
+    },
+
+    "builders": [
+        {
+            "type": "amazon-ebs",
+            "access_key": "{{user `aws_access_key`}}",
+            "secret_key": "{{user `aws_secret_key`}}",
+            "region": "ap-southeast-2",
+            "source_ami": "ami-ddf480e7",
+            "instance_type": "t2.micro",
+            "ssh_username": "fedora",
+            "ami_name": "docker-host {{timestamp}}"
+        }
+    ],
+
+    "provisioners": [
+        {
+            "type": "shell",
+            "script": "docker-host-setup/update.sh"
+        },
+        {
+            "type": "shell",
+            "script": "docker-host-setup/install_cfn.sh"
+        },
+        {
+            "type": "shell",
+            "script": "docker-host-setup/install_docker.sh"
+        }
+    ]
+}
+

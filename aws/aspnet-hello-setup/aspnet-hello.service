@@ -1,0 +1,16 @@
+[Unit]
+Description=ASP.NET Hello World
+After=docker.service
+Requires=docker.service
+
+[Service]
+ExecStart=/opt/systemd-docker/bin/systemd-docker --env run -i -p 5004:5004 --rm --name %n docker.io/adreeve/aspnet-hello:120f95addabb382f96df63d784a24e753b3132a7
+Restart=always
+RestartSec=10s
+Type=notify
+NotifyAccess=all
+TimeoutStartSec=120
+TimeoutStopSec=15
+
+[Install]
+WantedBy=multi-user.target
