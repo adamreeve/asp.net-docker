@@ -27,6 +27,11 @@
             "script": "docker-host-setup/update.sh"
         },
         {
+            "type": "file",
+            "source": "docker-host-setup/cfn-hup.service",
+            "destination": "/tmp/cfn-hup.service"
+        },
+        {
             "type": "shell",
             "script": "docker-host-setup/install_cfn.sh"
         },
