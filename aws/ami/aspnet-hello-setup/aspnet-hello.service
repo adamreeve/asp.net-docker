@@ -4,7 +4,7 @@ After=docker.service
 Requires=docker.service
 
 [Service]
-ExecStart=/opt/systemd-docker/bin/systemd-docker --env run -i -p 5004:5004 --rm --name %n docker.io/adreeve/aspnet-hello:120f95addabb382f96df63d784a24e753b3132a7
+ExecStart=/opt/systemd-docker/bin/systemd-docker --env run -i -p 5004:5004 --rm --name %n docker.io/adreeve/aspnet-hello:282952fd7318b5793bbf353778c358ce258af9d6
 Restart=always
 RestartSec=10s
 Type=notify
