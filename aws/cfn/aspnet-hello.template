@@ -104,7 +104,7 @@
       },
       "Properties" : {
         "KeyName" : { "Ref" : "KeyName" },
-        "ImageId" : "ami-f9730ac3",
+        "ImageId" : "ami-73552c49",
         "SecurityGroups" : [ { "Ref" : "InstanceSecurityGroup" } ],
         "InstanceType" : "t2.micro",
         "UserData"       : { "Fn::Base64" : { "Fn::Join" : ["", [
