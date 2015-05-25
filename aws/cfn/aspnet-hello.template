@@ -41,7 +41,7 @@
       "Properties" : {
         "AvailabilityZones" : { "Fn::GetAZs" : ""},
         "LaunchConfigurationName" : { "Ref" : "LaunchConfig" },
-        "MinSize" : "1",
+        "MinSize" : "2",
         "MaxSize" : "3",
         "LoadBalancerNames" : [ { "Ref" : "ElasticLoadBalancer" } ],
         "NotificationConfiguration" : {
@@ -55,12 +55,12 @@
       "CreationPolicy" : {
         "ResourceSignal" : {
           "Timeout" : "PT15M",
-          "Count"   : "1"
+          "Count"   : "2"
         }
       },
       "UpdatePolicy": {
         "AutoScalingRollingUpdate": {
-          "MinInstancesInService": "1",
+          "MinInstancesInService": "2",
           "MaxBatchSize": "1",
           "PauseTime" : "PT15M",
           "WaitOnResourceSignals": "true"
