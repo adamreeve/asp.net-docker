@@ -1,5 +1,6 @@
 using Microsoft.AspNet.Mvc;
 using HelloMvc.Web.Models;
+using System.Net;
 
 namespace HelloMvc.Web
 {
@@ -15,6 +16,7 @@ namespace HelloMvc.Web
             return new Hello
             {
                 Name = "World",
+                Host = Dns.GetHostName(),
             };
         }
     }
