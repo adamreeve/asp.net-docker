@@ -2,9 +2,10 @@ AMIs for running ASP.NET app
 ============================
 
 This uses [packer](https://www.packer.io/) to build an AMI (Amazon Machine Image)
-that runs an APS.NET vNext app and works with AWS autoscaling groups.
+that runs an APS.NET vNext app and works with AWS CloudFormation.
 
-First build the base AMI for running docker containers:
+First build the base AMI for running docker containers,
+which includes the CloudFormation utilities:
 
 ```
     packer build \
