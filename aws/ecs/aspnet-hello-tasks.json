@@ -1,0 +1,23 @@
+{
+  "family": "aspnet-hello-app",
+  "containerDefinitions": [
+    {
+      "name": "aspnet-hello",
+      "image": "adreeve/aspnet-hello:282952fd7318b5793bbf353778c358ce258af9d6",
+      "cpu": 10,
+      "memory": 300,
+      "environment": [],
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 5004
+        }
+      ],
+      "volumesFrom": [],
+      "links": [],
+      "essential": true
+    }
+  ],
+  "volumes": [
+  ]
+}
