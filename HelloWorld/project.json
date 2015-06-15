@@ -1,10 +1,11 @@
 {
     "dependencies": {
-        "Kestrel": "1.0.0-beta4",
-        "Microsoft.AspNet.Diagnostics": "1.0.0-beta4",
-        "Microsoft.AspNet.Hosting": "1.0.0-beta4",
-        "Microsoft.AspNet.Mvc": "6.0.0-beta4",
-        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta4"
+        "Kestrel": " 1.0.0-beta6-11833",
+        "Microsoft.AspNet.Diagnostics": "1.0.0-beta6-13234 ",
+        "Microsoft.AspNet.Hosting": "1.0.0-beta6-11972",
+        "Microsoft.AspNet.Mvc": "6.0.0-beta6-14104",
+        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta6-12294",
+        "Mono.Posix": "4.0.0"
     },
     "commands": {
         "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://0.0.0.0:5004"

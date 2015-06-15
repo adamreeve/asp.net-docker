@@ -1,6 +1,7 @@
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Routing;
 using Microsoft.Framework.DependencyInjection;
+using Microsoft.Framework.Runtime;
 
 namespace HelloMvc
 {
@@ -11,7 +12,7 @@ namespace HelloMvc
             services.AddMvc();
         }
 
-        public void Configure(IApplicationBuilder app)
+        public void Configure(IApplicationBuilder app, IApplicationShutdown applicationShutdown)
         {
             // Add MVC to the request pipeline
             app.UseMvc(routes =>
@@ -21,6 +22,8 @@ namespace HelloMvc
                     template: "{controller}/{action}/{id?}",
                     defaults: new { controller = "Home", action = "Index" });
             });
+
+            applicationShutdown.OnUnixSignals();
         }
     }
 }
