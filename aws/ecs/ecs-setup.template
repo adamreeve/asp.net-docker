@@ -220,6 +220,42 @@
       }
     },
 
+    "EcsServiceRole" : {
+      "Type" : "AWS::IAM::Role",
+      "Properties" : {
+        "Path" : "/",
+        "AssumeRolePolicyDocument": {
+          "Version" : "2012-10-17",
+          "Statement": [ {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": [ "ecs.amazonaws.com" ]
+            },
+            "Action": [ "sts:AssumeRole" ]
+          } ]
+        },
+        "Policies" : [ {
+          "PolicyName" : "EcsService",
+          "PolicyDocument" : {
+            "Version": "2012-10-17",
+            "Statement": [
+              {
+                "Effect": "Allow",
+                "Action": [
+                  "ec2:AuthorizeSecurityGroupIngress",
+                  "ec2:Describe*",
+                  "elasticloadbalancing:DeregisterInstancesFromLoadBalancer",
+                  "elasticloadbalancing:Describe*",
+                  "elasticloadbalancing:RegisterInstancesWithLoadBalancer"
+                ],
+                "Resource": "*"
+              }
+            ]
+          }
+        } ]
+      }
+    },
+
     "EcsInstanceAsg" : {
       "Type" : "AWS::AutoScaling::AutoScalingGroup",
       "Properties" : {
@@ -255,6 +291,14 @@
     "URL" : {
       "Description" : "The URL of the load balancer",
       "Value" :  { "Fn::Join" : [ "", [ "http://", { "Fn::GetAtt" : [ "EcsElasticLoadBalancer", "DNSName" ]}]]}
+    },
+    "LoadBalancer" : {
+      "Description" : "The name of the load balancer",
+      "Value" :  { "Ref" : "EcsElasticLoadBalancer" }
+    },
+    "EcsServiceRole" : {
+      "Description" : "The role for ECS services to use to allow them to talk to the load balancer",
+      "Value" :  { "Ref" : "EcsServiceRole" }
     }
   }
 }
