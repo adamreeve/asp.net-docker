@@ -9,7 +9,7 @@ USER aspnet
 
 WORKDIR /app
 
-RUN dnu restore
+RUN ./restore.sh
 
 EXPOSE 5004
 CMD ["dnx", ".", "kestrel"]
