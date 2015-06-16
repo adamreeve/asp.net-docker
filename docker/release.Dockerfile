@@ -9,6 +9,8 @@ USER aspnet
 
 WORKDIR /app
 
+COPY ./docker/nuget_package_cache /home/aspnet/.local
+
 RUN ./restore.sh
 
 EXPOSE 5004

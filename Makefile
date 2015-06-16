@@ -27,5 +27,11 @@ build:
 release_build:
 	docker build -t ${RELEASE_IMAGE}:${COMMIT} -f ./docker/release.Dockerfile .
 
+save_cache:
+	# dnu restore is super flakey so allow saving the cache
+	# this is an ugly hack
+	docker run -v $(CURDIR)/docker/nuget_package_cache:/nuget_package_cache ${RUN_OPTS} \
+		/bin/bash -c 'cp -R /home/aspnet/.local/* /nuget_package_cache/'
+
 rmi:
 	docker rmi -f ${DOCKER_IMAGE}
