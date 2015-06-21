@@ -23,18 +23,11 @@ namespace HelloMvc.Web
 
         public Hello Hello()
         {
-            string cachedTime;
-
-            using (IRedisClient redis = _redisManager.GetClient())
-            {
-                cachedTime = redis.GetEntry("hello:time");
-                if (cachedTime == null)
-                {
-                    var culture = new CultureInfo("en-NZ");
-                    cachedTime = DateTime.UtcNow.ToString(culture);
-                    redis.SetEntry("hello:time", cachedTime, TimeSpan.FromSeconds(60.0));
-                }
-            }
+            var cachedTime = CachedValue("hello:time", TimeSpan.FromSeconds(60.0), () =>
+                    {
+                        var culture = new CultureInfo("en-NZ");
+                        return DateTime.UtcNow.ToString(culture);
+                    });
 
             return new Hello
             {
@@ -42,6 +35,29 @@ namespace HelloMvc.Web
                 Host = Dns.GetHostName(),
                 CachedTime = cachedTime,
             };
+        }
+
+        private string CachedValue(string key, TimeSpan expiry, Func<string> f)
+        {
+            string val;
+            try
+            {
+                using (IRedisClient redis = _redisManager.GetClient())
+                {
+                    val = redis.GetEntry(key);
+                    if (val == null)
+                    {
+                        val = f();
+                        redis.SetEntry(key, val, expiry);
+                    }
+                    return val;
+                }
+            }
+            catch (RedisException re)
+            {
+                return f();
+            }
+
         }
     }
 }

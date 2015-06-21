@@ -1,4 +1,5 @@
 using Microsoft.AspNet.Builder;
+using Microsoft.AspNet.Diagnostics;
 using Microsoft.AspNet.Routing;
 using Microsoft.Framework.DependencyInjection;
 using Microsoft.Framework.Runtime;
@@ -29,6 +30,8 @@ namespace HelloMvc
                     template: "{controller}/{action}/{id?}",
                     defaults: new { controller = "Home", action = "Index" });
             });
+
+            app.UseErrorPage(ErrorPageOptions.ShowAll);
 
             applicationShutdown.OnUnixSignals();
         }
