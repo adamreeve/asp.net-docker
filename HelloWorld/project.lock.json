@@ -1077,6 +1077,45 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "ServiceStack.Common/4.0.40": {
+        "dependencies": {
+          "ServiceStack.Interfaces": "4.0.40",
+          "ServiceStack.Text": "4.0.40"
+        },
+        "compile": {
+          "lib/net40/ServiceStack.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net40/ServiceStack.Common.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/4.0.40": {
+        "compile": {
+          "lib/portable-wp80+sl5+net40+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/portable-wp80+sl5+net40+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Redis/4.0.40": {
+        "dependencies": {
+          "ServiceStack.Common": "4.0.40"
+        },
+        "compile": {
+          "lib/net40/ServiceStack.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net40/ServiceStack.Redis.dll": {}
+        }
+      },
+      "ServiceStack.Text/4.0.40": {
+        "compile": {
+          "lib/net40/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net40/ServiceStack.Text.dll": {}
+        }
+      },
       "System.Collections.Immutable/1.1.36": {
         "compile": {
           "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
@@ -2134,6 +2173,26 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll": {}
+        }
+      },
+      "ServiceStack.Common/4.0.40": {
+        "dependencies": {
+          "ServiceStack.Interfaces": "4.0.40",
+          "ServiceStack.Text": "4.0.40"
+        }
+      },
+      "ServiceStack.Interfaces/4.0.40": {},
+      "ServiceStack.Redis/4.0.40": {
+        "dependencies": {
+          "ServiceStack.Common": "4.0.40"
+        }
+      },
+      "ServiceStack.Text/4.0.40": {
+        "compile": {
+          "lib/portable-net45+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Text.dll": {}
         }
       },
       "System.Collections/4.0.10-beta-23008": {
@@ -4042,6 +4101,48 @@
         "tools/install.ps1"
       ]
     },
+    "ServiceStack.Common/4.0.40": {
+      "sha512": "9VlHMHhb5wM9GGHjC5UtMrpoeUMslbWHTZjSK6fYb9nGq3kfxsU4HmXTN24R9UKQVfT2lOLhTKVN587kHzgy2g==",
+      "files": [
+        "ServiceStack.Common.4.0.40.nupkg",
+        "ServiceStack.Common.4.0.40.nupkg.sha512",
+        "ServiceStack.Common.nuspec",
+        "lib/net40/ServiceStack.Common.dll",
+        "lib/net40/ServiceStack.Common.xml"
+      ]
+    },
+    "ServiceStack.Interfaces/4.0.40": {
+      "sha512": "ZMnoZN5Ier88rsW29xfFaM8YVI/xI7eJPLOrf1f6XNiHwTMD+X5y0oNZM05iFkWqHzXTegFskCs77i+Iuhti3Q==",
+      "files": [
+        "ServiceStack.Interfaces.4.0.40.nupkg",
+        "ServiceStack.Interfaces.4.0.40.nupkg.sha512",
+        "ServiceStack.Interfaces.nuspec",
+        "lib/portable-wp80+sl5+net40+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Interfaces.dll"
+      ]
+    },
+    "ServiceStack.Redis/4.0.40": {
+      "sha512": "AYrlBBq3RSLUtLaO58RpNOoOa07/2dYcuj2MlHAOnk4RJCkNPZmWvYVvjGEmxEWu59AYoawCwOrT+ZZLavZngg==",
+      "files": [
+        "ServiceStack.Redis.4.0.40.nupkg",
+        "ServiceStack.Redis.4.0.40.nupkg.sha512",
+        "ServiceStack.Redis.nuspec",
+        "lib/net40/ServiceStack.Redis.XML",
+        "lib/net40/ServiceStack.Redis.dll"
+      ]
+    },
+    "ServiceStack.Text/4.0.40": {
+      "sha512": "Zom0gTaHLSVuDpgtnFPI0j/QOi3aci/hj17mYHo9KUB/O4E72arCgCZSQra7yz0ZuhtJf00yyk7SLYA7t2zrxg==",
+      "files": [
+        "ServiceStack.Text.4.0.40.nupkg",
+        "ServiceStack.Text.4.0.40.nupkg.sha512",
+        "ServiceStack.Text.nuspec",
+        "lib/net40/ServiceStack.Text.dll",
+        "lib/net40/ServiceStack.Text.xml",
+        "lib/portable-net45+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Text.dll",
+        "lib/sl5/ServiceStack.Text.dll",
+        "lib/sl5/ServiceStack.Text.xml"
+      ]
+    },
     "System.Collections/4.0.10-beta-23008": {
       "sha512": "46VC3fzCpF2Ifo+QbULhesO/gzNvnaAvGsMfnr7wHZouHZgH9D/SA8VIa7/QOreqobh5MdZ+ip0+5GkmsrJ29Q==",
       "files": [
@@ -4936,7 +5037,8 @@
       "Microsoft.AspNet.Hosting >= 1.0.0-beta6-11972",
       "Microsoft.AspNet.Mvc >= 6.0.0-beta6-14104",
       "Microsoft.AspNet.Server.WebListener >= 1.0.0-beta6-12294",
-      "Mono.Posix >= 4.0.0"
+      "Mono.Posix >= 4.0.0",
+      "ServiceStack.Redis >= 4.0.40"
     ],
     "DNX,Version=v4.5.1": [],
     "DNXCore,Version=v5.0": []

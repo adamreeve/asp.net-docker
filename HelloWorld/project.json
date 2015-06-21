@@ -5,7 +5,8 @@
         "Microsoft.AspNet.Hosting": "1.0.0-beta6-11972",
         "Microsoft.AspNet.Mvc": "6.0.0-beta6-14104",
         "Microsoft.AspNet.Server.WebListener": "1.0.0-beta6-12294",
-        "Mono.Posix": "4.0.0"
+        "Mono.Posix": "4.0.0",
+        "ServiceStack.Redis": "4.0.40"
     },
     "commands": {
         "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://0.0.0.0:5004"

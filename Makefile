@@ -10,8 +10,11 @@ RUN_OPTS=--volume=$(CURDIR)/${APP}:/app \
 	--volumes-from=${DATA_CONTAINER} \
 	${DOCKER_IMAGE}
 
+run-redis:
+	docker run --name hello-redis -d redis
+
 run:
-	docker run -p 5004:5004 ${RUN_OPTS} dnx . kestrel
+	docker run --link hello-redis:redis -p 5004:5004 ${RUN_OPTS} dnx . kestrel
 
 restore:
 	docker run ${RUN_OPTS} ./restore.sh
