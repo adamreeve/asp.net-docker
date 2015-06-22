@@ -1,5 +1,5 @@
 APP=HelloWorld
-BASE_IMAGE=adreeve/aspnet:1.0.0-beta6
+BASE_IMAGE=docker.io/adreeve/aspnet:1.0.0-beta6
 DOCKER_IMAGE=aspnet-hello
 RELEASE_IMAGE=docker.io/adreeve/aspnet-hello
 DATA_CONTAINER=aspnet-hello-data
