@@ -22,7 +22,7 @@ USER aspnet
 ENV DNX_USER_HOME /home/aspnet/dnx
 RUN curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_USER_HOME=$DNX_USER_HOME sh
 
-ENV DNX_VERSION 1.0.0-beta6-12032
+ENV DNX_VERSION 1.0.0-beta6-12100
 RUN bash -c "source $DNX_USER_HOME/dnvm/dnvm.sh \
     && dnvm install -u $DNX_VERSION -a default \
     && dnvm alias default | xargs -i ln -s $DNX_USER_HOME/runtimes/{} $DNX_USER_HOME/runtimes/default"

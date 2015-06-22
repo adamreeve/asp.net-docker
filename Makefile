@@ -1,5 +1,5 @@
 APP=HelloWorld
-BASE_IMAGE=docker.io/adreeve/aspnet:1.0.0-beta6
+BASE_IMAGE=docker.io/adreeve/aspnet:1.0.0-beta6-12100
 DOCKER_IMAGE=aspnet-hello
 RELEASE_IMAGE=docker.io/adreeve/aspnet-hello
 DATA_CONTAINER=aspnet-hello-data
@@ -22,8 +22,10 @@ restore:
 bash:
 	docker run -i -t ${RUN_OPTS} /bin/bash
 
-build:
+baseimage:
 	docker build -t ${BASE_IMAGE} -f ./docker/aspnet.Dockerfile .
+
+build: baseimage
 	docker build -t ${DOCKER_IMAGE} -f ./docker/dev.Dockerfile .
 	docker run --name=${DATA_CONTAINER} ${DOCKER_IMAGE} /bin/true
 

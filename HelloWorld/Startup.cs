@@ -31,7 +31,7 @@ namespace HelloMvc
                     defaults: new { controller = "Home", action = "Index" });
             });
 
-            app.UseErrorPage(ErrorPageOptions.ShowAll);
+            app.UseErrorPage();
 
             applicationShutdown.OnUnixSignals();
         }

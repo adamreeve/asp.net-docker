@@ -1,4 +1,4 @@
-FROM adreeve/aspnet:1.0.0-beta6
+FROM adreeve/aspnet:1.0.0-beta6-12100
 
 USER root
 
