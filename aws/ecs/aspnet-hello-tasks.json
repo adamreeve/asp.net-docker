@@ -3,8 +3,8 @@
   "containerDefinitions": [
     {
       "name": "aspnet-hello",
-      "image": "adreeve/aspnet-hello:19a68c1cab5b56d620f6fae9500e0f64303aa954",
-      "cpu": 10,
+      "image": "adreeve/aspnet-hello:4106e01951304191f5c65f265730b8b1fb85291d",
+      "cpu": 100,
       "memory": 300,
       "environment": [],
       "portMappings": [
@@ -14,7 +14,14 @@
         }
       ],
       "volumesFrom": [],
-      "links": [],
+      "links": ["redis:redis"],
+      "essential": true
+    },
+    {
+      "name": "redis",
+      "image": "redis:3.0.2",
+      "cpu": 100,
+      "memory": 300,
       "essential": true
     }
   ],
