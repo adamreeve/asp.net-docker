@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "aspnet-hello",
-      "image": "adreeve/aspnet-hello:4106e01951304191f5c65f265730b8b1fb85291d",
+      "image": "adreeve/aspnet-hello:997dbd20e857ac378e179b9e69dfd71de1c76fa8",
       "cpu": 100,
       "memory": 300,
       "environment": [],
