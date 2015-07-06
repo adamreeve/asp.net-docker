@@ -40,4 +40,4 @@ run: stack_description.json
 	$(eval CLUSTER_NAME := $(shell jq -r '.Stacks[0].Outputs | map(select(.OutputKey == "EcsCluster" ))[0].OutputValue' < stack_description.json))
 	aws ecs run-task --cluster ${CLUSTER_NAME} --task-definition aspnet-hello-app --count 1
 
-.PHONY: create update delete events validate register-task run
+.PHONY: create update delete events validate register-task run stack_description.json
