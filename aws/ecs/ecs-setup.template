@@ -150,7 +150,7 @@
           "Protocol" : "HTTP"
         } ],
         "HealthCheck" : {
-          "Target" : "HTTP:80/",
+          "Target" : "HTTP:80/Home/Ping",
           "HealthyThreshold" : "2",
           "UnhealthyThreshold" : "10",
           "Interval" : "30",
