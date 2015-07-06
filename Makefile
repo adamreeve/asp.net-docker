@@ -16,6 +16,9 @@ run-redis:
 run:
 	docker run --link hello-redis:redis -p 5004:5004 ${RUN_OPTS} dnx . kestrel
 
+run-no-redis:
+	docker run -p 5004:5004 ${RUN_OPTS} dnx . kestrel
+
 restore:
 	docker run ${RUN_OPTS} ./restore.sh
 
