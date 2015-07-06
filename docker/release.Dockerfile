@@ -12,7 +12,5 @@ WORKDIR /app
 COPY ./docker/nuget_cache /home/aspnet/.local
 COPY ./docker/dnx_packages /home/aspnet/.dnx
 
-RUN ./restore.sh
-
 EXPOSE 5004
 CMD ["dnx", ".", "kestrel"]

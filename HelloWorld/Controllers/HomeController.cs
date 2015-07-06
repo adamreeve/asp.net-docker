@@ -21,6 +21,11 @@ namespace HelloMvc.Web
             return View(Hello());
         }
 
+        public IActionResult Ping()
+        {
+            return new HttpStatusCodeResult(200);
+        }
+
         public Hello Hello()
         {
             var cachedTime = CachedValue("hello:time", TimeSpan.FromSeconds(60.0), () =>
