@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="utf-8"?><feed xml:base="https://www.myget.org/F/aspnetvnext/api/v2/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><id>https://www.myget.org/F/aspnetvnext/api/v2/FindPackagesById</id><title type="text">FindPackagesById</title><updated>2015-07-06T07:05:47Z</updated><link rel="self" title="FindPackagesById" href="FindPackagesById" /><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23008')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23008')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23008')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-06-12T02:01:41Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23008')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.0-beta-23008" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.0-beta-23008</d:Version><d:NormalizedVersion>4.0.0-beta-23008</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-12T02:01:41.1955466Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23008:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.0-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-12T02:01:41.1955466Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-12T02:01:41.1955466Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-12T02:01:41.1955466Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>6XZafBCsKVLZa28qpFzdtqP0+jbtlralzvhM9UVwqnLuBgYe/cd/Evd1/5UjFM3feCsPwhtMCmdjK9jLeLHmSw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">23154</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">141</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23015')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23015')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23015')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-06-19T09:16:10Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23015')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.0-beta-23015" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.0-beta-23015</d:Version><d:NormalizedVersion>4.0.0-beta-23015</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-19T09:16:10.5338031Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23015:dotnet</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.0-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-19T09:16:10.5338031Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-19T09:16:10.5338031Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-19T09:16:10.5338031Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>wloO81w+byCaNuskkK+k/zgekdJYep0+hpxr0NjA4kGfcXtSwJWGlni0mj8qWxzCn51taAVdkF1/Fp4vHCJE3w==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">37528</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">118</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23021')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-06-25T02:00:12Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23021')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.0-beta-23021" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.0-beta-23021</d:Version><d:NormalizedVersion>4.0.0-beta-23021</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-25T02:00:12.8051714Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23021:dotnet|::net45|::win80|System.Runtime:4.0.0-beta-23021:.NETCore50</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.0-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-25T02:00:12.8051714Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-25T02:00:12.8051714Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-25T02:00:12.8051714Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>W3OxtK8tCv/KIXKHUhebgQ/K1x90zN3WMDl86p2KIIEyfHWeAku6tod3pJ9y53sgADnih1+ueARVPswF1hktFg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">189895</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">122</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23029')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-07-03T09:18:29Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.0-beta-23029')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.0-beta-23029" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.0-beta-23029</d:Version><d:NormalizedVersion>4.0.0-beta-23029</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-03T09:18:29.3815757Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23029:dotnet|::win80|::net45|::wp80|::wpa81|System.Runtime:4.0.0-beta-23029:.NETCore50</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.0-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-03T09:18:29.3815757Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-03T09:18:29.3815757Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-03T09:18:29.3815757Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>T1F5tS38Q3miREHhd5rcFXHKNCxLK83LHZbt/e0bjL5KB2zoHeLTQRRm1WzFk/iZuq0JkkGeFSt8CdxLXodL6Q==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">190433</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">39</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22516')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22516')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22516')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-01-17T05:07:20Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22516')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22516" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22516</d:Version><d:NormalizedVersion>4.0.10-beta-22516</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-01-17T05:07:20.7961592Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22516:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22516</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-01-17T05:07:20.7961592Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-01-17T05:07:20.7961592Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-01-17T05:07:20.7961592Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>8526SYF0NshxBXx49UsJs01MYsqag398U29YbFfWn5mgds5cUbIG4Ie/nMwN4xzXQ41KPk6Yh1jFCll8MsFGuQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">61115</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">623</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22519')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22519')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22519')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-01-20T18:15:25Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22519')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22519" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22519</d:Version><d:NormalizedVersion>4.0.10-beta-22519</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-01-20T18:15:25.0130684Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22519:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22519</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-01-20T18:15:25.0130684Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-01-20T18:15:25.0130684Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-01-20T18:15:25.0130684Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>UZb5iI4SnsXp8D4N+IvtLpT/umImtQ0Rkm67AjeFK4/TPKT+jQ120YJm5neEKbiO2E+Y2ndCXq6EHrirIAOsSw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">61055</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1485</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22604')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22604')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22604')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-02-04T16:10:00Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22604')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22604" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22604</d:Version><d:NormalizedVersion>4.0.10-beta-22604</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-02-04T16:10:00.4067788Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22604:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22604</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-02-04T16:10:00.4067788Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-02-04T16:10:00.4067788Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-02-04T16:10:00.4067788Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>+c6ikWs8T/9L2EPs3GUF+GjAkyV976QjE3rRfHCJ6PpkFDdgjdGNRjVniPL/Ois6+xTT40+rY7jl/V8m4f31Pw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">103023</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1531</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22717')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22717')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22717')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-03-18T06:17:06Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22717')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22717" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22717</d:Version><d:NormalizedVersion>4.0.10-beta-22717</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-18T06:17:06.0001559Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22717:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22717</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-18T06:17:06.0001559Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-18T06:17:06.0001559Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-18T06:17:06.0001559Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Se/2L+Vcl6tzW2Y9PUaugcCO8liB/Nz52qlhZpO6frq7BT18xDXXfeVx8nASEZmPlV+novZc55FKe7ZrwIq+nQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">103059</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">55</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22718')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22718')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22718')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-03-18T08:39:55Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22718')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22718" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22718</d:Version><d:NormalizedVersion>4.0.10-beta-22718</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-18T08:39:55.7856816Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22718:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22718</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-18T08:39:55.7856816Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-18T08:39:55.7856816Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-18T08:39:55.7856816Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>TIeMo8lsKqd8HduUtF1k2IK3ee2QoixsIMlDCykltXSIa7dHkfGsPtKPrPmSqYIsYS4L5mFMIvf6AsgCzGOCWA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">103044</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">892</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22719')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22719')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22719')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-03-20T08:50:27Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22719')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22719" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22719</d:Version><d:NormalizedVersion>4.0.10-beta-22719</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-20T08:50:27.3796604Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22719:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22719</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-20T08:50:27.3796604Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-20T08:50:27.3796604Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-20T08:50:27.3796604Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>0jNWWEwhGqBWV9uyvMOhr2fDcbazk8ZP+M/B10jnczJK7rJKlPpNsjTQmnnwUwpCQBq4Fq8/vGGCD489F/SGpw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">103058</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">440</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22720')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22720')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22720')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-03-21T08:56:20Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22720')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22720" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22720</d:Version><d:NormalizedVersion>4.0.10-beta-22720</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-21T08:56:20.5104062Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22720:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22720</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-21T08:56:20.5104062Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-21T08:56:20.5104062Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-21T08:56:20.5104062Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>p9mapqYEFlY4avWURMm6Qo42HHWGKouLC5Gzz3c0UXHRx+kvqHr6jzLPdYWgnJBDJwd05pL9FAI5RdEpwFpPBg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">103032</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1562</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22724')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22724')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22724')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-03-25T06:23:47Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22724')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22724" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22724</d:Version><d:NormalizedVersion>4.0.10-beta-22724</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-25T06:23:47.9727583Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22724:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22724</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-25T06:23:47.9727583Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-25T06:23:47.9727583Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-25T06:23:47.9727583Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>04aQ82O4PZjVmeTlZjsdbwxGX7brNlqSg/KtIjtx9QdbpE3JijNzdy007fZAwThXf37r6f0Sc2jWh+xx45tPgw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102741</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">147</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22725')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22725')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22725')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-03-26T04:41:40Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22725')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22725" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22725</d:Version><d:NormalizedVersion>4.0.10-beta-22725</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-26T04:41:40.3557564Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22725:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22725</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-26T04:41:40.3557564Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-26T04:41:40.3557564Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-26T04:41:40.3557564Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>HOGazdKUk7dfCWwZnaPme16qCi/c53aB6zj+V9ujhg9bOBB+Kc46a5nFoE/98SjZu9d2uH4WElqzeMJzjzu1Ag==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102814</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">243</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22726')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22726')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22726')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-03-28T01:38:55Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22726')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22726" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22726</d:Version><d:NormalizedVersion>4.0.10-beta-22726</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-28T01:38:55.649045Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22726:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22726</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-28T01:38:55.649045Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-28T01:38:55.649045Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-28T01:38:55.649045Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>cdqQSgL7BePXMOSwyj8xOXJanBw8+QnVWEFgL4R9EMsuieIExcCAuGihCySNXo6ec8+7cOY38gsls3d49qkbVA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102859</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">20</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22727')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22727')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22727')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-03-28T10:28:11Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22727')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22727" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22727</d:Version><d:NormalizedVersion>4.0.10-beta-22727</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-28T10:28:11.167976Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22727:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22727</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-28T10:28:11.167976Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-28T10:28:11.167976Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-28T10:28:11.167976Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>ixfgkAoSKqEDbvnb4xt3y19lGpJHJ+Vy9qttZmtDLE6kvoilhlyKdCWmiY/spYP2rFVV6HQZl3wyndPf93WVrA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102845</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">768</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22731')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22731')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22731')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-03-31T23:57:21Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22731')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22731" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22731</d:Version><d:NormalizedVersion>4.0.10-beta-22731</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-31T23:57:21.5913368Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22731:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22731</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-31T23:57:21.5913368Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-31T23:57:21.5913368Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-31T23:57:21.5913368Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>8LkVm5lA6JWmymByx67hqZJAIwnF7zcYyEHu4IXKjlrvWXMEFUVO38BFfMG79cO0SL/sj4M/bjYJ13rh3CFzXQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102721</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">78</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22801')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22801')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22801')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-01T08:51:32Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22801')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22801" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22801</d:Version><d:NormalizedVersion>4.0.10-beta-22801</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-01T08:51:32.2310347Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22801:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22801</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-01T08:51:32.2310347Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-01T08:51:32.2310347Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-01T08:51:32.2310347Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>8jlIONMQTamZX4cHswv8K36xKCUcK7x+egvENW5YF0q7vffohIH4G7v/vpgtSBtnI//smW9pKRZG49DELPgfww==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102733</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">428</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22802')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22802')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22802')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-02T08:58:24Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22802')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22802" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22802</d:Version><d:NormalizedVersion>4.0.10-beta-22802</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-02T08:58:24.1645876Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22802:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22802</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-02T08:58:24.1645876Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-02T08:58:24.1645876Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-02T08:58:24.1645876Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>VNUakPisOIj2D7Ia81bpITidkcGT7DPN0eVggZwD3lx4T0ND7Rb40Jy/uUWwjeh5OaSOH7hC1qoz+MneCqhF6Q==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102728</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">624</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22803')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22803')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22803')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-06T01:26:41Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22803')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22803" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22803</d:Version><d:NormalizedVersion>4.0.10-beta-22803</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-06T01:26:41.2972974Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22803:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22803</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-06T01:26:41.2972974Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-06T01:26:41.2972974Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-06T01:26:41.2972974Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>MZT71sbsJWU2OKQCqliVxJ26zSgnbixZcDCPe0WxkUwq8V9Fi2oK/etTTa1zvdDOZXOFxlO+W56UBR+xwZyOsA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102718</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">37</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22806')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22806')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22806')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-06T09:33:01Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22806')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22806" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22806</d:Version><d:NormalizedVersion>4.0.10-beta-22806</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-06T09:33:01.5731352Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22806:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22806</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-06T09:33:01.5731352Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-06T09:33:01.5731352Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-06T09:33:01.5731352Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>2ON8RRQnfGEYd5cAXj4YMLoKw1rdQt5F6iKtqCmOLePQZishI1L4ZfPJ85NssOzBzRQEJ4ClOxkNJ38TqiL+4w==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102743</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">463</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22807')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22807')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22807')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-07T20:29:17Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22807')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22807" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22807</d:Version><d:NormalizedVersion>4.0.10-beta-22807</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-07T20:29:17.0440503Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22807:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22807</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-07T20:29:17.0440503Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-07T20:29:17.0440503Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-07T20:29:17.0440503Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>ui47Rlg8wttISydu7tKmBt0ibZ7VptcacOf1slGT+8A3jjKZ8GlDvMAP/5mnlhWmQA8KK/F9KaxT9LIHHlCtHQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102666</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">807</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22809')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22809')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22809')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-10T18:58:32Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22809')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22809" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22809</d:Version><d:NormalizedVersion>4.0.10-beta-22809</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-10T18:58:32.9264005Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22809:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22809</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-10T18:58:32.9264005Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-10T18:58:32.9264005Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-10T18:58:32.9264005Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>P/q86l8eaITnxS2nTew0SGn3Mb62z6WZlbHF5/GPwpe/cIbHiCBGQkyUHEZHqNl+cRh7sgbxkVKIA24MUvqYmA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102627</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">806</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22811')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22811')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22811')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-15T01:29:17Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22811')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22811" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22811</d:Version><d:NormalizedVersion>4.0.10-beta-22811</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-15T01:29:17.2335812Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22811:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22811</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-15T01:29:17.2335812Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-15T01:29:17.2335812Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-15T01:29:17.2335812Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>AERZmVDCNr1M+S7pUZuFTWI+jcSMrwftK/Ws+YD3gtrKPpIEOkTuaXvJNHuH0dvbXhNtJirW45xCOMgkUhzZOA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102640</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1911</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22821')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22821')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22821')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-22T08:39:40Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22821')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22821" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22821</d:Version><d:NormalizedVersion>4.0.10-beta-22821</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T08:39:40.0673822Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22821:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22821</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T08:39:40.0673822Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T08:39:40.0673822Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T08:39:40.0673822Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>ilCymXgo7StkTNvkw0gOSGrEZ0ex54rkiVzs5eAM9J5nY0JTU33NVG5MqRAYiob3w2/QpdcS3iZFSygFU3sR1g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102723</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">249</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22822')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22822')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22822')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-22T20:36:59Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22822')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22822" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22822</d:Version><d:NormalizedVersion>4.0.10-beta-22822</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T20:36:59.2489498Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22822:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22822</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T20:36:59.2489498Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T20:36:59.2489498Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T20:36:59.2489498Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>aHUQzDSTBxTFZvksuUPQlq35uCR+ZwipRjyXqWdYvoKbkvrqYZ7pRyCk3sKGmeQXTcW/esUkqdhs5Gn+pnt30Q==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102664</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">845</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22823')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22823')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22823')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-25T00:45:32Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22823')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22823" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22823</d:Version><d:NormalizedVersion>4.0.10-beta-22823</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-25T00:45:32.699986Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22823:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22823</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-25T00:45:32.699986Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-25T00:45:32.699986Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-25T00:45:32.699986Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>D7mn1cNDzgDVO7eZZxFbCnxAsleHr+pdK9K2kRIl7967RhEIA8YTCxNRdLkxRrfiq1+/+vybAs3ioFsZfX1ZEw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102711</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">326</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22825')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22825')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22825')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-27T11:24:56Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22825')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22825" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22825</d:Version><d:NormalizedVersion>4.0.10-beta-22825</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-27T11:24:56.883579Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22825:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22825</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-27T11:24:56.883579Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-27T11:24:56.883579Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-27T11:24:56.883579Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>dKMl8qKpzgFmgCeKNkgX81406/sse2pWW6gv+oO6DE1vHlD2vmaDkFEptxi23CtfwdJwNqpa8fLvbOLoT9ByKA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102974</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">451</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22828')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22828')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22828')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-28T17:33:20Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22828')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22828" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22828</d:Version><d:NormalizedVersion>4.0.10-beta-22828</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-28T17:33:20.6317882Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22828:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22828</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-28T17:33:20.6317882Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-28T17:33:20.6317882Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-28T17:33:20.6317882Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>RnhgGOP6SlUKyJvz/F5A+yNLuBdNtNw3wFISotsai2NRsZ07VfTuuNPPFDbqZIBXX2p7KkhuA5CgiCz64PbaXA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102956</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">551</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22829')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22829')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22829')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-29T22:43:16Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22829')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22829" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22829</d:Version><d:NormalizedVersion>4.0.10-beta-22829</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-29T22:43:16.8035525Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22829:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22829</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-29T22:43:16.8035525Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-29T22:43:16.8035525Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-29T22:43:16.8035525Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>N5hqy/j8sasuavdpXUd3Uws80FfuheiCueoLDoTUD6iW64N9/87mZnCL14INNsecfiGXxaDZageW8CkhSrBQ2g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102966</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">677</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22830')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22830')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22830')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-04-30T20:49:20Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22830')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22830" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22830</d:Version><d:NormalizedVersion>4.0.10-beta-22830</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-30T20:49:20.0944145Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22830:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22830</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-30T20:49:20.0944145Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-30T20:49:20.0944145Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-30T20:49:20.0944145Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Nln58KB4JVnVYEeeEVn0/pl6LPIcobmTYy8Onw0UC68eqhEVnMUdOrspWs+FUldI9p+6BeQi8C1FzvxX1JDE+w==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102966</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1786</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22904')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22904')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22904')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-05-05T19:29:28Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22904')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22904" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22904</d:Version><d:NormalizedVersion>4.0.10-beta-22904</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-05T19:29:28.3545848Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22904:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22904</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-05T19:29:28.3545848Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-05T19:29:28.3545848Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-05T19:29:28.3545848Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>DU5mxRx/qWJOUiYpRi4Hy/+d9193cOg2WmSA1l8VT99OruWd9vUJLXxHNqy8XSE20pLpiSrw2tJm6nHBespWkw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102923</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">445</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22905')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22905')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22905')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-05-06T17:58:44Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22905')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22905" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22905</d:Version><d:NormalizedVersion>4.0.10-beta-22905</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-06T17:58:44.2362474Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22905:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22905</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-06T17:58:44.2362474Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-06T17:58:44.2362474Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-06T17:58:44.2362474Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>H3SslgwIsnO5GqE6IRQ8LS2XVlRp3W57rf69x+eJfCvFswUSdyIBpgUPTlci5Izj8WsN9OBi+vRotjfGcL4d+w==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102968</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">576</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22906')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22906')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22906')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-05-07T20:09:11Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22906')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22906" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22906</d:Version><d:NormalizedVersion>4.0.10-beta-22906</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-07T20:09:11.8822531Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22906:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22906</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-07T20:09:11.8822531Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-07T20:09:11.8822531Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-07T20:09:11.8822531Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>xdTAi7XSI0hJwRhh8zTROXJF0F4Ewl4NFZQyGyBAX0anPsXD5UXHdHfO/HKHs05CqaiThniD6NM149YDiVHCnQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102921</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">443</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22907')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22907')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22907')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-05-08T17:18:08Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22907')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22907" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22907</d:Version><d:NormalizedVersion>4.0.10-beta-22907</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-08T17:18:08.8326371Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22907:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22907</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-08T17:18:08.8326371Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-08T17:18:08.8326371Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-08T17:18:08.8326371Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>EwFwzx4p+elediL1X4dk8Zms1Y6UHwTwL95iztnwkFP8Xjn7Q7sFxDZKhaw6v9jDvYRsp963IKdaJBd0nFF0NA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102936</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">826</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22910')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22910')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22910')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-05-11T16:21:22Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22910')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22910" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22910</d:Version><d:NormalizedVersion>4.0.10-beta-22910</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-11T16:21:22.6716141Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22910:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22910</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-11T16:21:22.6716141Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-11T16:21:22.6716141Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-11T16:21:22.6716141Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>ZF4CGu2MhoSIQm5ehIaNbAvtmNWAvvSn3XmDuw+MU1SLnWo9zYINGKUn8P9tNz6R5A6PQaK9iYgPYIpy/fZqkA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102946</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">477</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22911')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22911')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22911')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-05-12T16:53:07Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22911')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22911" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22911</d:Version><d:NormalizedVersion>4.0.10-beta-22911</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-12T16:53:07.5909938Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22911:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22911</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-12T16:53:07.5909938Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-12T16:53:07.5909938Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-12T16:53:07.5909938Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>64gqmVWF9xWL2ksAVZW3EwazntHzvCTi1R8nVuZKIanxUUKrAkkHY+LdxH/HFtIqxa5xe5VjKZJo8k4KPRj4Qw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102927</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1170</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22913')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22913')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22913')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-05-15T06:01:31Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-22913')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-22913" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-22913</d:Version><d:NormalizedVersion>4.0.10-beta-22913</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-15T06:01:31.5396012Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22913:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-22913</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-15T06:01:31.5396012Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-15T06:01:31.5396012Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-15T06:01:31.5396012Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Ob9mh+/iSx4kifqXnxeomGZo4Xk/UHO0NyPxRyuBzRdnvSpwko2B4Vm/T1zOlVUQ0EEMch5M9TPxaY3lWOuGTQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">102968</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">5251</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23008')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23008')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23008')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-06-12T02:01:45Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23008')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-23008" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-23008</d:Version><d:NormalizedVersion>4.0.10-beta-23008</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-12T02:01:45.3189142Z</d:Created><d:Dependencies>System.Runtime:4.0.20-beta-23008:|System.Resources.ResourceManager:4.0.0-beta-23008:|System.Collections:4.0.10-beta-23008:|System.Globalization:4.0.10-beta-23008:|System.Runtime.Extensions:4.0.10-beta-23008:|System.Threading:4.0.10-beta-23008:</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-12T02:01:45.3189142Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-12T02:01:45.3189142Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-12T02:01:45.3189142Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>4r7RLouht1jX9qgoliV3INBQz0Kuw+2zgmROx2C5ip34kx+lmtcilkZNzV+l1jXjzpm3ACPmaUfnVZOAhm7XoA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">95360</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1900</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23015')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23015')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23015')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-06-22T14:51:33Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23015')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-23015" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-23015</d:Version><d:NormalizedVersion>4.0.10-beta-23015</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-22T14:51:33.2288588Z</d:Created><d:Dependencies>System.Runtime:4.0.20-beta-23015:dotnet|System.Resources.ResourceManager:4.0.0-beta-23015:dotnet|System.Collections:4.0.10-beta-23015:dotnet|System.Globalization:4.0.10-beta-23015:dotnet|System.Runtime.Extensions:4.0.10-beta-23015:dotnet|System.Threading:4.0.10-beta-23015:dotnet</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-22T14:51:33.2288588Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-22T14:51:33.2288588Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-22T14:51:33.2288588Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>16q9ue4N3OigIlNeRhe+ZDMUaOLE7VwhLKPYbcpEP7+YKmgTca4AeA1rCSMpVaNdPNCZ3x7lxowLr0/0wEQwgw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">71824</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1832</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23021')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-06-25T02:00:16Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23021')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-23021" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-23021</d:Version><d:NormalizedVersion>4.0.10-beta-23021</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-25T02:00:16.5612532Z</d:Created><d:Dependencies>::net46|System.Runtime:4.0.20-beta-23021:dotnet|System.Resources.ResourceManager:4.0.0-beta-23021:dotnet|System.Collections:4.0.10-beta-23021:dotnet|System.Globalization:4.0.10-beta-23021:dotnet|System.Runtime.Extensions:4.0.10-beta-23021:dotnet|System.Threading:4.0.10-beta-23021:dotnet</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-25T02:00:16.5612532Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-25T02:00:16.5612532Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-25T02:00:16.5612532Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>BIRajxLAurzIBFHvmpUQbpqKh/+k6VD3zp1XcaATO+j9sGnDD6Y5JomFyNzDBd5oMxnA2bMD6bn9bdGRAfiIPw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">147987</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2773</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23029')/Screenshots" /><title type="text">System.Text.RegularExpressions</title><summary type="text">Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</summary><updated>2015-07-03T09:18:37Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Text.RegularExpressions',Version='4.0.10-beta-23029')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Text.RegularExpressions/4.0.10-beta-23029" /><m:properties><d:Id>System.Text.RegularExpressions</d:Id><d:Version>4.0.10-beta-23029</d:Version><d:NormalizedVersion>4.0.10-beta-23029</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-03T09:18:37.3330181Z</d:Created><d:Dependencies>::net46|System.Runtime:4.0.20-beta-23029:dotnet|System.Resources.ResourceManager:4.0.0-beta-23029:dotnet|System.Collections:4.0.10-beta-23029:dotnet|System.Globalization:4.0.10-beta-23029:dotnet|System.Runtime.Extensions:4.0.10-beta-23029:dotnet|System.Threading:4.0.10-beta-23029:dotnet</d:Dependencies><d:Description>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Description><d:DownloadCount m:type="Edm.Int32">34921</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Text.RegularExpressions/4.0.10-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-03T09:18:37.3330181Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-03T09:18:37.3330181Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-03T09:18:37.3330181Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>/isBwiNHSonUvKdbX3x765hUSsXCFDALKxik6WHl140tSp/yIpJLwSbl986KvHk2pzDCqHcltwHnlz4BVCdiDQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">148067</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator</d:Summary><d:Tags m:null="true" /><d:Title>System.Text.RegularExpressions</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1003</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry></feed>

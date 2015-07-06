@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?><feed xml:base="https://www.myget.org/F/aspnetvnext/api/v2/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><id>https://www.myget.org/F/aspnetvnext/api/v2/FindPackagesById</id><title type="text">FindPackagesById</title><updated>2015-07-06T07:09:13Z</updated><link rel="self" title="FindPackagesById" href="FindPackagesById" /><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22802')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22802')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22802')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-02T08:51:46Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22802')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22802" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22802</d:Version><d:NormalizedVersion>4.0.0-beta-22802</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-02T08:51:46.3291764Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22802:|System.ComponentModel.Primitives:4.0.0-beta-22802:|System.Globalization:4.0.0-beta-22802:|System.Runtime:4.0.0-beta-22802:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22802</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-02T08:51:46.3291764Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-02T08:51:46.3291764Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-02T08:51:46.3291764Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>oWVhE2R0BNrhsZRsC2ogGX8DU75E6ggFde7WuAY2c6H5b7/py8h5ocHYGSe9ycCLg9s6QPiRIi9vG1ChvpvwGQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69831</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">273</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22803')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22803')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22803')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-06T01:24:45Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22803')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22803" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22803</d:Version><d:NormalizedVersion>4.0.0-beta-22803</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-06T01:24:45.0667578Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22803:|System.ComponentModel.Primitives:4.0.0-beta-22803:|System.Globalization:4.0.0-beta-22803:|System.Runtime:4.0.0-beta-22803:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22803</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-06T01:24:45.0667578Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-06T01:24:45.0667578Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-06T01:24:45.0667578Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>D8lAIQ6qTOlsaDxkrQoZLEajKaEgpjEFfbTM0sQm5ov7hBiyJhux/I1R5CwZYDUPE+cAamAr1KoiO+Gxj+9O7w==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69862</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">8</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22806')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22806')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22806')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-06T09:31:01Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22806')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22806" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22806</d:Version><d:NormalizedVersion>4.0.0-beta-22806</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-06T09:31:01.2108186Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22806:|System.ComponentModel.Primitives:4.0.0-beta-22806:|System.Globalization:4.0.0-beta-22806:|System.Runtime:4.0.0-beta-22806:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22806</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-06T09:31:01.2108186Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-06T09:31:01.2108186Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-06T09:31:01.2108186Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>YLgyqYyo9nTiUuWI7bZasoBNGQeSu0aDOk8nSeTTmwMc7raQH5P/2MQUZlSYssKxJt6dKhQDwF1cxVO6qKy8+g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69843</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">157</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22807')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22807')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22807')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-07T20:27:36Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22807')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22807" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22807</d:Version><d:NormalizedVersion>4.0.0-beta-22807</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-07T20:27:36.8894177Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22807:|System.ComponentModel.Primitives:4.0.0-beta-22807:|System.Globalization:4.0.0-beta-22807:|System.Runtime:4.0.0-beta-22807:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22807</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-07T20:27:36.8894177Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-07T20:27:36.8894177Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-07T20:27:36.8894177Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>1PdEGdlS3CmcHGBfWN/tLqgffhc2EPnxjA8n8acTSl1rHuFFmq09XoacK+NR9v1xqT0v0lBNBLC6oKWKHuoaDA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69814</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">310</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22809')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22809')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22809')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-10T18:56:52Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22809')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22809" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22809</d:Version><d:NormalizedVersion>4.0.0-beta-22809</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-10T18:56:52.3315907Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22809:|System.ComponentModel.Primitives:4.0.0-beta-22809:|System.Globalization:4.0.0-beta-22809:|System.Runtime:4.0.0-beta-22809:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22809</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-10T18:56:52.3315907Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-10T18:56:52.3315907Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-10T18:56:52.3315907Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>QztK/7ON80Z55PA8yH69mic4nygCpRDSthv5RHoyKMh2OCRxqc9VtMJ0Foau7YOVoosugB1cvsrofsi9KzUVNA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69745</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">296</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22811')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22811')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22811')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-15T01:27:39Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22811')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22811" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22811</d:Version><d:NormalizedVersion>4.0.0-beta-22811</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-15T01:27:39.0270254Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22811:|System.ComponentModel.Primitives:4.0.0-beta-22811:|System.Globalization:4.0.0-beta-22811:|System.Runtime:4.0.0-beta-22811:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22811</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-15T01:27:39.0270254Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-15T01:27:39.0270254Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-15T01:27:39.0270254Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>s69xsR8pahmY1DHn9U3gBSlfpoRDAXdPygieq1LLvGfdX3uKh7MGUdmt1904DNOIA0fS1JQPG+uOOMXSkt1vjg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69731</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">933</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22821')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22821')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22821')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-22T08:38:30Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22821')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22821" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22821</d:Version><d:NormalizedVersion>4.0.0-beta-22821</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T08:38:30.4594182Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22821:|System.ComponentModel.Primitives:4.0.0-beta-22821:|System.Globalization:4.0.0-beta-22821:|System.Runtime:4.0.0-beta-22821:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22821</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T08:38:30.4594182Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T08:38:30.4594182Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T08:38:30.4594182Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>5tyBjB5dsvrC0Ig+p8mY+vMjZjvmLdWVzWC2FX6LaMNvLnNiJxathkMttOgH/Ums4lqaXDcp/vAQu/y1f8BiNg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69767</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">78</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22822')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22822')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22822')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-22T20:34:26Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22822')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22822" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22822</d:Version><d:NormalizedVersion>4.0.0-beta-22822</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T20:34:26.9450428Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22822:|System.ComponentModel.Primitives:4.0.0-beta-22822:|System.Globalization:4.0.0-beta-22822:|System.Runtime:4.0.0-beta-22822:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22822</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T20:34:26.9450428Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T20:34:26.9450428Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T20:34:26.9450428Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>aQczeu7ygGuz1RtTK0Wxfo01P8/AFNphpwAlnujTKDvYJXwbk7mksrZDzh8xm9WfSVqXUXyP2bLI3W/EhseoFg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69766</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">408</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22823')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22823')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22823')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-25T00:44:22Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22823')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22823" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22823</d:Version><d:NormalizedVersion>4.0.0-beta-22823</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-25T00:44:22.5646635Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22823:|System.ComponentModel.Primitives:4.0.0-beta-22823:|System.Globalization:4.0.0-beta-22823:|System.Runtime:4.0.0-beta-22823:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22823</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-25T00:44:22.5646635Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-25T00:44:22.5646635Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-25T00:44:22.5646635Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>OUeJPbq8rdVfz0ntnaveVWTzouTESRhkRvGiZ2hDds+C9ErveueGlmO0q/OHzFtCDe3wAQUBsER5aW2W0BVDqQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69806</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">157</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22825')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22825')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22825')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-27T11:23:47Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22825')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22825" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22825</d:Version><d:NormalizedVersion>4.0.0-beta-22825</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-27T11:23:47.0439882Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22825:|System.ComponentModel.Primitives:4.0.0-beta-22825:|System.Globalization:4.0.0-beta-22825:|System.Runtime:4.0.0-beta-22825:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22825</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-27T11:23:47.0439882Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-27T11:23:47.0439882Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-27T11:23:47.0439882Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>qFTB1l/wkQwPT71DTL+XcpTKHLljPp51aLCvMHsp8t6c3pbOwuLOWMr4P+JpzKEibK2REepBIDuU7gBsqNG+MQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69965</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">167</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22828')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22828')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22828')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-28T17:32:02Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22828')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22828" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22828</d:Version><d:NormalizedVersion>4.0.0-beta-22828</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-28T17:32:02.66947Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22828:|System.ComponentModel.Primitives:4.0.0-beta-22828:|System.Globalization:4.0.0-beta-22828:|System.Runtime:4.0.0-beta-22828:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22828</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-28T17:32:02.66947Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-28T17:32:02.66947Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-28T17:32:02.66947Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>XgxPjAPwMEmYwcmgqqH1Ne08dCB/FsoTuM/fsquAepjv7GSXMJzzLVEI5jIDQwmRScFNiuwNkY5u9YNrUDJUEQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69964</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">166</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22829')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22829')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22829')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-29T22:42:13Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22829')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22829" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22829</d:Version><d:NormalizedVersion>4.0.0-beta-22829</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-29T22:42:13.4472017Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22829:|System.ComponentModel.Primitives:4.0.0-beta-22829:|System.Globalization:4.0.0-beta-22829:|System.Runtime:4.0.0-beta-22829:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22829</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-29T22:42:13.4472017Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-29T22:42:13.4472017Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-29T22:42:13.4472017Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>9LPFMaWpbkrIan1kul3kCXzw0ppt6VhT8jpwTv8ApHe9e5Tgb8ifj7Wfay6TiWjWH9kVyDhXWuPr8A65hKOuwg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69992</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">149</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22830')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22830')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22830')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-04-30T20:48:15Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22830')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22830" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22830</d:Version><d:NormalizedVersion>4.0.0-beta-22830</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-30T20:48:15.896071Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22830:|System.ComponentModel.Primitives:4.0.0-beta-22830:|System.Globalization:4.0.0-beta-22830:|System.Runtime:4.0.0-beta-22830:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22830</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-30T20:48:15.896071Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-30T20:48:15.896071Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-30T20:48:15.896071Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>6VPMI7R4buK8fqkhIeRBfloNJJiLDGGYCSTG4F34p95ZGIdDupJkqZlEgdobTCNEvbGYIt1ii//+yogDyOWAiQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69944</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">509</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22904')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22904')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22904')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-05-05T19:28:23Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22904')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22904" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22904</d:Version><d:NormalizedVersion>4.0.0-beta-22904</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-05T19:28:23.9155339Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22904:|System.ComponentModel.Primitives:4.0.0-beta-22904:|System.Globalization:4.0.0-beta-22904:|System.Runtime:4.0.0-beta-22904:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22904</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-05T19:28:23.9155339Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-05T19:28:23.9155339Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-05T19:28:23.9155339Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Ko2WpYPKypJBkX4FPk0atPghym99OhS5RkWdLBJqWc+yLLvsmNr0AlDfv160ci7ovBuNs8r1G/Dz1n0WJxi0Lw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69941</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">151</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22905')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22905')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22905')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-05-06T17:57:36Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22905')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22905" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22905</d:Version><d:NormalizedVersion>4.0.0-beta-22905</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-06T17:57:36.7624147Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22905:|System.ComponentModel.Primitives:4.0.0-beta-22905:|System.Globalization:4.0.0-beta-22905:|System.Runtime:4.0.0-beta-22905:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22905</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-06T17:57:36.7624147Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-06T17:57:36.7624147Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-06T17:57:36.7624147Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>OvN07sU6iHs/s91D/pKyvxeWsvcXyHsBGy3uF7cwx7MPYeCYDGtgvImema55u+8DU3Ib3b+ZSMaJrS4rUds9eg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69980</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">195</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22906')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22906')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22906')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-05-07T20:07:49Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22906')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22906" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22906</d:Version><d:NormalizedVersion>4.0.0-beta-22906</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-07T20:07:49.479784Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22906:|System.ComponentModel.Primitives:4.0.0-beta-22906:|System.Globalization:4.0.0-beta-22906:|System.Runtime:4.0.0-beta-22906:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22906</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-07T20:07:49.479784Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-07T20:07:49.479784Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-07T20:07:49.479784Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>a1R+ok7xvNY8ZdTQR1wDel7yWrLEqTBrxS7dOvOw6ymmFIddzttFWczQYUi+2S81Q6yL7sLfTePlQGoN9W6nrg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69921</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">206</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22907')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22907')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22907')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-05-08T17:16:43Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22907')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22907" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22907</d:Version><d:NormalizedVersion>4.0.0-beta-22907</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-08T17:16:43.4660179Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22907:|System.ComponentModel.Primitives:4.0.0-beta-22907:|System.Globalization:4.0.0-beta-22907:|System.Runtime:4.0.0-beta-22907:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22907</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-08T17:16:43.4660179Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-08T17:16:43.4660179Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-08T17:16:43.4660179Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>VbiuY40CYtPOoqlDnAMPW//BSenlZeQmcq9LO09zVr/BnXNIdl4Rx+b3KnTlJB7kd2Km45dmekGJqQMyfQPDKg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69889</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">471</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22910')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22910')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22910')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-05-11T16:19:30Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22910')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22910" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22910</d:Version><d:NormalizedVersion>4.0.0-beta-22910</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-11T16:19:30.3593733Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22910:|System.ComponentModel.Primitives:4.0.0-beta-22910:|System.Globalization:4.0.0-beta-22910:|System.Runtime:4.0.0-beta-22910:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22910</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-11T16:19:30.3593733Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-11T16:19:30.3593733Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-11T16:19:30.3593733Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>tVCKiflxmgL4Nwcl8MQD+nJL39Gj8+Cyy5oKOPFtxeVCY7oBlct6Nr+mcUlmiMmr623mYJxlGinWsPfQTV/aiA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69980</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">228</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22911')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22911')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22911')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-05-12T16:51:37Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22911')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22911" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22911</d:Version><d:NormalizedVersion>4.0.0-beta-22911</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-12T16:51:37.3375638Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22911:|System.ComponentModel.Primitives:4.0.0-beta-22911:|System.Globalization:4.0.0-beta-22911:|System.Runtime:4.0.0-beta-22911:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22911</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-12T16:51:37.3375638Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-12T16:51:37.3375638Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-12T16:51:37.3375638Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>jPkdL1omDtEcUl81+Ba2FARpnm0eS5qFRFGnNApHsZ+gZCpuyFuZETzdojHv9AiXfP/UrUbb9eSqcv/Xf69CUg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69901</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">569</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22913')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22913')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22913')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-05-15T05:59:49Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-22913')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-22913" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-22913</d:Version><d:NormalizedVersion>4.0.0-beta-22913</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-15T05:59:49.6963582Z</d:Created><d:Dependencies>System.ComponentModel:4.0.0-beta-22913:|System.ComponentModel.Primitives:4.0.0-beta-22913:|System.Globalization:4.0.0-beta-22913:|System.Runtime:4.0.0-beta-22913:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-22913</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-15T05:59:49.6963582Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-15T05:59:49.6963582Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-15T05:59:49.6963582Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>WSxoYF2zRq0JghZ3AA6Duh6KRRnCuO9D70fKgBkqKDLDBbKoi2xURxbg4eQmc7itq1uy7RRClJTWA7Qf/HfvTg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">69942</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2503</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23008')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23008')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23008')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-06-08T23:43:56Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23008')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-23008" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-23008</d:Version><d:NormalizedVersion>4.0.0-beta-23008</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-08T23:43:56.6576295Z</d:Created><d:Dependencies>System.Runtime:4.0.20-beta-23008:|System.Globalization:4.0.10-beta-23008:|System.ComponentModel:4.0.0-beta-23008:|System.ComponentModel.Primitives:4.0.0-beta-23008:|System.Resources.ResourceManager:4.0.0-beta-23008:|System.Reflection.Extensions:4.0.0-beta-23008:|System.Reflection.Primitives:4.0.0-beta-23008:|System.Collections:4.0.10-beta-23008:|System.Reflection:4.0.10-beta-23008:|System.Runtime.Extensions:4.0.10-beta-23008:|System.Threading:4.0.10-beta-23008:</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-08T23:43:56.6576295Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-08T23:43:56.6576295Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-08T23:43:56.6576295Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>vmIMyDa4rqK5wch797XY3RFn02Na25NpYtSjuv8ZdRaT1FYHveiByktqBN256zDGZRcmuKOpw5/MTSZYYgJcyg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63590</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">890</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23015')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23015')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23015')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-06-16T17:00:03Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23015')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-23015" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-23015</d:Version><d:NormalizedVersion>4.0.0-beta-23015</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-16T17:00:03.7288951Z</d:Created><d:Dependencies>System.Runtime:4.0.20-beta-23015:Unsupported|System.Globalization:4.0.10-beta-23015:Unsupported|System.ComponentModel:4.0.0-beta-23015:Unsupported|System.ComponentModel.Primitives:4.0.0-beta-23015:Unsupported|System.Resources.ResourceManager:4.0.0-beta-23015:Unsupported|System.Reflection.Extensions:4.0.0-beta-23015:Unsupported|System.Reflection.Primitives:4.0.0-beta-23015:Unsupported|System.Collections:4.0.10-beta-23015:Unsupported|System.Reflection:4.0.10-beta-23015:Unsupported|System.Runtime.Extensions:4.0.10-beta-23015:Unsupported|System.Threading:4.0.10-beta-23015:Unsupported</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-16T17:00:03.7288951Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-16T17:00:03.7288951Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-16T17:00:03.7288951Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Rxe1sEbS+ZphFQBEzpNx+MUCEDQelcYShxeNY+5hOI2IUsiPmLDdU4iWtz139V6Cu1UrO3p4UogM0cnhxrgrhQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63586</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">811</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23021')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-06-23T18:09:57Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23021')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-23021" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-23021</d:Version><d:NormalizedVersion>4.0.0-beta-23021</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-23T18:09:57.2988029Z</d:Created><d:Dependencies>System.Runtime:4.0.20-beta-23021:dotnet|System.Globalization:4.0.10-beta-23021:dotnet|System.ComponentModel:4.0.0-beta-23021:dotnet|System.ComponentModel.Primitives:4.0.0-beta-23021:dotnet|System.Resources.ResourceManager:4.0.0-beta-23021:dotnet|System.Reflection.Extensions:4.0.0-beta-23021:dotnet|System.Reflection.Primitives:4.0.0-beta-23021:dotnet|System.Collections:4.0.10-beta-23021:dotnet|System.Reflection:4.0.10-beta-23021:dotnet|System.Runtime.Extensions:4.0.10-beta-23021:dotnet|System.Threading:4.0.10-beta-23021:dotnet</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-23T18:09:57.2988029Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-23T18:09:57.2988029Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-23T18:09:57.2988029Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>eyuDSq0PKZHr6zhSHkicor6BWFIwAUonHS3SsUgY6hMVU2XX/pkmclTLlhntGTTg4skm3u6Z1FDGEEizjXPMeA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">113101</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1246</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23029')/Screenshots" /><title type="text">System.ComponentModel.TypeConverter</title><summary type="text">Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</summary><updated>2015-07-01T21:17:19Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ComponentModel.TypeConverter',Version='4.0.0-beta-23029')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ComponentModel.TypeConverter/4.0.0-beta-23029" /><m:properties><d:Id>System.ComponentModel.TypeConverter</d:Id><d:Version>4.0.0-beta-23029</d:Version><d:NormalizedVersion>4.0.0-beta-23029</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-01T21:17:19.813449Z</d:Created><d:Dependencies>System.Runtime:4.0.20-beta-23029:dotnet|System.Globalization:4.0.10-beta-23029:dotnet|System.ComponentModel:4.0.0-beta-23029:dotnet|System.ComponentModel.Primitives:4.0.0-beta-23029:dotnet|System.Resources.ResourceManager:4.0.0-beta-23029:dotnet|System.Reflection.Extensions:4.0.0-beta-23029:dotnet|System.Reflection.Primitives:4.0.0-beta-23029:dotnet|System.Collections:4.0.10-beta-23029:dotnet|System.Reflection:4.0.10-beta-23029:dotnet|System.Runtime.Extensions:4.0.10-beta-23029:dotnet|System.Threading:4.0.10-beta-23029:dotnet</d:Dependencies><d:Description>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Description><d:DownloadCount m:type="Edm.Int32">11439</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ComponentModel.TypeConverter/4.0.0-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-01T21:17:19.813449Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-01T21:17:19.813449Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-01T21:17:19.813449Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>L72aeBndslxavcvi9PG08vWGUvF60fKfs6E6X3uwfbofDy7ijw+ef6slPBiThglQ6+tjrKzd2l58KOqDoRDwxg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">113137</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.ComponentModel.TypeConverter class, which represents a unified way of converting types of values to other types.
+
+Commonly Used Types:
+System.ComponentModel.TypeConverter
+System.ComponentModel.TypeConverterAttribute
+System.ComponentModel.PropertyDescriptor
+System.ComponentModel.StringConverter
+System.ComponentModel.ITypeDescriptorContext
+System.ComponentModel.EnumConverter
+System.ComponentModel.TypeDescriptor
+System.ComponentModel.Int32Converter
+System.ComponentModel.BooleanConverter
+System.ComponentModel.DoubleConverter</d:Summary><d:Tags m:null="true" /><d:Title>System.ComponentModel.TypeConverter</d:Title><d:VersionDownloadCount m:type="Edm.Int32">558</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry></feed>

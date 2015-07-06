@@ -3900,43 +3900,43 @@
     "ServiceStack.Common/4.0.40": {
       "sha512": "9VlHMHhb5wM9GGHjC5UtMrpoeUMslbWHTZjSK6fYb9nGq3kfxsU4HmXTN24R9UKQVfT2lOLhTKVN587kHzgy2g==",
       "files": [
+        "lib/net40/ServiceStack.Common.dll",
+        "lib/net40/ServiceStack.Common.xml",
         "ServiceStack.Common.4.0.40.nupkg",
         "ServiceStack.Common.4.0.40.nupkg.sha512",
-        "ServiceStack.Common.nuspec",
-        "lib/net40/ServiceStack.Common.dll",
-        "lib/net40/ServiceStack.Common.xml"
+        "ServiceStack.Common.nuspec"
       ]
     },
     "ServiceStack.Interfaces/4.0.40": {
       "sha512": "ZMnoZN5Ier88rsW29xfFaM8YVI/xI7eJPLOrf1f6XNiHwTMD+X5y0oNZM05iFkWqHzXTegFskCs77i+Iuhti3Q==",
       "files": [
+        "lib/portable-wp80+sl5+net40+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Interfaces.dll",
         "ServiceStack.Interfaces.4.0.40.nupkg",
         "ServiceStack.Interfaces.4.0.40.nupkg.sha512",
-        "ServiceStack.Interfaces.nuspec",
-        "lib/portable-wp80+sl5+net40+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Interfaces.dll"
+        "ServiceStack.Interfaces.nuspec"
       ]
     },
     "ServiceStack.Redis/4.0.40": {
       "sha512": "AYrlBBq3RSLUtLaO58RpNOoOa07/2dYcuj2MlHAOnk4RJCkNPZmWvYVvjGEmxEWu59AYoawCwOrT+ZZLavZngg==",
       "files": [
+        "lib/net40/ServiceStack.Redis.dll",
+        "lib/net40/ServiceStack.Redis.XML",
         "ServiceStack.Redis.4.0.40.nupkg",
         "ServiceStack.Redis.4.0.40.nupkg.sha512",
-        "ServiceStack.Redis.nuspec",
-        "lib/net40/ServiceStack.Redis.XML",
-        "lib/net40/ServiceStack.Redis.dll"
+        "ServiceStack.Redis.nuspec"
       ]
     },
     "ServiceStack.Text/4.0.40": {
       "sha512": "Zom0gTaHLSVuDpgtnFPI0j/QOi3aci/hj17mYHo9KUB/O4E72arCgCZSQra7yz0ZuhtJf00yyk7SLYA7t2zrxg==",
       "files": [
-        "ServiceStack.Text.4.0.40.nupkg",
-        "ServiceStack.Text.4.0.40.nupkg.sha512",
-        "ServiceStack.Text.nuspec",
         "lib/net40/ServiceStack.Text.dll",
         "lib/net40/ServiceStack.Text.xml",
         "lib/portable-net45+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Text.dll",
         "lib/sl5/ServiceStack.Text.dll",
-        "lib/sl5/ServiceStack.Text.xml"
+        "lib/sl5/ServiceStack.Text.xml",
+        "ServiceStack.Text.4.0.40.nupkg",
+        "ServiceStack.Text.4.0.40.nupkg.sha512",
+        "ServiceStack.Text.nuspec"
       ]
     },
     "System.Collections/4.0.10-beta-23015": {

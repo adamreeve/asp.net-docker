@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="3.0">
+    <id>System.Security.Cryptography.RSA</id>
+    <version>4.0.0-beta-23015</version>
+    <title>System.Security.Cryptography.RSA</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</licenseUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Provides the System.Security.Cryptography.RSACryptoServiceProvider class, which performs asymmetric encryption and decryption using the RSA algorithm.
+
+Commonly Used Types:
+System.Security.Cryptography.RSACryptoServiceProvider
+System.Security.Cryptography.RSA
+System.Security.Cryptography.RSAParameters</description>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <dependencies>
+      <group targetFramework=".NETPlatform5.0">
+        <dependency id="System.Runtime" version="4.0.0-beta-23015" />
+        <dependency id="System.Security.Cryptography.Encryption" version="4.0.0-beta-23015" />
+        <dependency id="System.IO" version="4.0.0-beta-23015" />
+      </group>
+      <group targetFramework="DNXCore5.0">
+        <dependency id="System.Runtime" version="4.0.0-beta-23015" />
+        <dependency id="System.Resources.ResourceManager" version="4.0.0-beta-23015" />
+        <dependency id="System.Security.Cryptography.Encoding" version="4.0.0-beta-23015" />
+        <dependency id="System.IO" version="4.0.0-beta-23015" />
+        <dependency id="System.Reflection" version="4.0.0-beta-23015" />
+        <dependency id="System.Security.Cryptography.Hashing" version="4.0.0-beta-23015" />
+        <dependency id="System.Diagnostics.Debug" version="4.0.0-beta-23015" />
+        <dependency id="System.Security.Cryptography.Encryption" version="4.0.0-beta-23015" />
+        <dependency id="System.Runtime.InteropServices" version="4.0.0-beta-23015" />
+        <dependency id="System.Runtime.Extensions" version="4.0.0-beta-23015" />
+        <dependency id="System.Security.Cryptography.Hashing.Algorithms" version="4.0.0-beta-23015" />
+        <dependency id="System.Threading" version="4.0.0-beta-23015" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

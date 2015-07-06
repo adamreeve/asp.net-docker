@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Framework.Notification</name>
+    </assembly>
+    <members>
+        <member name="P:Microsoft.Framework.Notification.Resources.Converter_PropertyMustHaveGetter">
+            <summary>
+            The property '{0}' on type '{1}' must define a getter to support proxy generation.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Framework.Notification.Resources.FormatConverter_PropertyMustHaveGetter(System.Object,System.Object)">
+            <summary>
+            The property '{0}' on type '{1}' must define a getter to support proxy generation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Framework.Notification.Resources.Converter_PropertyMustNotHaveIndexParameters">
+            <summary>
+            The property '{0}' on type '{1}' must not use index parameters to support proxy generation.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Framework.Notification.Resources.FormatConverter_PropertyMustNotHaveIndexParameters(System.Object,System.Object)">
+            <summary>
+            The property '{0}' on type '{1}' must not use index parameters to support proxy generation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Framework.Notification.Resources.Converter_PropertyMustNotHaveSetter">
+            <summary>
+            The property '{0}' on type '{1}' must not define a setter to support proxy generation.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Framework.Notification.Resources.FormatConverter_PropertyMustNotHaveSetter(System.Object,System.Object)">
+            <summary>
+            The property '{0}' on type '{1}' must not define a setter to support proxy generation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Framework.Notification.Resources.Converter_TypeMustBeInterface">
+            <summary>
+            Type '{0}' must be an interface in order to support proxy generation from source type '{1}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Framework.Notification.Resources.FormatConverter_TypeMustBeInterface(System.Object,System.Object)">
+            <summary>
+            Type '{0}' must be an interface in order to support proxy generation from source type '{1}'.
+            </summary>
+        </member>
+    </members>
+</doc>

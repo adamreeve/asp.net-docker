@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="utf-8"?><feed xml:base="https://www.myget.org/F/aspnetvnext/api/v2/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><id>https://www.myget.org/F/aspnetvnext/api/v2/FindPackagesById</id><title type="text">FindPackagesById</title><updated>2015-07-06T07:09:45Z</updated><link rel="self" title="FindPackagesById" href="FindPackagesById" /><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.0-beta-23008')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23008')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23008')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-06-12T02:00:55Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23008')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.0-beta-23008" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.0-beta-23008</d:Version><d:NormalizedVersion>4.0.0-beta-23008</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-12T02:00:55.6739755Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23008:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.0-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-12T02:00:55.6739755Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-12T02:00:55.6739755Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-12T02:00:55.6739755Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>cULaAbZ1Q40Jz8+tAZxVtJeeJ66uuEeC+kgxwlrsag8Q5onsF9lPaPcHcnDAFX7Bhtp9gGXsZnpH8prdqXKBZQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">25499</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2431</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.0-beta-23015')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23015')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23015')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-06-22T14:51:37Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23015')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.0-beta-23015" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.0-beta-23015</d:Version><d:NormalizedVersion>4.0.0-beta-23015</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-22T14:51:37.833018Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23015:dotnet</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.0-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-22T14:51:37.833018Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-22T14:51:37.833018Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-22T14:51:37.833018Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>yxqXx/Oddob87p4tjzmcj1xsC2UjXQeUGaBPnp+f7iso4JGOcvgYWOT8R49bP1KpBKT9q6lx/3IJ4lVjUNLdMg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">41782</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1768</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.0-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23021')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-06-25T01:59:28Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23021')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.0-beta-23021" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.0-beta-23021</d:Version><d:NormalizedVersion>4.0.0-beta-23021</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-25T01:59:28.7191439Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23021:dotnet|::net45|::win80|System.Runtime:4.0.0-beta-23021:.NETCore50</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.0-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-25T01:59:28.7191439Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-25T01:59:28.7191439Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-25T01:59:28.7191439Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>VpjHtjG2KEa+57cBsDOWopJyVdb7saYCXtSWwq9fkMSfZqYRlPGSWlWWtpEtNej+55KCgeMr1bXvL5HOwhbfUQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">178847</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2470</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.0-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23029')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-07-03T09:16:32Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.0-beta-23029')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.0-beta-23029" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.0-beta-23029</d:Version><d:NormalizedVersion>4.0.0-beta-23029</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-03T09:16:32.2854807Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23029:dotnet|::win80|::net45|::wp80|::wpa81|System.Runtime:4.0.0-beta-23029:.NETCore50</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.0-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-03T09:16:32.2854807Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-03T09:16:32.2854807Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-03T09:16:32.2854807Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>PofYE43Zrdz36pP8pYSeu9HYI8J6TuHyzUqsieIYXY8JPjQ5+eZJcwVgf6euMXdmP3C2mF7WTtFoaYNSCnXzGA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">179387</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">750</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22623')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22623')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22623')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-02-24T01:25:23Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22623')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22623" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22623</d:Version><d:NormalizedVersion>4.0.10-beta-22623</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-02-24T01:25:23.3859695Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22623:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22623</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-02-24T01:25:23.3859695Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-02-24T01:25:23.3859695Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-02-24T01:25:23.3859695Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>PvxKMIG7APUl4ygF2rOaeqIesZ5u1BhdtMoQJNYzitBC6HOrbXBLrOjAcQ6V2KUyzbMI6X0EtVQ3JjaY2iOlxQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">65778</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">147</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22624')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22624')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22624')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-02-25T03:43:51Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22624')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22624" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22624</d:Version><d:NormalizedVersion>4.0.10-beta-22624</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-02-25T03:43:51.5678124Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22624:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22624</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-02-25T03:43:51.5678124Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-02-25T03:43:51.5678124Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-02-25T03:43:51.5678124Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>T5HW9Ih6byFO9/isECnmmJ4mYKXWymx1Xhl+C4Z91hKCwhUY3OSh0/Woa6l4pa2NgK+1KgRcN/GBBL7KAOS/wg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">65781</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">131</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22625')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22625')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22625')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-02-26T04:30:28Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22625')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22625" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22625</d:Version><d:NormalizedVersion>4.0.10-beta-22625</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-02-26T04:30:28.3903978Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22625:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22625</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-02-26T04:30:28.3903978Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-02-26T04:30:28.3903978Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-02-26T04:30:28.3903978Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>pEQK0Fah7iBmlvhAr2Wt4Bcz5US8dw9624iMBmh5Uj/98IsI1QvMhrgNafEhpKG0uvzJ+Gd7pjYvJb9fB1qaxQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">65819</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">640</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22627')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22627')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22627')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-02-28T10:11:24Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22627')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22627" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22627</d:Version><d:NormalizedVersion>4.0.10-beta-22627</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-02-28T10:11:24.4765886Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22627:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22627</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-02-28T10:11:24.4765886Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-02-28T10:11:24.4765886Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-02-28T10:11:24.4765886Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>r2XUtuXkP0C0hNiQ4iPlqJ0s1ljbXQUGk6rx7y6aJQUv5/8XXEP7y+wkddpFxlG616V+asGHXVhaO4AhvOP49Q==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">65768</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">247</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22725')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22725')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22725')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-03-26T04:40:14Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22725')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22725" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22725</d:Version><d:NormalizedVersion>4.0.10-beta-22725</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-26T04:40:14.0413295Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22725:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22725</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-26T04:40:14.0413295Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-26T04:40:14.0413295Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-26T04:40:14.0413295Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Q6fwnf71piuo24jdxSae3Db71ZlZsyJMYXf9Ix0+5SG69c3P2BpEGC6qzRk1NApvNRUcPmp3vGXmTv0loq4oXQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77346</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">210</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22726')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22726')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22726')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-03-28T01:38:24Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22726')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22726" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22726</d:Version><d:NormalizedVersion>4.0.10-beta-22726</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-28T01:38:24.7998826Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22726:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22726</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-28T01:38:24.7998826Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-28T01:38:24.7998826Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-28T01:38:24.7998826Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>u8mtT+k3XPb40MmgFf+8UGrZFKRYIbJVSZrhoQr9xPp1Zd4OVRH9jmoZTvcj6g8CqYaMg8Ddb2LNgLjNWbqCmA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77350</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">18</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22727')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22727')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22727')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-03-28T10:26:43Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22727')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22727" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22727</d:Version><d:NormalizedVersion>4.0.10-beta-22727</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-28T10:26:43.8349927Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22727:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22727</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-28T10:26:43.8349927Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-28T10:26:43.8349927Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-28T10:26:43.8349927Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>WiaxNlr229fzqxz6M1jrNk5UO6WZehOT8xGa8f1F2ca7y9OvdLiIt6uQ/0ns/XUnnucHkEnoLTV8vLc2XeFc5Q==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77356</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">207</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22731')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22731')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22731')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-03-31T23:55:04Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22731')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22731" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22731</d:Version><d:NormalizedVersion>4.0.10-beta-22731</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-31T23:55:04.6237618Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22731:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22731</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-31T23:55:04.6237618Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-31T23:55:04.6237618Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-31T23:55:04.6237618Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>lCH3afITNQMuvdLg2HELtjCUUrhgqs148pj7rgGGNEEd0RctmQPObHdYofZiOJXLWYJZuqoSZ5ZdMtlKX/qGnA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77381</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">79</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22801')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22801')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22801')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-01T08:50:05Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22801')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22801" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22801</d:Version><d:NormalizedVersion>4.0.10-beta-22801</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-01T08:50:05.2640833Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22801:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22801</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-01T08:50:05.2640833Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-01T08:50:05.2640833Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-01T08:50:05.2640833Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>d24OzK4UlHyio7cM+KdL1q6e9JP69kui29HWA9fZDj7Z+KkSgT+ZssjFVJ0LBsmZ4TcE8/rA97fjy3uYRaVIdQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77357</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">225</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22802')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22802')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22802')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-02T08:55:03Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22802')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22802" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22802</d:Version><d:NormalizedVersion>4.0.10-beta-22802</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-02T08:55:03.4010891Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22802:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22802</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-02T08:55:03.4010891Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-02T08:55:03.4010891Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-02T08:55:03.4010891Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>ztlJ54rvssE4c1eNmYchE9s/iPqZRASLlP+z18xgGGRui92poS/SLNvxA7TIk3QJ5ZxtlvwossQeZhp3ui1alg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77353</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">599</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22803')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22803')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22803')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-06T01:25:25Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22803')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22803" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22803</d:Version><d:NormalizedVersion>4.0.10-beta-22803</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-06T01:25:25.9203229Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22803:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22803</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-06T01:25:25.9203229Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-06T01:25:25.9203229Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-06T01:25:25.9203229Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>A/mR6mApJS6ZPJoXmUc3JTx6vS0tqRRD2GNVBpUwhVKU4Jf+lowWZFP7dYZchH58u0+15x0un1+41Dtre4NFfg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77346</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">32</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22806')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22806')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22806')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-06T09:31:39Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22806')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22806" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22806</d:Version><d:NormalizedVersion>4.0.10-beta-22806</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-06T09:31:39.5029422Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22806:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22806</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-06T09:31:39.5029422Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-06T09:31:39.5029422Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-06T09:31:39.5029422Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>PF7Jg0o3HHAJKpDOOEGJzpFlJ0JF9WdvjLtLCyORCwsfJPFYRlys7ginoQn/jmxlWbiWQRW1r/vvo6mmbPfabA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77317</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">410</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22807')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22807')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22807')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-07T20:27:46Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22807')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22807" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22807</d:Version><d:NormalizedVersion>4.0.10-beta-22807</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-07T20:27:46.4014541Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22807:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22807</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-07T20:27:46.4014541Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-07T20:27:46.4014541Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-07T20:27:46.4014541Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>P9prw91lWY0avkZpXYZ0ANyCXHRgAHRATFu14J8ewY17bJGXATwZh6QDvheHPfWdtQAMHzNFeYgJb3PH5Ga3Ew==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77325</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">727</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22809')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22809')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22809')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-10T18:57:02Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22809')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22809" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22809</d:Version><d:NormalizedVersion>4.0.10-beta-22809</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-10T18:57:02.1411798Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22809:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22809</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-10T18:57:02.1411798Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-10T18:57:02.1411798Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-10T18:57:02.1411798Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>u86iF3RWWg8luAjPEYQg/KM5WrZiIrEFuo2yFXsw1K8MBDwolhZX4HPsjmwFWE71guZq8OXpVEKC4ghIihWJmA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77241</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">646</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22811')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22811')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22811')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-15T01:27:54Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22811')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22811" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22811</d:Version><d:NormalizedVersion>4.0.10-beta-22811</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-15T01:27:54.8440723Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22811:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22811</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-15T01:27:54.8440723Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-15T01:27:54.8440723Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-15T01:27:54.8440723Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>aefnc3zy2LeVtXj9ssddymCwLFDX2YIKM5M261yGh6Y0kiIVocwfeOCT+TB71d+4HH0GbBdbV6aDDcoO17Xqcg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77242</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1881</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22821')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22821')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22821')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-22T08:39:19Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22821')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22821" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22821</d:Version><d:NormalizedVersion>4.0.10-beta-22821</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T08:39:19.9313251Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22821:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22821</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T08:39:19.9313251Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T08:39:19.9313251Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T08:39:19.9313251Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>XmxwYVzNYZ2l88xaqkCCsJC5RSVrrNUKVTaQtHeC5vDXWaObtj3mbcv1kzwCFjVxGU/0Qt+YbJaDpA66ki/2VQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77297</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">188</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22822')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22822')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22822')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-22T20:35:48Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22822')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22822" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22822</d:Version><d:NormalizedVersion>4.0.10-beta-22822</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T20:35:48.4021095Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22822:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22822</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T20:35:48.4021095Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T20:35:48.4021095Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T20:35:48.4021095Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>BXYQoEsVQqg0imTeXkI53nOjCViqoLcoIm8ROTUaUquTxtf5zz1qWeCMyKYKlI7gVJjlo6KZniXUHtOiMfRzJg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77299</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">731</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22823')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22823')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22823')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-25T00:44:56Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22823')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22823" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22823</d:Version><d:NormalizedVersion>4.0.10-beta-22823</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-25T00:44:56.1138463Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22823:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22823</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-25T00:44:56.1138463Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-25T00:44:56.1138463Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-25T00:44:56.1138463Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>xyH0acXamdSwgsM+9mrVkiUg4OogqnLhSDgaUzi5Henx1CE9DQRiopxNeinEAG/Zm0AaGv5RGZMU5NOoqMIwsA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77327</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">328</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22825')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22825')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22825')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-27T11:24:04Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22825')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22825" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22825</d:Version><d:NormalizedVersion>4.0.10-beta-22825</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-27T11:24:04.0449107Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22825:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22825</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-27T11:24:04.0449107Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-27T11:24:04.0449107Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-27T11:24:04.0449107Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>pQvBe4sy/QcyhxzKa3OavT6qTVThaYNupcT8D2ubYxZkmfMVy8RApPVwh/ejEIhf5uFni5moEQCU9QylMnnWLw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77591</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">327</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22828')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22828')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22828')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-28T17:32:38Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22828')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22828" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22828</d:Version><d:NormalizedVersion>4.0.10-beta-22828</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-28T17:32:38.0511555Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22828:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22828</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-28T17:32:38.0511555Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-28T17:32:38.0511555Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-28T17:32:38.0511555Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>0hHH0sD1EoKMhv02+nAwOisuh+vUPTbKoCVkjqPeq8N+tXkTjUVNF475gnFNLYnfpkU5clX8s2LdjfesD/oe9Q==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77556</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">351</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22829')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22829')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22829')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-29T22:42:45Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22829')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22829" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22829</d:Version><d:NormalizedVersion>4.0.10-beta-22829</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-29T22:42:45.1995786Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22829:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22829</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-29T22:42:45.1995786Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-29T22:42:45.1995786Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-29T22:42:45.1995786Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>HRmZEeDnmSnJa1SgJJhxlSsGwEi27Zue/zucln5W4RuIwfc1IGbnsN/b9R7ekPbNEJUPFBqLMXtFdDP4OIt34Q==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77582</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">286</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22830')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22830')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22830')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-04-30T20:48:41Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22830')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22830" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22830</d:Version><d:NormalizedVersion>4.0.10-beta-22830</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-30T20:48:41.7881436Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22830:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22830</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-30T20:48:41.7881436Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-30T20:48:41.7881436Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-30T20:48:41.7881436Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>eSaSSaqJnkkQwpG/yZWCbtFDEdXiVt/XamSj2DNvFk/WlpSDtnhrvuS0mZl6HED+XRnRZHqmyikO1Z/qgd96GA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77602</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1094</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22904')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22904')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22904')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-05-05T19:29:04Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22904')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22904" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22904</d:Version><d:NormalizedVersion>4.0.10-beta-22904</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-05T19:29:04.8431418Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22904:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22904</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-05T19:29:04.8431418Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-05T19:29:04.8431418Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-05T19:29:04.8431418Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>naxikY0aJqcUWXh3E9WgsUqdZDskp/67q2TT+u0EbW1ozEBws0A9voA++Shw6yzN4d+ksdR8sQF3rwzKAx3nKA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77556</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">333</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22905')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22905')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22905')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-05-06T17:57:54Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22905')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22905" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22905</d:Version><d:NormalizedVersion>4.0.10-beta-22905</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-06T17:57:54.8456424Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22905:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22905</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-06T17:57:54.8456424Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-06T17:57:54.8456424Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-06T17:57:54.8456424Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>6lW8zGSgUbfuBjhF0aeYGZKFMdUscSKROz+xg0/4eHfVOez+bLleN7A9kokFXp+NhQkGMwxJh+BoL8C3Xx8UZA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77589</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">460</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22906')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22906')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22906')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-05-07T20:08:40Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22906')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22906" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22906</d:Version><d:NormalizedVersion>4.0.10-beta-22906</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-07T20:08:40.3015779Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22906:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22906</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-07T20:08:40.3015779Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-07T20:08:40.3015779Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-07T20:08:40.3015779Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>afV6N0fRwLCQ1Tl34JcA9RbexceWe889yx/FySiOfssJUMSjBgMFOYLrs38XbQzCcDyuF7Lno5gMogCLkTfDxw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77556</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">300</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22907')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22907')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22907')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-05-08T17:17:26Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22907')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22907" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22907</d:Version><d:NormalizedVersion>4.0.10-beta-22907</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-08T17:17:26.4628141Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22907:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22907</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-08T17:17:26.4628141Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-08T17:17:26.4628141Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-08T17:17:26.4628141Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>+iPItaL9iXiDArBIAYEFkYtXoVDiW6QMwQzy2alzrSOxA+8AvHY3Af4IMfqOhbLQVRIN8M1XnffDwG/0RBzYLQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77534</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">576</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22910')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22910')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22910')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-05-11T16:20:22Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22910')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22910" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22910</d:Version><d:NormalizedVersion>4.0.10-beta-22910</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-11T16:20:22.540243Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22910:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22910</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-11T16:20:22.540243Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-11T16:20:22.540243Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-11T16:20:22.540243Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>hWh6LVyzB7uAkDb8kq865cxhaWwDKU75je+tDJVCBo63i2dnwIrROSvnfHAK+OQBIY2HIByq+alQVSoLMAMTKg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77552</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">335</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22911')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22911')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22911')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-05-12T16:52:24Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22911')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22911" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22911</d:Version><d:NormalizedVersion>4.0.10-beta-22911</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-12T16:52:24.320947Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22911:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22911</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-12T16:52:24.320947Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-12T16:52:24.320947Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-12T16:52:24.320947Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>WFCRBtbxuGKy401Q1gkMYFKkhvRNBVt1xBqf7CPe56RUfcqxer2/23D+8QvAOgjK9vshPkzjKJ8la/TJ6z4QKA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77527</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">930</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-22913')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22913')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22913')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-05-15T06:00:17Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-22913')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-22913" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-22913</d:Version><d:NormalizedVersion>4.0.10-beta-22913</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-15T06:00:17.8209227Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22913:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-22913</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-15T06:00:17.8209227Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-15T06:00:17.8209227Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-15T06:00:17.8209227Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>V9GuIHiA/rJVlXAcQExnePBIH77Q03+g7J6teTP/XNzu1J5rBnEjYMy1vk98axnL3VZoKky+VUexR7wrdLdPHQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">77576</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">3730</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-23008')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23008')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23008')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-06-12T02:01:00Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23008')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-23008" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-23008</d:Version><d:NormalizedVersion>4.0.10-beta-23008</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-12T02:01:00.1603331Z</d:Created><d:Dependencies>System.Runtime:4.0.20-beta-23008:|System.Resources.ResourceManager:4.0.0-beta-23008:|System.Diagnostics.Debug:4.0.10-beta-23008:|System.Collections:4.0.10-beta-23008:|System.Threading:4.0.10-beta-23008:</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-12T02:01:00.1603331Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-12T02:01:00.1603331Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-12T02:01:00.1603331Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>511V3msl+itmlO9wxEZnditgvtP/ndN7bGxPym8+at+gH3t8HOmd3Xf0IWDqlmw1gqxXx6vwBiXehvKQFKdq3Q==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68173</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1500</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-23015')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23015')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23015')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-06-22T14:51:41Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23015')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-23015" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-23015</d:Version><d:NormalizedVersion>4.0.10-beta-23015</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-22T14:51:41.1347712Z</d:Created><d:Dependencies>System.Runtime:4.0.20-beta-23015:dotnet|System.Resources.ResourceManager:4.0.0-beta-23015:dotnet|System.Diagnostics.Debug:4.0.10-beta-23015:dotnet|System.Collections:4.0.10-beta-23015:dotnet|System.Threading:4.0.10-beta-23015:dotnet</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-22T14:51:41.1347712Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-22T14:51:41.1347712Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-22T14:51:41.1347712Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>vUeU9RtznPoYyQ/Jd+RVRjCI/5e7ZISsskWeDqM1ub6qytINULTZtRLC60K+ympoArFdXXS3SxiAJ72JULBNKA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">44408</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1347</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23021')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-06-25T01:59:32Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23021')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-23021" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-23021</d:Version><d:NormalizedVersion>4.0.10-beta-23021</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-25T01:59:32.2780221Z</d:Created><d:Dependencies>::net46|System.Runtime:4.0.20-beta-23021:dotnet|System.Resources.ResourceManager:4.0.0-beta-23021:dotnet|System.Diagnostics.Debug:4.0.10-beta-23021:dotnet|System.Collections:4.0.10-beta-23021:dotnet|System.Threading:4.0.10-beta-23021:dotnet</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-25T01:59:32.2780221Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-25T01:59:32.2780221Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-25T01:59:32.2780221Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>UnMY/qxl2Aw6M/PbfHVI9DE9+/Z//uMsaWgXbrt1lnjBBSl4hysj5dAkMdU7n0d1b1N2Q24Qb8rUvyE2uWQ9mA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">112891</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1890</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.ObjectModel',Version='4.0.10-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23029')/Screenshots" /><title type="text">System.ObjectModel</title><summary type="text">Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</summary><updated>2015-07-03T09:16:38Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.ObjectModel',Version='4.0.10-beta-23029')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.ObjectModel/4.0.10-beta-23029" /><m:properties><d:Id>System.ObjectModel</d:Id><d:Version>4.0.10-beta-23029</d:Version><d:NormalizedVersion>4.0.10-beta-23029</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-03T09:16:38.769567Z</d:Created><d:Dependencies>::net46|System.Runtime:4.0.20-beta-23029:dotnet|System.Resources.ResourceManager:4.0.0-beta-23029:dotnet|System.Diagnostics.Debug:4.0.10-beta-23029:dotnet|System.Collections:4.0.10-beta-23029:dotnet|System.Threading:4.0.10-beta-23029:dotnet</d:Dependencies><d:Description>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Description><d:DownloadCount m:type="Edm.Int32">29151</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.ObjectModel/4.0.10-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-03T09:16:38.769567Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-03T09:16:38.769567Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-03T09:16:38.769567Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Ph4gkTCFewR/CGFcH7yR90xCLC1gEDB0gN1PwJpjMYgqXsIvcn6BcU53iSKIPD+DvFnBWMo+4CoMyUnrClZ9Lg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">112921</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides types and interfaces that allow the creation of observable types that provide notifications to clients when changes are made to it.
+
+Commonly Used Types:
+System.ComponentModel.INotifyPropertyChanged
+System.Collections.ObjectModel.ObservableCollection&lt;T&gt;
+System.ComponentModel.PropertyChangedEventHandler
+System.Windows.Input.ICommand
+System.Collections.Specialized.INotifyCollectionChanged
+System.Collections.Specialized.NotifyCollectionChangedEventArgs
+System.Collections.Specialized.NotifyCollectionChangedEventHandler
+System.Collections.ObjectModel.KeyedCollection&lt;TKey, TItem&gt;
+System.ComponentModel.PropertyChangedEventArgs
+System.Collections.ObjectModel.ReadOnlyDictionary&lt;TKey, TValue&gt;</d:Summary><d:Tags m:null="true" /><d:Title>System.ObjectModel</d:Title><d:VersionDownloadCount m:type="Edm.Int32">827</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry></feed>

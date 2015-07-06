@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?><feed xml:base="https://www.myget.org/F/aspnetvnext/api/v2/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><id>https://www.myget.org/F/aspnetvnext/api/v2/FindPackagesById</id><title type="text">FindPackagesById</title><updated>2015-07-06T07:08:10Z</updated><link rel="self" title="FindPackagesById" href="FindPackagesById" /><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23008')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23008')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23008')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-06-12T02:01:07Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23008')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.0-beta-23008" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.0-beta-23008</d:Version><d:NormalizedVersion>4.0.0-beta-23008</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-12T02:01:07.7072489Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23008:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.0-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-12T02:01:07.7072489Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-12T02:01:07.7072489Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-12T02:01:07.7072489Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>9zfkQVPReF7QexeOg0IpJs9aHepCWH0OmEuhyMiR26QyW/DZ23ot514mhOvFlG6+2fX7A1jGyy+CsQFBfsvLgw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">22430</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">47</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23015')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23015')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23015')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-06-22T14:51:55Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23015')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.0-beta-23015" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.0-beta-23015</d:Version><d:NormalizedVersion>4.0.0-beta-23015</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-22T14:51:55.1124379Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23015:dotnet</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.0-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-22T14:51:55.1124379Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-22T14:51:55.1124379Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-22T14:51:55.1124379Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>4mirG0W0W/ZRJYRSTShhh0cl3impGvGV7LRkpJCP/uLhjF2tHHYqD2OJHZ8kg4GMswPF7DdrT06m1hOWlcQnQg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">35667</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">9</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23021')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-06-25T01:59:45Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23021')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.0-beta-23021" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.0-beta-23021</d:Version><d:NormalizedVersion>4.0.0-beta-23021</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-25T01:59:45.2935729Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23021:dotnet|::net45|::win80|System.Runtime:4.0.0-beta-23021:.NETCore50</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.0-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-25T01:59:45.2935729Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-25T01:59:45.2935729Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-25T01:59:45.2935729Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>u1H308JBuef6GS1Io0FFcn9szA9jKJSLHcMU8hHiCoaSp3/iiF25RDC7fhoZsfal2NXt4sQkliLWtsFnmcIeDg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">93429</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">7</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23029')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-07-03T09:17:47Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.0-beta-23029')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.0-beta-23029" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.0-beta-23029</d:Version><d:NormalizedVersion>4.0.0-beta-23029</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-03T09:17:47.5641985Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23029:dotnet|::win80|::net45|::wp80|::wpa81|System.Runtime:4.0.0-beta-23029:.NETCore50</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.0-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-03T09:17:47.5641985Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-03T09:17:47.5641985Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-03T09:17:47.5641985Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>VFsMBIlnFp4laKTN1X70YQlpTOcf0D1OXDjeSPPfNYakT5PjpKm9Cya9tFt/1qIecwKnbcJfkpTtXta5V6Ghzw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">93968</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">0</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22802')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22802')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22802')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-02T08:57:22Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22802')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22802" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22802</d:Version><d:NormalizedVersion>4.0.10-beta-22802</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-02T08:57:22.3658003Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22802:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22802</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-02T08:57:22.3658003Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-02T08:57:22.3658003Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-02T08:57:22.3658003Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>p+w8rRRsmTPdlnuNuPYSwFlFiDm4BpD57zW7TSnxAVcujkTnwDjclRhpCdipKGXKUnvHeUP0kc3dJJKPSSFVDQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63957</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">344</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22803')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22803')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22803')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-06T01:26:03Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22803')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22803" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22803</d:Version><d:NormalizedVersion>4.0.10-beta-22803</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-06T01:26:03.2064085Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22803:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22803</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-06T01:26:03.2064085Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-06T01:26:03.2064085Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-06T01:26:03.2064085Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>YTQkMqrCyEte31WkohpyqIdHgJVbHt11Soq94qxJhTfUv/7j760vYIEzPhxJETT48O201QFRk5bUhUht4j1tGg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63952</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">21</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22806')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22806')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22806')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-06T09:32:23Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22806')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22806" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22806</d:Version><d:NormalizedVersion>4.0.10-beta-22806</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-06T09:32:23.1630791Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22806:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22806</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-06T09:32:23.1630791Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-06T09:32:23.1630791Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-06T09:32:23.1630791Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>KcpLs41ucbvcAkP45TgU4Wj49wdpo56ikcXl0NKeDv+jKHbya9aUlra3IfUuxmQEHkms9auFMiU55Rove3mZpQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63942</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">236</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22807')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22807')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22807')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-07T20:28:35Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22807')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22807" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22807</d:Version><d:NormalizedVersion>4.0.10-beta-22807</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-07T20:28:35.7436995Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22807:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22807</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-07T20:28:35.7436995Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-07T20:28:35.7436995Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-07T20:28:35.7436995Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>tiFEGNcw7cJLOs7L3FWM/y6xiW+4PCboLmtLwSv+rt/6skiYvQd1x5YPIwD6ytjAbhTO++tAsLIhOMZkB5XNkg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63933</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">458</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22809')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22809')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22809')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-10T18:57:45Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22809')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22809" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22809</d:Version><d:NormalizedVersion>4.0.10-beta-22809</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-10T18:57:45.5451547Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22809:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22809</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-10T18:57:45.5451547Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-10T18:57:45.5451547Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-10T18:57:45.5451547Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>B0SYmugMo+C5JsNRFQOA86ZY2qtkDGIY/FRff3+CAcJXOQY/ctAYTFUxQtQ/4gE/tVmL8IWficBZRHKSTzaksQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63095</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">505</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22811')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22811')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22811')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-15T01:29:02Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22811')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22811" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22811</d:Version><d:NormalizedVersion>4.0.10-beta-22811</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-15T01:29:02.3251021Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22811:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22811</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-15T01:29:02.3251021Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-15T01:29:02.3251021Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-15T01:29:02.3251021Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Dzipg14m2iVlvY99V3W30TyTQakuKXYrFX9EFGLyb9t5VsSHjzdjvIexRGDcq/zZ4F3YDeVLtVkCuCXIXI8iTg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63112</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1248</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22821')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22821')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22821')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-22T08:40:05Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22821')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22821" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22821</d:Version><d:NormalizedVersion>4.0.10-beta-22821</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T08:40:05.4904279Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22821:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22821</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T08:40:05.4904279Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T08:40:05.4904279Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T08:40:05.4904279Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>oIEylef9SVAKvNGwRzh/WSqAIkS5SJg0CSrI/I15MRYLvVGsZ7UnOCi5rQR9n0esXgRvIzvfi4N9kNEAK0RaZA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63129</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">121</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22822')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22822')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22822')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-22T20:36:13Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22822')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22822" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22822</d:Version><d:NormalizedVersion>4.0.10-beta-22822</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T20:36:13.8873996Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22822:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22822</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T20:36:13.8873996Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T20:36:13.8873996Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T20:36:13.8873996Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>bzTxZTi4xfquplvpQ3iVFzOJib5pnhpAWFBjF+frL3lIMlzU1mth1Ec8YjMO3rBctZvTTsGSztOAf/lOkH7ixQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63146</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">480</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22823')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22823')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22823')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-25T00:45:54Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22823')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22823" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22823</d:Version><d:NormalizedVersion>4.0.10-beta-22823</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-25T00:45:54.2693619Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22823:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22823</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-25T00:45:54.2693619Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-25T00:45:54.2693619Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-25T00:45:54.2693619Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>DROmBQASf9Ok8TD4HryeeRfp7dffUOxcpagthZ2+jW+8Z78GO2vxuvALESAyjv6d5ZNwRevYFExwFY05Gt9WRw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63111</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">201</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22825')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22825')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22825')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-27T11:25:17Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22825')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22825" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22825</d:Version><d:NormalizedVersion>4.0.10-beta-22825</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-27T11:25:17.1168871Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22825:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22825</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-27T11:25:17.1168871Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-27T11:25:17.1168871Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-27T11:25:17.1168871Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>xN02de9yD7cmXGH//4XiBd3eyaGwD6fPdQya+eaCsxn9srF/FPJ8rQbOubcvsm9puy4NasPlGuO6hzvYjeMRpA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63317</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">314</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22828')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22828')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22828')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-28T17:33:44Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22828')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22828" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22828</d:Version><d:NormalizedVersion>4.0.10-beta-22828</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-28T17:33:44.5877703Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22828:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22828</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-28T17:33:44.5877703Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-28T17:33:44.5877703Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-28T17:33:44.5877703Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>jKb/ygLwg6cO3mSvD592m9rMNi2D4syhKlRSAy0csFcdcLUmzHoptwJpuQ5gpZHbCj+/yyJkc6q3d/GYEPlF4Q==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63329</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">365</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22829')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22829')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22829')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-29T22:43:32Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22829')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22829" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22829</d:Version><d:NormalizedVersion>4.0.10-beta-22829</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-29T22:43:32.0362095Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22829:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22829</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-29T22:43:32.0362095Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-29T22:43:32.0362095Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-29T22:43:32.0362095Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>VSlBeKUDABHsi7AQWFgwYRn9mJL1weckGgr6W24DQ7ZbPRo4yIWdYfFmPyXwKGPmT7fzYTO38L2Gcp/QJ7DwoA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63322</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">462</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22830')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22830')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22830')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-04-30T20:49:42Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22830')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22830" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22830</d:Version><d:NormalizedVersion>4.0.10-beta-22830</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-30T20:49:42.6821126Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22830:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22830</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-30T20:49:42.6821126Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-30T20:49:42.6821126Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-30T20:49:42.6821126Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>L3YvQD99OmfnSgURXngWRhdJ0VkMiCxtIS4fEG8/mybETKLWZSvIRs4hDUHLX4pbMvijWNnSkurGkdqfYXZowQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63276</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1159</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22904')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22904')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22904')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-05-05T19:29:24Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22904')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22904" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22904</d:Version><d:NormalizedVersion>4.0.10-beta-22904</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-05T19:29:24.2633918Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22904:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22904</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-05T19:29:24.2633918Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-05T19:29:24.2633918Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-05T19:29:24.2633918Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>AAeX+ruvyEH/uZB6R66h5LcyMHKOaPJaQIE6fCFhDy8NmFSucFU7AcTJfJ1/YHe4hRRZWPmiq0+w9oFjW0m9aA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63287</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">292</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22905')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22905')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22905')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-05-06T17:58:58Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22905')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22905" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22905</d:Version><d:NormalizedVersion>4.0.10-beta-22905</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-06T17:58:58.2674078Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22905:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22905</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-06T17:58:58.2674078Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-06T17:58:58.2674078Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-06T17:58:58.2674078Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>y92+1pQvq4npM17ZWWo2HS4GmfM4mcePsb0LFqDzuMiM/I0g2VOU4R9d6PRabVaa7Yg0p2pktOIyEMWeCw0p/A==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63321</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">314</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22906')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22906')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22906')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-05-07T20:08:33Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22906')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22906" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22906</d:Version><d:NormalizedVersion>4.0.10-beta-22906</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-07T20:08:33.6265682Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22906:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22906</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-07T20:08:33.6265682Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-07T20:08:33.6265682Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-07T20:08:33.6265682Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>FpNBtmLBu8/YoUp6uVdOnEIJiK6FqozOSJp0anEIEyiPC9Bac+EQ2HDZeLMrTxIK+TAT6tmlM0P3Wj6wovjyWg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63308</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">255</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22907')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22907')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22907')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-05-08T17:17:34Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22907')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22907" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22907</d:Version><d:NormalizedVersion>4.0.10-beta-22907</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-08T17:17:34.0719282Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22907:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22907</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-08T17:17:34.0719282Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-08T17:17:34.0719282Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-08T17:17:34.0719282Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>pu1WCHa/Te0p9PZjJmqoBMESPoQ24zId9CLXEE7I2LJbz3lxkc2TDqmg1Iazj0pYijH1iWkSMSaaUD4bXgsxiQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63258</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">566</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22910')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22910')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22910')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-05-11T16:20:26Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22910')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22910" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22910</d:Version><d:NormalizedVersion>4.0.10-beta-22910</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-11T16:20:26.2840655Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22910:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22910</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-11T16:20:26.2840655Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-11T16:20:26.2840655Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-11T16:20:26.2840655Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>XJLqTin2515XsOFEDt5Ln9dbpcEREkVzZoy/f/KZQigtGEuCTmhrWR/1c8O8A1nv5n0lBudZ0uK1/erd/CRjJQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63275</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">283</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22911')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22911')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22911')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-05-12T16:52:28Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22911')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22911" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22911</d:Version><d:NormalizedVersion>4.0.10-beta-22911</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-12T16:52:28.430338Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22911:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22911</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-12T16:52:28.430338Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-12T16:52:28.430338Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-12T16:52:28.430338Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>E0Y3oQsDPyElAaOMN/cQx8tNck+S8oFuldRzjMEJ0efauUYw5uIPOLiS+A6GZQVeFfr8bo+7+k76tM2R4kWK7g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63278</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">736</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22913')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22913')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22913')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-05-15T06:00:38Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-22913')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-22913" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-22913</d:Version><d:NormalizedVersion>4.0.10-beta-22913</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-15T06:00:38.1770443Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22913:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-22913</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-15T06:00:38.1770443Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-15T06:00:38.1770443Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-15T06:00:38.1770443Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>mQYas/U9/abFYJdJHYiBGPZire5xPDByWi7kOxsbhmQ3k9PJBZn9YvJNYxYgM2cmyMVIR5cczY7qR8ad6zhMgg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">63290</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">3115</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23008')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23008')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23008')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-06-12T02:01:12Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23008')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-23008" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-23008</d:Version><d:NormalizedVersion>4.0.10-beta-23008</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-12T02:01:12.5398328Z</d:Created><d:Dependencies>System.Runtime:4.0.20-beta-23008:|System.Resources.ResourceManager:4.0.0-beta-23008:</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-12T02:01:12.5398328Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-12T02:01:12.5398328Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-12T02:01:12.5398328Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>nkhtnBoEVIqP0PmpS2jZ6t1z8QQJ+1OEsqpk4Cq7NFSc5yP9f70ibNkZAnnf0OFJzjtYURzPoJC77zZQg3zU9Q==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">57081</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1004</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23015')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23015')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23015')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-06-22T14:52:01Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23015')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-23015" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-23015</d:Version><d:NormalizedVersion>4.0.10-beta-23015</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-22T14:52:01.3877038Z</d:Created><d:Dependencies>System.Runtime:4.0.20-beta-23015:dotnet|System.Resources.ResourceManager:4.0.0-beta-23015:dotnet</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-22T14:52:01.3877038Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-22T14:52:01.3877038Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-22T14:52:01.3877038Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>1AtrpRTEPY0sTtDW66SjQnxK7DEAlD03Ti+K5sM0/FgtL9Gkcpr//BukGc1sOV2h5e4UoRnFoOd111EI9pT/4g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">33354</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">880</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23021')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-06-25T01:59:48Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23021')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-23021" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-23021</d:Version><d:NormalizedVersion>4.0.10-beta-23021</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-25T01:59:48.8473993Z</d:Created><d:Dependencies>::net46|System.Runtime:4.0.20-beta-23021:dotnet|System.Resources.ResourceManager:4.0.0-beta-23021:dotnet</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-25T01:59:48.8473993Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-25T01:59:48.8473993Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-25T01:59:48.8473993Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>g1jSqM2dPubDEVO6/oS41FySv9cxyZQxp4LpJISOBhtn7xWfZPqUg6UXvgpcrFjqNpnBxlmjUQ3H0eVFmi0rSg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62238</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1332</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23029')/Screenshots" /><title type="text">System.Runtime.Serialization.Primitives</title><summary type="text">Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</summary><updated>2015-07-03T09:17:54Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Runtime.Serialization.Primitives',Version='4.0.10-beta-23029')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Runtime.Serialization.Primitives/4.0.10-beta-23029" /><m:properties><d:Id>System.Runtime.Serialization.Primitives</d:Id><d:Version>4.0.10-beta-23029</d:Version><d:NormalizedVersion>4.0.10-beta-23029</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-03T09:17:54.0690737Z</d:Created><d:Dependencies>::net46|System.Runtime:4.0.20-beta-23029:dotnet|System.Resources.ResourceManager:4.0.0-beta-23029:dotnet</d:Dependencies><d:Description>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Description><d:DownloadCount m:type="Edm.Int32">15369</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Runtime.Serialization.Primitives/4.0.10-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-03T09:17:54.0690737Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-03T09:17:54.0690737Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-03T09:17:54.0690737Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>rSvYF+/KNdGlukMkI/KYQkskUjJESbQmsbbI5oamzwXPMc9oZokt/fGC9hVeX+tQVLBs35epdS6S6prgRH7HpQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62283</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides common types, including System.Runtime.Serialization.DataContractAttribute, for libraries that support data contract serialization.
+
+Commonly Used Types:
+System.Runtime.Serialization.StreamingContext
+System.Runtime.Serialization.OnDeserializingAttribute
+System.Runtime.Serialization.OnDeserializedAttribute
+System.Runtime.Serialization.OnSerializingAttribute
+System.Runtime.Serialization.OnSerializedAttribute
+System.Runtime.Serialization.EnumMemberAttribute
+System.Runtime.Serialization.DataMemberAttribute
+System.Runtime.Serialization.DataContractAttribute
+System.Runtime.Serialization.IgnoreDataMemberAttribute
+System.Runtime.Serialization.SerializationException</d:Summary><d:Tags m:null="true" /><d:Title>System.Runtime.Serialization.Primitives</d:Title><d:VersionDownloadCount m:type="Edm.Int32">615</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry></feed>

@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?><feed xml:base="https://www.myget.org/F/aspnetvnext/api/v2/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><id>https://www.myget.org/F/aspnetvnext/api/v2/FindPackagesById</id><title type="text">FindPackagesById</title><updated>2015-07-06T06:10:02Z</updated><link rel="self" title="FindPackagesById" href="FindPackagesById" /><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22809')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22809')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22809')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-04-10T18:57:14Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22809')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22809" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22809</d:Version><d:NormalizedVersion>4.0.0-beta-22809</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-10T18:57:14.7826243Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22809:|System.Reflection:4.0.0-beta-22809:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22809:|System.Reflection.Primitives:4.0.0-beta-22809:|System.Runtime:4.0.0-beta-22809:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22809</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-10T18:57:14.7826243Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-10T18:57:14.7826243Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-10T18:57:14.7826243Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>AUiTY7oizI8jzM05tA2SUMZRoiaEiR9i10IvmsrkXStxqO0j45ZzkfIx2nRtFi4129x3AaDfrQVR9863COh78g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66859</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">137</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22811')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22811')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22811')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-04-15T01:28:07Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22811')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22811" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22811</d:Version><d:NormalizedVersion>4.0.0-beta-22811</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-15T01:28:07.1865186Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22811:|System.Reflection:4.0.0-beta-22811:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22811:|System.Reflection.Primitives:4.0.0-beta-22811:|System.Runtime:4.0.0-beta-22811:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22811</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-15T01:28:07.1865186Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-15T01:28:07.1865186Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-15T01:28:07.1865186Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Nqkl535LO1BZtqKBTlw+tV/xDmmh4faNRYQ6nUANZvnzzAu08UREmcrIzpYoKeM7159NHpUKvEw5FMQyPAmErw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66840</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">166</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22821')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22821')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22821')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-04-22T08:39:33Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22821')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22821" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22821</d:Version><d:NormalizedVersion>4.0.0-beta-22821</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T08:39:33.1772235Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22821:|System.Reflection:4.0.0-beta-22821:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22821:|System.Reflection.Primitives:4.0.0-beta-22821:|System.Runtime:4.0.0-beta-22821:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22821</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T08:39:33.1772235Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T08:39:33.1772235Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T08:39:33.1772235Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>iud2HhbwYZDEEASAXATL54GJ5SCQ7yBqsUwcfrPKaalPyAHgTRuP18ZQgSV16ZnIUl51LegV3E1BpsVC//LBGg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66866</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">16</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22822')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22822')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22822')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-04-22T20:36:19Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22822')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22822" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22822</d:Version><d:NormalizedVersion>4.0.0-beta-22822</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T20:36:19.8108079Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22822:|System.Reflection:4.0.0-beta-22822:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22822:|System.Reflection.Primitives:4.0.0-beta-22822:|System.Runtime:4.0.0-beta-22822:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22822</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T20:36:19.8108079Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T20:36:19.8108079Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T20:36:19.8108079Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>T48IK4D0q0ZLD2ugXs5uSlMMGq7x9eLOI1hYdWwj3Oz1s6gnSAeLk70oJZ5rvPox2zL+dINTQAbSqpFksxbl4A==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66840</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">106</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22823')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22823')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22823')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-04-25T00:45:07Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22823')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22823" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22823</d:Version><d:NormalizedVersion>4.0.0-beta-22823</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-25T00:45:07.8644801Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22823:|System.Reflection:4.0.0-beta-22823:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22823:|System.Reflection.Primitives:4.0.0-beta-22823:|System.Runtime:4.0.0-beta-22823:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22823</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-25T00:45:07.8644801Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-25T00:45:07.8644801Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-25T00:45:07.8644801Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>EjEO23Rwmn1o0bMcYUJ8LWBcPoDt+MnAIVDFM22YUyf/rcmk0Bqvwq7uqZasgc1HBH8EU606mQmjdQ+JqYJRLA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66826</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">32</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22825')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22825')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22825')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-04-27T11:24:16Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22825')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22825" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22825</d:Version><d:NormalizedVersion>4.0.0-beta-22825</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-27T11:24:16.2535581Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22825:|System.Reflection:4.0.0-beta-22825:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22825:|System.Reflection.Primitives:4.0.0-beta-22825:|System.Runtime:4.0.0-beta-22825:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22825</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-27T11:24:16.2535581Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-27T11:24:16.2535581Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-27T11:24:16.2535581Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>WcHzgLEyYc8WeQax7qGFqYvQr4+Qpjw1tpELNrvpgK1U67IzckEYMIpsWiFPQL4FfOV/PhKTqK2TxYq8o600aw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66858</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">31</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22828')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22828')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22828')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-04-28T17:32:50Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22828')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22828" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22828</d:Version><d:NormalizedVersion>4.0.0-beta-22828</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-28T17:32:50.0129757Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22828:|System.Reflection:4.0.0-beta-22828:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22828:|System.Reflection.Primitives:4.0.0-beta-22828:|System.Runtime:4.0.0-beta-22828:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22828</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-28T17:32:50.0129757Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-28T17:32:50.0129757Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-28T17:32:50.0129757Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>5FdfNLeyUMLYCOFv+Ou1Wu88A65g+kacZUdLpW0+H61t9I3QPZatclTQ+BaVFDothMsyKiXJ+gMU6B6bLWRiRQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66874</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">34</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22829')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22829')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22829')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-04-29T22:42:56Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22829')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22829" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22829</d:Version><d:NormalizedVersion>4.0.0-beta-22829</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-29T22:42:56.8490646Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22829:|System.Reflection:4.0.0-beta-22829:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22829:|System.Reflection.Primitives:4.0.0-beta-22829:|System.Runtime:4.0.0-beta-22829:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22829</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-29T22:42:56.8490646Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-29T22:42:56.8490646Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-29T22:42:56.8490646Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>edLnun3Efcc92d15cEMKLZ/HtSOZN7v1NItu1pDEHfijjrOTQvBcf6/Wu3+ZX+yWH8wHndsUnTbzMAiIXJhBXw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66861</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">23</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22830')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22830')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22830')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-04-30T20:48:53Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22830')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22830" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22830</d:Version><d:NormalizedVersion>4.0.0-beta-22830</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-30T20:48:53.8624376Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22830:|System.Reflection:4.0.0-beta-22830:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22830:|System.Reflection.Primitives:4.0.0-beta-22830:|System.Runtime:4.0.0-beta-22830:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22830</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-30T20:48:53.8624376Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-30T20:48:53.8624376Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-30T20:48:53.8624376Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>ur7wcQsiFk/aqtOIh4t/wBqCnbGN3D/ANzMQHdJ7lSEOPsHCuTyKZcFsP5uEAvCrC/HptOWuMGS9DZJ8ZLk4cQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66818</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">109</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22904')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22904')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22904')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-05-05T19:29:16Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22904')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22904" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22904</d:Version><d:NormalizedVersion>4.0.0-beta-22904</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-05T19:29:16.4606058Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22904:|System.Reflection:4.0.0-beta-22904:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22904:|System.Reflection.Primitives:4.0.0-beta-22904:|System.Runtime:4.0.0-beta-22904:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22904</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-05T19:29:16.4606058Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-05T19:29:16.4606058Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-05T19:29:16.4606058Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>l7E40FrFlMPrEZd0fzDEk3eWLGqS915wzqAe7tWNRRTfVEWvuMg+oTSSImtTqcBS0k5xt3IQtNFAalagRFX/OQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66844</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">31</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22905')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22905')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22905')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-05-06T17:58:08Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22905')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22905" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22905</d:Version><d:NormalizedVersion>4.0.0-beta-22905</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-06T17:58:08.0664053Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22905:|System.Reflection:4.0.0-beta-22905:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22905:|System.Reflection.Primitives:4.0.0-beta-22905:|System.Runtime:4.0.0-beta-22905:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22905</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-06T17:58:08.0664053Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-06T17:58:08.0664053Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-06T17:58:08.0664053Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>3VH0VKteC4auBtxd9N4OluNrS/sApTw590A4VWgWE03rkA4NOFbA7SWQJg3K42zmXvyExmZgmqntmTmW45OK6w==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66883</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">50</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22906')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22906')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22906')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-05-07T20:08:26Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22906')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22906" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22906</d:Version><d:NormalizedVersion>4.0.0-beta-22906</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-07T20:08:26.8617708Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22906:|System.Reflection:4.0.0-beta-22906:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22906:|System.Reflection.Primitives:4.0.0-beta-22906:|System.Runtime:4.0.0-beta-22906:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22906</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-07T20:08:26.8617708Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-07T20:08:26.8617708Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-07T20:08:26.8617708Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>DNh5FmhA3DyJLY9HYS1Vr5xOYwyV2GdmpJUq6IEAxe/J6DCl58lBWJfdhtSaF86GB00mQOUYNWGwITKNu6mhVA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66869</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">43</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22907')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22907')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22907')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-05-08T17:17:28Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22907')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22907" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22907</d:Version><d:NormalizedVersion>4.0.0-beta-22907</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-08T17:17:28.9900218Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22907:|System.Reflection:4.0.0-beta-22907:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22907:|System.Reflection.Primitives:4.0.0-beta-22907:|System.Runtime:4.0.0-beta-22907:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22907</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-08T17:17:28.9900218Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-08T17:17:28.9900218Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-08T17:17:28.9900218Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>XydA3M9z+G4EYLmW65d3D0gJYpsf79WwT3Jrs9YZOvwJFWH8Tg0Z21Tmq+5J9Ysk4NJR5d9ZqlrzAQUlFf/tpA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66777</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">45</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22910')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22910')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22910')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-05-11T16:20:09Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22910')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22910" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22910</d:Version><d:NormalizedVersion>4.0.0-beta-22910</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-11T16:20:09.9579084Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22910:|System.Reflection:4.0.0-beta-22910:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22910:|System.Reflection.Primitives:4.0.0-beta-22910:|System.Runtime:4.0.0-beta-22910:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22910</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-11T16:20:09.9579084Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-11T16:20:09.9579084Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-11T16:20:09.9579084Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>8QnEYPXcc9dkhOGPZFFphmvxl6c14sB/2RZ5ch12qG4xxiP8+tIZEkIsrxSRmHtpvjHDTt7lTBwZIY0rG1h+iA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66811</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">34</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22911')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22911')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22911')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-05-12T16:52:20Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22911')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22911" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22911</d:Version><d:NormalizedVersion>4.0.0-beta-22911</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-12T16:52:20.1544238Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22911:|System.Reflection:4.0.0-beta-22911:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22911:|System.Reflection.Primitives:4.0.0-beta-22911:|System.Runtime:4.0.0-beta-22911:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22911</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-12T16:52:20.1544238Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-12T16:52:20.1544238Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-12T16:52:20.1544238Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>rOSFxCVjK/2kTFRlNGzVMzDJo5jNnrxXoCDuNfzhY64B6I32cq4EaMAY7SOstjw+OmI2vkCTxpdWUrizzYyC6A==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66820</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">73</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22913')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22913')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22913')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-05-15T06:00:30Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-22913')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-22913" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-22913</d:Version><d:NormalizedVersion>4.0.0-beta-22913</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-05-15T06:00:30.7126933Z</d:Created><d:Dependencies>System.IO:4.0.0-beta-22913:|System.Reflection:4.0.0-beta-22913:|System.Reflection.Emit.ILGeneration:4.0.0-beta-22913:|System.Reflection.Primitives:4.0.0-beta-22913:|System.Runtime:4.0.0-beta-22913:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-22913</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-15T06:00:30.7126933Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-15T06:00:30.7126933Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-15T06:00:30.7126933Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>4dF4TQVfKl9xpkqzKh7OmpmLObGon8kLmkWxstmqqe7OOVQlKQHWbY/LD2ZuPiggLL6S4TWgRsGjTB923W2jfQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">66847</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">433</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23008')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23008')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23008')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-06-08T23:47:47Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23008')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-23008" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-23008</d:Version><d:NormalizedVersion>4.0.0-beta-23008</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-08T23:47:47.5168917Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23008:|System.Reflection:4.0.0-beta-23008:|System.Reflection.Emit.ILGeneration:4.0.0-beta-23008:|System.IO:4.0.0-beta-23008:|System.Reflection.Primitives:4.0.0-beta-23008:</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-08T23:47:47.5168917Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-08T23:47:47.5168917Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-08T23:47:47.5168917Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Kkk4HH1g26oOkMWnwuYB3P83jc58hkGrasrTZCuSFjt/xH0jfL2lEe0QrjzwU8ncGD1MrxDpLXj9rb92pcYgZg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68410</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1791</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23015')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23015')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23015')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-06-16T17:01:30Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23015')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-23015" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-23015</d:Version><d:NormalizedVersion>4.0.0-beta-23015</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-16T17:01:30.2573524Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23015:Unsupported|System.Reflection:4.0.0-beta-23015:Unsupported|System.Reflection.Emit.ILGeneration:4.0.0-beta-23015:Unsupported|System.IO:4.0.0-beta-23015:Unsupported|System.Reflection.Primitives:4.0.0-beta-23015:Unsupported</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-16T17:01:30.2573524Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-16T17:01:30.2573524Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-16T17:01:30.2573524Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>4IwLkae2gsnQ3zPxDzVzunmXt9Nga7hWOcXBKf9qRQGKXsOLAqh/l3Q55fyYGf75lU+bhPtEhW5JTq0ujo8sdw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">44932</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1811</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23021')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-06-23T18:11:48Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23021')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-23021" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-23021</d:Version><d:NormalizedVersion>4.0.0-beta-23021</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-06-23T18:11:48.2418408Z</d:Created><d:Dependencies>::net45|System.Runtime:4.0.0-beta-23021:dotnet|System.Reflection:4.0.0-beta-23021:dotnet|System.Reflection.Emit.ILGeneration:4.0.0-beta-23021:dotnet|System.IO:4.0.0-beta-23021:dotnet|System.Reflection.Primitives:4.0.0-beta-23021:dotnet</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-23T18:11:48.2418408Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-23T18:11:48.2418408Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-23T18:11:48.2418408Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>uumh1CkNVpWeF/53W9Xc3mn2Cl1bdWuIB1wXqjoV70f38Qot8fkt5XbboPRyJkRYI/+XzHf4ZCYHTPQeG9Eu4g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">204182</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2632</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23029')/Screenshots" /><title type="text">System.Reflection.Emit</title><summary type="text">Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</summary><updated>2015-07-01T21:18:44Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Reflection.Emit',Version='4.0.0-beta-23029')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Reflection.Emit/4.0.0-beta-23029" /><m:properties><d:Id>System.Reflection.Emit</d:Id><d:Version>4.0.0-beta-23029</d:Version><d:NormalizedVersion>4.0.0-beta-23029</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-01T21:18:44.3582742Z</d:Created><d:Dependencies>::net45|System.Runtime:4.0.0-beta-23029:dotnet|System.Reflection:4.0.0-beta-23029:dotnet|System.Reflection.Emit.ILGeneration:4.0.0-beta-23029:dotnet|System.IO:4.0.0-beta-23029:dotnet|System.Reflection.Primitives:4.0.0-beta-23029:dotnet</d:Dependencies><d:Description>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Description><d:DownloadCount m:type="Edm.Int32">8574</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Reflection.Emit/4.0.0-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-01T21:18:44.3582742Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-01T21:18:44.3582742Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-01T21:18:44.3582742Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>1Z79YQyAYWzTRa9Y4mx7c1S2+xaC9B+bXToIC25aY4TMBD9dya/9+c2mQHbpuzvKtHNxWLt3uKHyk47yEO4p2g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">204188</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes that allow a compiler or tool to emit metadata and optionally generate a PE file on disk. The primary clients of these classes are script engines and compilers.
+
+Commonly Used Types:
+System.Reflection.Emit.AssemblyBuilder
+System.Reflection.Emit.FieldBuilder
+System.Reflection.Emit.TypeBuilder
+System.Reflection.Emit.MethodBuilder
+System.Reflection.Emit.ConstructorBuilder
+System.Reflection.Emit.GenericTypeParameterBuilder
+System.Reflection.Emit.ModuleBuilder
+System.Reflection.Emit.PropertyBuilder
+System.Reflection.Emit.AssemblyBuilderAccess
+System.Reflection.Emit.EventBuilder</d:Summary><d:Tags m:null="true" /><d:Title>System.Reflection.Emit</d:Title><d:VersionDownloadCount m:type="Edm.Int32">977</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry></feed>

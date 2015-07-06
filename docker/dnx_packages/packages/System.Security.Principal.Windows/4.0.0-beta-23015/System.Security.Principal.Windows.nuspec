@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="3.0">
+    <id>System.Security.Principal.Windows</id>
+    <version>4.0.0-beta-23015</version>
+    <title>System.Security.Principal.Windows</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</licenseUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Provides classes for retrieving the current Windows user and for interacting with Windows users and groups.
+
+Commonly Used Types:
+System.Security.Principal.WindowsIdentity
+System.Security.Principal.SecurityIdentifier
+System.Security.Principal.NTAccount
+System.Security.Principal.WindowsPrincipal
+System.Security.Principal.IdentityReference
+System.Security.Principal.IdentityNotMappedException
+System.Security.Principal.WindowsBuiltInRole
+System.Security.Principal.WellKnownSidType</description>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <dependencies>
+      <group targetFramework=".NETPlatform5.0">
+        <dependency id="System.Runtime" version="4.0.0-beta-23015" />
+        <dependency id="System.Security.Claims" version="4.0.0-beta-23015" />
+        <dependency id="System.Security.Principal" version="4.0.0-beta-23015" />
+        <dependency id="System.Runtime.Handles" version="4.0.0-beta-23015" />
+      </group>
+      <group targetFramework="DNXCore5.0">
+        <dependency id="System.Runtime" version="4.0.0-beta-23015" />
+        <dependency id="System.Resources.ResourceManager" version="4.0.0-beta-23015" />
+        <dependency id="System.Collections" version="4.0.0-beta-23015" />
+        <dependency id="System.Runtime.InteropServices" version="4.0.0-beta-23015" />
+        <dependency id="System.Security.Claims" version="4.0.0-beta-23015" />
+        <dependency id="System.Security.Principal" version="4.0.0-beta-23015" />
+        <dependency id="System.Diagnostics.Debug" version="4.0.0-beta-23015" />
+        <dependency id="System.Reflection" version="4.0.0-beta-23015" />
+        <dependency id="System.Runtime.Extensions" version="4.0.0-beta-23015" />
+        <dependency id="System.Threading" version="4.0.10-beta-23015" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

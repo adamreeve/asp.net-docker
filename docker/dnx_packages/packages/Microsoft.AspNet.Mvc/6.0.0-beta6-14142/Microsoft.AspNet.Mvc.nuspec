@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.Mvc</id>
+    <version>6.0.0-beta6-14142</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>ASP.NET MVC is a web framework that gives you a powerful, patterns-based way to build dynamic websites and Web APIs. ASP.NET MVC enables a clean separation of concerns and gives you full control over markup.</description>
+    <dependencies>
+      <group targetFramework="DNX4.5.1">
+        <dependency id="Microsoft.AspNet.Authorization" version="1.0.0-beta6-12569" />
+        <dependency id="Microsoft.AspNet.Cors.Core" version="1.0.0-beta6-10576" />
+        <dependency id="Microsoft.AspNet.Mvc.ApiExplorer" version="6.0.0-beta6-14142" />
+        <dependency id="Microsoft.AspNet.Mvc.Extensions" version="6.0.0-beta6-14142" />
+        <dependency id="Microsoft.AspNet.Mvc.Razor" version="6.0.0-beta6-14142" />
+        <dependency id="Microsoft.Framework.Caching.Memory" version="1.0.0-beta6-11512" />
+        <dependency id="Microsoft.Framework.DependencyInjection" version="1.0.0-beta6-11506" />
+      </group>
+      <group targetFramework="DNXCore5.0">
+        <dependency id="Microsoft.AspNet.Authorization" version="1.0.0-beta6-12569" />
+        <dependency id="Microsoft.AspNet.Cors.Core" version="1.0.0-beta6-10576" />
+        <dependency id="Microsoft.AspNet.Mvc.ApiExplorer" version="6.0.0-beta6-14142" />
+        <dependency id="Microsoft.AspNet.Mvc.Extensions" version="6.0.0-beta6-14142" />
+        <dependency id="Microsoft.AspNet.Mvc.Razor" version="6.0.0-beta6-14142" />
+        <dependency id="Microsoft.Framework.Caching.Memory" version="1.0.0-beta6-11512" />
+        <dependency id="Microsoft.Framework.DependencyInjection" version="1.0.0-beta6-11506" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="DNX4.5.1" />
+    </frameworkAssemblies>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm</licenseUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <copyright>Copyright © Microsoft Corporation</copyright>
+    <projectUrl>http://www.asp.net/</projectUrl>
+  </metadata>
+</package>
