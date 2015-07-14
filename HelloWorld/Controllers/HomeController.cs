@@ -1,5 +1,6 @@
-using Microsoft.AspNet.Mvc;
 using HelloMvc.Web.Models;
+using Microsoft.AspNet.Mvc;
+using Microsoft.Framework.Logging;
 using ServiceStack.Redis;
 using System;
 using System.Globalization;
@@ -10,10 +11,12 @@ namespace HelloMvc.Web
     public class HomeController : Controller
     {
         private IRedisClientsManager _redisManager;
+        private ILogger _logger;
 
-        public HomeController(IRedisClientsManager redisManager)
+        public HomeController(IRedisClientsManager redisManager, ILoggerFactory loggerFactory)
         {
             _redisManager = redisManager;
+            _logger = loggerFactory.CreateLogger(typeof(HomeController).FullName);
         }
 
         public IActionResult Index()
@@ -60,6 +63,7 @@ namespace HelloMvc.Web
             }
             catch (RedisException re)
             {
+                _logger.LogWarning(String.Format("Redis error: {0}", re.Message));
                 return f();
             }
 
