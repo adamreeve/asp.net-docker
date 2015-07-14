@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Encryption</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.AsymmetricAlgorithm">
+      <summary>Представляет абстрактный базовый класс, от которого должны наследоваться все реализации алгоритмов асимметричного шифрования.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" />.</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Реализация производного класса не является допустимой. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.Dispose">
+      <summary>Освобождает все ресурсы, используемые текущим экземпляром класса <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.Dispose(System.Boolean)">
+      <summary>Освобождает неуправляемые ресурсы, используемые классом <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> (при необходимости освобождает и управляемые ресурсы).</summary>
+      <param name="disposing">Значение true позволяет освободить как управляемые, так и неуправляемые ресурсы; значение false освобождает только неуправляемые ресурсы. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.AsymmetricAlgorithm.KeySize">
+      <summary>Получает или задает размер модуля ключа (в битах), используемого алгоритмом асимметричного шифрования.</summary>
+      <returns>Размер модуля ключа (в битах), используемого алгоритмом асимметричного шифрования.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Недопустимый размер модуля ключа. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes">
+      <summary>Возвращает размеры ключа, которые поддерживаются алгоритмом асимметричного шифрования.</summary>
+      <returns>Массив, в котором содержатся размеры ключа, поддерживаемые алгоритмом асимметричного шифрования.</returns>
+    </member>
+    <member name="T:System.Security.Cryptography.CipherMode">
+      <summary>Задает режим блочного шифра для использования при шифровании.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.CBC">
+      <summary>Режим сцепления блоков шифра (CBC) реализует обратную связь.Перед шифрованием каждого блока открытого текста он объединяется с зашифрованным текстом предыдущего блока с помощью побитовой операции "исключающего ИЛИ".При этом даже в случае, если открытый текст содержит большое количество идентичных блоков, при их шифровании будут получены различные блоки зашифрованного текста.Перед шифрованием первого блока открытого текста с ним с помощью побитовой операции "исключающего ИЛИ" объединяется вектор инициализации.При искажении отдельного бита блока зашифрованного текста будет искажен и соответствующий блок открытого текста.Кроме того, будет изменен и бит следующего блока, находящийся в том же месте, что и исходный измененный бит.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.CTS">
+      <summary>Режим захвата зашифрованного текста ( CTS ) обрабатывает открытый текст любой длины и создает зашифрованный текст, длина которого совпадает с длиной открытого текста.В этом режиме все блоки, кроме двух последних боков открытого текста, обрабатываются так же, как в режиме CBC.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.ECB">
+      <summary>В режиме электронной кодовой книги (ECB) каждый блок зашифровывается отдельно.Любые блоки открытого текста, которые идентичны и содержатся в одном и том же сообщении или в разных сообщениях, зашифрованных одним и тем же ключом, преобразуются в идентичные текстовые блоки шифра.Внимание!  Этот режим не рекомендуется, потому что при его использовании возникает возможность успешного применения различных эксплойтов.Если шифруемый открытый текст содержит значительное число повторов, нарушение шифрованного текста возможно в одном блоке, но не в нескольких блоках одновременно.Также возможно использовать анализ блоков, чтобы определить ключ шифрования.Кроме того, активный злоумышленник может незаметно подменять и переставлять местами отдельные блоки, что позволяет свободно сохранять и вставлять блоки в поток в других местах.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptographicException">
+      <summary>Исключение, которое возникает в случае ошибки при выполнении криптографической операции.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.CryptographicException" /> со свойствами по умолчанию.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.Int32)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.CryptographicException" /> заданным кодом ошибки HRESULT.</summary>
+      <param name="hr">Код ошибки HRESULT. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.CryptographicException" /> заданным сообщением об ошибке.</summary>
+      <param name="message">Сообщение об ошибке с объяснением причин исключения. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.Exception)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.CryptographicException" /> заданным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной данного исключения.</summary>
+      <param name="message">Сообщение об ошибке с объяснением причин исключения. </param>
+      <param name="inner">Исключение, которое вызвало текущее исключение.Если значение параметра <paramref name="inner" /> не равно null, текущее исключение вызывается в блоке catch, обрабатывающем внутреннее исключение.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.String)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.CryptographicException" /> указанным сообщением об ошибке в заданном формате.</summary>
+      <param name="format">Формат, используемый для вывода сообщения об ошибке. </param>
+      <param name="insert">Сообщение об ошибке с объяснением причин исключения. </param>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptoStream">
+      <summary>Определяет поток, который связывает потоки данных с криптографическими преобразованиями.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.#ctor(System.IO.Stream,System.Security.Cryptography.ICryptoTransform,System.Security.Cryptography.CryptoStreamMode)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.CryptoStream" />, используя целевой поток данных, преобразования и режим потока.</summary>
+      <param name="stream">Поток для выполнения криптографического преобразования. </param>
+      <param name="transform">Криптографическое преобразование, применяемое к потоку. </param>
+      <param name="mode">Одно из значений <see cref="T:System.Security.Cryptography.CryptoStreamMode" />. </param>
+      <exception cref="T:System.ArgumentException">Чтение из потока, заданного параметром <paramref name="stream" />, запрещено.</exception>
+      <exception cref="T:System.ArgumentException">Запись в поток <paramref name="stream" /> запрещена.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> недопустим.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanRead">
+      <summary>Возвращает значение, определяющее, доступен ли текущий поток <see cref="T:System.Security.Cryptography.CryptoStream" /> для чтения.</summary>
+      <returns>Значение true, если текущий поток доступен для чтения; в противном случае — значение false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanSeek">
+      <summary>Возвращает значение, указывающее, возможен ли поиск в текущем потоке <see cref="T:System.Security.Cryptography.CryptoStream" />.</summary>
+      <returns>Всегда false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanWrite">
+      <summary>Возвращает значение, определяющее, доступен ли текущий поток <see cref="T:System.Security.Cryptography.CryptoStream" /> для записи.</summary>
+      <returns>Значение true, если текущий поток доступен для записи; в противном случае — значение false.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Dispose(System.Boolean)">
+      <summary>Освобождает неуправляемые ресурсы, используемые объектом <see cref="T:System.Security.Cryptography.CryptoStream" />, а при необходимости освобождает также и управляемые ресурсы.</summary>
+      <param name="disposing">Значение true позволяет освободить как управляемые, так и неуправляемые ресурсы; значение false освобождает только неуправляемые ресурсы. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Flush">
+      <summary>Очищает все буферы для текущего потока и вызывает запись всех буферизированных данных в базовое устройство.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.FlushAsync(System.Threading.CancellationToken)">
+      <summary>Асинхронно очищает все буферы текущего потока, вызывает запись буферизованных данных в базовое устройство и отслеживает запросы отмены.</summary>
+      <returns>Задача, представляющая асинхронную операцию очистки.</returns>
+      <param name="cancellationToken">Токен для отслеживания запросов отмены.Значение по умолчанию — <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <exception cref="T:System.ObjectDisposedException">Поток был ликвидирован.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.FlushFinalBlock">
+      <summary>Обновляет базовый источник данных или хранилище текущим содержимым буфера, а затем очищает буфер.</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Ключ поврежден, что может привести к неправильному заполнению потока. </exception>
+      <exception cref="T:System.NotSupportedException">Текущий поток недоступен для записи.-или- Последний блок уже преобразован. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.HasFlushedFinalBlock">
+      <summary>Возвращает значение, указывающее, записан ли последний буферный блок в базовый поток. </summary>
+      <returns>Значение true, если последний блок передан. В противном случае — значение false. </returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.Length">
+      <summary>Возвращает длину потока в байтах.</summary>
+      <returns>Данное свойство не поддерживается.</returns>
+      <exception cref="T:System.NotSupportedException">Данное свойство не поддерживается. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.Position">
+      <summary>Возвращает или задает позицию в текущем потоке.</summary>
+      <returns>Данное свойство не поддерживается.</returns>
+      <exception cref="T:System.NotSupportedException">Данное свойство не поддерживается. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Read(System.Byte[],System.Int32,System.Int32)">
+      <summary>Считывает последовательность байтов из текущего потока и перемещает позицию внутри потока на число считанных байтов.</summary>
+      <returns>Общее количество байтов, считанных в буфер.Это число может быть меньше количества запрошенных байтов, если нужное число байтов в настоящее время недоступно, а также равняться нулю, если был достигнут конец потока.</returns>
+      <param name="buffer">Массив байтов.Максимальное число байтов <paramref name="count" /> считывается из текущего потока и сохраняется в параметре <paramref name="buffer" />.</param>
+      <param name="offset">Позиция байта в параметре <paramref name="buffer" />, с которой начинается сохранение данных, считанных из текущего потока. </param>
+      <param name="count">Максимальное количество байтов, которое должно быть считано из текущего потока. </param>
+      <exception cref="T:System.NotSupportedException">Режим <see cref="T:System.Security.Cryptography.CryptoStreamMode" />, связанный с текущим объектом <see cref="T:System.Security.Cryptography.CryptoStream" /> не соответствует базовому потоку.Например, это исключение возникает при использовании режима <see cref="F:System.Security.Cryptography.CryptoStreamMode.Read" /> с потоком, доступным только для записи.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">Значение параметра <paramref name="offset" /> меньше нуля.-или- Значение параметра <paramref name="count" /> меньше нуля. </exception>
+      <exception cref="T:System.ArgumentException">Сумма параметров <paramref name="count" /> и <paramref name="offset" /> превышает длину буфера. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+      <summary>Асинхронно считывает последовательность байтов из текущего потока, перемещает позицию в потоке на число считанных байтов и отслеживает запросы отмены.</summary>
+      <returns>Задача, представляющая асинхронную операцию чтения.Значение параметра <paramref name="TResult" /> объекта задач содержит общее число байтов, считанных в буфер.Результат может быть меньше запрошенного числа байтов, если число текущих доступных байтов меньше запрошенного числа, или результат может быть равен 0 (нулю), если был достигнут конец потока.</returns>
+      <param name="buffer">Буфер, в который записываются данные.</param>
+      <param name="offset">Смещение байтов в <paramref name="buffer" />, с которого начинается запись данных из потока.</param>
+      <param name="count">Максимальное число байтов, предназначенных для чтения.</param>
+      <param name="cancellationToken">Токен для отслеживания запросов отмены.Значение по умолчанию — <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <exception cref="T:System.ArgumentNullException">Свойство <paramref name="buffer" /> имеет значение null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">Значение параметра <paramref name="offset" /> или <paramref name="count" /> является отрицательным.</exception>
+      <exception cref="T:System.ArgumentException">Сумма значений параметров <paramref name="offset" /> и <paramref name="count" /> больше длины буфера.</exception>
+      <exception cref="T:System.NotSupportedException">Поток не поддерживает чтение.</exception>
+      <exception cref="T:System.ObjectDisposedException">Поток был ликвидирован.</exception>
+      <exception cref="T:System.InvalidOperationException">Поток в настоящее время используется предыдущей операцией чтения. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Seek(System.Int64,System.IO.SeekOrigin)">
+      <summary>Задает позицию в текущем потоке.</summary>
+      <returns>Этот метод не поддерживается.</returns>
+      <param name="offset">Смещение в байтах относительно параметра <paramref name="origin" />. </param>
+      <param name="origin">Объект <see cref="T:System.IO.SeekOrigin" />, задающий опорную точку, используемую для получения новой позиции. </param>
+      <exception cref="T:System.NotSupportedException">Этот метод не поддерживается. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.SetLength(System.Int64)">
+      <summary>Устанавливает длину текущего потока.</summary>
+      <param name="value">Нужная длина текущего потока в байтах. </param>
+      <exception cref="T:System.NotSupportedException">Это свойство служит только для поддержки наследования от класса <see cref="T:System.IO.Stream" /> и не может применяться на практике.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Write(System.Byte[],System.Int32,System.Int32)">
+      <summary>Записывает последовательность байтов в текущий <see cref="T:System.Security.Cryptography.CryptoStream" /> и перемещает текущую позицию внутри потока на число записанных байтов.</summary>
+      <param name="buffer">Массив байтов.Этот метод копирует байты <paramref name="count" /> из <paramref name="buffer" /> в текущий поток.</param>
+      <param name="offset">Позиция байта в <paramref name="buffer" />, с которой начинается копирование байтов в текущий поток. </param>
+      <param name="count">Количество байтов, которое необходимо записать в текущий поток. </param>
+      <exception cref="T:System.NotSupportedException">Режим <see cref="T:System.Security.Cryptography.CryptoStreamMode" />, связанный с текущим объектом <see cref="T:System.Security.Cryptography.CryptoStream" /> не соответствует базовому потоку.Например, это исключение возникает при использовании <see cref="F:System.Security.Cryptography.CryptoStreamMode.Write" />  с основной поток, который доступен только для чтения.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">Значение параметра <paramref name="offset" /> меньше нуля.-или- Значение параметра <paramref name="count" /> меньше нуля. </exception>
+      <exception cref="T:System.ArgumentException">Сумма параметров <paramref name="count" /> и <paramref name="offset" /> превышает длину буфера. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+      <summary>Асинхронно записывает последовательность байтов в текущий поток, перемещает текущую позицию внутри потока на число записанных байтов и отслеживает запросы отмены.</summary>
+      <returns>Задача, представляющая асинхронную операцию записи.</returns>
+      <param name="buffer">Буфер, из которого записываются данные.</param>
+      <param name="offset">Смещение байтов (начиная с нуля) в <paramref name="buffer" />, с которого начинается запись байтов в поток.</param>
+      <param name="count">Максимальное число байтов для записи.</param>
+      <param name="cancellationToken">Токен для отслеживания запросов отмены.Значение по умолчанию — <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <exception cref="T:System.ArgumentNullException">Свойство <paramref name="buffer" /> имеет значение null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">Значение параметра <paramref name="offset" /> или <paramref name="count" /> является отрицательным.</exception>
+      <exception cref="T:System.ArgumentException">Сумма значений параметров <paramref name="offset" /> и <paramref name="count" /> больше длины буфера.</exception>
+      <exception cref="T:System.NotSupportedException">Поток не поддерживает запись.</exception>
+      <exception cref="T:System.ObjectDisposedException">Поток был ликвидирован.</exception>
+      <exception cref="T:System.InvalidOperationException">Поток в настоящее время используется предыдущей операцией записи. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptoStreamMode">
+      <summary>Задает режим доступа к криптографическому потоку.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CryptoStreamMode.Read">
+      <summary>Доступ к криптографическому потоку для чтения.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CryptoStreamMode.Write">
+      <summary>Доступ к криптографическому потоку для записи.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.ICryptoTransform">
+      <summary>Определяет основные операции криптографических преобразований.</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.CanReuseTransform">
+      <summary>Получает значение, указывающее на возможность повторного использования текущего преобразования.</summary>
+      <returns>Значение true, если возможно повторное использование текущего преобразования; в противном случае — значение false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.CanTransformMultipleBlocks">
+      <summary>Получает значение, указывающее на возможность преобразования нескольких блоков.</summary>
+      <returns>Значение true, если возможно преобразование нескольких блоков; в противном случае — значение false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.InputBlockSize">
+      <summary>Получает размер входного блока.</summary>
+      <returns>Размер входного блока данных в байтах.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.OutputBlockSize">
+      <summary>Получает размер выходного блока.</summary>
+      <returns>Размер выходного блока данных в байтах.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.ICryptoTransform.TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)">
+      <summary>Преобразует заданную область входного массива байтов и копирует результат в заданную область выходного массива байтов.</summary>
+      <returns>Число записанных байтов.</returns>
+      <param name="inputBuffer">Входные данные, для которых вычисляется преобразование. </param>
+      <param name="inputOffset">Смещение во входном массиве байтов, начиная с которого следует использовать данные. </param>
+      <param name="inputCount">Число байтов во входном массиве для использования в качестве данных. </param>
+      <param name="outputBuffer">Выходной массив, в который записывается результат преобразования. </param>
+      <param name="outputOffset">Смещение в выходном массиве байтов, начиная с которого следует записывать данные. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.ICryptoTransform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)">
+      <summary>Преобразует заданную область заданного массива байтов.</summary>
+      <returns>Вычисленное преобразование.</returns>
+      <param name="inputBuffer">Входные данные, для которых вычисляется преобразование. </param>
+      <param name="inputOffset">Смещение в массиве байтов, начиная с которого следует использовать данные. </param>
+      <param name="inputCount">Число байтов в массиве для использования в качестве данных. </param>
+    </member>
+    <member name="T:System.Security.Cryptography.KeySizes">
+      <summary>Определяет набор допустимых размеров ключа для симметричных алгоритмов шифрования.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeySizes.#ctor(System.Int32,System.Int32,System.Int32)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.KeySizes" /> с заданными значениями ключа.</summary>
+      <param name="minSize">Минимальный допустимый размер ключа. </param>
+      <param name="maxSize">Максимальный допустимый размер ключа. </param>
+      <param name="skipSize">Интервал между допустимыми размерами ключа. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.MaxSize">
+      <summary>Задает максимальный размер ключа в битах.</summary>
+      <returns>Максимальный размер ключа в битах.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.MinSize">
+      <summary>Задает минимальный размер ключа в битах.</summary>
+      <returns>Минимальный размер ключа в битах.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.SkipSize">
+      <summary>Задает интервал между допустимыми размерами ключа в битах.</summary>
+      <returns>Интервал между допустимыми размерами ключа в битах.</returns>
+    </member>
+    <member name="T:System.Security.Cryptography.PaddingMode">
+      <summary>Задает тип заполнения, используемого в случае, когда блок данных сообщения короче полного числа байтов, необходимого для криптографической операции.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.None">
+      <summary>Заполнение не выполнено.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.PKCS7">
+      <summary>Строка заполнения по стандарту PKCS 7 состоит из последовательности байтов, в каждый из которых записывается общее число добавленных байтов заполнения. </summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.Zeros">
+      <summary>Строка заполнения состоит из нулевых байтов.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.SymmetricAlgorithm">
+      <summary>Представляет абстрактный базовый класс, от которого наследуются все реализации симметричных алгоритмов шифрования.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" />.</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Реализация производного класса алгоритма симметричного шифрования не является допустимой.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.BlockSize">
+      <summary>Возвращает или задает размер блока криптографической операции (в битах).</summary>
+      <returns>Размер блока в битах.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Недопустимый размер блока. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor">
+      <summary>Создает симметричный объект-дешифратор с текущим свойством <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> и вектором инициализации (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />).</summary>
+      <returns>Симметричный объект-дешифратор.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor(System.Byte[],System.Byte[])">
+      <summary>При переопределении в производном классе создает симметричный объект-дешифратор с указанным свойством <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> и вектором инициализации (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />).</summary>
+      <returns>Симметричный объект-дешифратор.</returns>
+      <param name="rgbKey">Секретный ключ, который должен использоваться для симметричного алгоритма. </param>
+      <param name="rgbIV">Вектор инициализации, который должен использоваться для симметричного алгоритма. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor">
+      <summary>Создает симметричный объект-шифратор с текущим свойством <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> и вектором инициализации (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />).</summary>
+      <returns>Симметричный объект-шифратор.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor(System.Byte[],System.Byte[])">
+      <summary>Если переопределено в производном классе, создает симметричный объект-шифратор с заданным свойством <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> и вектором инициализации (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />).</summary>
+      <returns>Симметричный объект-шифратор.</returns>
+      <param name="rgbKey">Секретный ключ, который должен использоваться для симметричного алгоритма. </param>
+      <param name="rgbIV">Вектор инициализации, который должен использоваться для симметричного алгоритма. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.Dispose">
+      <summary>Освобождает все ресурсы, используемые текущим экземпляром класса <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.Dispose(System.Boolean)">
+      <summary>Освобождает неуправляемые ресурсы, используемые объектом <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" />, а при необходимости освобождает также и управляемые ресурсы.</summary>
+      <param name="disposing">Значение true позволяет освободить как управляемые, так и неуправляемые ресурсы; значение false освобождает только неуправляемые ресурсы. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.GenerateIV">
+      <summary>Если переопределено в производном классе, создает произвольный вектор инициализации (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />), используемый для алгоритма.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.GenerateKey">
+      <summary>Если переопределено в производном классе, генерирует произвольный ключ (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" />), используемый для алгоритма. </summary>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.IV">
+      <summary>Возвращает или задает вектор инициализации (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) для симметричного алгоритма.</summary>
+      <returns>Вектор инициализации.</returns>
+      <exception cref="T:System.ArgumentNullException">Предпринята попытка задания для вектора инициализации значения null. </exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Предпринята попытка задания недопустимого размера вектора инициализации. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Key">
+      <summary>Возвращает или задает секретный ключ для симметричного алгоритма.</summary>
+      <returns>Секретный ключ, который должен использоваться для симметричного алгоритма.</returns>
+      <exception cref="T:System.ArgumentNullException">Предпринята попытка задания для ключа значения null. </exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Недопустимый размер ключа.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.KeySize">
+      <summary>Возвращает или задает размер секретного ключа (в битах), используемого симметричным алгоритмом.</summary>
+      <returns>Размер секретного ключа (в битах), используемого симметричным алгоритмом.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Недопустимый размер ключа. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes">
+      <summary>Возвращает размеры блоков (в битах), которые поддерживаются симметричным алгоритмом.</summary>
+      <returns>Массив, в котором содержатся размеры блоков, поддерживаемые данным алгоритмом.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes">
+      <summary>Возвращает размеры ключа (в битах), которые поддерживаются симметричным алгоритмом.</summary>
+      <returns>Массив, содержащий размеры ключа, поддерживаемые алгоритмом.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Mode">
+      <summary>Возвращает или задает режим функционирования симметричного алгоритма.</summary>
+      <returns>Режим функционирования симметричного алгоритма.Значение по умолчанию — <see cref="F:System.Security.Cryptography.CipherMode.CBC" />.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Данный режим шифрования отличается от значений свойства <see cref="T:System.Security.Cryptography.CipherMode" />. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Padding">
+      <summary>Возвращает или задает режим заполнения, используемый в симметричном алгоритме.</summary>
+      <returns>Режим заполнения, используемый в симметричном алгоритме.Значение по умолчанию — <see cref="F:System.Security.Cryptography.PaddingMode.PKCS7" />.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Данный режим заполнения отличается от значений свойства <see cref="T:System.Security.Cryptography.PaddingMode" />. </exception>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing.Algorithms</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HMACSHA1">
+      <summary>Вычисляет хэш-код проверки подлинности сообщения (HMAC) с помощью хэш-функции <see cref="T:System.Security.Cryptography.SHA1" />. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA1.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.HMACSHA1" /> с использованием ключа, созданного с помощью алгоритма генерации случайных чисел.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA1.#ctor(System.Byte[])">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.HMACSHA1" /> указанными данными ключа.</summary>
+      <param name="key">Секретный ключ для шифрования <see cref="T:System.Security.Cryptography.HMACSHA1" />.Длина ключа может быть произвольной, но если она превышает 64 байта, ключ хэшируется (с помощью хэш-функции SHA-1) для получения 64-байтового ключа.Поэтому рекомендуется использовать секретный ключ длиной 64 байта.</param>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="key" /> — null. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA256">
+      <summary>Вычисляет хэш-код аутентификации сообщения (HMAC) с помощью хэш-функции <see cref="T:System.Security.Cryptography.SHA256" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA256.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.HMACSHA256" /> созданным случайным образом ключом.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA256.#ctor(System.Byte[])">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.HMACSHA256" /> указанными данными ключа.</summary>
+      <param name="key">Секретный ключ для шифрования <see cref="T:System.Security.Cryptography.HMACSHA256" />.Ключ может иметь любую длину.Однако рекомендуемый размер равен 64 байтам.Если длина ключа превышает 64 байта, ключ хэшируется (с помощью хэш-функции SHA-256) для получения 64-байтового ключа.Если он меньше 64 байт, то он заполняется до 64 байт.</param>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="key" /> — null. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA384">
+      <summary>Вычисляет хэш-код проверки подлинности сообщения (HMAC) с помощью хэш-функции <see cref="T:System.Security.Cryptography.SHA384" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA384.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.HMACSHA384" /> ключом, созданным с помощью алгоритма генерации случайных чисел.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA384.#ctor(System.Byte[])">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.HMACSHA384" />, используя указанные данные ключа.</summary>
+      <param name="key">Секретный ключ для шифрования <see cref="T:System.Security.Cryptography.HMACSHA384" />.Ключ может иметь любую длину.Однако рекомендуемый размер равен 128 байтам.Если длина ключа превышает 128 байтов, ключ хэшируется (с помощью хэш-функции SHA-384) для получения 128-байтового ключа.Если он меньше 128 байт, то он заполняется до 128 байт.</param>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="key" /> — null. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA512">
+      <summary>Вычисляет хэш-код проверки подлинности сообщения (HMAC) с помощью хэш-функции <see cref="T:System.Security.Cryptography.SHA512" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA512.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.HMACSHA512" /> созданным случайным образом ключом.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA512.#ctor(System.Byte[])">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.HMACSHA512" /> указанными данными ключа.</summary>
+      <param name="key">Секретный ключ для шифрования <see cref="T:System.Security.Cryptography.HMACSHA512" />.Ключ может иметь любую длину.Однако рекомендуемый размер равен 128 байтам.Если длина ключа превышает 128 байтов, ключ хэшируется (с помощью хэш-функции SHA-512) для получения 128-байтового ключа.Если он меньше 128 байт, то он заполняется до 128 байт.</param>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="key" /> — null. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.MD5">
+      <summary>Представляет абстрактный класс, от которого наследуются все реализации хэш-алгоритма <see cref="T:System.Security.Cryptography.MD5" />. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.MD5.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.MD5" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.MD5.Create">
+      <summary>Создает экземпляр реализации по умолчанию хэш-алгоритма <see cref="T:System.Security.Cryptography.MD5" />.</summary>
+      <returns>Новый экземпляр хэш-алгоритма <see cref="T:System.Security.Cryptography.MD5" />.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">Алгоритм использовался с включенным режимом FIPS, но не является FIPS-совместимым.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA1">
+      <summary>Вычисляет хэш <see cref="T:System.Security.Cryptography.SHA1" /> для входных данных.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA1.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.SHA1" />.</summary>
+      <exception cref="T:System.InvalidOperationException">Политика данного объекта не соответствует стандарту FIPS.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA1.Create">
+      <summary>Создает экземпляр реализации класса <see cref="T:System.Security.Cryptography.SHA1" /> по умолчанию.</summary>
+      <returns>Новый экземпляр <see cref="T:System.Security.Cryptography.SHA1" />.</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA256">
+      <summary>Вычисляет хэш <see cref="T:System.Security.Cryptography.SHA256" /> для входных данных. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA256.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.SHA256" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA256.Create">
+      <summary>Создает экземпляр реализации класса <see cref="T:System.Security.Cryptography.SHA256" /> по умолчанию.</summary>
+      <returns>Новый экземпляр класса <see cref="T:System.Security.Cryptography.SHA256" />.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">Алгоритм использовался с включенным режимом FIPS, но не является FIPS-совместимым.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA384">
+      <summary>Вычисляет хэш <see cref="T:System.Security.Cryptography.SHA384" /> для входных данных.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA384.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.SHA384" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA384.Create">
+      <summary>Создает экземпляр реализации класса <see cref="T:System.Security.Cryptography.SHA384" /> по умолчанию.</summary>
+      <returns>Новый экземпляр <see cref="T:System.Security.Cryptography.SHA384" />.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">Алгоритм использовался с включенным режимом FIPS, но не является FIPS-совместимым.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA512">
+      <summary>Вычисляет хэш <see cref="T:System.Security.Cryptography.SHA512" /> для входных данных.  </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA512.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.SHA512" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA512.Create">
+      <summary>Создает экземпляр реализации класса <see cref="T:System.Security.Cryptography.SHA512" /> по умолчанию.</summary>
+      <returns>Новый экземпляр <see cref="T:System.Security.Cryptography.SHA512" />.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">Алгоритм использовался с включенным режимом FIPS, но не является FIPS-совместимым.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+  </members>
+</doc>

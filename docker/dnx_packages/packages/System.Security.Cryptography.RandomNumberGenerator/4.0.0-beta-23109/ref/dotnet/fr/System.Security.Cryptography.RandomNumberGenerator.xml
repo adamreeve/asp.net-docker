@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RandomNumberGenerator</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.RandomNumberGenerator">
+      <summary>Représente la classe abstraite dont toutes les implémentations des générateurs de nombres aléatoires de chiffrement doivent hériter.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.#ctor">
+      <summary>Initialise une nouvelle instance de <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Create">
+      <summary>En cas de substitution dans une classe dérivée, crée une instance de l'implémentation par défaut d'un générateur de nombres aléatoires de chiffrement permettant de générer des données aléatoires.</summary>
+      <returns>Nouvelle instance d'un générateur de nombres aléatoires de chiffrement.</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose">
+      <summary>En cas de substitution dans une classe dérivée, libère toutes les ressources utilisées par l'instance actuelle de la classe <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose(System.Boolean)">
+      <summary>En cas de substitution dans une classe dérivée, libère les ressources non managées utilisées par <see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> et libère éventuellement les ressources managées.</summary>
+      <param name="disposing">true pour libérer les ressources managées et non managées ; false pour ne libérer que les ressources non managées.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.GetBytes(System.Byte[])">
+      <summary>En cas de substitution dans une classe dérivée, remplit un tableau d'octets avec une séquence de valeurs aléatoire et forte du point de vue du chiffrement.</summary>
+      <param name="data">Tableau à remplir avec les octets aléatoires forts du point de vue du chiffrement. </param>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HashAlgorithm">
+      <summary>Rappresenta la classe base dalla quale devono derivare tutte le implementazioni degli algoritmi hash di crittografia.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.#ctor">
+      <summary>Inizializza una nuova istanza della classe <see cref="T:System.Security.Cryptography.HashAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])">
+      <summary>Calcola il valore hash della matrice di byte specificata.</summary>
+      <returns>Codice hash calcolato.</returns>
+      <param name="buffer">Input per il quale calcolare il codice hash. </param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> è null.</exception>
+      <exception cref="T:System.ObjectDisposedException">L'oggetto è già stato eliminato.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[],System.Int32,System.Int32)">
+      <summary>Calcola il valore hash dell'area specifica della matrice di byte specificata.</summary>
+      <returns>Codice hash calcolato.</returns>
+      <param name="buffer">Input per il quale calcolare il codice hash. </param>
+      <param name="offset">Offset nella matrice di byte dal quale iniziare a usare i dati. </param>
+      <param name="count">Numero di byte nella matrice da usare come dati. </param>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="count" />è un valore non valido.-oppure-La lunghezza di <paramref name="buffer" /> non è valida.</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> è null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> non è compreso nell'intervallo consentito.Per questo parametro è richiesto un numero non negativo.</exception>
+      <exception cref="T:System.ObjectDisposedException">L'oggetto è già stato eliminato.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)">
+      <summary>Calcola il valore hash per l'oggetto <see cref="T:System.IO.Stream" /> specificato.</summary>
+      <returns>Codice hash calcolato.</returns>
+      <param name="inputStream">Input per il quale calcolare il codice hash. </param>
+      <exception cref="T:System.ObjectDisposedException">L'oggetto è già stato eliminato.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose">
+      <summary>Rilascia tutte le risorse usate dall'istanza corrente della classe <see cref="T:System.Security.Cryptography.HashAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose(System.Boolean)">
+      <summary>Rilascia le risorse non gestite usate da <see cref="T:System.Security.Cryptography.HashAlgorithm" /> e, facoltativamente, le risorse gestite.</summary>
+      <param name="disposing">true per rilasciare sia le risorse gestite sia quelle non gestite; false per rilasciare solo le risorse non gestite. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>Quando ne viene eseguito l'override in una classe derivata, indirizza i dati scritti nell'oggetto verso l'algoritmo hash per il calcolo dell'hash.</summary>
+      <param name="array">Input per il quale calcolare il codice hash. </param>
+      <param name="ibStart">Offset nella matrice di byte dal quale iniziare a usare i dati. </param>
+      <param name="cbSize">Numero di byte nella matrice da usare come dati. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashFinal">
+      <summary>Quando ne viene eseguito l'override in una classe derivata, finalizza il calcolo hash una volta che gli ultimi dati sono stati elaborati dall'oggetto flusso crittografato.</summary>
+      <returns>Codice hash calcolato.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HashAlgorithm.HashSize">
+      <summary>Ottiene la dimensione in bit del codice hash calcolato.</summary>
+      <returns>Dimensione in bit del codice hash calcolato.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Initialize">
+      <summary>Inizializza un'implementazione della classe <see cref="T:System.Security.Cryptography.HashAlgorithm" />.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.HMAC">
+      <summary>Rappresenta la classe astratta dalla quale devono derivare tutte le implementazioni del codice HMAC (Hash-based Message Authentication Code).</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.#ctor">
+      <summary>Inizializza una nuova istanza della classe <see cref="T:System.Security.Cryptography.HMAC" />. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Dispose(System.Boolean)">
+      <summary>Libera le risorse non gestite usate dalla classe <see cref="T:System.Security.Cryptography.HMAC" /> quando è lecito lo scambio delle chiavi ed eventualmente libera le risorse gestite.</summary>
+      <param name="disposing">true per rilasciare sia le risorse gestite sia quelle non gestite; false per rilasciare solo le risorse non gestite. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>Quando ne viene eseguito l'override, indirizza i dati scritti nell'oggetto verso l'algoritmo hash <see cref="T:System.Security.Cryptography.HMAC" /> predefinito per il calcolo del valore hash.</summary>
+      <param name="rgb">Dati di input. </param>
+      <param name="ib">Offset nella matrice di byte dal quale iniziare a usare i dati. </param>
+      <param name="cb">Numero di byte nella matrice da usare come dati. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashFinal">
+      <summary>Quando ne viene eseguito l'override in una classe derivata, finalizza il calcolo hash una volta che gli ultimi dati sono stati elaborati dall'oggetto flusso crittografato.</summary>
+      <returns>Codice hash calcolato in una matrice di byte.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.HashName">
+      <summary>Ottiene o imposta il nome dell'algoritmo hash da usare per la generazione di un hash.</summary>
+      <returns>Nome dell'algoritmo hash.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">L'algoritmo hash corrente non può essere modificato.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Initialize">
+      <summary>Inizializza un'istanza dell'implementazione predefinita di <see cref="T:System.Security.Cryptography.HMAC" />.</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.Key">
+      <summary>Ottiene o imposta la chiave da usare nell'algoritmo hash.</summary>
+      <returns>Chiave da usare nell'algoritmo hash.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Viene effettuato un tentativo di modificare la proprietà <see cref="P:System.Security.Cryptography.HMAC.Key" /> dopo l'inizio della generazione di un hash. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.KeyedHashAlgorithm">
+      <summary>Rappresenta la classe astratta dalla quale devono derivare tutte le implementazioni degli algoritmi hash con chiave. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.#ctor">
+      <summary>Inizializza una nuova istanza della classe <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.Dispose(System.Boolean)">
+      <summary>Rilascia le risorse non gestite usate da <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" /> e, facoltativamente, le risorse gestite.</summary>
+      <param name="disposing">true per rilasciare sia le risorse gestite sia quelle non gestite; false per rilasciare solo le risorse non gestite. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeyedHashAlgorithm.Key">
+      <summary>Ottiene o imposta la chiave da usare nell'algoritmo hash.</summary>
+      <returns>Chiave da usare nell'algoritmo hash.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">È stato effettuato un tentativo di modificare la proprietà <see cref="P:System.Security.Cryptography.KeyedHashAlgorithm.Key" /> dopo aver iniziato la generazione di hash. </exception>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RandomNumberGenerator</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.RandomNumberGenerator">
+      <summary>表示抽象類別 (Abstract Class)，密碼編譯亂數產生器的所有實作 (Implementation) 從它衍生。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> 的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Create">
+      <summary>在衍生類別中覆寫時，建立預設的密碼編譯亂數產生器實作的執行個體，此產生器可以用來產生隨機資料。</summary>
+      <returns>密碼編譯亂數產生器的新執行個體。</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose">
+      <summary>在衍生類別中覆寫時，將目前 <see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> 類別的執行個體所使用的所有資源全部釋出。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose(System.Boolean)">
+      <summary>當在衍生類別中覆寫時，釋放 <see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> 所使用的 Unmanaged 資源，並選擇性釋放 Managed 資源。</summary>
+      <param name="disposing">true 表示釋放 Managed 和 Unmanaged 資源，false 則表示只釋放 Unmanaged 資源。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.GetBytes(System.Byte[])">
+      <summary>在衍生類別中覆寫時，將在密碼編譯方面強式的隨機值序列填入位元組陣列。</summary>
+      <param name="data">要將在密碼編譯方面強式的隨機位元組填入的陣列。</param>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Encryption.Aes</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.Aes">
+      <summary>表示高级加密标准 (AES) 的所有实现都必须从中继承的抽象基类。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.Aes.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.Aes" /> 类的新实例。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.Aes.Create">
+      <summary>创建用于执行对称算法的加密对象。</summary>
+      <returns>用于执行对称算法的加密对象。</returns>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Encryption.Aes</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.Aes">
+      <summary>表示抽象基底類別，先進加密標準 (AES) 的所有實作都必須繼承自該類別。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.Aes.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.Aes" /> 類別的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.Aes.Create">
+      <summary>建立用來執行對稱演算法的密碼編譯物件。</summary>
+      <returns>用來執行對稱演算法的密碼編譯物件。</returns>
+    </member>
+  </members>
+</doc>

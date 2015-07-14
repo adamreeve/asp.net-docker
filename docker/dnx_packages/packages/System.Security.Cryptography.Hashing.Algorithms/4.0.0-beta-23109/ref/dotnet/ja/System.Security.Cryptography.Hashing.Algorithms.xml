@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing.Algorithms</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HMACSHA1">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA1" /> ハッシュ関数を使用して、ハッシュ メッセージ認証コード (HMAC) を計算します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA1.#ctor">
+      <summary>ランダムに生成されたキーを指定して、<see cref="T:System.Security.Cryptography.HMACSHA1" /> クラスの新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA1.#ctor(System.Byte[])">
+      <summary>キー データを指定して、<see cref="T:System.Security.Cryptography.HMACSHA1" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA1" /> 暗号化の共有キー。キーは任意の長さにできますが、64 バイトを超えた場合は、SHA-1 を使用してハッシュされ、最終的には 64 バイトのキーが生成されます。したがって、共有キーの推奨サイズは 64 バイトです。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> パラメーターが null です。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA256">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA256" /> ハッシュ関数を使用して、ハッシュ メッセージ認証コード (HMAC) を計算します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA256.#ctor">
+      <summary>ランダムに生成されたキーを指定して、<see cref="T:System.Security.Cryptography.HMACSHA256" /> クラスの新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA256.#ctor(System.Byte[])">
+      <summary>キー データを指定して、<see cref="T:System.Security.Cryptography.HMACSHA256" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA256" /> 暗号化の共有キー。キーは任意の長さにできます。ただし、推奨されるサイズは 64 バイトです。キーの長さが 64 バイトを超えた場合は、SHA-256 を使用してハッシュされ、64 バイトのキーが生成されます。64 バイトよりも短い場合は、64 バイトまで埋められます。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> パラメーターが null です。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA384">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA384" /> ハッシュ関数を使用して、ハッシュ メッセージ認証コード (HMAC) を計算します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA384.#ctor">
+      <summary>ランダムに生成されたキーを使用して、<see cref="T:System.Security.Cryptography.HMACSHA384" /> クラスの新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA384.#ctor(System.Byte[])">
+      <summary>指定されたキー データを使用して、<see cref="T:System.Security.Cryptography.HMACSHA384" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA384" /> 暗号化の共有キー。キーは任意の長さにできます。ただし、推奨されるサイズは 128 バイトです。キーの長さが 128 バイトを超えた場合は、SHA-384 を使用してハッシュされ、128 バイトのキーが生成されます。128 バイトよりも短い場合は、128 バイトになるまで埋め込まれます。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> パラメーターが null です。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA512">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA512" /> ハッシュ関数を使用して、ハッシュ メッセージ認証コード (HMAC) を計算します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA512.#ctor">
+      <summary>ランダムに生成されたキーを指定して、<see cref="T:System.Security.Cryptography.HMACSHA512" /> クラスの新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA512.#ctor(System.Byte[])">
+      <summary>キー データを指定して、<see cref="T:System.Security.Cryptography.HMACSHA512" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA512" /> 暗号化の共有キー。キーは任意の長さにできます。ただし、推奨されるサイズは 128 バイトです。キーの長さが 128 バイトを超えた場合は、SHA-512 を使用してハッシュされ、128 バイトのキーが生成されます。128 バイトよりも短い場合は、128 バイトになるまで埋め込まれます。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> パラメーターが null です。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.MD5">
+      <summary>
+        <see cref="T:System.Security.Cryptography.MD5" /> ハッシュ アルゴリズムのすべての実装が継承する、抽象クラスを表します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.MD5.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.MD5" /> の新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.MD5.Create">
+      <summary>
+        <see cref="T:System.Security.Cryptography.MD5" /> ハッシュ アルゴリズムの既定の実装のインスタンスを作成します。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.MD5" /> ハッシュ アルゴリズムの新しいインスタンス。</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">連邦情報処理規格 (FIPS: Federal Information Processing Standard) モードが有効になっていますが、このアルゴリズムは、FIPS 準拠ではありません。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA1">
+      <summary>入力データの <see cref="T:System.Security.Cryptography.SHA1" /> ハッシュを計算します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA1.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA1" /> の新しいインスタンスを初期化します。</summary>
+      <exception cref="T:System.InvalidOperationException">このオブジェクトのポリシーは、FIPS アルゴリズムに準拠していません。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA1.Create">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA1" /> の既定の実装のインスタンスを作成します。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA1" /> の新しいインスタンス。</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA256">
+      <summary>入力データの <see cref="T:System.Security.Cryptography.SHA256" /> ハッシュを計算します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA256.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA256" /> の新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA256.Create">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA256" /> の既定の実装のインスタンスを作成します。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA256" /> の新しいインスタンス。</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">連邦情報処理規格 (FIPS: Federal Information Processing Standard) モードが有効になっていますが、このアルゴリズムは、FIPS 準拠ではありません。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA384">
+      <summary>入力データの <see cref="T:System.Security.Cryptography.SHA384" /> ハッシュを計算します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA384.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA384" /> の新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA384.Create">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA384" /> の既定の実装のインスタンスを作成します。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA384" /> の新しいインスタンス。</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">連邦情報処理規格 (FIPS: Federal Information Processing Standard) モードが有効になっていますが、このアルゴリズムは、FIPS 準拠ではありません。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA512">
+      <summary>入力データの <see cref="T:System.Security.Cryptography.SHA512" /> ハッシュを計算します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA512.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA512" /> の新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA512.Create">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA512" /> の既定の実装のインスタンスを作成します。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA512" /> の新しいインスタンス。</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">連邦情報処理規格 (FIPS: Federal Information Processing Standard) モードが有効になっていますが、このアルゴリズムは、FIPS 準拠ではありません。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+  </members>
+</doc>

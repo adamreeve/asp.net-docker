@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Encryption</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.AsymmetricAlgorithm">
+      <summary>Representa la clase base abstracta de la que deben heredarse todas las implementaciones de algoritmos asimétricos.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.#ctor">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" />.</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">La implementación de la clase derivada no es válida. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.Dispose">
+      <summary>Libera todos los recursos usados por la instancia actual de la clase <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.Dispose(System.Boolean)">
+      <summary>Libera los recursos no administrados usados que usa la clase <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> y, de forma opcional, libera los recursos administrados.</summary>
+      <param name="disposing">Es true para liberar tanto recursos administrados como no administrados; es false para liberar únicamente recursos no administrados. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.AsymmetricAlgorithm.KeySize">
+      <summary>Obtiene o establece el tamaño, en bits, del módulo de claves que usa el algoritmo asimétrico.</summary>
+      <returns>Tamaño, en bits, del módulo de claves que usa el algoritmo asimétrico.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">El tamaño del módulo de claves no es válido. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes">
+      <summary>Obtiene los tamaños de clave que admite el algoritmo asimétrico.</summary>
+      <returns>Matriz que contiene los tamaños de clave admitidos por el algoritmo asimétrico.</returns>
+    </member>
+    <member name="T:System.Security.Cryptography.CipherMode">
+      <summary>Especifica el modo de cifrado de bloques que se utilizará para cifrar.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.CBC">
+      <summary>El modo Cipher Block Chaining (CBC) incluye información de cifrados anteriores.Antes de cifrarse cada bloque de texto sin formato, cada uno de ellos se combina con el texto de cifrado del bloque anterior mediante una operación OR exclusiva bit a bit.Esto garantiza que, aunque el texto sin formato contenga muchos bloques idénticos, cada uno de ellos se cifrará en un bloque de texto de cifrado distinto.El vector de inicialización se combina con el primer bloque de texto sin formato mediante una operación OR exclusiva bit a bit antes de cifrar el bloque.Si se trastoca un único bit del bloque de texto de cifrado, se trastoca también el bloque de texto sin formato correspondiente.Asimismo, se trastocará el bit del bloque siguiente que se encuentra en la misma posición que el bit trastocado original.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.CTS">
+      <summary>El modo Cipher Text Stealing (CTS) controla el texto sin formato de cualquier tamaño y produce texto de cifrado cuya longitud coincide con la del texto sin formato.Este modo se comporta igual que el modo CBC para todos los bloques excepto para los dos últimos del texto sin formato.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.ECB">
+      <summary>El modo Electronic Codebook (ECB) cifra cada bloque por separado.Los bloques de texto sin formato que sean idénticos y estén en el mismo mensaje, o en uno diferente cifrado con la misma clave, se convertirán en bloques de texto de cifrado idénticos.Importante: no se recomienda este modo porque representa un riesgo para la seguridad.Si el texto sin formato que se va a cifrar contiene muchas repeticiones, es posible que el texto de cifrado se divida en un bloque cada vez.También es posible usar el análisis de bloques para determinar la clave de cifrado.Un adversario activo también puede sustituir e intercambiar bloques individuales sin ser detectado, lo que permite guardar los bloques e insertarlos en la secuencia en otros puntos sin que se advierta.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptographicException">
+      <summary>Excepción que se produce cuando se produce un error durante una operación criptográfica.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.CryptographicException" /> con propiedades predeterminadas.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.Int32)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.CryptographicException" /> con el código de error HRESULT especificado.</summary>
+      <param name="hr">Código de error HRESULT. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.CryptographicException" /> con el mensaje de error especificado.</summary>
+      <param name="message">Mensaje de error que explica la razón de la excepción. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.Exception)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.CryptographicException" /> con el mensaje de error especificado y una referencia a la excepción interna que causó esta excepción.</summary>
+      <param name="message">Mensaje de error que explica la razón de la excepción. </param>
+      <param name="inner">La excepción que es la causa de la excepción actual.Si el parámetro <paramref name="inner" /> no es null, la excepción actual se produce en un bloque catch que controla la excepción interna.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.String)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.CryptographicException" /> con un mensaje de error especificado en el formato indicado.</summary>
+      <param name="format">Formato utilizado para generar el mensaje de error. </param>
+      <param name="insert">Mensaje de error que explica la razón de la excepción. </param>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptoStream">
+      <summary>Define un flujo que vincula flujos de datos a transformaciones criptográficas.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.#ctor(System.IO.Stream,System.Security.Cryptography.ICryptoTransform,System.Security.Cryptography.CryptoStreamMode)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.CryptoStream" /> con un flujo de datos de destino, la transformación que se va a usar y el modo del flujo.</summary>
+      <param name="stream">Flujo en el que se realiza la transformación criptográfica. </param>
+      <param name="transform">Transformación criptográfica que se va a realizar en el flujo. </param>
+      <param name="mode">Uno de los valores de <see cref="T:System.Security.Cryptography.CryptoStreamMode" />. </param>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> no es legible.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> no es de escritura.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> no es válido.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanRead">
+      <summary>Obtiene un valor que indica si el flujo <see cref="T:System.Security.Cryptography.CryptoStream" /> actual se puede leer.</summary>
+      <returns>true si el flujo actual se puede leer; en caso contrario, false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanSeek">
+      <summary>Obtiene un valor que indica si se puede buscar en el flujo <see cref="T:System.Security.Cryptography.CryptoStream" /> actual.</summary>
+      <returns>Siempre es false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanWrite">
+      <summary>Obtiene un valor que indica si se puede escribir en el flujo <see cref="T:System.Security.Cryptography.CryptoStream" /> actual.</summary>
+      <returns>true si se puede escribir en el flujo actual; en caso contrario, false.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Dispose(System.Boolean)">
+      <summary>Libera los recursos no administrados que usa <see cref="T:System.Security.Cryptography.CryptoStream" /> y libera los recursos administrados de forma opcional.</summary>
+      <param name="disposing">Es true para liberar tanto recursos administrados como no administrados; es false para liberar únicamente recursos no administrados. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Flush">
+      <summary>Borra todos los búferes del flujo actual y hace que todos los datos almacenados en el búfer se escriban en el dispositivo subyacente.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.FlushAsync(System.Threading.CancellationToken)">
+      <summary>Borra todos los búferes del flujo actual de modo asincrónico, hace que todos los datos almacenados en el búfer se escriban en el dispositivo subyacente y supervisa las solicitudes de cancelación.</summary>
+      <returns>Tarea que representa la operación de vaciado asincrónico.</returns>
+      <param name="cancellationToken">Token para supervisar solicitudes de cancelación.El valor predeterminado es <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <exception cref="T:System.ObjectDisposedException">Se ha eliminado la secuencia.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.FlushFinalBlock">
+      <summary>Actualiza el origen de datos o repositorio subyacente con el estado actual del búfer y, posteriormente, borra el búfer.</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">La clave está dañada, lo que puede producir un relleno no válido en el flujo. </exception>
+      <exception cref="T:System.NotSupportedException">No se puede escribir en la secuencia actual.o bien El bloque final ya se ha transformado. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.HasFlushedFinalBlock">
+      <summary>Obtiene un valor que indica si el bloque de búferes final se escribió en el flujo subyacente. </summary>
+      <returns>true si se vació el bloque final; de lo contrario, false. </returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.Length">
+      <summary>Devuelve la longitud en bytes del flujo.</summary>
+      <returns>Esta propiedad no es compatible.</returns>
+      <exception cref="T:System.NotSupportedException">Esta propiedad no es compatible. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.Position">
+      <summary>Obtiene o establece la posición en el flujo actual.</summary>
+      <returns>Esta propiedad no es compatible.</returns>
+      <exception cref="T:System.NotSupportedException">Esta propiedad no es compatible. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Read(System.Byte[],System.Int32,System.Int32)">
+      <summary>Lee una secuencia de bytes en el flujo actual y avanza la posición en el flujo según el número de bytes leídos.</summary>
+      <returns>Número total de bytes leídos en el búfer.Puede ser menor que el número de bytes solicitado si dicho número de bytes no está disponible en la actualidad, o puede ser cero si se alcanza el final del flujo.</returns>
+      <param name="buffer">Matriz de bytes.Se lee un número máximo de bytes (<paramref name="count" />) en el flujo actual y se almacena en el <paramref name="buffer" />.</param>
+      <param name="offset">Posición de desplazamiento en bytes en el <paramref name="buffer" /> donde se comienzan a almacenar los datos leídos en el flujo actual. </param>
+      <param name="count">Número máximo de bytes que se deben leer de la secuencia actual. </param>
+      <exception cref="T:System.NotSupportedException">El <see cref="T:System.Security.Cryptography.CryptoStreamMode" /> asociados a <see cref="T:System.Security.Cryptography.CryptoStream" /> objeto no coincide con la secuencia subyacente.Por ejemplo, esta excepción se produce cuando se utiliza <see cref="F:System.Security.Cryptography.CryptoStreamMode.Read" /> con un flujo subyacente que es de sólo escritura.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">El <paramref name="offset" /> parámetro es menor que cero.o bien El <paramref name="count" /> parámetro es menor que cero. </exception>
+      <exception cref="T:System.ArgumentException">La suma de los <paramref name="count" /> y <paramref name="offset" /> parámetros es más larga que la longitud del búfer. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+      <summary>Lee de forma asincrónica una secuencia de bytes en el flujo actual, avanza la posición en el flujo según el número de bytes leídos y supervisa las solicitudes de cancelación.</summary>
+      <returns>Tarea que representa la operación de lectura asincrónica.El valor del parámetro <paramref name="TResult" /> del objeto de tarea contiene el número total de bytes leídos en el búfer.El resultado puede ser menor que el número de bytes solicitados si el número de bytes disponibles es menor que el número solicitado, o puede ser 0 (cero) si se ha llegado al final del flujo.</returns>
+      <param name="buffer">Búfer en el que se escriben los datos.</param>
+      <param name="offset">Posición de desplazamiento en bytes de <paramref name="buffer" /> donde se comienza a escribir los datos del flujo.</param>
+      <param name="count">Número máximo de bytes que se pueden leer.</param>
+      <param name="cancellationToken">Token para supervisar solicitudes de cancelación.El valor predeterminado es <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <exception cref="T:System.ArgumentNullException">El valor de <paramref name="buffer" /> es null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> o <paramref name="count" /> es negativo.</exception>
+      <exception cref="T:System.ArgumentException">La suma de <paramref name="offset" /> y <paramref name="count" /> es mayor que la longitud del búfer.</exception>
+      <exception cref="T:System.NotSupportedException">La secuencia no admite lectura.</exception>
+      <exception cref="T:System.ObjectDisposedException">Se ha eliminado la secuencia.</exception>
+      <exception cref="T:System.InvalidOperationException">La secuencia está actualmente en uso por una operación de lectura anterior. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Seek(System.Int64,System.IO.SeekOrigin)">
+      <summary>Establece la posición en el flujo actual.</summary>
+      <returns>No se admite este método.</returns>
+      <param name="offset">Desplazamiento de bytes relacionado con el parámetro <paramref name="origin" />. </param>
+      <param name="origin">Objeto <see cref="T:System.IO.SeekOrigin" /> que indica el punto de referencia que se usa para obtener la nueva posición. </param>
+      <exception cref="T:System.NotSupportedException">No se admite este método. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.SetLength(System.Int64)">
+      <summary>Establece la longitud del flujo actual.</summary>
+      <param name="value">Longitud deseada de la secuencia actual, en bytes. </param>
+      <exception cref="T:System.NotSupportedException">Esta propiedad sólo existe para admitir la herencia de <see cref="T:System.IO.Stream" />, y no puede utilizarse.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Write(System.Byte[],System.Int32,System.Int32)">
+      <summary>Escribe una secuencia de bytes en el flujo <see cref="T:System.Security.Cryptography.CryptoStream" /> actual y avanza la posición actual en el flujo según el número de bytes escritos.</summary>
+      <param name="buffer">Matriz de bytes.Este método copia <paramref name="count" /> bytes desde <paramref name="buffer" /> al flujo actual.</param>
+      <param name="offset">Posición de desplazamiento en bytes en el <paramref name="buffer" /> donde se comienzan a copiar los datos en el flujo actual. </param>
+      <param name="count">Número de bytes que se deben escribir en la secuencia actual. </param>
+      <exception cref="T:System.NotSupportedException">El <see cref="T:System.Security.Cryptography.CryptoStreamMode" /> asociados a <see cref="T:System.Security.Cryptography.CryptoStream" /> objeto no coincide con la secuencia subyacente.Por ejemplo, esta excepción se produce cuando se utiliza <see cref="F:System.Security.Cryptography.CryptoStreamMode.Write" />  con un flujo subyacente que es de solo lectura.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">El <paramref name="offset" /> parámetro es menor que cero.o bien El <paramref name="count" /> parámetro es menor que cero. </exception>
+      <exception cref="T:System.ArgumentException">La suma de los <paramref name="count" /> y <paramref name="offset" /> parámetros es más larga que la longitud del búfer. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+      <summary>Escribe de forma asincrónica una secuencia de bytes en el flujo actual, avanza la posición actual en el flujo según el número de bytes escritos y supervisa las solicitudes de cancelación.</summary>
+      <returns>Tarea que representa la operación de escritura asincrónica.</returns>
+      <param name="buffer">Búfer del que se van a escribir datos.</param>
+      <param name="offset">Desplazamiento en bytes de base cero en el <paramref name="buffer" /> desde donde se comienzan a escribir los datos en el flujo.</param>
+      <param name="count">Número máximo de bytes que se pueden escribir.</param>
+      <param name="cancellationToken">Token para supervisar solicitudes de cancelación.El valor predeterminado es <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <exception cref="T:System.ArgumentNullException">El valor de <paramref name="buffer" /> es null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> o <paramref name="count" /> es negativo.</exception>
+      <exception cref="T:System.ArgumentException">La suma de <paramref name="offset" /> y <paramref name="count" /> es mayor que la longitud del búfer.</exception>
+      <exception cref="T:System.NotSupportedException">La secuencia no es compatible con la escritura.</exception>
+      <exception cref="T:System.ObjectDisposedException">Se ha eliminado la secuencia.</exception>
+      <exception cref="T:System.InvalidOperationException">La secuencia está actualmente en uso por una operación de escritura anterior. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptoStreamMode">
+      <summary>Especifica el modo de una secuencia criptográfica.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CryptoStreamMode.Read">
+      <summary>Acceso de lectura a una secuencia criptográfica.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CryptoStreamMode.Write">
+      <summary>Acceso de escritura a una secuencia criptográfica.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.ICryptoTransform">
+      <summary>Define las operaciones básicas de las transformaciones criptográficas.</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.CanReuseTransform">
+      <summary>Obtiene un valor que indica si la transformación actual puede reutilizarse.</summary>
+      <returns>Es true si el control se puede seleccionar; en caso contrario, es false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.CanTransformMultipleBlocks">
+      <summary>Obtiene un valor que indica si se pueden transformar varios bloques.</summary>
+      <returns>true si se pueden transformar varios bloques; en caso contrario, false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.InputBlockSize">
+      <summary>Obtiene el tamaño del bloque de entrada.</summary>
+      <returns>Tamaño de los bloques de datos de entrada en bytes.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.OutputBlockSize">
+      <summary>Obtiene el tamaño del bloque de salida.</summary>
+      <returns>Tamaño de los bloques de datos de salida en bytes.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.ICryptoTransform.TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)">
+      <summary>Transforma la región especificada de la matriz de bytes de entrada y copia la transformación resultante en la región indicada de la matriz de bytes de salida.</summary>
+      <returns>Número de bytes escritos.</returns>
+      <param name="inputBuffer">Entrada a partir de la cual se calcula la transformación. </param>
+      <param name="inputOffset">Desplazamiento en la matriz de bytes de entrada a partir del cual se van a empezar a usar los datos. </param>
+      <param name="inputCount">Número de bytes de la matriz de bytes de entrada que se van a utilizar como datos. </param>
+      <param name="outputBuffer">Salida en la que se escribe la transformación. </param>
+      <param name="outputOffset">Desplazamiento en la matriz de bytes de salida a partir del cual se van a empezar a escribir los datos. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.ICryptoTransform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)">
+      <summary>Transforma la región especificada de la matriz de bytes indicada.</summary>
+      <returns>La transformación calculada.</returns>
+      <param name="inputBuffer">Entrada a partir de la cual se calcula la transformación. </param>
+      <param name="inputOffset">Desplazamiento en la matriz de bytes a partir del cual se van a empezar a usar los datos. </param>
+      <param name="inputCount">Número de bytes de la matriz de bytes que se van a utilizar como datos. </param>
+    </member>
+    <member name="T:System.Security.Cryptography.KeySizes">
+      <summary>Determina el conjunto de tamaños de clave válidos para los algoritmos criptográficos simétricos.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeySizes.#ctor(System.Int32,System.Int32,System.Int32)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.KeySizes" /> con los valores de clave especificados.</summary>
+      <param name="minSize">Mínimo tamaño de clave válido. </param>
+      <param name="maxSize">Máximo tamaño de clave válido. </param>
+      <param name="skipSize">Intervalo entre tamaños de clave válidos. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.MaxSize">
+      <summary>Especifica el máximo tamaño de clave en bits.</summary>
+      <returns>Máximo tamaño de clave en bits.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.MinSize">
+      <summary>Especifica el tamaño mínimo de clave en bits.</summary>
+      <returns>El tamaño mínimo de clave en bits.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.SkipSize">
+      <summary>Especifica el intervalo entre tamaños de clave válidos en bits.</summary>
+      <returns>El intervalo entre tamaños de clave válidos en bits.</returns>
+    </member>
+    <member name="T:System.Security.Cryptography.PaddingMode">
+      <summary>Especifica el tipo de relleno que se aplica cuando el bloque de datos del mensaje es más pequeño que el número total de bytes necesarios para una operación criptográfica.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.None">
+      <summary>No se ha aplicado el relleno.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.PKCS7">
+      <summary>La cadena de relleno PKCS #7 consta de una secuencia de bytes, en la que cada byte es igual al número total de bytes de relleno agregados. </summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.Zeros">
+      <summary>La cadena de relleno consta de bytes establecidos en cero.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.SymmetricAlgorithm">
+      <summary>Representa la clase base abstracta de la que deben heredarse todas las implementaciones de algoritmos simétricos.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.#ctor">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" />.</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">La implementación de la clase derivada del algoritmo simétrico no es válida.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.BlockSize">
+      <summary>Obtiene o establece el tamaño del bloque de la operación criptográfica en bits.</summary>
+      <returns>Tamaño del bloque en bits.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">El tamaño de bloque no es válido. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor">
+      <summary>Crea un objeto descifrador simétrico con la propiedad <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> y el vector de inicialización (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) actuales.</summary>
+      <returns>Objeto descifrador simétrico.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor(System.Byte[],System.Byte[])">
+      <summary>Cuando se invalida en una clase derivada, crea un objeto descifrador simétrico con la propiedad <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> y el vector de inicialización (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) especificados.</summary>
+      <returns>Objeto descifrador simétrico.</returns>
+      <param name="rgbKey">Clave secreta que se va a usar para el algoritmo simétrico. </param>
+      <param name="rgbIV">Vector de inicialización que se va a usar para el algoritmo simétrico. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor">
+      <summary>Crea un objeto cifrador simétrico con la propiedad <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> y el vector de inicialización (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) actuales.</summary>
+      <returns>Objeto cifrador simétrico.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor(System.Byte[],System.Byte[])">
+      <summary>Cuando se invalida en una clase derivada, se crea un objeto cifrador simétrico con la propiedad <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> y el vector de inicialización (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) especificados.</summary>
+      <returns>Objeto cifrador simétrico.</returns>
+      <param name="rgbKey">Clave secreta que se va a usar para el algoritmo simétrico. </param>
+      <param name="rgbIV">Vector de inicialización que se va a usar para el algoritmo simétrico. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.Dispose">
+      <summary>Libera todos los recursos usados por la instancia actual de la clase <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.Dispose(System.Boolean)">
+      <summary>Libera los recursos no administrados que usa <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" /> y libera los recursos administrados de forma opcional.</summary>
+      <param name="disposing">Es true para liberar tanto recursos administrados como no administrados; es false para liberar únicamente recursos no administrados. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.GenerateIV">
+      <summary>Cuando se invalida en una clase derivada, genera un vector de inicialización aleatorio (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />), que se usa para el algoritmo.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.GenerateKey">
+      <summary>Cuando se invalida en una clase derivada, genera una clave aleatoria (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" />), que se usa para el algoritmo. </summary>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.IV">
+      <summary>Obtiene o establece el vector de inicialización (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) del algoritmo simétrico.</summary>
+      <returns>Vector de inicialización.</returns>
+      <exception cref="T:System.ArgumentNullException">Se ha intentado establecer el vector de inicialización null. </exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Se ha intentado establecer el vector de inicialización en un tamaño no válido. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Key">
+      <summary>Obtiene o establece la clave secreta del algoritmo simétrico.</summary>
+      <returns>Clave secreta que se va a usar para el algoritmo simétrico.</returns>
+      <exception cref="T:System.ArgumentNullException">Se intentó establecer la clave en null. </exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">El tamaño de clave no es válido.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.KeySize">
+      <summary>Obtiene o establece el tamaño de la clave secreta usada por el algoritmo simétrico en bits.</summary>
+      <returns>Tamaño de la clave secreta en bits usada por el algoritmo simétrico.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">El tamaño de clave no es válido. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes">
+      <summary>Obtiene los tamaños de bloque, en bits, admitidos por el algoritmo simétrico.</summary>
+      <returns>Matriz que contiene los tamaños de bloque admitidos por el algoritmo.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes">
+      <summary>Obtiene los tamaños de clave, en bits, admitidos por el algoritmo simétrico.</summary>
+      <returns>Matriz que contiene los tamaños de clave admitidos por el algoritmo.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Mode">
+      <summary>Obtiene o establece el modo de funcionamiento del algoritmo simétrico.</summary>
+      <returns>Modo de funcionamiento del algoritmo simétrico.De manera predeterminada, es <see cref="F:System.Security.Cryptography.CipherMode.CBC" />.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">El modo de cifrado no es uno de los <see cref="T:System.Security.Cryptography.CipherMode" /> valores. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Padding">
+      <summary>Obtiene o establece el modo de relleno usado en el algoritmo simétrico.</summary>
+      <returns>Modo de relleno usado en el algoritmo simétrico.De manera predeterminada, es <see cref="F:System.Security.Cryptography.PaddingMode.PKCS7" />.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">El modo de relleno no es uno de los <see cref="T:System.Security.Cryptography.PaddingMode" /> valores. </exception>
+    </member>
+  </members>
+</doc>

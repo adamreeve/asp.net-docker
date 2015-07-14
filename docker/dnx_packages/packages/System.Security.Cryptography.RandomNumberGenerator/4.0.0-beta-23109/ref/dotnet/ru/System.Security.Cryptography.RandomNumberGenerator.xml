@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RandomNumberGenerator</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.RandomNumberGenerator">
+      <summary>Представляет абстрактный класс, из которого создаются все реализации криптографических генераторов случайных чисел.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.#ctor">
+      <summary>Инициализирует новый экземпляр <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Create">
+      <summary>При переопределении в производном классе создает экземпляр реализации по умолчанию криптографического генератора случайных чисел, позволяющего генерировать случайные данные.</summary>
+      <returns>Новый экземпляр криптографического генератора случайных чисел.</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose">
+      <summary>Если переопределено в производном классе, освобождает все ресурсы, используемые текущим объектом <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose(System.Boolean)">
+      <summary>При переопределении в производном классе освобождает неуправляемые ресурсы, используемые объектом <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />, и опционально освобождает управляемые ресурсы.</summary>
+      <param name="disposing">Значение true позволяет освободить как управляемые, так и неуправляемые ресурсы; значение false освобождает только неуправляемые ресурсы.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.GetBytes(System.Byte[])">
+      <summary>При переопределении в производном классе заполняет массив байтов криптостойкой случайной последовательностью значений.</summary>
+      <param name="data">Массив, который заполняется криптостойкими случайными байтами. </param>
+    </member>
+  </members>
+</doc>

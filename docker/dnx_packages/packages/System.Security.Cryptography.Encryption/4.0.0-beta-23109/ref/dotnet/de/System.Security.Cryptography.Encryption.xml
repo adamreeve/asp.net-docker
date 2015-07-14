@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Encryption</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.AsymmetricAlgorithm">
+      <summary>Stellt die abstrakte Basisklasse dar, von der alle Implementierungen von asymmetrischen Algorithmen erben müssen.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.#ctor">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" />-Klasse.</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Die Implementierung der abgeleiteten Klasse ist nicht gültig. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.Dispose">
+      <summary>Gibt alle von der aktuellen Instanz der <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" />-Klasse verwendeten Ressourcen frei.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.Dispose(System.Boolean)">
+      <summary>Gibt die von der <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" />-Klasse verwendeten nicht verwalteten Ressourcen frei und gibt (optional) auch die verwalteten Ressourcen frei.</summary>
+      <param name="disposing">true, um sowohl verwaltete als auch nicht verwaltete Ressourcen freizugeben, false, um ausschließlich nicht verwaltete Ressourcen freizugeben. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.AsymmetricAlgorithm.KeySize">
+      <summary>Ruft die Größe des vom asymmetrischen Algorithmus verwendeten Schlüsselmodulos in Bits ab oder legt diese fest.</summary>
+      <returns>Die Größe des vom asymmetrischen Algorithmus verwendeten Schlüsselmodulos in Bits.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Die Größe des Schlüsselmodulos ist ungültig. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes">
+      <summary>Ruft die vom asymmetrischen Algorithmus unterstützten Schlüsselgrößen ab.</summary>
+      <returns>Ein Array, das die vom asymmetrischen Algorithmus unterstützten Schlüsselgrößen enthält.</returns>
+    </member>
+    <member name="T:System.Security.Cryptography.CipherMode">
+      <summary>Gibt den Blockverschlüsselungsmodus für die Verschlüsselung an.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.CBC">
+      <summary>Ein Modus, bei dem die Rückkopplung genutzt wird, ist der CBC-Modus (Cipher Block Chaining).Vor der Verschlüsselung jedes einzelnen Klartextblocks wird dieser durch eine bitweise exklusive OR-Operation mit dem Geheimtext des vorherigen Blocks kombiniert.Auch wenn der Klartext viele identische Blöcke enthält, wird hierdurch sichergestellt, dass jeder zu einem anderen Geheimtextblock verschlüsselt wird.Der Initialisierungsvektor wird durch eine bitweise exklusive OR-Operation mit dem ersten Klartextblock kombiniert, bevor der Block verschlüsselt wird.Wenn ein einzelnes Bit des Geheimtextblocks geändert wird, ändert sich auch der entsprechende Klartextblock.Außerdem wird ein Bit im folgenden Block an derselben Position wie das ursprüngliche geänderte Bit geändert.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.CTS">
+      <summary>Der CTS-Modus (Cipher Text Stealing) verarbeitet Klartext jeder Länge und erzeugt Geheimtext mit gleicher Länge.Bis auf die letzten zwei Blöcke des Klartextes entspricht dieser Modus in seiner Funktion dem CBC-Modus.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.ECB">
+      <summary>Im ECB-Modus (Electronic Codebook) wird jeder Block einzeln verschlüsselt.Alle identischen Klartextblöcke innerhalb einer Nachricht bzw. in unterschiedlichen Nachrichten, die mit demselben Schlüssel verschlüsselt wurden, werden in identische Geheimtextblöcke umgewandelt.Wichtig: Dieser Modus wird nicht empfohlen, da er eine Reihe von Sicherheitslücken eröffnet.Wenn der zu verschlüsselnde Klartext genügend viele Wiederholungen enthält, kann der Geheimtext blockweise entschlüsselt werden.Der Verschlüsselungsschlüssel kann auch mithilfe der Blockanalyse bestimmt werden.Darüber hinaus kann ein aktiver Angreifer einzelne Blöcke ohne Erkennung ersetzen und austauschen, wodurch Blöcke im Stream ohne Erkennung an anderen Positionen gespeichert und eingefügt werden können.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptographicException">
+      <summary>Die Ausnahme, die beim Auftreten eines Fehlers während einer kryptografischen Operation ausgelöst wird.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.CryptographicException" />-Klasse mit Standardeigenschaften.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.Int32)">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.CryptographicException" />-Klasse mit dem angegebenen HRESULT-Fehlercode.</summary>
+      <param name="hr">Der HRESULT-Fehlercode. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String)">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.CryptographicException" />-Klasse mit einer angegebenen Fehlermeldung.</summary>
+      <param name="message">Die Fehlermeldung, in der die Ursache der Ausnahme erklärt wird. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.Exception)">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.CryptographicException" />-Klasse mit einer angegebenen Fehlermeldung und einem Verweis auf die innere Ausnahme, die diese Ausnahme verursacht hat.</summary>
+      <param name="message">Die Fehlermeldung, in der die Ursache der Ausnahme erklärt wird. </param>
+      <param name="inner">Die Ausnahme, die die Ursache der aktuellen Ausnahme ist.Wenn der <paramref name="inner" />-Parameter nicht null ist, wird die aktuelle Ausnahme in einem catch-Block ausgelöst, der die innere Ausnahme behandelt.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.String)">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.CryptographicException" />-Klasse mit einer angegebenen Fehlermeldung im angegebenen Format.</summary>
+      <param name="format">Das für die Ausgabe der Fehlermeldung verwendete Format. </param>
+      <param name="insert">Die Fehlermeldung, in der die Ursache der Ausnahme erklärt wird. </param>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptoStream">
+      <summary>Definiert einen Stream, der Datenstreams mit kryptografischen Transformationen verknüpft.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.#ctor(System.IO.Stream,System.Security.Cryptography.ICryptoTransform,System.Security.Cryptography.CryptoStreamMode)">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.CryptoStream" />-Klasse mit einen Zieldatenstream, der zu verwendenden Transformation und dem Modus des Streams.</summary>
+      <param name="stream">Der Stream, für den die kryptografische Transformation ausgeführt werden soll. </param>
+      <param name="transform">Die kryptografische Transformation, die für den Stream ausgeführt werden soll. </param>
+      <param name="mode">Einer der <see cref="T:System.Security.Cryptography.CryptoStreamMode" />-Werte. </param>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> kann nicht gelesen werden.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> ist schreibgeschützt.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> ist ungültig.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanRead">
+      <summary>Ruft einen Wert ab, der angibt, ob der aktuelle <see cref="T:System.Security.Cryptography.CryptoStream" /> gelesen werden kann.</summary>
+      <returns>true, wenn der aktuelle Stream gelesen werden kann, andernfalls false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanSeek">
+      <summary>Ruft einen Wert ab, der angibt, ob der aktuelle <see cref="T:System.Security.Cryptography.CryptoStream" /> durchsucht werden kann.</summary>
+      <returns>Immer false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanWrite">
+      <summary>Ruft einen Wert ab, der angibt, ob in den aktuellen <see cref="T:System.Security.Cryptography.CryptoStream" /> geschrieben werden kann.</summary>
+      <returns>true, wenn in den aktuellen Stream geschrieben werden kann; andernfalls false.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Dispose(System.Boolean)">
+      <summary>Gibt die von <see cref="T:System.Security.Cryptography.CryptoStream" /> verwendeten nicht verwalteten Ressourcen und optional die verwalteten Ressourcen frei.</summary>
+      <param name="disposing">true, um sowohl verwaltete als auch nicht verwaltete Ressourcen freizugeben, false, um ausschließlich nicht verwaltete Ressourcen freizugeben. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Flush">
+      <summary>Löscht sämtliche Puffer für den aktuellen Stream und veranlasst die Ausgabe aller gepufferten Daten an das zugrunde liegenden Gerät.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.FlushAsync(System.Threading.CancellationToken)">
+      <summary>Löscht alle Puffer für den aktuellen Stream asynchron und veranlasst die Ausgabe aller gepufferten Daten an das zugrunde liegende Gerät und überwacht Abbruchanforderungen.</summary>
+      <returns>Eine Aufgabe, die die asynchrone Leerung darstellt.</returns>
+      <param name="cancellationToken">Das Token zum überwachen von Abbruchanforderungen .Der Standardwert ist <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <exception cref="T:System.ObjectDisposedException">Der Stream wurde freigegeben.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.FlushFinalBlock">
+      <summary>Aktualisiert die zugrunde liegende Datenquelle oder das Repository mit dem aktuellen Pufferzustand und löscht den Puffer anschließend.</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Der Schlüssel ist beschädigt. Dies kann zu ungültigen Füllzeichen im Stream führen. </exception>
+      <exception cref="T:System.NotSupportedException">Der aktuelle Stream ist nicht schreibbar.- oder -  Der letzte Block wurde bereits transformiert. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.HasFlushedFinalBlock">
+      <summary>Ruft einen Wert ab, der angibt, ob der abschließende Pufferblock in den zugrunde liegenden Stream geschrieben wurde. </summary>
+      <returns>true, wenn der abschließende Block geschrieben wurde, andernfalls false. </returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.Length">
+      <summary>Ruft die Länge des Streams in Bytes ab.</summary>
+      <returns>Diese Eigenschaft wird nicht unterstützt.</returns>
+      <exception cref="T:System.NotSupportedException">Diese Eigenschaft wird nicht unterstützt. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.Position">
+      <summary>Ruft die Position im aktuellen Stream ab oder legt diese fest.</summary>
+      <returns>Diese Eigenschaft wird nicht unterstützt.</returns>
+      <exception cref="T:System.NotSupportedException">Diese Eigenschaft wird nicht unterstützt. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Read(System.Byte[],System.Int32,System.Int32)">
+      <summary>Liest eine Bytesequenz aus dem aktuellen Stream und setzt die Position in diesem Stream um die Anzahl der gelesenen Bytes nach vorn.</summary>
+      <returns>Die Gesamtanzahl der in den Puffer gelesenen Bytes.Dies kann weniger als die Anzahl der angeforderten Bytes sein, wenn diese Anzahl an Bytes derzeit nicht verfügbar ist, oder 0 (null), wenn das Streamende erreicht ist.</returns>
+      <param name="buffer">Ein Bytearray.Aus dem aktuellen Stream werden maximal <paramref name="count" /> Bytes gelesen und im <paramref name="buffer" /> gespeichert.</param>
+      <param name="offset">Der Byteoffset im <paramref name="buffer" />, ab dem die aus dem aktuellen Stream gelesenen Daten gespeichert werden. </param>
+      <param name="count">Die maximale Anzahl an Bytes, die aus dem aktuellen Stream gelesen werden sollen. </param>
+      <exception cref="T:System.NotSupportedException">Der dem aktuellen <see cref="T:System.Security.Cryptography.CryptoStreamMode" />-Objekt zugeordnete <see cref="T:System.Security.Cryptography.CryptoStream" /> stimmt nicht mit dem zugrunde liegenden Stream überein.Diese Ausnahme wird beispielsweise ausgelöst, wenn <see cref="F:System.Security.Cryptography.CryptoStreamMode.Read" /> mit einem zugrunde liegenden Stream verwendet wird, für den die Zugriffsart Nur Schreiben gilt.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">Der <paramref name="offset" />-Parameter ist kleiner als 0 (null).- oder -  Der <paramref name="count" />-Parameter ist kleiner als 0 (null). </exception>
+      <exception cref="T:System.ArgumentException">Die Summe von <paramref name="count" />-Parameter und <paramref name="offset" />-Parameter ist größer als die Länge des Puffers. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+      <summary>Liest eine Folge von Bytes asynchron aus aktuellen Stream, erhöht die Position im Stream um die Anzahl der gelesenen Bytes und überwacht Abbruchanfragen.</summary>
+      <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des <paramref name="TResult" />-Parameters des Aufgabenobjekts enthält die Gesamtzahl der Bytes, die in den Puffer gelesen werden.Das Ergebnis kann weniger als die Anzahl der angeforderten Bytes sein, wenn die Anzahl an derzeit verfügbaren Bytes kleiner ist als die angeforderte Anzahl, oder sie kann 0 (null) sein, wenn das Streamende erreicht ist.</returns>
+      <param name="buffer">Der Puffer, in den die Daten geschrieben werden sollen.</param>
+      <param name="offset">Der Byteoffset im <paramref name="buffer" />, ab dem Daten aus dem Stream geschrieben werden.</param>
+      <param name="count">Die maximale Anzahl der zu lesenden Bytes.</param>
+      <param name="cancellationToken">Das Token zum überwachen von Abbruchanforderungen .Der Standardwert ist <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> ist null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> oder <paramref name="count" /> ist negativ.</exception>
+      <exception cref="T:System.ArgumentException">Die Summe aus <paramref name="offset" /> und <paramref name="count" /> ist größer als die Pufferlänge.</exception>
+      <exception cref="T:System.NotSupportedException">Lesevorgänge werden vom Stream nicht unterstützt.</exception>
+      <exception cref="T:System.ObjectDisposedException">Der Stream wurde freigegeben.</exception>
+      <exception cref="T:System.InvalidOperationException">Der Stream wird gerade durch einen früheren Lesevorgang. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Seek(System.Int64,System.IO.SeekOrigin)">
+      <summary>Legt die Position im aktuellen Stream fest.</summary>
+      <returns>Diese Methode wird nicht unterstützt.</returns>
+      <param name="offset">Ein Byteoffset relativ zum <paramref name="origin" />-Parameter. </param>
+      <param name="origin">Ein <see cref="T:System.IO.SeekOrigin" />-Objekt, das den Bezugspunkt angibt, von dem aus die neue Position ermittelt wird. </param>
+      <exception cref="T:System.NotSupportedException">Diese Methode wird nicht unterstützt. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.SetLength(System.Int64)">
+      <summary>Legt die Länge des aktuellen Streams fest.</summary>
+      <param name="value">Die gewünschte Länge des aktuellen Streams in Bytes. </param>
+      <exception cref="T:System.NotSupportedException">Diese Eigenschaft wird nicht verwendet und steht lediglich für die Unterstützung der Vererbung von <see cref="T:System.IO.Stream" /> bereit.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Write(System.Byte[],System.Int32,System.Int32)">
+      <summary>Schreibt eine Folge von Bytes in den aktuellen <see cref="T:System.Security.Cryptography.CryptoStream" /> und verschiebt die aktuelle Position in diesem Stream um die Anzahl der geschriebenen Bytes nach vorn.</summary>
+      <param name="buffer">Ein Bytearray.Diese Methode kopiert <paramref name="count" /> Bytes aus dem <paramref name="buffer" /> in den aktuellen Stream.</param>
+      <param name="offset">Der Byteoffset im <paramref name="buffer" />, ab dem Bytes in den aktuellen Stream kopiert werden. </param>
+      <param name="count">Die Anzahl an Bytes, die in den aktuellen Stream geschrieben werden sollen. </param>
+      <exception cref="T:System.NotSupportedException">Der dem aktuellen <see cref="T:System.Security.Cryptography.CryptoStreamMode" />-Objekt zugeordnete <see cref="T:System.Security.Cryptography.CryptoStream" /> stimmt nicht mit dem zugrunde liegenden Stream überein.Angenommen, diese Ausnahme wird ausgelöst, wenn <see cref="F:System.Security.Cryptography.CryptoStreamMode.Write" />  mit einem zugrunde liegenden Stream, die schreibgeschützt ist.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">Der <paramref name="offset" />-Parameter ist kleiner als 0 (null).- oder -  Der <paramref name="count" />-Parameter ist kleiner als 0 (null). </exception>
+      <exception cref="T:System.ArgumentException">Die Summe aus <paramref name="count" />-Parameter und <paramref name="offset" />-Parameter ist größer als die Länge des Puffers. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+      <summary>Schreibt eine Folge von Bytes asynchron in den aktuellen Stream und erhöht die aktuelle Position im Stream um die Anzahl der geschriebenen Bytes und überwacht Abbruchanforderungen.</summary>
+      <returns>Eine Aufgabe, die den asynchronen Schreibvorgang darstellt.</returns>
+      <param name="buffer">Der Puffer, aus dem Daten geschrieben werden sollen.</param>
+      <param name="offset">Der nullbasierte Byteoffset im <paramref name="buffer" />, ab dem Bytes in den Stream kopiert werden.</param>
+      <param name="count">Die maximale Anzahl der zu schreibenden Bytes.</param>
+      <param name="cancellationToken">Das Token zum überwachen von Abbruchanforderungen .Der Standardwert ist <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> ist null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> oder <paramref name="count" /> ist negativ.</exception>
+      <exception cref="T:System.ArgumentException">Die Summe aus <paramref name="offset" /> und <paramref name="count" /> ist größer als die Pufferlänge.</exception>
+      <exception cref="T:System.NotSupportedException">Der Stream unterstützt das Schreiben nicht.</exception>
+      <exception cref="T:System.ObjectDisposedException">Der Stream wurde freigegeben.</exception>
+      <exception cref="T:System.InvalidOperationException">Der Stream wird derzeit von einem vorherigen Schreibvorgang verwendet. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptoStreamMode">
+      <summary>Gibt den Modus eines kryptografischen Streams an.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CryptoStreamMode.Read">
+      <summary>Lesezugriff auf einen kryptografischen Stream.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CryptoStreamMode.Write">
+      <summary>Schreibzugriff auf einen kryptografischen Stream.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.ICryptoTransform">
+      <summary>Definiert die Grundoperationen von kryptografischen Transformationen.</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.CanReuseTransform">
+      <summary>Ruft einen Wert ab, der angibt, ob die aktuelle Transformation wiederverwendet werden kann.</summary>
+      <returns>true, wenn die aktuelle Transformation wiederverwendet werden kann, andernfalls false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.CanTransformMultipleBlocks">
+      <summary>Ruft einen Wert ab, der angibt, ob mehrere Blöcke transformiert werden können.</summary>
+      <returns>true, wenn mehrere Blöcke transformiert werden können, andernfalls false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.InputBlockSize">
+      <summary>Ruft die Größe des Eingabeblocks ab.</summary>
+      <returns>Die Größe des Eingabedatenblocks in Bytes.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.OutputBlockSize">
+      <summary>Ruft die Größe des Ausgabeblockes ab.</summary>
+      <returns>Die Größe des Ausgabedatenblockes in Bytes.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.ICryptoTransform.TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)">
+      <summary>Wandelt den angegebenen Bereich des Eingabebytearrays um und kopiert die resultierende Transformation in den angegebenen Bereich des Ausgabebytearrays.</summary>
+      <returns>Die Anzahl der geschriebenen Bytes.</returns>
+      <param name="inputBuffer">Die Eingabe, für die die Transformation errechnet werden soll. </param>
+      <param name="inputOffset">Der Offset im Eingabebytearray, ab dem Daten verwendet werden sollen. </param>
+      <param name="inputCount">Die Anzahl der Bytes im Eingabebytearray, die als Daten verwendet werden sollen. </param>
+      <param name="outputBuffer">Die Ausgabe, in die die Transformation geschrieben werden soll. </param>
+      <param name="outputOffset">Der Offset im Ausgabebytearray, ab dem Daten geschrieben werden sollen. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.ICryptoTransform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)">
+      <summary>Wandelt den angegebenen Bereich des angegebenen Bytearrays um.</summary>
+      <returns>Die berechnete Transformation.</returns>
+      <param name="inputBuffer">Die Eingabe, für die die Transformation errechnet werden soll. </param>
+      <param name="inputOffset">Der Offset im Bytearray, ab dem Daten verwendet werden sollen. </param>
+      <param name="inputCount">Die Anzahl der Bytes im Bytearray, die als Daten verwendet werden sollen. </param>
+    </member>
+    <member name="T:System.Security.Cryptography.KeySizes">
+      <summary>Bestimmt den Satz an gültigen Schlüsselgrößen für die symmetrischen kryptografischen Algorithmen.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeySizes.#ctor(System.Int32,System.Int32,System.Int32)">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.KeySizes" />-Klasse mit den angegebenen Schlüsselwerten.</summary>
+      <param name="minSize">Die kleinste gültige Schlüsselgröße. </param>
+      <param name="maxSize">Die größte gültige Schlüsselgröße. </param>
+      <param name="skipSize">Der Abstand zwischen gültigen Schlüsselgrößen. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.MaxSize">
+      <summary>Gibt die größte gültige Schlüsselgröße in Bits an.</summary>
+      <returns>Die größte gültige Schlüsselgröße in Bits.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.MinSize">
+      <summary>Gibt die kleinste gültige Schlüsselgröße in Bits an.</summary>
+      <returns>Die kleinste gültige Schlüsselgröße in Bits.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.SkipSize">
+      <summary>Gibt den Abstand zwischen gültigen Schlüsselgrößen in Bits an.</summary>
+      <returns>Der Abstand zwischen gültigen Schlüsselgrößen in Bits.</returns>
+    </member>
+    <member name="T:System.Security.Cryptography.PaddingMode">
+      <summary>Gibt die Art des Füllzeichens an, das verwendet werden soll, wenn der Nachrichtendatenblock kürzer ist als die Anzahl der Bytes, die für eine kryptographische Operation benötigt werden.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.None">
+      <summary>Es werden keine Füllzeichen eingefügt.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.PKCS7">
+      <summary>Die PKCS #7-Füllzeichenfolge besteht aus einer Folge von Bytes, von denen jede der Gesamtzahl der hinzugefügten Füllzeichenbytes entspricht. </summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.Zeros">
+      <summary>Die Füllzeichenfolge besteht aus auf 0 festgelegten Bytes.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.SymmetricAlgorithm">
+      <summary>Stellt die abstrakte Basisklasse dar, von der alle Implementierungen von symmetrischen Algorithmen erben müssen.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.#ctor">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" />-Klasse.</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Die Implementierung der vom symmetrischen Algorithmus abgeleiteten Klasse ist nicht gültig.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.BlockSize">
+      <summary>Ruft die Blockgröße des kryptografischen Vorgangs in Bits ab oder legt diese fest.</summary>
+      <returns>Die Blockgröße in Bits.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Die Blockgröße ist ungültig. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor">
+      <summary>Erstellt ein symmetrisches Entschlüsselungsobjekt mit der aktuellen <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" />-Eigenschaft und dem Initialisierungsvektor (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />).</summary>
+      <returns>Ein symmetrisches Entschlüsselungsobjekt.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor(System.Byte[],System.Byte[])">
+      <summary>Erstellt beim Überschreiben in einer abgeleiteten Klasse ein symmetrisches Entschlüsselungsobjekt mit der angegebenen <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" />-Eigenschaft und dem angegebenen Initialisierungsvektor (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />).</summary>
+      <returns>Ein symmetrisches Entschlüsselungsobjekt.</returns>
+      <param name="rgbKey">Der geheime Schlüssel, der für den symmetrischen Algorithmus verwendet werden soll. </param>
+      <param name="rgbIV">Der Initialisierungsvektor, der für den symmetrischen Algorithmus verwendet werden soll. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor">
+      <summary>Erstellt ein symmetrisches Verschlüsselungsobjekt mit der aktuellen <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" />-Eigenschaft und dem aktuellen Initialisierungsvektor (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />).</summary>
+      <returns>Ein symmetrisches Verschlüsselungsobjekt.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor(System.Byte[],System.Byte[])">
+      <summary>Erstellt beim Überschreiben in einer abgeleiteten Klasse ein symmetrisches Verschlüsselungsobjekt mit der angegebenen <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" />-Eigenschaft und dem angegebenen Initialisierungsvektor (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />).</summary>
+      <returns>Ein symmetrisches Verschlüsselungsobjekt.</returns>
+      <param name="rgbKey">Der geheime Schlüssel, der für den symmetrischen Algorithmus verwendet werden soll. </param>
+      <param name="rgbIV">Der Initialisierungsvektor, der für den symmetrischen Algorithmus verwendet werden soll. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.Dispose">
+      <summary>Gibt alle von der aktuellen Instanz der <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" />-Klasse verwendeten Ressourcen frei.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.Dispose(System.Boolean)">
+      <summary>Gibt die von <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" /> verwendeten nicht verwalteten Ressourcen und optional die verwalteten Ressourcen frei.</summary>
+      <param name="disposing">true, um sowohl verwaltete als auch nicht verwaltete Ressourcen freizugeben, false, um ausschließlich nicht verwaltete Ressourcen freizugeben. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.GenerateIV">
+      <summary>Generiert beim Überschreiben in einer abgeleiteten Klasse einen zufälligen Initialisierungsvektor (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) für den Algorithmus.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.GenerateKey">
+      <summary>Generiert beim Überschreiben in einer abgeleiteten Klasse einen zufälligen Schlüssel (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" />) für den Algorithmus. </summary>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.IV">
+      <summary>Ruft den Initialisierungsvektor (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) für den symmetrischen Algorithmus ab oder legt diesen fest.</summary>
+      <returns>Der Initialisierungsvektor.</returns>
+      <exception cref="T:System.ArgumentNullException">Es wurde versucht, den Initialisierungsvektor auf null festzulegen. </exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Es wurde versucht, den Initialisierungsvektor auf eine ungültige Größe festzulegen. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Key">
+      <summary>Ruft den geheimen Schlüssel für den symmetrischen Algorithmus ab oder legt diesen fest.</summary>
+      <returns>Der geheime Schlüssel, der für den symmetrischen Algorithmus verwendet werden soll.</returns>
+      <exception cref="T:System.ArgumentNullException">Es wurde versucht, den Schlüssel auf null festzulegen. </exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Die Schlüsselgröße ist ungültig.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.KeySize">
+      <summary>Ruft die Größe des geheimen Schlüssels für den symmetrischen Algorithmus in Bits ab oder legt diese fest.</summary>
+      <returns>Die Größe des geheimen Schlüssels für den symmetrischen Algorithmus in Bits.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Die Schlüsselgröße ist nicht gültig. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes">
+      <summary>Ruft die vom symmetrischen Algorithmus unterstützten Blockgrößen in Bits ab.</summary>
+      <returns>Ein Array, das die vom Algorithmus unterstützten Blockgrößen enthält.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes">
+      <summary>Ruft die vom symmetrischen Algorithmus unterstützten Schlüsselgrößen in Bits ab.</summary>
+      <returns>Ein Array, das die vom Algorithmus unterstützten Schlüsselgrößen enthält.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Mode">
+      <summary>Ruft den Modus für die Ausführung des symmetrischen Algorithmus ab oder legt diesen fest.</summary>
+      <returns>Der Modus für die Ausführung des symmetrischen Algorithmus.Die Standardeinstellung ist <see cref="F:System.Security.Cryptography.CipherMode.CBC" />.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Der Verschlüsselungsmodus ist keiner der <see cref="T:System.Security.Cryptography.CipherMode" />-Werte. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Padding">
+      <summary>Ruft den im symmetrischen Algorithmus verwendeten Füllzeichenmodus ab oder legt diesen fest.</summary>
+      <returns>Der im symmetrischen Algorithmus verwendete Füllzeichenmodus.Die Standardeinstellung ist <see cref="F:System.Security.Cryptography.PaddingMode.PKCS7" />.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Der Füllzeichenmodus ist keiner der <see cref="T:System.Security.Cryptography.PaddingMode" />-Werte. </exception>
+    </member>
+  </members>
+</doc>

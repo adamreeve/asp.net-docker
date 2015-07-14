@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RandomNumberGenerator</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.RandomNumberGenerator">
+      <summary>Rappresenta la classe astratta dalla quale derivano tutte le implementazioni dei generatori di numeri casuali di crittografia.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.#ctor">
+      <summary>Inizializza una nuova istanza di <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Create">
+      <summary>Quando ne viene eseguito l'override in una classe derivata, crea un'istanza dell'implementazione predefinita di un generatore di numeri casuali di crittografia utilizzabile per generare dati casuali.</summary>
+      <returns>Nuova istanza di un generatore di numeri casuali di crittografia.</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose">
+      <summary>Quando ne viene eseguito l'override in una classe derivata, rilascia tutte le risorse usate dall'istanza corrente della classe <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose(System.Boolean)">
+      <summary>Quando ne viene eseguito l'override in una classe derivata, libera le risorse non gestite usate da <see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> ed eventualmente di liberare le risorse gestite.</summary>
+      <param name="disposing">true per rilasciare sia le risorse gestite sia quelle non gestite; false per rilasciare solo le risorse non gestite.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.GetBytes(System.Byte[])">
+      <summary>Quando ne viene eseguito l'override in una classe derivata, riempie una matrice di byte con una sequenza di valori casuali resistenti da un punto di vista crittografico.</summary>
+      <param name="data">Matrice da riempire con byte casuali resistenti da un punto di vista crittografico. </param>
+    </member>
+  </members>
+</doc>

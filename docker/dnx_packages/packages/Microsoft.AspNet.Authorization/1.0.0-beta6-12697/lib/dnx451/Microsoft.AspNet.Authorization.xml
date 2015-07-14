@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.AspNet.Authorization</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.AspNet.Authorization.AuthorizationContext">
+            <summary>
+            Contains authorization information used by <see cref="T:Microsoft.AspNet.Authorization.IAuthorizationHandler"/>.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNet.Authorization.IAuthorizationService,System.Security.Claims.ClaimsPrincipal,System.Object,Microsoft.AspNet.Authorization.IAuthorizationRequirement)">
+            <summary>
+            Checks if a user meets a specific requirement for the specified resource
+            </summary>
+            <param name="user"></param>
+            <param name="resource"></param>
+            <param name="requirement"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNet.Authorization.IAuthorizationService,System.Security.Claims.ClaimsPrincipal,System.Object,Microsoft.AspNet.Authorization.AuthorizationPolicy)">
+            <summary>
+            Checks if a user meets a specific authorization policy
+            </summary>
+            <param name="service">The authorization service.</param>
+            <param name="user">The user to check the policy against.</param>
+            <param name="resource">The resource the policy should be checked with.</param>
+            <param name="policy">The policy to check against a specific context.</param>
+            <returns><value>true</value> when the user fulfills the policy, <value>false</value> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNet.Authorization.IAuthorizationService,System.Security.Claims.ClaimsPrincipal,Microsoft.AspNet.Authorization.AuthorizationPolicy)">
+            <summary>
+            Checks if a user meets a specific authorization policy
+            </summary>
+            <param name="service">The authorization service.</param>
+            <param name="user">The user to check the policy against.</param>
+            <param name="policy">The policy to check against a specific context.</param>
+            <returns><value>true</value> when the user fulfills the policy, <value>false</value> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNet.Authorization.IAuthorizationService,System.Security.Claims.ClaimsPrincipal,System.String)">
+            <summary>
+            Checks if a user meets a specific authorization policy
+            </summary>
+            <param name="service">The authorization service.</param>
+            <param name="user">The user to check the policy against.</param>
+            <param name="policyName">The name of the policy to check against a specific context.</param>
+            <returns><value>true</value> when the user fulfills the policy, <value>false</value> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.AuthorizationServiceExtensions.Authorize(Microsoft.AspNet.Authorization.IAuthorizationService,System.Security.Claims.ClaimsPrincipal,System.Object,Microsoft.AspNet.Authorization.IAuthorizationRequirement)">
+            <summary>
+            Checks if a user meets a specific requirement for the specified resource
+            </summary>
+            <param name="user"></param>
+            <param name="resource"></param>
+            <param name="requirement"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.AuthorizationServiceExtensions.Authorize(Microsoft.AspNet.Authorization.IAuthorizationService,System.Security.Claims.ClaimsPrincipal,System.Object,Microsoft.AspNet.Authorization.AuthorizationPolicy)">
+            <summary>
+            Checks if a user meets a specific authorization policy
+            </summary>
+            <param name="service">The authorization service.</param>
+            <param name="user">The user to check the policy against.</param>
+            <param name="resource">The resource the policy should be checked with.</param>
+            <param name="policy">The policy to check against a specific context.</param>
+            <returns><value>true</value> when the user fulfills the policy, <value>false</value> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.AuthorizationServiceExtensions.Authorize(Microsoft.AspNet.Authorization.IAuthorizationService,System.Security.Claims.ClaimsPrincipal,Microsoft.AspNet.Authorization.AuthorizationPolicy)">
+            <summary>
+            Checks if a user meets a specific authorization policy
+            </summary>
+            <param name="service">The authorization service.</param>
+            <param name="user">The user to check the policy against.</param>
+            <param name="policy">The policy to check against a specific context.</param>
+            <returns><value>true</value> when the user fulfills the policy, <value>false</value> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.AuthorizationServiceExtensions.Authorize(Microsoft.AspNet.Authorization.IAuthorizationService,System.Security.Claims.ClaimsPrincipal,System.String)">
+            <summary>
+            Checks if a user meets a specific authorization policy
+            </summary>
+            <param name="service">The authorization service.</param>
+            <param name="user">The user to check the policy against.</param>
+            <param name="policyName">The name of the policy to check against a specific context.</param>
+            <returns><value>true</value> when the user fulfills the policy, <value>false</value> otherwise.</returns>
+        </member>
+        <member name="T:Microsoft.AspNet.Authorization.IAuthorizationService">
+            <summary>
+            Checks policy based permissions for a user
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.IAuthorizationService.AuthorizeAsync(System.Security.Claims.ClaimsPrincipal,System.Object,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Authorization.IAuthorizationRequirement})">
+            <summary>
+            Checks if a user meets a specific set of requirements for the specified resource
+            </summary>
+            <param name="user"></param>
+            <param name="resource"></param>
+            <param name="requirements"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.IAuthorizationService.Authorize(System.Security.Claims.ClaimsPrincipal,System.Object,System.Collections.Generic.IEnumerable{Microsoft.AspNet.Authorization.IAuthorizationRequirement})">
+            <summary>
+            Checks if a user meets a specific set of requirements for the specified resource
+            </summary>
+            <param name="user"></param>
+            <param name="resource"></param>
+            <param name="requirements"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.IAuthorizationService.AuthorizeAsync(System.Security.Claims.ClaimsPrincipal,System.Object,System.String)">
+            <summary>
+            Checks if a user meets a specific authorization policy
+            </summary>
+            <param name="user">The user to check the policy against.</param>
+            <param name="resource">The resource the policy should be checked with.</param>
+            <param name="policyName">The name of the policy to check against a specific context.</param>
+            <returns><value>true</value> when the user fulfills the policy, <value>false</value> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.IAuthorizationService.Authorize(System.Security.Claims.ClaimsPrincipal,System.Object,System.String)">
+            <summary>
+            Checks if a user meets a specific authorization policy
+            </summary>
+            <param name="user">The user to check the policy against.</param>
+            <param name="resource">The resource the policy should be checked with.</param>
+            <param name="policyName">The name of the policy to check against a specific context.</param>
+            <returns><value>true</value> when the user fulfills the policy, <value>false</value> otherwise.</returns>
+        </member>
+        <member name="T:Microsoft.AspNet.Authorization.NameAuthorizationRequirement">
+            <summary>
+            Requirement that ensures a specific Name
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Authorization.Resources.Exception_AuthorizationPolicyNotFound">
+            <summary>
+            The AuthorizationPolicy named: '{0}' was not found.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.Resources.FormatException_AuthorizationPolicyNotFound(System.Object)">
+            <summary>
+            The AuthorizationPolicy named: '{0}' was not found.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Authorization.Resources.Exception_AuthorizationPolicyEmpty">
+            <summary>
+            AuthorizationPolicy must have at least one requirement.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.Resources.FormatException_AuthorizationPolicyEmpty(System.Object)">
+            <summary>
+            AuthorizationPolicy must have at least one requirement.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Authorization.Resources.Exception_RoleRequirementEmpty">
+            <summary>
+            At least one role must be specified.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Authorization.Resources.FormatException_RoleRequirementEmpty">
+            <summary>
+            At least one role must be specified.
+            </summary>
+        </member>
+    </members>
+</doc>

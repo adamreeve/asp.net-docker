@@ -1,4 +1,4 @@
-FROM adreeve/aspnet:1.0.0-beta6-12100
+FROM adreeve/aspnet:1.0.0-beta6-12226
 
 VOLUME /app
 WORKDIR /app

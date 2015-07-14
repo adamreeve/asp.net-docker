@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HashAlgorithm">
+      <summary>Stellt die Basisklasse dar, von der alle Implementierungen kryptografischer Hashalgorithmen abgeleitet werden müssen.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.#ctor">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.HashAlgorithm" />-Klasse.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])">
+      <summary>Berechnet den Hashwert für das angegebene Bytearray.</summary>
+      <returns>Der berechnete Hashcode.</returns>
+      <param name="buffer">Die Eingabe, für die der Hashcode berechnet werden soll. </param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> ist null.</exception>
+      <exception cref="T:System.ObjectDisposedException">Das Objekt wurde bereits verworfen.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[],System.Int32,System.Int32)">
+      <summary>Berechnet den Hashwert für den angegebenen Bereich des angegebenen Bytearrays.</summary>
+      <returns>Der berechnete Hashcode.</returns>
+      <param name="buffer">Die Eingabe, für die der Hashcode berechnet werden soll. </param>
+      <param name="offset">Der Offset im Bytearray, ab dem Daten verwendet werden sollen. </param>
+      <param name="count">Die Anzahl der Bytes im Array, die als Daten verwendet werden sollen. </param>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="count" /> ist ein ungültiger Wert.- oder - Die <paramref name="buffer" />-Länge ist ungültig.</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> ist null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> liegt außerhalb des Bereichs.Für diesen Parameter ist eine nicht negative Zahl erforderlich.</exception>
+      <exception cref="T:System.ObjectDisposedException">Das Objekt wurde bereits verworfen.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)">
+      <summary>Berechnet den Hashwert für das angegebene <see cref="T:System.IO.Stream" />-Objekt.</summary>
+      <returns>Der berechnete Hashcode.</returns>
+      <param name="inputStream">Die Eingabe, für die der Hashcode berechnet werden soll. </param>
+      <exception cref="T:System.ObjectDisposedException">Das Objekt wurde bereits verworfen.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose">
+      <summary>Gibt alle von der aktuellen Instanz der <see cref="T:System.Security.Cryptography.HashAlgorithm" />-Klasse verwendeten Ressourcen frei.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose(System.Boolean)">
+      <summary>Gibt die von <see cref="T:System.Security.Cryptography.HashAlgorithm" /> verwendeten nicht verwalteten Ressourcen und optional die verwalteten Ressourcen frei.</summary>
+      <param name="disposing">true, um sowohl verwaltete als auch nicht verwaltete Ressourcen freizugeben, false, um ausschließlich nicht verwaltete Ressourcen freizugeben. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>Leitet beim Überschreiben in einer abgeleiteten Klasse die in das Objekt geschriebenen Daten zum Errechnen des Hashs an den Hashalgorithmus weiter.</summary>
+      <param name="array">Die Eingabe, für die der Hashcode berechnet werden soll. </param>
+      <param name="ibStart">Der Offset im Bytearray, ab dem Daten verwendet werden sollen. </param>
+      <param name="cbSize">Die Anzahl der Bytes im Bytearray, die als Daten verwendet werden sollen. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashFinal">
+      <summary>Schließt beim Überschreiben in einer abgeleiteten Klasse die Berechnung des Hashs ab, nachdem die letzten Daten vom Kryptografiestreamobjekt verarbeitet wurden.</summary>
+      <returns>Der berechnete Hashcode.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HashAlgorithm.HashSize">
+      <summary>Ruft die Größe des berechneten Hashcodes in Bits ab.</summary>
+      <returns>Die Größe des berechneten Hashcodes in Bits.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Initialize">
+      <summary>Initialisiert eine Implementierung der <see cref="T:System.Security.Cryptography.HashAlgorithm" />-Klasse.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.HMAC">
+      <summary>Stellt die abstrakte Klasse dar, von der alle Implementierungen von Hash-Nachrichtenauthentifizierungscodes (HMAC, Hash-based Message Authentication Code) abgeleitet werden müssen.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.#ctor">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.HMAC" />-Klasse. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Dispose(System.Boolean)">
+      <summary>Gibt die von der <see cref="T:System.Security.Cryptography.HMAC" />-Klasse verwendeten nicht verwalteten Ressourcen frei, wenn eine Schlüsseländerung zulässig ist, und gibt optional auch die verwalteten Ressourcen frei.</summary>
+      <param name="disposing">true, um sowohl verwaltete als auch nicht verwaltete Ressourcen freizugeben, false, um ausschließlich nicht verwaltete Ressourcen freizugeben. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>Leitet beim Überschreiben in einer abgeleiteten Klasse die in das Objekt geschriebenen Daten zum Berechnen des Hashwerts an den standardmäßigen <see cref="T:System.Security.Cryptography.HMAC" />-Hashalgorithmus weiter.</summary>
+      <param name="rgb">Die Eingabedaten. </param>
+      <param name="ib">Der Offset im Bytearray, ab dem Daten verwendet werden sollen. </param>
+      <param name="cb">Die Anzahl der Bytes im Array, die als Daten verwendet werden sollen. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashFinal">
+      <summary>Schließt beim Überschreiben in einer abgeleiteten Klasse die Berechnung des Hashs ab, nachdem die letzten Daten vom Kryptografiestreamobjekt verarbeitet wurden.</summary>
+      <returns>Der berechnete Hashcode in einem Bytearray.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.HashName">
+      <summary>Ruft den Namen des für die Hashoperation verwendeten Hashalgorithmus ab oder legt diesen fest.</summary>
+      <returns>Der Name des Hashalgorithmus.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Der aktuelle Hashalgorithmus kann nicht geändert werden.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Initialize">
+      <summary>Initialisiert eine Instanz der Standardimplementierung des <see cref="T:System.Security.Cryptography.HMAC" />.</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.Key">
+      <summary>Ruft den im Hashalgorithmus zu verwendenden Schlüssel ab oder legt diesen fest.</summary>
+      <returns>Der im Hashalgorithmus zu verwendende Schlüssel.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Es wird versucht, die <see cref="P:System.Security.Cryptography.HMAC.Key" />-Eigenschaft nach Beginn der Hashoperation zu ändern. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.KeyedHashAlgorithm">
+      <summary>Stellt die abstrakte Klasse dar, von der alle Implementierungen schlüsselgebundener Hashalgorithmen abgeleitet werden müssen. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.#ctor">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" />-Klasse.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.Dispose(System.Boolean)">
+      <summary>Gibt die von <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" /> verwendeten nicht verwalteten Ressourcen und optional die verwalteten Ressourcen frei.</summary>
+      <param name="disposing">true, um sowohl verwaltete als auch nicht verwaltete Ressourcen freizugeben, false, um ausschließlich nicht verwaltete Ressourcen freizugeben. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeyedHashAlgorithm.Key">
+      <summary>Ruft den im Hashalgorithmus zu verwendenden Schlüssel ab oder legt diesen fest.</summary>
+      <returns>Der im Hashalgorithmus zu verwendende Schlüssel.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Es wurde versucht, die <see cref="P:System.Security.Cryptography.KeyedHashAlgorithm.Key" />-Eigenschaft nach Beginn der Hashoperation zu ändern. </exception>
+    </member>
+  </members>
+</doc>

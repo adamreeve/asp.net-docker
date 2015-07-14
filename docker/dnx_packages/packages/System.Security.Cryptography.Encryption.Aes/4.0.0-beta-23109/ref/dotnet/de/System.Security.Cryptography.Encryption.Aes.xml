@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Encryption.Aes</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.Aes">
+      <summary>Stellt die abstrakte Basisklasse dar, von der alle AES-Implementierungen (Advanced Encryption Standard) erben müssen. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.Aes.#ctor">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.Aes" />-Klasse. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.Aes.Create">
+      <summary>Erstellt ein Kryptografieobjekt zum Ausführen des symmetrischen Algorithmus.</summary>
+      <returns>Ein Kryptografieobjekt zum Ausführen des symmetrischen Algorithmus.</returns>
+    </member>
+  </members>
+</doc>

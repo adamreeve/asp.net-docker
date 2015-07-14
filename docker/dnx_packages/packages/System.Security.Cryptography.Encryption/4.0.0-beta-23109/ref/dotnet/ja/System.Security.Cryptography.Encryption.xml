@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Encryption</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.AsymmetricAlgorithm">
+      <summary>非対称アルゴリズムのすべての実装が継承する必要がある、抽象基本クラスを表します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> クラスの新しいインスタンスを初期化します。</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">派生クラスの実装が有効ではありません。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.Dispose">
+      <summary>
+        <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> クラスの現在のインスタンスによって使用されているすべてのリソースを解放します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.Dispose(System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> クラスによって使用されているアンマネージ リソースを解放し、オプションでマネージ リソースも解放します。</summary>
+      <param name="disposing">マネージ リソースとアンマネージ リソースの両方を解放する場合は true。アンマネージ リソースだけを解放する場合は false。</param>
+    </member>
+    <member name="P:System.Security.Cryptography.AsymmetricAlgorithm.KeySize">
+      <summary>非対称アルゴリズムで使用されるキー モジュラスのサイズをビット単位で取得または設定します。</summary>
+      <returns>非対称アルゴリズムで使用するキー モジュラスのサイズ (ビット単位)。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">キー モジュラスのサイズが無効です。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes">
+      <summary>非対称アルゴリズムでサポートされているキー サイズを取得します。</summary>
+      <returns>非対称アルゴリズムでサポートされているキー サイズを保持している配列。</returns>
+    </member>
+    <member name="T:System.Security.Cryptography.CipherMode">
+      <summary>暗号化に使用するブロック暗号モードを指定します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.CBC">
+      <summary>CBC (Cipher Block Chaining) モードは、前のブロックの演算結果を次に引き継ぎます。平文の各ブロックは、暗号化される前に、前のブロックの演算結果である暗号文とビットごとの排他的 OR 演算によって組み合わされます。これにより、平文に同一のブロックが多数含まれている場合でも、それらのブロックはそれぞれ異なった暗号文へと暗号化されます。最初の平文ブロックの場合は、暗号化される前に、ビットごとの排他的 OR 演算によって初期化ベクターと組み合わされます。暗号文ブロックの 1 つのビットが破損すると、対応する平文ブロックも破損します。さらに、後続ブロックの、元の破損ビットと同位置にあるビットも破損してしまいます。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.CTS">
+      <summary>CTS (Cipher Text Stealing) モードは、任意の長さの平文を処理し、その平文と同じ長さの暗号文を生成します。このモードは、平文の最後の 2 ブロック以外については、CBC モードと同じように動作します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.ECB">
+      <summary>ECB (Electronic Codebook) モードは、各ブロックを個別に暗号化します。同じメッセージに含まれる同一の平文ブロック、または同じキーで暗号化された別のメッセージに含まれる平文ブロックは、同一の暗号文ブロックに変換されます。重要: 複数のセキュリティ攻撃を受ける可能性が出てくるので、このモードを使用することはお勧めしません。暗号化する平文に繰り返しが多い場合、生成された暗号文に含まれるあるブロックが一度に 1 ブロックずつ解読される可能性が高まります。ブロック分析を使用して暗号化キーを判断することもできます。また、悪意のある攻撃者が、攻撃に気付かれることなく個別のブロックを置き換えたり、交換したりすることもできるので、攻撃に気付かれることなくブロックを保存したり、他のポイントでストリームに挿入したりすることも可能になります。</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptographicException">
+      <summary>暗号操作中にエラーが発生すると、スローされる例外。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.CryptographicException" /> クラスの新しいインスタンスを既定のプロパティを使用して初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.Int32)">
+      <summary>HRESULT エラー コードを指定して、<see cref="T:System.Security.Cryptography.CryptographicException" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="hr">HRESULT エラー コード。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String)">
+      <summary>指定したエラー メッセージを使用して、<see cref="T:System.Security.Cryptography.CryptographicException" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="message">例外の原因を説明するエラー メッセージ。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.Exception)">
+      <summary>指定したエラー メッセージと、この例外の原因である内部例外への参照を使用して、<see cref="T:System.Security.Cryptography.CryptographicException" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="message">例外の原因を説明するエラー メッセージ。</param>
+      <param name="inner">現在の例外の原因である例外。<paramref name="inner" /> パラメーターが null ではない場合、現在の例外は内部例外を処理する catch ブロックで発生します。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.String)">
+      <summary>エラー メッセージとその書式を指定して、<see cref="T:System.Security.Cryptography.CryptographicException" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="format">エラー メッセージの出力に使用する書式。</param>
+      <param name="insert">例外の原因を説明するエラー メッセージ。</param>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptoStream">
+      <summary>データ ストリームを暗号変換にリンクするストリームを定義します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.#ctor(System.IO.Stream,System.Security.Cryptography.ICryptoTransform,System.Security.Cryptography.CryptoStreamMode)">
+      <summary>暗号化の対象とするデータ ストリーム、使用する変換、およびストリームのモードを指定して、<see cref="T:System.Security.Cryptography.CryptoStream" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="stream">暗号変換を実行する対象のストリーム。</param>
+      <param name="transform">指定したストリームで実行する暗号変換。</param>
+      <param name="mode">
+        <see cref="T:System.Security.Cryptography.CryptoStreamMode" /> 値の 1 つ。</param>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> が読み取り可能ではありません。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> が書き込み可能ではありません。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> が無効です。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanRead">
+      <summary>現在の <see cref="T:System.Security.Cryptography.CryptoStream" /> が読み取り可能かどうかを示す値を取得します。</summary>
+      <returns>現在のストリームが読み取り可能な場合は true。それ以外の場合は false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanSeek">
+      <summary>現在の <see cref="T:System.Security.Cryptography.CryptoStream" /> 内でシークできるかどうかを示す値を取得します。</summary>
+      <returns>常に false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanWrite">
+      <summary>現在の <see cref="T:System.Security.Cryptography.CryptoStream" /> が書き込み可能かどうかを示す値を取得します。</summary>
+      <returns>現在のストリームが書き込み可能な場合は true。それ以外の場合は false。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Dispose(System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.CryptoStream" /> で使用されているアンマネージ リソースを解放し、オプションでマネージ リソースを解放します。</summary>
+      <param name="disposing">マネージ リソースとアンマネージ リソースの両方を解放する場合は true。アンマネージ リソースだけを解放する場合は false。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Flush">
+      <summary>現在のストリームのバッファーをすべてクリアし、バッファー内にあるデータすべてを、基になるデバイスに書き込みます。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.FlushAsync(System.Threading.CancellationToken)">
+      <summary>現在のストリームのすべてのバッファーを非同期にクリアし、バッファー内のデータを基になるデバイスに書き込み、キャンセル要求を監視します。</summary>
+      <returns>非同期のフラッシュ操作を表すタスク。</returns>
+      <param name="cancellationToken">キャンセル要求を監視するためのトークン。既定値は <see cref="P:System.Threading.CancellationToken.None" /> です。</param>
+      <exception cref="T:System.ObjectDisposedException">ストリームは破棄されています。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.FlushFinalBlock">
+      <summary>基になるデータ ソースまたはリポジトリをバッファーの現在の状態に更新し、その後でバッファーをクリアします。</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">キーが破損しており、ストリームに無効な埋め込みが行われる可能性があります。</exception>
+      <exception cref="T:System.NotSupportedException">現在のストリームが書き込み可能ではありません。または 最後のブロックが既に変換されています。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.HasFlushedFinalBlock">
+      <summary>最後のバッファー ブロックが基になるストリームに書き込まれたかどうかを示す値を取得します。</summary>
+      <returns>最後のブロックがフラッシュされた場合は true。それ以外の場合は false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.Length">
+      <summary>ストリーム長 (バイト単位) を取得します。</summary>
+      <returns>このプロパティはサポートされていません。</returns>
+      <exception cref="T:System.NotSupportedException">このプロパティはサポートされていません。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.Position">
+      <summary>現在のストリーム内の位置を取得または設定します。</summary>
+      <returns>このプロパティはサポートされていません。</returns>
+      <exception cref="T:System.NotSupportedException">このプロパティはサポートされていません。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Read(System.Byte[],System.Int32,System.Int32)">
+      <summary>現在のストリームからバイト シーケンスを読み取り、読み取ったバイト数だけストリーム内の位置を進めます。</summary>
+      <returns>バッファーに読み取られた合計バイト数。要求されたバイト数をその時点で読み取れなかった場合、この値は要求されたバイト数より小さくなることがあります。ストリームの末尾に達していた場合は 0 になります。</returns>
+      <param name="buffer">バイト配列。現在のストリームから最大で <paramref name="count" /> バイトを読み取り、<paramref name="buffer" /> 内に格納します。</param>
+      <param name="offset">現在のストリームから読み取ったデータの格納を開始する位置を示す、<paramref name="buffer" /> 内のバイト オフセット。</param>
+      <param name="count">現在のストリームから読み取る最大バイト数。</param>
+      <exception cref="T:System.NotSupportedException">現在の <see cref="T:System.Security.Cryptography.CryptoStreamMode" /> オブジェクトと関連付けられた <see cref="T:System.Security.Cryptography.CryptoStream" /> が、使用されているストリームと一致しません。<see cref="F:System.Security.Cryptography.CryptoStreamMode.Read" /> を書き込み専用のストリームで使用した場合などに、この例外がスローされます。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> パラメーターが 0 未満です。または <paramref name="count" /> パラメーターが 0 未満です。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="count" /> パラメーターと <paramref name="offset" /> パラメーターの合計が、バッファーの長さを超えています。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+      <summary>現在のストリームから非同期的にバイト シーケンスを読み取り、読み取ったバイト数だけストリーム内の位置を進め、キャンセル要求を監視します。</summary>
+      <returns>非同期の読み取り操作を表すタスク。タスク オブジェクトの <paramref name="TResult" /> パラメーターの値には、バッファーに読み込まれるバイトの合計数が含まれます。現在使用できるバイト数が要求した数より小さい場合、結果は要求したバイト数より小さくなることがあります。また、ストリームの末尾に到達した場合は 0 になることがあります。</returns>
+      <param name="buffer">データを書き込むバッファー。</param>
+      <param name="offset">ストリームからのデータの書き込み開始位置を示す <paramref name="buffer" /> 内のバイト オフセット。</param>
+      <param name="count">読み取る最大バイト数。</param>
+      <param name="cancellationToken">キャンセル要求を監視するためのトークン。既定値は <see cref="P:System.Threading.CancellationToken.None" /> です。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> は null です。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> または <paramref name="count" /> が負の値です。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="offset" /> と <paramref name="count" /> の合計値が、バッファー長より大きい値です。</exception>
+      <exception cref="T:System.NotSupportedException">ストリームは読み取りをサポートしません。</exception>
+      <exception cref="T:System.ObjectDisposedException">ストリームは破棄されています。</exception>
+      <exception cref="T:System.InvalidOperationException">ストリームは現在、前の読み取り操作で使用中です。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Seek(System.Int64,System.IO.SeekOrigin)">
+      <summary>現在のストリーム内の位置を設定します。</summary>
+      <returns>このメソッドはサポートされていません。</returns>
+      <param name="offset">
+        <paramref name="origin" /> パラメーターからの相対バイト オフセット。</param>
+      <param name="origin">新しい位置を取得するために使用する参照ポイントを示す <see cref="T:System.IO.SeekOrigin" /> オブジェクト。</param>
+      <exception cref="T:System.NotSupportedException">このメソッドはサポートされていません。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.SetLength(System.Int64)">
+      <summary>現在のストリームの長さを設定します。</summary>
+      <param name="value">現在のストリームの希望の長さ (バイト数)。</param>
+      <exception cref="T:System.NotSupportedException">このプロパティは <see cref="T:System.IO.Stream" /> からの継承をサポートするためだけのもので、使用できません。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Write(System.Byte[],System.Int32,System.Int32)">
+      <summary>バイト シーケンスを現在の <see cref="T:System.Security.Cryptography.CryptoStream" /> に書き込み、書き込んだバイト数の分だけストリーム内の現在位置を進めます。</summary>
+      <param name="buffer">バイト配列。このメソッドは、<paramref name="buffer" /> から現在のストリームに、<paramref name="count" /> で指定されたバイト数だけコピーします。</param>
+      <param name="offset">現在のストリームへのバイトのコピーを開始する位置を示す、<paramref name="buffer" /> 内のバイト オフセット。</param>
+      <param name="count">現在のストリームに書き込むバイト数。</param>
+      <exception cref="T:System.NotSupportedException">現在の <see cref="T:System.Security.Cryptography.CryptoStreamMode" /> オブジェクトと関連付けられた <see cref="T:System.Security.Cryptography.CryptoStream" /> が、使用されているストリームと一致しません。<see cref="F:System.Security.Cryptography.CryptoStreamMode.Write" /> を読み取り専用のストリームで使用した場合などに、この例外がスローされます。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> パラメーターが 0 未満です。または <paramref name="count" /> パラメーターが 0 未満です。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="count" /> パラメーターと <paramref name="offset" /> パラメーターの合計が、バッファーの長さを超えています。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+      <summary>現在のストリームにバイト シーケンスを非同期で書き込み、書き込んだバイト数だけストリーム内の現在位置を進め、キャンセル要求を監視します。</summary>
+      <returns>非同期の書き込み操作を表すタスク。</returns>
+      <param name="buffer">データの書き込み元となるバッファー。</param>
+      <param name="offset">ストリームへのバイトの書き込みを開始する位置を示す <paramref name="buffer" /> 内のバイト オフセット。インデックス番号は 0 から始まります。</param>
+      <param name="count">書き込む最大バイト数。</param>
+      <param name="cancellationToken">キャンセル要求を監視するためのトークン。既定値は <see cref="P:System.Threading.CancellationToken.None" /> です。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> は null です。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> または <paramref name="count" /> が負の値です。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="offset" /> と <paramref name="count" /> の合計値が、バッファー長より大きい値です。</exception>
+      <exception cref="T:System.NotSupportedException">ストリームは書き込みをサポートしません。</exception>
+      <exception cref="T:System.ObjectDisposedException">ストリームは破棄されています。</exception>
+      <exception cref="T:System.InvalidOperationException">ストリームは現在、前の書き込み操作で使用中です。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptoStreamMode">
+      <summary>暗号ストリームのモードを指定します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CryptoStreamMode.Read">
+      <summary>暗号ストリームへの読み取りアクセス。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CryptoStreamMode.Write">
+      <summary>暗号ストリームへの書き込みアクセス。</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.ICryptoTransform">
+      <summary>暗号変換の基本操作を定義します。</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.CanReuseTransform">
+      <summary>現在の変換を再利用できるかどうかを示す値を取得します。</summary>
+      <returns>現在の変換を再利用できる場合は true。それ以外の場合は false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.CanTransformMultipleBlocks">
+      <summary>複数のブロックを変換できるかどうかを示す値を取得します。</summary>
+      <returns>複数のブロックを変換できる場合は true。それ以外の場合は false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.InputBlockSize">
+      <summary>入力ブロック サイズを取得します。</summary>
+      <returns>入力データ ブロックのサイズ (バイト単位)。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.OutputBlockSize">
+      <summary>出力ブロック サイズを取得します。</summary>
+      <returns>出力データ ブロックのサイズ (バイト単位)。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.ICryptoTransform.TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)">
+      <summary>入力バイト配列の指定した領域を変換し、変換された結果を出力バイト配列の指定した領域にコピーします。</summary>
+      <returns>書き込むバイト数。</returns>
+      <param name="inputBuffer">変換を計算する対象の入力データ。</param>
+      <param name="inputOffset">入力バイト配列内のデータの使用開始位置を示すオフセット。</param>
+      <param name="inputCount">データとして使用する入力バイト配列内のバイト数。</param>
+      <param name="outputBuffer">変換を書き込む先の出力データ。</param>
+      <param name="outputOffset">データの書き込みの開始位置を示す出力バイト配列内のオフセット。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.ICryptoTransform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)">
+      <summary>指定したバイト配列の指定した領域を変換します。</summary>
+      <returns>計算された変換。</returns>
+      <param name="inputBuffer">変換を計算する対象の入力データ。</param>
+      <param name="inputOffset">バイト配列内のデータの使用開始位置を示すオフセット。</param>
+      <param name="inputCount">バイト配列内でデータとして使用されるバイトの数。</param>
+    </member>
+    <member name="T:System.Security.Cryptography.KeySizes">
+      <summary>対称暗号アルゴリズムに対して有効なキー サイズのセットを決定します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeySizes.#ctor(System.Int32,System.Int32,System.Int32)">
+      <summary>指定したキー値を使用して、<see cref="T:System.Security.Cryptography.KeySizes" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="minSize">有効な最小キー サイズ。</param>
+      <param name="maxSize">有効な最大キー サイズ。</param>
+      <param name="skipSize">有効なキー サイズ間の間隔。</param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.MaxSize">
+      <summary>最大キー サイズをビット単位で指定します。</summary>
+      <returns>ビット単位の最大キー サイズ。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.MinSize">
+      <summary>最小キー サイズをビット単位で指定します。</summary>
+      <returns>ビット単位の最小キー サイズ。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.SkipSize">
+      <summary>有効なキー サイズ間の間隔をビット単位で指定します。</summary>
+      <returns>ビット単位の有効なキー サイズ間の間隔。</returns>
+    </member>
+    <member name="T:System.Security.Cryptography.PaddingMode">
+      <summary>メッセージ データ ブロックが暗号操作に必要なバイト数に満たない場合に適用する、埋め込みの種類を指定します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.None">
+      <summary>埋め込みが完了していません。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.PKCS7">
+      <summary>PKCS #7 埋め込み文字列は、バイト シーケンスで構成され、各バイト シーケンスは追加される埋め込みバイトの合計数に等しいバイト数になります。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.Zeros">
+      <summary>埋め込み文字列は、0 に設定されたバイトで構成されます。</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.SymmetricAlgorithm">
+      <summary>対称アルゴリズムのすべての実装が継承する必要がある、抽象基本クラスを表します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" /> クラスの新しいインスタンスを初期化します。</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">対称アルゴリズムの派生クラスの実装が有効ではありません。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.BlockSize">
+      <summary>暗号操作のブロック サイズをビット単位で取得または設定します。</summary>
+      <returns>ブロック サイズ (ビット単位)。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">ブロック サイズが無効です。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor">
+      <summary>現在の <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> プロパティおよび初期化ベクター (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) を使用して、対称復号化オブジェクトを作成します。</summary>
+      <returns>対称復号化オブジェクト。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor(System.Byte[],System.Byte[])">
+      <summary>派生クラスでオーバーライドされると、指定した <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> プロパティおよび初期化ベクター (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) を使用して、対称復号化オブジェクトを作成します。</summary>
+      <returns>対称復号化オブジェクト。</returns>
+      <param name="rgbKey">対称アルゴリズムに使用する共有キー。</param>
+      <param name="rgbIV">対称アルゴリズムに使用する初期化ベクター。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor">
+      <summary>現在の <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> プロパティおよび初期化ベクター (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) を使用して、対称暗号化オブジェクトを作成します。</summary>
+      <returns>対称暗号化オブジェクト。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor(System.Byte[],System.Byte[])">
+      <summary>派生クラスでオーバーライドされると、指定した <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> プロパティおよび初期化ベクター (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) を使用して、対称暗号化オブジェクトを作成します。</summary>
+      <returns>対称暗号化オブジェクト。</returns>
+      <param name="rgbKey">対称アルゴリズムに使用する共有キー。</param>
+      <param name="rgbIV">対称アルゴリズムに使用する初期化ベクター。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.Dispose">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" /> クラスの現在のインスタンスによって使用されているすべてのリソースを解放します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.Dispose(System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" /> で使用されているアンマネージ リソースを解放し、オプションでマネージ リソースを解放します。</summary>
+      <param name="disposing">マネージ リソースとアンマネージ リソースの両方を解放する場合は true。アンマネージ リソースだけを解放する場合は false。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.GenerateIV">
+      <summary>派生クラスでオーバーライドされると、アルゴリズムで使用するランダムな初期化ベクター (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) を生成します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.GenerateKey">
+      <summary>派生クラスでオーバーライドされると、アルゴリズムで使用するランダム キー (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" />) を生成します。</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.IV">
+      <summary>対称アルゴリズムの初期化ベクター (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) を取得または設定します。</summary>
+      <returns>初期化ベクター。</returns>
+      <exception cref="T:System.ArgumentNullException">初期化ベクターを null に設定しようとしました。</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">初期化ベクターを無効なサイズに設定しようとしました。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Key">
+      <summary>対称アルゴリズムの共有キーを取得または設定します。</summary>
+      <returns>対称アルゴリズムに使用する共有キー。</returns>
+      <exception cref="T:System.ArgumentNullException">キーを null に設定しようとしました。</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">キー サイズが無効です。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.KeySize">
+      <summary>対称アルゴリズムで使用する共有キーのサイズをビット単位で取得または設定します。</summary>
+      <returns>対称アルゴリズムで使用する共有キーのサイズ (ビット単位)。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">キー サイズが有効ではありません。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes">
+      <summary>対称アルゴリズムでサポートされているブロック サイズをビット単位で取得します。</summary>
+      <returns>アルゴリズムでサポートされているブロック サイズを格納している配列。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes">
+      <summary>対称アルゴリズムでサポートされているキー サイズをビット単位で取得します。</summary>
+      <returns>アルゴリズムでサポートされているキー サイズを格納している配列。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Mode">
+      <summary>対称アルゴリズムの操作モードを取得または設定します。</summary>
+      <returns>対称アルゴリズムの操作モード。既定値は、<see cref="F:System.Security.Cryptography.CipherMode.CBC" /> です。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号モードが <see cref="T:System.Security.Cryptography.CipherMode" /> 値ではありません。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Padding">
+      <summary>対称アルゴリズムで使用する埋め込みモードを取得または設定します。</summary>
+      <returns>対称アルゴリズムで使用する埋め込みモード。既定値は、<see cref="F:System.Security.Cryptography.PaddingMode.PKCS7" /> です。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">埋め込みモードが <see cref="T:System.Security.Cryptography.PaddingMode" /> 値ではありません。</exception>
+    </member>
+  </members>
+</doc>

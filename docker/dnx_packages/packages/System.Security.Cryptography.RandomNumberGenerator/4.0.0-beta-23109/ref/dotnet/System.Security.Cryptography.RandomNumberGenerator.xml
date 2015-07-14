@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RandomNumberGenerator</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.RandomNumberGenerator">
+      <summary>Represents the abstract class from which all implementations of cryptographic random number generators derive.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.#ctor">
+      <summary>Initializes a new instance of <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Create">
+      <summary>When overridden in a derived class, creates an instance of the default implementation of a cryptographic random number generator that can be used to generate random data.</summary>
+      <returns>A new instance of a cryptographic random number generator.</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose">
+      <summary>When overridden in a derived class, releases all resources used by the current instance of the <see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> class.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose(System.Boolean)">
+      <summary>When overridden in a derived class, releases the unmanaged resources used by the <see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> and optionally releases the managed resources.</summary>
+      <param name="disposing">true to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.GetBytes(System.Byte[])">
+      <summary>When overridden in a derived class, fills an array of bytes with a cryptographically strong random sequence of values.</summary>
+      <param name="data">The array to fill with cryptographically strong random bytes. </param>
+    </member>
+  </members>
+</doc>

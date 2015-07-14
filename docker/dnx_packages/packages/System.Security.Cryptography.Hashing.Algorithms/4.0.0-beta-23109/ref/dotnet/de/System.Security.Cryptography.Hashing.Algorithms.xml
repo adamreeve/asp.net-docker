@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing.Algorithms</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HMACSHA1">
+      <summary>Berechnet unter Verwendung der <see cref="T:System.Security.Cryptography.SHA1" />-Hashfunktion einen Hash-Nachrichtenauthentifizierungscode (HMAC, Hash-based Message Authentication Code). </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA1.#ctor">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.HMACSHA1" />-Klasse mit einem nach dem Zufallsprinzip generierten Schlüssel.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA1.#ctor(System.Byte[])">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.HMACSHA1" />-Klasse mit den angegebenen Schlüsseldaten.</summary>
+      <param name="key">Der geheime Schlüssel für die <see cref="T:System.Security.Cryptography.HMACSHA1" />-Verschlüsselung.Der Schlüssel kann eine beliebige Länge aufweisen. Ab einer Länge von mehr als 64 Bytes wird jedoch unter Verwendung des SHA-1-Hashalgorithmus ein 64-Byte-Schlüssel aus ihm abgeleitet.Für den geheimen Schlüssel wird daher eine Größe von 64 Bytes empfohlen.</param>
+      <exception cref="T:System.ArgumentNullException">Der <paramref name="key" />-Parameter ist null. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA256">
+      <summary>Berechnet unter Verwendung der <see cref="T:System.Security.Cryptography.SHA256" />-Hashfunktion einen Hash-Nachrichtenauthentifizierungscode (HMAC, Hash-based Message Authentication Code).</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA256.#ctor">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.HMACSHA256" />-Klasse mit einem zufällig erzeugten Schlüssel.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA256.#ctor(System.Byte[])">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.HMACSHA256" />-Klasse mit den angegebenen Schlüsseldaten.</summary>
+      <param name="key">Der geheime Schlüssel für die <see cref="T:System.Security.Cryptography.HMACSHA256" />-Verschlüsselung.Der Schlüssel kann eine beliebige Länge aufweisen.Allerdings ist die empfohlene Größe 64 Bytes.Wenn der Schlüssel eine Länge von mehr als 64 Byte aufweist, wird aus ihm jedoch unter Verwendung des SHA-256-Hashalgorithmus ein 64-Byte-Schlüssel abgeleitet.Wenn kleiner als 64 Byte lang, wird sie auf 64 Byte aufgefüllt.</param>
+      <exception cref="T:System.ArgumentNullException">Der <paramref name="key" />-Parameter ist null. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA384">
+      <summary>Berechnet unter Verwendung der <see cref="T:System.Security.Cryptography.SHA384" />-Hashfunktion einen Hash-Nachrichtenauthentifizierungscode (HMAC, Hash-based Message Authentication Code).</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA384.#ctor">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.HMACSHA384" />-Klasse mit einem zufällig erzeugten Schlüssel.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA384.#ctor(System.Byte[])">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.HMACSHA384" />-Klasse unter Verwendung der angegebenen Schlüsseldaten.</summary>
+      <param name="key">Der geheime Schlüssel für die <see cref="T:System.Security.Cryptography.HMACSHA384" />-Verschlüsselung.Der Schlüssel kann eine beliebige Länge aufweisen.Allerdings ist die empfohlene Größe 128 Bytes.Wenn der Schlüssel eine Länge von mehr als 128 Byte aufweist, wird aus ihm jedoch unter Verwendung des SHA-384-Hashalgorithmus ein 128-Byte-Schlüssel abgeleitet.Wenn kleiner als 128 Byte lang, wird sie auf 128 Byte aufgefüllt.</param>
+      <exception cref="T:System.ArgumentNullException">Der <paramref name="key" />-Parameter ist null. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA512">
+      <summary>Berechnet unter Verwendung der <see cref="T:System.Security.Cryptography.SHA512" />-Hashfunktion einen Hash-Nachrichtenauthentifizierungscode (HMAC, Hash-based Message Authentication Code).</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA512.#ctor">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.HMACSHA512" />-Klasse mit einem zufällig erzeugten Schlüssel.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA512.#ctor(System.Byte[])">
+      <summary>Initialisiert eine neue Instanz der <see cref="T:System.Security.Cryptography.HMACSHA512" />-Klasse mit den angegebenen Schlüsseldaten.</summary>
+      <param name="key">Der geheime Schlüssel für die <see cref="T:System.Security.Cryptography.HMACSHA512" />-Verschlüsselung.Der Schlüssel kann eine beliebige Länge aufweisen.Allerdings ist die empfohlene Größe 128 Bytes.Wenn der Schlüssel eine Länge von mehr als 128 Byte aufweist, wird aus ihm jedoch unter Verwendung des SHA-512-Hashalgorithmus ein 128-Byte-Schlüssel abgeleitet.Wenn kleiner als 128 Byte lang, wird sie auf 128 Byte aufgefüllt.</param>
+      <exception cref="T:System.ArgumentNullException">Der <paramref name="key" />-Parameter ist null. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.MD5">
+      <summary>Stellt die abstrakte Klasse dar, von der alle Implementierungen des <see cref="T:System.Security.Cryptography.MD5" />-Hashalgorithmus vererbt werden. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.MD5.#ctor">
+      <summary>Initialisiert eine neue Instanz von <see cref="T:System.Security.Cryptography.MD5" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.MD5.Create">
+      <summary>Erstellt eine Instanz der Standardimplementierung des <see cref="T:System.Security.Cryptography.MD5" />-Hashalgorithmus.</summary>
+      <returns>Eine neue Instanz des <see cref="T:System.Security.Cryptography.MD5" />-Hashalgorithmus.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">Der Algorithmus wurde bei aktiviertem FIPS-Modus (Federal Information Processing Standards) verwendet, ist aber nicht FIPS-kompatibel.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA1">
+      <summary>Berechnet den <see cref="T:System.Security.Cryptography.SHA1" />-Hash für die Eingabedaten.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA1.#ctor">
+      <summary>Initialisiert eine neue Instanz von <see cref="T:System.Security.Cryptography.SHA1" />.</summary>
+      <exception cref="T:System.InvalidOperationException">Die Richtlinie für dieses Objekt ist mit dem FIPS-Algorithmus nicht kompatibel.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA1.Create">
+      <summary>Erstellt eine Instanz der Standardimplementierung von <see cref="T:System.Security.Cryptography.SHA1" />.</summary>
+      <returns>Eine neue Instanz von <see cref="T:System.Security.Cryptography.SHA1" />.</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA256">
+      <summary>Berechnet den <see cref="T:System.Security.Cryptography.SHA256" />-Hash für die Eingabedaten. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA256.#ctor">
+      <summary>Initialisiert eine neue Instanz von <see cref="T:System.Security.Cryptography.SHA256" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA256.Create">
+      <summary>Erstellt eine Instanz der Standardimplementierung von <see cref="T:System.Security.Cryptography.SHA256" />.</summary>
+      <returns>Eine neue Instanz von <see cref="T:System.Security.Cryptography.SHA256" />.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">Der Algorithmus wurde bei aktiviertem FIPS-Modus (Federal Information Processing Standards) verwendet, ist aber nicht FIPS-kompatibel.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA384">
+      <summary>Berechnet den <see cref="T:System.Security.Cryptography.SHA384" />-Hash für die Eingabedaten.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA384.#ctor">
+      <summary>Initialisiert eine neue Instanz von <see cref="T:System.Security.Cryptography.SHA384" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA384.Create">
+      <summary>Erstellt eine Instanz der Standardimplementierung von <see cref="T:System.Security.Cryptography.SHA384" />.</summary>
+      <returns>Eine neue Instanz von <see cref="T:System.Security.Cryptography.SHA384" />.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">Der Algorithmus wurde bei aktiviertem FIPS-Modus (Federal Information Processing Standards) verwendet, ist aber nicht FIPS-kompatibel.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA512">
+      <summary>Berechnet den <see cref="T:System.Security.Cryptography.SHA512" />-Hash für die Eingabedaten.  </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA512.#ctor">
+      <summary>Initialisiert eine neue Instanz von <see cref="T:System.Security.Cryptography.SHA512" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA512.Create">
+      <summary>Erstellt eine Instanz der Standardimplementierung von <see cref="T:System.Security.Cryptography.SHA512" />.</summary>
+      <returns>Eine neue Instanz von <see cref="T:System.Security.Cryptography.SHA512" />.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">Der Algorithmus wurde bei aktiviertem FIPS-Modus (Federal Information Processing Standards) verwendet, ist aber nicht FIPS-kompatibel.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RandomNumberGenerator</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.RandomNumberGenerator">
+      <summary>임의의 암호화 수 생성기의 모든 구현이 파생될 추상 클래스를 나타냅니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Create">
+      <summary>파생 클래스에서 재정의할 경우, 임의의 데이터를 생성하는 데 사용할 수 있는 임의의 암호화 수 생성기의 기본 구현 인스턴스를 만듭니다.</summary>
+      <returns>임의의 암호화 수 생성기의 새 인스턴스입니다.</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose">
+      <summary>파생 클래스에서 재정의되는 경우 <see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> 클래스의 현재 인스턴스에서 사용하는 리소스를 모두 해제합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose(System.Boolean)">
+      <summary>파생 클래스에서 재정의된 경우 <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />에서 사용하는 관리되지 않는 리소스를 해제하고 관리되는 리소스를 선택적으로 해제할 수 있습니다.</summary>
+      <param name="disposing">관리되는 리소스와 관리되지 않는 리소스를 모두 해제하려면 true로 설정하고, 관리되지 않는 리소스만 해제하려면 false로 설정합니다.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.GetBytes(System.Byte[])">
+      <summary>파생 클래스에 재정의할 경우, 임의의 암호화 수준 시퀀스 값으로 바이트 배열을 채웁니다.</summary>
+      <param name="data">임의의 암호화 수준 바이트로 채울 배열입니다. </param>
+    </member>
+  </members>
+</doc>

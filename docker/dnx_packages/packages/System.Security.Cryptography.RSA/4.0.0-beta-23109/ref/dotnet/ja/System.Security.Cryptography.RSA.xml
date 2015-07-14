@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RSA</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.CspKeyContainerInfo">
+      <summary>暗号化キー ペアに関する追加情報を提供します。このクラスは継承できません。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CspKeyContainerInfo.#ctor(System.Security.Cryptography.CspParameters)">
+      <summary>パラメーターを指定して、<see cref="T:System.Security.Cryptography.CspKeyContainerInfo" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="parameters">キーに関する情報を提供する <see cref="T:System.Security.Cryptography.CspParameters" /> オブジェクト。</param>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Accessible">
+      <summary>キー コンテナー内のキーがアクセス可能かどうかを示す値を取得します。</summary>
+      <returns>キーがアクセス可能な場合は true。それ以外の場合は false。</returns>
+      <exception cref="T:System.NotSupportedException">キー型はサポートされていません。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Exportable">
+      <summary>キーをキー コンテナーからエクスポートできるかどうかを示す値を取得します。</summary>
+      <returns>キーをエクスポートできる場合は true。それ以外の場合は false。</returns>
+      <exception cref="T:System.NotSupportedException">キー型はサポートされていません。</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダーが見つかりません。またはキー コンテナーが見つかりませんでした。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.HardwareDevice">
+      <summary>キーがハードウェア キーかどうかを示す値を取得します。</summary>
+      <returns>キーがハードウェア キーである場合は true。それ以外の場合は false。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダーが見つかりません。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.KeyContainerName">
+      <summary>キー コンテナー名を取得します。</summary>
+      <returns>キー コンテナー名。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.KeyNumber">
+      <summary>非対称キーが署名キーまたは交換キーとして作成されたかどうかを表す値を取得します。</summary>
+      <returns>非対称キーが署名キーまたは交換キーとして作成されたかどうかを表す <see cref="T:System.Security.Cryptography.KeyNumber" /> 値の 1 つ。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.MachineKeyStore">
+      <summary>コンピューターのキー セットのキーかどうかを示す値を取得します。</summary>
+      <returns>コンピューターのキー セットのキーである場合は true。それ以外の場合は false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Protected">
+      <summary>キー ペアが保護されているかどうかを示す値を取得します。</summary>
+      <returns>キー ペアが保護されている場合は true。それ以外の場合は false。</returns>
+      <exception cref="T:System.NotSupportedException">キー型はサポートされていません。</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダーが見つかりません。またはキー コンテナーが見つかりませんでした。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.ProviderName">
+      <summary>キーのプロバイダー名を取得します。</summary>
+      <returns>プロバイダー名。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.ProviderType">
+      <summary>キーのプロバイダーの種類を取得します。</summary>
+      <returns>プロバイダーの種類。既定値は 1 です。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.RandomlyGenerated">
+      <summary>キー コンテナーがマネージ暗号化クラスによってランダムに生成されたかどうかを示す値を取得します。</summary>
+      <returns>キー コンテナーがランダムに生成された場合は true。それ以外の場合は false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Removable">
+      <summary>キーをキー コンテナーから削除できるかどうかを示す値を取得します。</summary>
+      <returns>キーを削除できる場合は true。それ以外の場合は false。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダー (CSP) が見つかりませんでした。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.UniqueKeyContainerName">
+      <summary>一意のキー コンテナー名を取得します。</summary>
+      <returns>一意のキー コンテナー名。</returns>
+      <exception cref="T:System.NotSupportedException">キー型はサポートされていません。</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダーが見つかりません。またはキー コンテナーが見つかりませんでした。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.CspParameters">
+      <summary>暗号計算を実行する暗号サービス プロバイダー (CSP: Cryptographic Service Provider) に渡されるパラメーターを格納します。このクラスは継承できません。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.CspParameters" /> クラスの新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32)">
+      <summary>指定したプロバイダーの種類コードを使用して、<see cref="T:System.Security.Cryptography.CspParameters" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="dwTypeIn">作成するプロバイダーの種類を示すプロバイダーの種類コード。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String)">
+      <summary>指定したプロバイダーの種類コードと名前を使用して、<see cref="T:System.Security.Cryptography.CspParameters" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="dwTypeIn">作成するプロバイダーの種類を示すプロバイダーの種類コード。</param>
+      <param name="strProviderNameIn">プロバイダー名。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String,System.String)">
+      <summary>指定したプロバイダーの種類コードと名前、および指定したコンテナー名を使用して、<see cref="T:System.Security.Cryptography.CspParameters" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="dwTypeIn">作成するプロバイダーの種類を示すプロバイダーの種類コード。</param>
+      <param name="strProviderNameIn">プロバイダー名。</param>
+      <param name="strContainerNameIn">コンテナー名。</param>
+    </member>
+    <member name="P:System.Security.Cryptography.CspParameters.Flags">
+      <summary>暗号化サービス プロバイダー (CSP) の動作を変更する <see cref="T:System.Security.Cryptography.CspParameters" /> のフラグを表します。</summary>
+      <returns>列挙値、または列挙値のビットごとの組み合わせ。</returns>
+      <exception cref="T:System.ArgumentException">値が有効な列挙値ではありません。</exception>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.KeyContainerName">
+      <summary>
+        <see cref="T:System.Security.Cryptography.CspParameters" /> のキー コンテナー名を表します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.KeyNumber">
+      <summary>非対称キーを署名キーと交換キーのどちらとして作成するかを指定します。</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.CspParameters.ParentWindowHandle">
+      <summary>スマート カード パスワード ダイアログ ボックスのアンマネージ親ウィンドウを識別するハンドルを取得または設定します。</summary>
+      <returns>スマート カード パスワード ダイアログ ボックスの親ウィンドウを識別するハンドル。</returns>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.ProviderName">
+      <summary>
+        <see cref="T:System.Security.Cryptography.CspParameters" /> のプロバイダー名を表します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.ProviderType">
+      <summary>
+        <see cref="T:System.Security.Cryptography.CspParameters" /> のプロバイダーの種類コードを表します。</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.CspProviderFlags">
+      <summary>暗号化サービス プロバイダー (CSP: Cryptographic Service Provider) の動作を変更するフラグを指定します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.CreateEphemeralKey">
+      <summary>関連付けられている RSA (Rivest-Shamir-Adleman) オブジェクトが閉じられたときに解放される一時キーを作成します。キーを RSA オブジェクトから独立させる場合は、このフラグを使用しないでください。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.NoFlags">
+      <summary>設定を一切指定しません。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.NoPrompt">
+      <summary>CSP でこのコンテキストのユーザー インターフェイス (UI) が表示されないようにします。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseArchivableKey">
+      <summary>キーのエクスポートを許可し、キーをアーカイブまたは復元できるようにします。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseDefaultKeyContainer">
+      <summary>既定のキー コンテナーからのキー情報を使用します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseExistingKey">
+      <summary>現在のキーからのキー情報を使用します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseMachineKeyStore">
+      <summary>コンピューターのキー ストアからのキー情報を使用します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseNonExportableKey">
+      <summary>エクスポートできないキー情報を使用します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseUserProtectedKey">
+      <summary>キーがなんらかの処理によって使用されようとしている場合に、ダイアログ ボックスなどの手段でユーザーに通知します。このフラグには、<see cref="F:System.Security.Cryptography.CspProviderFlags.NoPrompt" /> フラグとの互換性はありません。</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.ICspAsymmetricAlgorithm">
+      <summary>
+        <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> クラスで、キー コンテナー情報の列挙や CAPI (Microsoft Cryptographic API) と互換性のあるキー BLOB のインポートとエクスポートを行うことができるようにする、メソッドを定義します。</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.ICspAsymmetricAlgorithm.CspKeyContainerInfo">
+      <summary>暗号化キー ペアに関する追加情報を記述する <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" /> オブジェクトを取得します。</summary>
+      <returns>暗号化キー ペアに関する追加情報を記述する <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" /> オブジェクト。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.ICspAsymmetricAlgorithm.ExportCspBlob(System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> オブジェクトに関連付けられたキー情報を含む BLOB をエクスポートします。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> オブジェクトに関連付けられたキー情報を含むバイト配列。</returns>
+      <param name="includePrivateParameters">秘密キーを含める場合は true。それ以外の場合は false。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.ICspAsymmetricAlgorithm.ImportCspBlob(System.Byte[])">
+      <summary>非対称キー情報を表す BLOB をインポートします。</summary>
+      <param name="rawData">非対称キー BLOB を表すバイト配列。</param>
+    </member>
+    <member name="T:System.Security.Cryptography.KeyNumber">
+      <summary>非対称署名キーまたは非対称交換キーを作成するかどうかを指定します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.KeyNumber.Exchange">
+      <summary>セッション キーを暗号化するための交換キー ペアです。セッション キーを安全に保管し、他のユーザーと交換できるようにするために使用します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.KeyNumber.Signature">
+      <summary>デジタル署名されたメッセージやファイルを認証するための署名キー ペアです。</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.RSA">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムのすべての実装が継承する、基本クラスを表します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> の新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.DecryptValue(System.Byte[])">
+      <summary>派生クラスでオーバーライドされると、秘密キーを使用して入力データの暗号化を解除します。[このドキュメントは暫定的であり、.NET Framework 4.6 の次のリリースで変更される可能性があります]</summary>
+      <returns>プレーンテキストの <paramref name="rgb" /> パラメーターの暗号化解除。</returns>
+      <param name="rgb">復号化する暗号テキスト。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.EncryptValue(System.Byte[])">
+      <summary>派生クラスでオーバーライドされると、公開キーを使用して入力データを暗号化します。[このドキュメントは暫定的であり、.NET Framework 4.6 の次のリリースで変更される可能性があります]</summary>
+      <returns>暗号化テキストとなる <paramref name="rgb" /> パラメーターの暗号化。</returns>
+      <param name="rgb">暗号化されるプレーンテキスト。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.ExportParameters(System.Boolean)">
+      <summary>派生クラスでオーバーライドされると、<see cref="T:System.Security.Cryptography.RSAParameters" /> をエクスポートします。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.DSA" /> のパラメーター。</returns>
+      <param name="includePrivateParameters">プライベート パラメーターを含める場合は true。それ以外の場合は false。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.ImportParameters(System.Security.Cryptography.RSAParameters)">
+      <summary>派生クラスでオーバーライドされると、指定された <see cref="T:System.Security.Cryptography.RSAParameters" /> をインポートします。</summary>
+      <param name="parameters">
+        <see cref="T:System.Security.Cryptography.RSA" /> のパラメーター。</param>
+    </member>
+    <member name="T:System.Security.Cryptography.RSACryptoServiceProvider">
+      <summary>暗号サービス プロバイダー (CSP : Cryptographic Service Provider) によって提供された <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムの実装を使用して、非対称暗号化および復号化を実行します。このクラスは継承できません。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor">
+      <summary>既定のキーを使用して、<see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> クラスの新しいインスタンスを初期化します。</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダー (CSP) を取得できません。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Int32)">
+      <summary>キーのサイズを指定して、<see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="dwKeySize">使用するキーのサイズ (ビット単位)。</param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダー (CSP) を取得できません。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Int32,System.Security.Cryptography.CspParameters)">
+      <summary>キー サイズとパラメーターを指定して、<see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="dwKeySize">使用するキーのサイズ (ビット単位)。</param>
+      <param name="parameters">暗号サービス プロバイダー (CSP) に渡すパラメーター。</param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">CSP を取得できません。またはキーを作成できません。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Security.Cryptography.CspParameters)">
+      <summary>指定したパラメーターを使用して、<see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> クラスの新しいインスタンスを初期化します。</summary>
+      <param name="parameters">暗号サービス プロバイダー (CSP) に渡すパラメーター。</param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">CSP を取得できません。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.CspKeyContainerInfo">
+      <summary>暗号化キー ペアに関する追加情報を記述する <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" /> オブジェクトを取得します。</summary>
+      <returns>暗号化キー ペアに関する追加情報を記述する <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" /> オブジェクト。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(System.Byte[],System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムでデータの暗号化を解除します。</summary>
+      <returns>暗号化を解除されたデータ。これは、暗号化前の元のプレーンテキストです。</returns>
+      <param name="rgb">復号化するデータ。</param>
+      <param name="fOAEP">Microsoft Windows XP 以降を実行するコンピューターだけで使用できる OAEP パディングを使用して、直接 <see cref="T:System.Security.Cryptography.RSA" /> 復号化を実行する場合は true。それ以外の場合は、PKCS#1 v1.5 パディングを使用することを表す false。</param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダー (CSP) を取得できません。または<paramref name="fOAEP" /> パラメーターが true であり、<paramref name="rgb" /> パラメーターの長さが <see cref="P:System.Security.Cryptography.RSACryptoServiceProvider.KeySize" /> を超える値です。または<paramref name="fOAEP" /> パラメーターが true で、OAEP がサポートされていません。またはキーが、暗号化されたデータと一致しません。ただし、例外の表現は正確でない場合があります。たとえば、Not enough storage is available to process this command を示す場合があります。</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="rgb " />が null です。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.DecryptValue(System.Byte[])">
+      <summary>このメソッドは、現在のバージョンではサポートされていません。</summary>
+      <returns>暗号化を解除されたデータ。これは、暗号化前の元のプレーンテキストです。</returns>
+      <param name="rgb">復号化するデータ。</param>
+      <exception cref="T:System.NotSupportedException">このメソッドは、現在のバージョンではサポートされていません。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.Encrypt(System.Byte[],System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムでデータを暗号化します。</summary>
+      <returns>暗号化されたデータ。</returns>
+      <param name="rgb">暗号化されるデータ。</param>
+      <param name="fOAEP">Microsoft Windows XP 以降を実行するコンピューターだけで使用できる OAEP パディングを使用して、直接 <see cref="T:System.Security.Cryptography.RSA" /> 暗号化を実行する場合は true。それ以外の場合は、PKCS#1 v1.5 パディングを使用することを表す false。</param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダー (CSP) を取得できません。または<paramref name="rgb" /> パラメーターの長さが許可された最大長を超えています。または<paramref name="fOAEP" /> パラメーターが true で、OAEP パディングがサポートされていません。</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="rgb " />が null です。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.EncryptValue(System.Byte[])">
+      <summary>このメソッドは、現在のバージョンではサポートされていません。</summary>
+      <returns>暗号化されたデータ。</returns>
+      <param name="rgb">暗号化されるデータ。</param>
+      <exception cref="T:System.NotSupportedException">このメソッドは、現在のバージョンではサポートされていません。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ExportCspBlob(System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> オブジェクトに関連付けられたキー情報を含む BLOB をエクスポートします。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> オブジェクトに関連付けられたキー情報を含むバイト配列。</returns>
+      <param name="includePrivateParameters">秘密キーを含める場合は true。それ以外の場合は false。</param>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters(System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSAParameters" /> をエクスポートします。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.RSA" /> のパラメーター。</returns>
+      <param name="includePrivateParameters">プライベート パラメーターを含める場合は true。それ以外の場合は false。</param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">キーをエクスポートできません。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ImportCspBlob(System.Byte[])">
+      <summary>RSA キー情報を表す BLOB をインポートします。</summary>
+      <param name="keyBlob">RSA キー BLOB を表すバイト配列。</param>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ImportParameters(System.Security.Cryptography.RSAParameters)">
+      <summary>指定した <see cref="T:System.Security.Cryptography.RSAParameters" /> をインポートします。</summary>
+      <param name="parameters">
+        <see cref="T:System.Security.Cryptography.RSA" /> のパラメーター。</param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダー (CSP) を取得できません。または<paramref name="parameters" /> パラメーターに欠落しているフィールドがあります。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.KeySize">
+      <summary>現在のキーのサイズを取得します。</summary>
+      <returns>キーのサイズ (ビット単位)。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.PersistKeyInCsp">
+      <summary>暗号サービス プロバイダー (CSP) でキーを永続化する必要があるかどうかを示す値を取得または設定します。</summary>
+      <returns>キーを CSP で永続化する場合は true。それ以外の場合は false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.PublicOnly">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> オブジェクトに格納されているのが公開キーだけかどうかを示す値を取得します。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> オブジェクトに公開キーだけが格納されている場合は true。それ以外の場合は false。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignData(System.Byte[],System.Int32,System.Int32,System.Object)">
+      <summary>指定したハッシュ アルゴリズムを使用して、指定したバイト配列のサブセットのハッシュ値を計算し、結果のハッシュ値に署名します。</summary>
+      <returns>指定したデータに対する <see cref="T:System.Security.Cryptography.RSA" /> 署名。</returns>
+      <param name="buffer">ハッシュを計算する対象の入力データ。</param>
+      <param name="offset">使用するデータの先頭位置を示す、配列内のオフセット。</param>
+      <param name="count">配列内でデータとして使用されるバイトの数。</param>
+      <param name="halg">ハッシュ値の作成に使用するハッシュ アルゴリズム。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="halg" /> パラメーターが null です。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="halg" /> パラメーターの型が有効ではありません。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignData(System.Byte[],System.Object)">
+      <summary>指定したハッシュ アルゴリズムを使用して、指定したバイト配列のハッシュ値を計算し、結果ハッシュ値に署名します。</summary>
+      <returns>指定したデータに対する <see cref="T:System.Security.Cryptography.RSA" /> 署名。</returns>
+      <param name="buffer">ハッシュを計算する対象の入力データ。</param>
+      <param name="halg">ハッシュ値の作成に使用するハッシュ アルゴリズム。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="halg" /> パラメーターが null です。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="halg" /> パラメーターの型が有効ではありません。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignData(System.IO.Stream,System.Object)">
+      <summary>指定したハッシュ アルゴリズムを使用して、指定した入力ストリームのハッシュ値を計算し、結果ハッシュ値に署名します。</summary>
+      <returns>指定したデータに対する <see cref="T:System.Security.Cryptography.RSA" /> 署名。</returns>
+      <param name="inputStream">ハッシュを計算する対象の入力データ。</param>
+      <param name="halg">ハッシュ値の作成に使用するハッシュ アルゴリズム。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="halg" /> パラメーターが null です。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="halg" /> パラメーターの型が有効ではありません。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignHash(System.Byte[],System.String)">
+      <summary>指定したハッシュ値を秘密キーで暗号化することにより、そのハッシュ値の署名を計算します。</summary>
+      <returns>指定したハッシュ値に対する <see cref="T:System.Security.Cryptography.RSA" /> 署名。</returns>
+      <param name="rgbHash">署名されるデータのハッシュ値。</param>
+      <param name="str">データのハッシュ値の作成に使用するハッシュ アルゴリズム識別子 (OID)。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="rgbHash" /> パラメーターが null です。</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダー (CSP) を取得できません。または秘密キーがありません。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.UseMachineKeyStore">
+      <summary>ユーザー プロファイル ストアの代わりに、コンピューターのキー ストアでキーを永続化する必要があるかどうかを示す値を取得または設定します。</summary>
+      <returns>キーをコンピューターのキー ストアで永続化する必要がある場合は true。それ以外の場合は false。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.VerifyData(System.Byte[],System.Object,System.Byte[])">
+      <summary>デジタル署名が有効であることを確認するには、提供された公開キーを使用し、提供されたデータのハッシュ値と比較して、署名のハッシュ値を判別します。</summary>
+      <returns>署名が有効な場合は true。それ以外の場合は false。</returns>
+      <param name="buffer">署名されたデータ</param>
+      <param name="halg">データのハッシュ値を作成するために使用するハッシュ アルゴリズムの名前。</param>
+      <param name="signature">検証される署名データ。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="halg" /> パラメーターが null です。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="halg" /> パラメーターの型が有効ではありません。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.VerifyHash(System.Byte[],System.String,System.Byte[])">
+      <summary>デジタル署名が有効であることを確認するには、提供された公開キーを使用し、提供されたハッシュ値と比較して、署名のハッシュ値を判別します。</summary>
+      <returns>署名が有効な場合は true。それ以外の場合は false。</returns>
+      <param name="rgbHash">署名されたデータのハッシュ値。</param>
+      <param name="str">データのハッシュ値の作成に使用するハッシュ アルゴリズム識別子 (OID)。</param>
+      <param name="rgbSignature">検証される署名データ。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="rgbHash" /> パラメーターが null です。または<paramref name="rgbSignature" /> パラメーターが null です。</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">暗号化サービス プロバイダー (CSP) を取得できません。または署名を検証できません。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.RSAParameters">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムの標準のパラメーターを表します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.D">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムの D パラメーターを表します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.DP">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムの DP パラメーターを表します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.DQ">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムの DQ パラメーターを表します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.Exponent">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムの Exponent パラメーターを表します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.InverseQ">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムの InverseQ パラメーターを表します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.Modulus">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムの Modulus パラメーターを表します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.P">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムの P パラメーターを表します。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.Q">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RSA" /> アルゴリズムの Q パラメーターを表します。</summary>
+    </member>
+  </members>
+</doc>

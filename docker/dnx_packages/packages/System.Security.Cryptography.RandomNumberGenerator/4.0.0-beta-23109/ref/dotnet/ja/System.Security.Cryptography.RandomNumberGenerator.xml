@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RandomNumberGenerator</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.RandomNumberGenerator">
+      <summary>暗号乱数ジェネレーターのすべての実装の派生元である、抽象クラスを表します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> の新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Create">
+      <summary>派生クラスでオーバーライドされると、ランダムなデータを生成するために使用できる暗号乱数ジェネレーターの、既定の実装のインスタンスを作成します。</summary>
+      <returns>暗号乱数ジェネレーターの新しいインスタンス。</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose">
+      <summary>派生クラスでオーバーライドされた場合、<see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> クラスの現在のインスタンスによって使用されているすべてのリソースを解放します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose(System.Boolean)">
+      <summary>派生クラスでオーバーライドされると、<see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> によって使用されているアンマネージ リソースを解放し、オプションでマネージ リソースも解放します。</summary>
+      <param name="disposing">マネージ リソースとアンマネージ リソースの両方を解放する場合は true。アンマネージ リソースだけを解放する場合は false。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.GetBytes(System.Byte[])">
+      <summary>派生クラスでオーバーライドされると、バイト配列に、暗号化に使用する厳密な値のランダム シーケンスを格納します。</summary>
+      <param name="data">暗号化に使用する厳密なランダム バイトを格納する配列。</param>
+    </member>
+  </members>
+</doc>

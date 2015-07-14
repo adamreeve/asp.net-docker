@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HashAlgorithm">
+      <summary>Représente la classe de base dont toutes les implémentations des algorithmes de hachage de chiffrement doivent dériver.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.#ctor">
+      <summary>Initialise une nouvelle instance de la classe <see cref="T:System.Security.Cryptography.HashAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])">
+      <summary>Calcule la valeur de hachage pour le tableau d'octets spécifié.</summary>
+      <returns>Code de hachage calculé.</returns>
+      <param name="buffer">Entrée pour laquelle le code de hachage doit être calculé. </param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> a la valeur null.</exception>
+      <exception cref="T:System.ObjectDisposedException">L'objet a déjà été supprimé.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[],System.Int32,System.Int32)">
+      <summary>Calcule la valeur de hachage pour la région spécifiée du tableau d'octets spécifié.</summary>
+      <returns>Code de hachage calculé.</returns>
+      <param name="buffer">Entrée pour laquelle le code de hachage doit être calculé. </param>
+      <param name="offset">Offset dans le tableau d'octets à partir duquel l'utilisation de données commence. </param>
+      <param name="count">Nombre d'octets dans le tableau à utiliser comme données. </param>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="count" /> n'est pas une valeur valide.ou<paramref name="buffer" /> a une longueur non valide.</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> a la valeur null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> est hors limites.Ce paramètre requiert un nombre non négatif.</exception>
+      <exception cref="T:System.ObjectDisposedException">L'objet a déjà été supprimé.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)">
+      <summary>Calcule la valeur de hachage pour l'objet <see cref="T:System.IO.Stream" /> spécifié.</summary>
+      <returns>Code de hachage calculé.</returns>
+      <param name="inputStream">Entrée pour laquelle le code de hachage doit être calculé. </param>
+      <exception cref="T:System.ObjectDisposedException">L'objet a déjà été supprimé.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose">
+      <summary>Libère toutes les ressources utilisées par l'instance actuelle de la classe <see cref="T:System.Security.Cryptography.HashAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose(System.Boolean)">
+      <summary>Libère les ressources non managées utilisées par l'objet <see cref="T:System.Security.Cryptography.HashAlgorithm" /> et libère éventuellement les ressources managées.</summary>
+      <param name="disposing">true pour libérer les ressources managées et non managées ; false pour ne libérer que les ressources non managées. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>En cas de substitution dans une classe dérivée, achemine les données écrites dans l'objet vers l'algorithme de hachage pour calculer le hachage.</summary>
+      <param name="array">Entrée pour laquelle le code de hachage doit être calculé. </param>
+      <param name="ibStart">Offset dans le tableau d'octets à partir duquel l'utilisation de données commence. </param>
+      <param name="cbSize">Nombre d'octets dans le tableau d'octets à utiliser comme données. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashFinal">
+      <summary>En cas de substitution dans une classe dérivée, finalise le calcul de hachage une fois les dernières données traitées par l'objet de flux de chiffrement.</summary>
+      <returns>Code de hachage calculé.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HashAlgorithm.HashSize">
+      <summary>Obtient la taille, en bits, du code de hachage calculé.</summary>
+      <returns>Taille, en bits, du code de hachage calculé.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Initialize">
+      <summary>Initialise une implémentation de la classe <see cref="T:System.Security.Cryptography.HashAlgorithm" />.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.HMAC">
+      <summary>Représente la classe abstraite dont toutes les implémentations du code HMAC (Hash-based Message Authentication Code) doivent dériver.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.#ctor">
+      <summary>Initialise une nouvelle instance de la classe <see cref="T:System.Security.Cryptography.HMAC" />. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Dispose(System.Boolean)">
+      <summary>Libère les ressources non managées utilisées par la classe <see cref="T:System.Security.Cryptography.HMAC" /> quand un changement de clé est légitime et libère éventuellement les ressources managées.</summary>
+      <param name="disposing">true pour libérer les ressources managées et non managées ; false pour ne libérer que les ressources non managées. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>En cas de substitution dans une classe dérivée, achemine les données écrites dans l'objet vers l'algorithme de hachage <see cref="T:System.Security.Cryptography.HMAC" /> par défaut pour calculer la valeur de hachage.</summary>
+      <param name="rgb">Données d'entrée. </param>
+      <param name="ib">Offset dans le tableau d'octets à partir duquel l'utilisation de données commence. </param>
+      <param name="cb">Nombre d'octets dans le tableau à utiliser comme données. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashFinal">
+      <summary>En cas de substitution dans une classe dérivée, finalise le calcul de hachage une fois les dernières données traitées par l'objet de flux de chiffrement.</summary>
+      <returns>Code de hachage calculé dans un tableau d'octets.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.HashName">
+      <summary>Obtient ou définit le nom de l'algorithme de hachage à utiliser pour le hachage.</summary>
+      <returns>Nom de l'algorithme de hachage.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">L'algorithme de hachage actuel ne peut pas être modifié.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Initialize">
+      <summary>Initialise une instance de l'implémentation par défaut de <see cref="T:System.Security.Cryptography.HMAC" />.</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.Key">
+      <summary>Obtient ou définit la clé à utiliser dans l'algorithme de hachage.</summary>
+      <returns>Clé à utiliser dans l'algorithme de hachage.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Une tentative est faite de modifier la propriété <see cref="P:System.Security.Cryptography.HMAC.Key" /> après que le hachage a commencé. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.KeyedHashAlgorithm">
+      <summary>Représente la classe abstraite dont toutes les implémentations des algorithmes de hachage à clé doivent dériver. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.#ctor">
+      <summary>Initialise une nouvelle instance de la classe <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.Dispose(System.Boolean)">
+      <summary>Libère les ressources non managées utilisées par l'objet <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" /> et libère éventuellement les ressources managées.</summary>
+      <param name="disposing">true pour libérer les ressources managées et non managées ; false pour ne libérer que les ressources non managées. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeyedHashAlgorithm.Key">
+      <summary>Obtient ou définit la clé à utiliser dans l'algorithme de hachage.</summary>
+      <returns>Clé à utiliser dans l'algorithme de hachage.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Une tentative a été faite de modifier la propriété <see cref="P:System.Security.Cryptography.KeyedHashAlgorithm.Key" /> après que le hachage a commencé. </exception>
+    </member>
+  </members>
+</doc>

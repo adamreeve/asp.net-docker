@@ -1,9 +1,11 @@
 {
     "dependencies": {
-        "Kestrel": " 1.0.0-beta6-11871",
-        "Microsoft.AspNet.Diagnostics": "1.0.0-beta6-13279 ",
-        "Microsoft.AspNet.Hosting": "1.0.0-beta6-12008",
-        "Microsoft.AspNet.Mvc": "6.0.0-beta6-14142",
+        "Kestrel": " 1.0.0-beta6-11993",
+        "Microsoft.AspNet.Diagnostics": "1.0.0-beta6-13400",
+        "Microsoft.AspNet.Hosting": "1.0.0-beta6-12138",
+        "Microsoft.Framework.Logging": "1.0.0-beta6-11596",
+        "Microsoft.Framework.Logging.Console": "1.0.0-beta6-11596",
+        "Microsoft.AspNet.Mvc": "6.0.0-beta6-14298",
         "Mono.Posix": "4.0.0",
         "ServiceStack.Redis": "4.0.40"
     },

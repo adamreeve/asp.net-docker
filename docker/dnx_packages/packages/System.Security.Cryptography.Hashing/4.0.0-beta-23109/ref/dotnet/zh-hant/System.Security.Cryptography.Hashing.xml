@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HashAlgorithm">
+      <summary>代表基底類別，密碼編譯雜湊演算法的所有實作必須從它衍生。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.HashAlgorithm" /> 類別的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])">
+      <summary>計算指定位元組陣列的雜湊值。</summary>
+      <returns>計算出來的雜湊碼。</returns>
+      <param name="buffer">要用來計算雜湊碼的輸入。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> 為 null。</exception>
+      <exception cref="T:System.ObjectDisposedException">物件已經處置。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[],System.Int32,System.Int32)">
+      <summary>計算所指定位元組陣列中指定區域的雜湊值。</summary>
+      <returns>計算出來的雜湊碼。</returns>
+      <param name="buffer">要用來計算雜湊碼的輸入。</param>
+      <param name="offset">位元組陣列中的座標，從此處開始使用資料。</param>
+      <param name="count">陣列中要用作資料的位元組數目。</param>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="count" /> 是無效的值。-或-<paramref name="buffer" /> 長度無效。</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> 為 null。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> 超出範圍。這個參數需要非負數的數字。</exception>
+      <exception cref="T:System.ObjectDisposedException">物件已經處置。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)">
+      <summary>計算指定 <see cref="T:System.IO.Stream" /> 物件的雜湊值。</summary>
+      <returns>計算出來的雜湊碼。</returns>
+      <param name="inputStream">要用來計算雜湊碼的輸入。</param>
+      <exception cref="T:System.ObjectDisposedException">物件已經處置。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose">
+      <summary>將 <see cref="T:System.Security.Cryptography.HashAlgorithm" /> 類別目前的執行個體所使用的資源全部釋出。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose(System.Boolean)">
+      <summary>釋放 <see cref="T:System.Security.Cryptography.HashAlgorithm" /> 所使用的 Unmanaged 資源，並選擇性釋放 Managed 資源。</summary>
+      <param name="disposing">true 表示釋放 Managed 和 Unmanaged 資源，false 則表示只釋放 Unmanaged 資源。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>在衍生類別中覆寫時，將寫入物件的資料轉遞到用來計算雜湊的雜湊演算法。</summary>
+      <param name="array">要用來計算雜湊碼的輸入。</param>
+      <param name="ibStart">位元組陣列中的座標，從此處開始使用資料。</param>
+      <param name="cbSize">位元組陣列中要用作資料的位元組數目。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashFinal">
+      <summary>在衍生類別中覆寫時，當密碼編譯資料流物件處理最後的資料後，會對雜湊計算做最後處理。</summary>
+      <returns>計算出來的雜湊碼。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HashAlgorithm.HashSize">
+      <summary>取得計算出來之雜湊碼的大小，以位元為單位。</summary>
+      <returns>計算出來之雜湊碼的大小，以位元為單位。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Initialize">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.HashAlgorithm" /> 類別的實作。</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.HMAC">
+      <summary>表示抽象類別，所有的雜湊式訊息驗證碼 (HMAC) 實作均須從這個類別衍生。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.HMAC" /> 類別的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Dispose(System.Boolean)">
+      <summary>如果金鑰變更是合法的，則釋放 <see cref="T:System.Security.Cryptography.HMAC" /> 類別所使用的 Unmanaged 資源，並選擇性釋放 Managed 資源。</summary>
+      <param name="disposing">true 表示釋放 Managed 和 Unmanaged 資源，false 則表示只釋放 Unmanaged 資源。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>在衍生類別中覆寫時，將寫入物件的資料轉遞到用來計算雜湊值的預設 <see cref="T:System.Security.Cryptography.HMAC" /> 雜湊演算法。</summary>
+      <param name="rgb">輸入資料。</param>
+      <param name="ib">位元組陣列中的座標，從此處開始使用資料。</param>
+      <param name="cb">陣列中要用作資料的位元組數目。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashFinal">
+      <summary>在衍生類別中覆寫時，當密碼編譯資料流物件處理最後的資料後，會對雜湊計算做最後處理。</summary>
+      <returns>位元組陣列中計算出的雜湊碼。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.HashName">
+      <summary>取得或設定用於雜湊的雜湊演算法名稱。</summary>
+      <returns>雜湊演算法的名稱。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">無法變更目前的雜湊演算法。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Initialize">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.HMAC" /> 預設實作的執行個體。</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.Key">
+      <summary>取得或設定要使用於雜湊演算法的金鑰。</summary>
+      <returns>要使用於雜湊演算法的金鑰。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">嘗試在雜湊開始後變更 <see cref="P:System.Security.Cryptography.HMAC.Key" /> 屬性。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.KeyedHashAlgorithm">
+      <summary>代表基底類別，金鑰雜湊演算法的所有實作必須從它衍生。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" /> 類別的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.Dispose(System.Boolean)">
+      <summary>釋放 <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" /> 所使用的 Unmanaged 資源，並選擇性釋放 Managed 資源。</summary>
+      <param name="disposing">true 表示釋放 Managed 和 Unmanaged 資源，false 則表示只釋放 Unmanaged 資源。</param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeyedHashAlgorithm.Key">
+      <summary>取得或設定要使用於雜湊演算法的金鑰。</summary>
+      <returns>要使用於雜湊演算法的金鑰。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">嘗試在雜湊開始後變更 <see cref="P:System.Security.Cryptography.KeyedHashAlgorithm.Key" /> 屬性。</exception>
+    </member>
+  </members>
+</doc>

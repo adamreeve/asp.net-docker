@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HashAlgorithm">
+      <summary>Представляет базовый класс, из которого создаются все реализации криптографических хэш-алгоритмов.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.HashAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])">
+      <summary>Вычисляет хэш-значение для заданного массива байтов.</summary>
+      <returns>Вычисляемый хэш-код.</returns>
+      <param name="buffer">Входные данные, для которых вычисляется хэш-код. </param>
+      <exception cref="T:System.ArgumentNullException">Свойство <paramref name="buffer" /> имеет значение null.</exception>
+      <exception cref="T:System.ObjectDisposedException">Объект уже удален.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[],System.Int32,System.Int32)">
+      <summary>Вычисляет хэш-значение для заданной области заданного массива байтов.</summary>
+      <returns>Вычисляемый хэш-код.</returns>
+      <param name="buffer">Входные данные, для которых вычисляется хэш-код. </param>
+      <param name="offset">Смещение в массиве байтов, начиная с которого следует использовать данные. </param>
+      <param name="count">Число байтов в массиве для использования в качестве данных. </param>
+      <exception cref="T:System.ArgumentException">Недопустимое значение параметра <paramref name="count" />.-или-Недопустимая длина значения параметра <paramref name="buffer" />.</exception>
+      <exception cref="T:System.ArgumentNullException">Свойство <paramref name="buffer" /> имеет значение null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> выходит за пределы диапазона.Значение этого параметра не должно быть отрицательным.</exception>
+      <exception cref="T:System.ObjectDisposedException">Объект уже удален.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)">
+      <summary>Вычисляет хэш-значение для заданного объекта <see cref="T:System.IO.Stream" />.</summary>
+      <returns>Вычисляемый хэш-код.</returns>
+      <param name="inputStream">Входные данные, для которых вычисляется хэш-код. </param>
+      <exception cref="T:System.ObjectDisposedException">Объект уже удален.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose">
+      <summary>Освобождает все ресурсы, используемые текущим экземпляром класса <see cref="T:System.Security.Cryptography.HashAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose(System.Boolean)">
+      <summary>Освобождает неуправляемые ресурсы, используемые объектом <see cref="T:System.Security.Cryptography.HashAlgorithm" />, а при необходимости освобождает также и управляемые ресурсы.</summary>
+      <param name="disposing">Значение true позволяет освободить как управляемые, так и неуправляемые ресурсы; значение false освобождает только неуправляемые ресурсы. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>Если переопределено в производном классе, передает данные, записанные в объект, на вход хэш-алгоритма для вычисления хэша.</summary>
+      <param name="array">Входные данные, для которых вычисляется хэш-код. </param>
+      <param name="ibStart">Смещение в массиве байтов, начиная с которого следует использовать данные. </param>
+      <param name="cbSize">Число байтов в массиве для использования в качестве данных. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashFinal">
+      <summary>Если переопределено в производном классе, завершает вычисление хэша после обработки последних данных криптографическим потоковым объектом.</summary>
+      <returns>Вычисляемый хэш-код.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HashAlgorithm.HashSize">
+      <summary>Возвращает размер вычисляемого хэш-кода в битах.</summary>
+      <returns>Размер вычисляемого хэш-кода в битах.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Initialize">
+      <summary>Инициализирует реализацию класса <see cref="T:System.Security.Cryptography.HashAlgorithm" />.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.HMAC">
+      <summary>Представляет абстрактный класс, от которого должны наследоваться все реализации хэш-кода проверки подлинности сообщения (HMAC).</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.HMAC" />. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Dispose(System.Boolean)">
+      <summary>Освобождает неуправляемые ресурсы, используемые объектом <see cref="T:System.Security.Cryptography.HMAC" />, и, если допускается изменение ключа, опционально освобождает управляемые ресурсы.</summary>
+      <param name="disposing">Значение true позволяет освободить как управляемые, так и неуправляемые ресурсы; значение false освобождает только неуправляемые ресурсы. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>Если переопределено в производном классе, передает данные, записанные в объект, на вход хэш-алгоритма <see cref="T:System.Security.Cryptography.HMAC" /> по умолчанию для вычисления значения хэша.</summary>
+      <param name="rgb">Входные данные. </param>
+      <param name="ib">Смещение в массиве байтов, начиная с которого следует использовать данные. </param>
+      <param name="cb">Число байтов в массиве для использования в качестве данных. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashFinal">
+      <summary>Если переопределено в производном классе, завершает вычисление хэша после обработки последних данных криптографическим потоковым объектом.</summary>
+      <returns>Вычисленный хэш-код в массиве байтов.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.HashName">
+      <summary>Возвращает или задает имя используемого хэш-алгоритма.</summary>
+      <returns>Имя хэш-алгоритма.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Невозможно изменить текущий хэш-алгоритм.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Initialize">
+      <summary>Инициализирует новый экземпляр реализации по умолчанию класса <see cref="T:System.Security.Cryptography.HMAC" />.</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.Key">
+      <summary>Возвращает или задает ключ, используемый в хэш-алгоритме.</summary>
+      <returns>Ключ, используемый в хэш-алгоритме.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Предпринята попытка изменения свойства <see cref="P:System.Security.Cryptography.HMAC.Key" /> после начала хэширования. </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.KeyedHashAlgorithm">
+      <summary>Представляет абстрактный класс, из которого создаются все реализации хэш-алгоритмов с ключом. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.Dispose(System.Boolean)">
+      <summary>Освобождает неуправляемые ресурсы, используемые объектом <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" />, а при необходимости освобождает также и управляемые ресурсы.</summary>
+      <param name="disposing">Значение true позволяет освободить как управляемые, так и неуправляемые ресурсы; значение false освобождает только неуправляемые ресурсы. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeyedHashAlgorithm.Key">
+      <summary>Возвращает или задает ключ, используемый в хэш-алгоритме.</summary>
+      <returns>Ключ, используемый в хэш-алгоритме.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Предпринята попытка изменения свойства <see cref="P:System.Security.Cryptography.KeyedHashAlgorithm.Key" /> после начала хэширования. </exception>
+    </member>
+  </members>
+</doc>

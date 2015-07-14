@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing.Algorithms</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HMACSHA1">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA1" /> 해시 기능을 사용하여 HMAC(해시 기반 메시지 인증 코드)를 계산합니다. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA1.#ctor">
+      <summary>임의로 만들어진 키를 사용하여 <see cref="T:System.Security.Cryptography.HMACSHA1" /> 클래스의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA1.#ctor(System.Byte[])">
+      <summary>지정된 키 데이터를 사용하여 <see cref="T:System.Security.Cryptography.HMACSHA1" /> 클래스의 새 인스턴스를 초기화합니다.</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA1" /> 암호화에 대한 비밀 키입니다.키 길이에 제한은 없지만 64바이트를 초과하면 키가 해시되어(SHA-1 사용) 64바이트 키가 파생됩니다.그러므로 비밀 키에 권장되는 크기는 64바이트입니다.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> 매개 변수가 null인 경우 </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA256">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA256" /> 해시 기능을 사용하여 HMAC(해시 기반 메시지 인증 코드)를 계산합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA256.#ctor">
+      <summary>임의로 만들어진 키를 사용하여 <see cref="T:System.Security.Cryptography.HMACSHA256" /> 클래스의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA256.#ctor(System.Byte[])">
+      <summary>지정된 키 데이터를 사용하여 <see cref="T:System.Security.Cryptography.HMACSHA256" /> 클래스의 새 인스턴스를 초기화합니다.</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA256" /> 암호화에 대한 비밀 키입니다.키 길이에 제한은 없지만단, 권장되는 크기는 64바이트입니다.키가 64바이트를 초과하면 해시되어(SHA-256 사용) 64바이트 키가 파생됩니다.64바이트보다 짧은 경우 64바이트까지 채워집니다.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> 매개 변수가 null인 경우 </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA384">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA384" /> 해시 기능을 사용하여 HMAC(해시 기반 메시지 인증 코드)를 계산합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA384.#ctor">
+      <summary>임의로 생성된 키를 사용하여 <see cref="T:System.Security.Cryptography.HMACSHA384" /> 클래스의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA384.#ctor(System.Byte[])">
+      <summary>지정된 키 데이터를 사용하여 <see cref="T:System.Security.Cryptography.HMACSHA384" /> 클래스의 새 인스턴스를 초기화합니다.</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA384" /> 암호화에 대한 비밀 키입니다.키 길이에 제한은 없지만단, 권장되는 크기는 128바이트입니다.키가 128바이트를 초과하면 해시되어(SHA-384 사용) 128바이트 키가 파생됩니다.128바이트보다 짧은 경우 128바이트까지 채워집니다.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> 매개 변수가 null인 경우 </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA512">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA512" /> 해시 기능을 사용하여 HMAC(해시 기반 메시지 인증 코드)를 계산합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA512.#ctor">
+      <summary>임의로 만들어진 키를 사용하여 <see cref="T:System.Security.Cryptography.HMACSHA512" /> 클래스의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA512.#ctor(System.Byte[])">
+      <summary>지정된 키 데이터를 사용하여 <see cref="T:System.Security.Cryptography.HMACSHA512" /> 클래스의 새 인스턴스를 초기화합니다.</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA512" /> 암호화에 대한 비밀 키입니다.키 길이에 제한은 없지만단, 권장되는 크기는 128바이트입니다.키가 128바이트를 초과하면 해시되어(SHA-512 사용) 128바이트 키가 파생됩니다.128바이트보다 짧은 경우 128바이트까지 채워집니다.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> 매개 변수가 null인 경우 </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.MD5">
+      <summary>
+        <see cref="T:System.Security.Cryptography.MD5" /> 해시 알고리즘의 모든 구현이 상속될 추상 클래스를 나타냅니다. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.MD5.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.MD5" />의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.MD5.Create">
+      <summary>
+        <see cref="T:System.Security.Cryptography.MD5" /> 해시 알고리즘의 기본 구현 인스턴스를 만듭니다.</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.MD5" /> 해시 알고리즘의 새 인스턴스입니다.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">알고리즘이 FIPS(Federal Information Processing Standards) 모드를 설정하여 사용되었지만 FIPS 호환이 아닌 경우</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA1">
+      <summary>입력 데이터에 대한 <see cref="T:System.Security.Cryptography.SHA1" /> 해시를 계산합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA1.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA1" />의 새 인스턴스를 초기화합니다.</summary>
+      <exception cref="T:System.InvalidOperationException">이 개체에 대한 정책이 FIPS 알고리즘과 호환되지 않는 경우</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA1.Create">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA1" />의 기본 구현 인스턴스를 만듭니다.</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA1" />의 새 인스턴스입니다.</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA256">
+      <summary>입력 데이터에 대한 <see cref="T:System.Security.Cryptography.SHA256" /> 해시를 계산합니다. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA256.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA256" />의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA256.Create">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA256" />의 기본 구현 인스턴스를 만듭니다.</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA256" />의 새 인스턴스입니다.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">알고리즘이 FIPS(Federal Information Processing Standards) 모드를 설정하여 사용되었지만 FIPS 호환이 아닌 경우</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA384">
+      <summary>입력 데이터에 대한 <see cref="T:System.Security.Cryptography.SHA384" /> 해시를 계산합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA384.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA384" />의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA384.Create">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA384" />의 기본 구현 인스턴스를 만듭니다.</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA384" />의 새 인스턴스입니다.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">알고리즘이 FIPS(Federal Information Processing Standards) 모드를 설정하여 사용되었지만 FIPS 호환이 아닌 경우</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA512">
+      <summary>입력 데이터에 대한 <see cref="T:System.Security.Cryptography.SHA512" /> 해시를 계산합니다.  </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA512.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA512" />의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA512.Create">
+      <summary>
+        <see cref="T:System.Security.Cryptography.SHA512" />의 기본 구현 인스턴스를 만듭니다.</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA512" />의 새 인스턴스입니다.</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">알고리즘이 FIPS(Federal Information Processing Standards) 모드를 설정하여 사용되었지만 FIPS 호환이 아닌 경우</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+  </members>
+</doc>

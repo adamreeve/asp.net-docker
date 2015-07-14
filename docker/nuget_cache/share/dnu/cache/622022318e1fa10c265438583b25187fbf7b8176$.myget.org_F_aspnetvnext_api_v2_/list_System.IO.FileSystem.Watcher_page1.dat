@@ -1,796 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xml:base="https://www.myget.org/F/aspnetvnext/api/v2/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><id>https://www.myget.org/F/aspnetvnext/api/v2/FindPackagesById</id><title type="text">FindPackagesById</title><updated>2015-07-06T07:05:39Z</updated><link rel="self" title="FindPackagesById" href="FindPackagesById" /><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22516')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22516')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22516')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-01-17T05:06:26Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22516')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22516" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22516</d:Version><d:NormalizedVersion>4.0.0-beta-22516</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-01-17T05:06:26.8030981Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22516:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22516</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-01-17T05:06:26.8030981Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-01-17T05:06:26.8030981Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-01-17T05:06:26.8030981Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>yOlGy8/m7bE7yMAn0oLT5UqMv78Q9BlDXHVzbK3YIbPGkh5QJ/WjRtwJ7/v1kVyPnSmxaFos1HI/7I4AVkR9mQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68454</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">519</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22519')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22519')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22519')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-01-20T18:13:40Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22519')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22519" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22519</d:Version><d:NormalizedVersion>4.0.0-beta-22519</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-01-20T18:13:40.4103426Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22519:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22519</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-01-20T18:13:40.4103426Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-01-20T18:13:40.4103426Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-01-20T18:13:40.4103426Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>C21j9IzYW2eTD8DvhRLyGB9rOGCcUC+UEr+1XTcsg9aQ2F1HLUd2ETje0b0fGuFp0LVuS+yRpX/B0Nk/ULdaVQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68458</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1457</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22718')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22718')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22718')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-03-18T08:36:51Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22718')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22718" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22718</d:Version><d:NormalizedVersion>4.0.0-beta-22718</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-18T08:36:51.2471542Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22718:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22718</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-18T08:36:51.2471542Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-18T08:36:51.2471542Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-18T08:36:51.2471542Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>1SIjN8MqKvv1tclYHbnp1bi5rjFbjacYrHI5oK1v0uhe6rZelvKP03CybIwei6w/9KLJ0IKVaP8GWST/me3ZRQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68621</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">809</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22719')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22719')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22719')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-03-20T08:49:03Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22719')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22719" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22719</d:Version><d:NormalizedVersion>4.0.0-beta-22719</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-20T08:49:03.4748464Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22719:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22719</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-20T08:49:03.4748464Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-20T08:49:03.4748464Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-20T08:49:03.4748464Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>ICVyxSH9foMKyBgHW5X4cZ5WUuyGUeW97QtXWCx8ep/XRon6MV4kp2I7j4lG5attS5W52y/29vcxKS7B0PXuJg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68621</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">424</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22720')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22720')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22720')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-03-21T08:55:17Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22720')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22720" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22720</d:Version><d:NormalizedVersion>4.0.0-beta-22720</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-21T08:55:17.7966316Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22720:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22720</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-21T08:55:17.7966316Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-21T08:55:17.7966316Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-21T08:55:17.7966316Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>rL8F662UCnqcAljwxNOE74rWcB/G61yY2dm4j5krau5rvTbgD5GSVschHnHpvjtuwYDHKACzY9p4kbpHibUUeg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68595</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1516</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22724')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22724')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22724')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-03-25T06:22:37Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22724')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22724" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22724</d:Version><d:NormalizedVersion>4.0.0-beta-22724</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-25T06:22:37.063457Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22724:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22724</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-25T06:22:37.063457Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-25T06:22:37.063457Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-25T06:22:37.063457Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>JGQlCiVna/N0Yb/lDfLiJIEXQOcubfkM1jiIdFPZJeNkw98TIBsb7FI/0rZi42LDu1jZ1XFSdsXw4ni26EV+4g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68195</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">123</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22725')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22725')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22725')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-03-26T04:40:28Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22725')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22725" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22725</d:Version><d:NormalizedVersion>4.0.0-beta-22725</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-26T04:40:28.2054081Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22725:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22725</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-26T04:40:28.2054081Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-26T04:40:28.2054081Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-26T04:40:28.2054081Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>QnXawDzCWeCJ2a+CbHAvEWsjQVp3Wea/NVGF1k4Ii76nGpGXn9F71OeP6fBbkypFPdsJIN+39Cp3ckYJHgKBBQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68253</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">219</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22726')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22726')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22726')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-03-28T01:38:21Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22726')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22726" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22726</d:Version><d:NormalizedVersion>4.0.0-beta-22726</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-28T01:38:21.6697495Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22726:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22726</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-28T01:38:21.6697495Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-28T01:38:21.6697495Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-28T01:38:21.6697495Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Mv7BlX1sC/LXL+qQM31eolO7UUrb2BGYZ+NKN2Sy+hekcnUr8jj7pymvzTwkQWNoeOWSmXV2Ocfd1z5VVR1wkQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68288</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">22</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22727')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22727')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22727')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-03-28T10:26:59Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22727')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22727" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22727</d:Version><d:NormalizedVersion>4.0.0-beta-22727</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-28T10:26:59.2369951Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22727:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22727</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-28T10:26:59.2369951Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-28T10:26:59.2369951Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-28T10:26:59.2369951Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>aqFyBrNusc3lmKlxzlVbJZp658uTR6DdCHkE3KGGGlt154UN0HskpWLxFLMjNQBx8bWniWNt8KyjWMxFuHk2iw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68241</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">224</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22731')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22731')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22731')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-03-31T23:56:00Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22731')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22731" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22731</d:Version><d:NormalizedVersion>4.0.0-beta-22731</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-03-31T23:56:00.6543699Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22731:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22731</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-03-31T23:56:00.6543699Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-03-31T23:56:00.6543699Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-03-31T23:56:00.6543699Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>54+RhW1SzgxQ7BTzHUgWNrDnLuQfMQi5xuPE3WT4Cy3mzo27NgT4M7KQLGu3MkzZHGfsACRABSTAUDQAeMS2Lw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68503</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">76</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22801')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22801')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22801')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-01T08:50:31Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22801')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22801" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22801</d:Version><d:NormalizedVersion>4.0.0-beta-22801</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-01T08:50:31.2311899Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22801:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22801</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-01T08:50:31.2311899Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-01T08:50:31.2311899Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-01T08:50:31.2311899Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>E985sXefyRo7ADdVEt+wEHk8VO255fC3MpilIQgxquNfw1d+RQ60o27e9SOEvuA9AWpQJjtdTnGykphZKnNcOg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68453</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">276</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22802')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22802')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22802')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-02T08:56:22Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22802')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22802" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22802</d:Version><d:NormalizedVersion>4.0.0-beta-22802</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-02T08:56:22.5199178Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22802:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22802</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-02T08:56:22.5199178Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-02T08:56:22.5199178Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-02T08:56:22.5199178Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Ru5FVMlJm0LuPB+pnKcsSE6mUxq5GGc0amtzgDliZALeKOa/5VMqVVA/2BcH11PGEOeqC7GI5YPJ+F/RtNNDhA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68506</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">652</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22803')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22803')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22803')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-06T01:25:35Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22803')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22803" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22803</d:Version><d:NormalizedVersion>4.0.0-beta-22803</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-06T01:25:35.3956725Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22803:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22803</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-06T01:25:35.3956725Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-06T01:25:35.3956725Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-06T01:25:35.3956725Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>iPQ9r0QZaxJgviIA2gAULx2MX/MfzJy7fJDHOBibRb3Y+8Ti5VFuLuYh96knREtpJmqqdbDrBi4kuyKGIHTlHw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68512</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">44</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22806')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22806')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22806')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-06T09:31:55Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22806')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22806" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22806</d:Version><d:NormalizedVersion>4.0.0-beta-22806</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-06T09:31:55.9298664Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22806:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22806</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-06T09:31:55.9298664Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-06T09:31:55.9298664Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-06T09:31:55.9298664Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>Xz2+foM4MIjnCfEDGDC+nc72d8K/J2tJx0hH3rLPzumB1xlulYUg8sRgPob+h8NwC9YdVfWS8ZQ+UimhJl8qeQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68480</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">485</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22807')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22807')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22807')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-07T20:28:04Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22807')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22807" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22807</d:Version><d:NormalizedVersion>4.0.0-beta-22807</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-07T20:28:04.2824988Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22807:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22807</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-07T20:28:04.2824988Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-07T20:28:04.2824988Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-07T20:28:04.2824988Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>2dQ3EKqnAI7fvqGkj4Ic6rgXuuVcgCyw+/AmuG3oeVDXWl3VXgFq0MDYtro0lqJq87CschjM9kupNe5DgTrPEQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68497</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">808</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22809')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22809')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22809')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-10T18:57:15Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22809')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22809" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22809</d:Version><d:NormalizedVersion>4.0.0-beta-22809</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-10T18:57:15.9153877Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22809:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22809</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-10T18:57:15.9153877Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-10T18:57:15.9153877Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-10T18:57:15.9153877Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>jOq+vOeaZPk3F8+2Is0OKxKu10KswcaQeHWHouYIM5oqGBJLmt5y3vR5rZkSg2VE4SnWFOVVqq0dzhXATMEWFQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68363</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">797</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22811')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22811')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22811')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-15T01:28:06Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22811')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22811" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22811</d:Version><d:NormalizedVersion>4.0.0-beta-22811</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-15T01:28:06.4868122Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22811:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22811</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-15T01:28:06.4868122Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-15T01:28:06.4868122Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-15T01:28:06.4868122Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>bHL32BJKpskKcEwM4UFtd3FBUUUSXxY3cHfuEg91lAVL3MwqTNPXBVoV2SkjSwgFb4Q2R6s3UKdpn0g3S18i6A==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68399</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1773</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22821')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22821')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22821')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-22T08:39:00Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22821')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22821" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22821</d:Version><d:NormalizedVersion>4.0.0-beta-22821</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T08:39:00.122976Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22821:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22821</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T08:39:00.122976Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T08:39:00.122976Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T08:39:00.122976Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>evtNMfM8NF3yh1yw70rrrWKDwoJuVJnLAMevBzxaCtdk5UI2AqGF4caGKzUkoyDxUhEEr5RMS/C6ZXXUkqbtpA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68443</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">274</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22822')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22822')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22822')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-22T20:34:58Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22822')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22822" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22822</d:Version><d:NormalizedVersion>4.0.0-beta-22822</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T20:34:58.8866395Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22822:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22822</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T20:34:58.8866395Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T20:34:58.8866395Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T20:34:58.8866395Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>MbMZZA1Ua885pf5DYaPRNs4FBmdmcPg3CsrKdJb8lHaA7d+TsgQ/zcWOQU/wU6AkZZnVISuIKVI1lY+ytjSPMg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68389</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">717</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22823')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22823')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22823')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-25T00:44:47Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22823')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22823" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22823</d:Version><d:NormalizedVersion>4.0.0-beta-22823</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-25T00:44:47.7078959Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22823:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22823</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-25T00:44:47.7078959Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-25T00:44:47.7078959Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-25T00:44:47.7078959Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>UXXj9XgCOQnEyyYQQcbifssYPTPyxCvPDSRSoEmRpaMaE8xg1x9KJ6Cbr+6+k9aDamujoMK0IdkN+dyefRXD8g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68449</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">314</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22825')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22825')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22825')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-27T11:24:17Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22825')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22825" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22825</d:Version><d:NormalizedVersion>4.0.0-beta-22825</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-27T11:24:17.3247074Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22825:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22825</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-27T11:24:17.3403304Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-27T11:24:17.3403304Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-27T11:24:17.3247074Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>U3Hy5hoaJfJ8E/hDcAt3Qs2WNawkT+VAKoQ/Mi7f+gSFj8gAUKDQD4WHU3wofUCUyc9URrorL3/QTy3Wb1q5/A==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68474</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">424</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22828')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22828')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22828')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</summary><updated>2015-04-28T17:32:39Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22828')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-22828" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-22828</d:Version><d:NormalizedVersion>4.0.0-beta-22828</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-28T17:32:39.8312713Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-22828:</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22828</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-28T17:32:39.8312713Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-28T17:32:39.8312713Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-28T17:32:39.8312713Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>gTC6mgCfWYW8rRlMKPdCTHk5KVsQos8s0JrzZDrJhWQhSuGX95JIy1G+ASG/8om2U8iqPxwkniCutEAbr+HUsw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68366</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
-
-Commonly Used Types:
-System.IO.FileSystemWatcher
-System.IO.WatcherChangeTypes
-System.IO.FileSystemEventArgs
-System.IO.RenamedEventArgs
-System.IO.FileSystemEventHandler
-System.IO.RenamedEventHandler
-System.IO.NotifyFilters
-System.IO.ErrorEventArgs
-System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">541</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22829')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22829')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22829')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+<?xml version="1.0" encoding="utf-8"?><feed xml:base="https://www.myget.org/F/aspnetvnext/api/v2/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><id>https://www.myget.org/F/aspnetvnext/api/v2/FindPackagesById</id><title type="text">FindPackagesById</title><updated>2015-07-14T20:42:04Z</updated><link rel="self" title="FindPackagesById" href="FindPackagesById" /><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22829')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22829')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22829')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -814,7 +22,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22829</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-29T22:42:35.4744219Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-29T22:42:35.4744219Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-29T22:42:35.4744219Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>URcWCKl2A2oEmGtVhaipX5Ln6w7IGM0RFSRUMnwf0NAFC/wMtEB1P84RDetaEV1wBcazUSlyn8BUUUgx9jXrfw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68428</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22829</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-29T22:42:35.4744219Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-29T22:42:35.4744219Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-29T22:42:35.4744219Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>URcWCKl2A2oEmGtVhaipX5Ln6w7IGM0RFSRUMnwf0NAFC/wMtEB1P84RDetaEV1wBcazUSlyn8BUUUgx9jXrfw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68428</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -826,7 +34,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">625</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22830')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22830')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22830')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">628</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22830')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22830')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22830')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -850,7 +58,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22830</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-30T20:48:39.4816518Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-30T20:48:39.4816518Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-30T20:48:39.4816518Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>wnjrY8j6WyPnluLF+s41CLjtE6v8R1Q5X8jLtF9BxZ+1k3jx1oKMslL8w8lN0wowxYdDoyRIImsY85e7NTa4wQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68380</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22830</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-30T20:48:39.4816518Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-30T20:48:39.4816518Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-30T20:48:39.4816518Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>wnjrY8j6WyPnluLF+s41CLjtE6v8R1Q5X8jLtF9BxZ+1k3jx1oKMslL8w8lN0wowxYdDoyRIImsY85e7NTa4wQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68380</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -886,7 +94,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22904</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-05T19:28:53.1249718Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-05T19:28:53.1249718Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-05T19:28:53.1249718Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>MAPyvDwz/Eax9sn/3HMvrHjSCmy7/q6wtTzxJi0eYwThuJy4b/e+2uayL6hJPpWS21ddR8vPsM5mgHTV/XXpMg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68444</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22904</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-05T19:28:53.1249718Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-05T19:28:53.1249718Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-05T19:28:53.1249718Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>MAPyvDwz/Eax9sn/3HMvrHjSCmy7/q6wtTzxJi0eYwThuJy4b/e+2uayL6hJPpWS21ddR8vPsM5mgHTV/XXpMg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68444</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -922,7 +130,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22905</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-06T17:57:57.3031713Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-06T17:57:57.3031713Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-06T17:57:57.3031713Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>+wcFhQI/IbhVxcqZjXIBLVIau68bgSFMRVkCXVCVSD8fXO4nCBn1PXgwKb18WPsXvNosM9MY04+xaW1T6I4Gxw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68443</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22905</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-06T17:57:57.3031713Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-06T17:57:57.3031713Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-06T17:57:57.3031713Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>+wcFhQI/IbhVxcqZjXIBLVIau68bgSFMRVkCXVCVSD8fXO4nCBn1PXgwKb18WPsXvNosM9MY04+xaW1T6I4Gxw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68443</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -958,7 +166,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22906</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-07T20:07:59.4489272Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-07T20:07:59.4489272Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-07T20:07:59.4489272Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>xykaid5Bdn+O5aXevw9W1x649zgPOs1awMBXoZXDX/3w/UNunR11uIvNGEaKgTKtqY+oSmzwvMvTmaR9ijcx3A==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68448</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22906</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-07T20:07:59.4489272Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-07T20:07:59.4489272Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-07T20:07:59.4489272Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>xykaid5Bdn+O5aXevw9W1x649zgPOs1awMBXoZXDX/3w/UNunR11uIvNGEaKgTKtqY+oSmzwvMvTmaR9ijcx3A==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68448</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -970,7 +178,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">384</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22907')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22907')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22907')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">385</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22907')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22907')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-22907')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -994,7 +202,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22907</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-08T17:17:04.3094826Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-08T17:17:04.3094826Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-08T17:17:04.3094826Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>nGDWHubZD1vq+QlxpZFAyOq1soheYtRS7J4BmrQ2jxJ3MvT+WSJNqYc3b9VAST8p6jz6pmIorez4K+YS5TjLlA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68429</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22907</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-08T17:17:04.3094826Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-08T17:17:04.3094826Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-08T17:17:04.3094826Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>nGDWHubZD1vq+QlxpZFAyOq1soheYtRS7J4BmrQ2jxJ3MvT+WSJNqYc3b9VAST8p6jz6pmIorez4K+YS5TjLlA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68429</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -1030,7 +238,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22910</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-11T16:19:53.3739542Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-11T16:19:53.3739542Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-11T16:19:53.3739542Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>pNKsLmGJ023hLNOT52XCAYCMwTg6xi4sstMZ7BBPxQ9hLjsmRwwzN8lkiggg7jM20gbS95zh62HIktvSpgnHAA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68415</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22910</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-11T16:19:53.3739542Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-11T16:19:53.3739542Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-11T16:19:53.3739542Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>pNKsLmGJ023hLNOT52XCAYCMwTg6xi4sstMZ7BBPxQ9hLjsmRwwzN8lkiggg7jM20gbS95zh62HIktvSpgnHAA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68415</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -1066,7 +274,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22911</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-12T16:52:02.4000243Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-12T16:52:02.4000243Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-12T16:52:02.4000243Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>GTsHdk5zFOeuwt5pZp9O+6HfWdtf6P0QcTkRfvvzoZwRhor3VZxAFfoFPzUOfvH8c+3bgvonZvrvToh5Js5oTw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68375</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22911</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-12T16:52:02.4000243Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-12T16:52:02.4000243Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-12T16:52:02.4000243Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>GTsHdk5zFOeuwt5pZp9O+6HfWdtf6P0QcTkRfvvzoZwRhor3VZxAFfoFPzUOfvH8c+3bgvonZvrvToh5Js5oTw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68375</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -1102,7 +310,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22913</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-15T06:00:11.3212373Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-15T06:00:11.3212373Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-15T06:00:11.3212373Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>UKpHbVWUO+j2UMlDmbv/XGwAHpSkZb5OvfZEET52ECfiB6By7MI/aDh8DvbwUNDEICKL1mfg2yFpz6kz4IWgYA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68394</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-22913</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-15T06:00:11.3212373Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-15T06:00:11.3212373Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-15T06:00:11.3212373Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>UKpHbVWUO+j2UMlDmbv/XGwAHpSkZb5OvfZEET52ECfiB6By7MI/aDh8DvbwUNDEICKL1mfg2yFpz6kz4IWgYA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">68394</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -1114,7 +322,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">5026</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23008')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23008')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23008')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">5032</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23008')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23008')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23008')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -1138,7 +346,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-08T23:45:31.8362979Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-08T23:45:31.8362979Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-08T23:45:31.8362979Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>6FyLxjKM/9RHq0RogjYokgSSlmjEhCkk+hOYE2mK5LdvTxXSE/+Pj5Ip/jVxCZ3KCrB4MHpALr+7G1FKCgbASQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">61804</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-08T23:45:31.8362979Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-08T23:45:31.8362979Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-08T23:45:31.8362979Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>6FyLxjKM/9RHq0RogjYokgSSlmjEhCkk+hOYE2mK5LdvTxXSE/+Pj5Ip/jVxCZ3KCrB4MHpALr+7G1FKCgbASQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">61804</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -1174,7 +382,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-16T17:01:42.5237961Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-16T17:01:42.5237961Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-16T17:01:42.5237961Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>vJGcFW/rgQz6IzCP8NANnU4c793ldddHmhRy7rt9OPCKbLnMAkfybxV6yJT3rVeuWpUmkCjhI7LBsx3D7qNCBw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">61790</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-16T17:01:42.5237961Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-16T17:01:42.5237961Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-16T17:01:42.5237961Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>vJGcFW/rgQz6IzCP8NANnU4c793ldddHmhRy7rt9OPCKbLnMAkfybxV6yJT3rVeuWpUmkCjhI7LBsx3D7qNCBw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">61790</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -1186,7 +394,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1611</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23021')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1676</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23021')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -1210,7 +418,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-23T18:10:33.197012Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-23T18:10:33.197012Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-23T18:10:33.197012Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>9o+R/wZkhwk7fmCe7pXlhqnhx8JW87+1aSROlisyPTj7y0VjinslHhp66ceIfy7h7skBGAle9mt2r2BGK2WRdg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">93188</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-23T18:10:33.197012Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-23T18:10:33.197012Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-23T18:10:33.197012Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>9o+R/wZkhwk7fmCe7pXlhqnhx8JW87+1aSROlisyPTj7y0VjinslHhp66ceIfy7h7skBGAle9mt2r2BGK2WRdg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">93188</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -1222,7 +430,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2243</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23029')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2269</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23029')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -1246,7 +454,7 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">29720</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-01T21:17:47.7188872Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-01T21:17:47.7188872Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-01T21:17:47.7188872Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>sca+QTJzPMv9fpM3DHKaY0fYQiqOZ8W54J+/km7F79kotvPDSzTLuG8QxKO/8DPdnEc359yVS77LNiTaOB3RKg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">93141</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-01T21:17:47.7188872Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-01T21:17:47.7188872Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-01T21:17:47.7188872Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>sca+QTJzPMv9fpM3DHKaY0fYQiqOZ8W54J+/km7F79kotvPDSzTLuG8QxKO/8DPdnEc359yVS77LNiTaOB3RKg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">93141</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
 
 Commonly Used Types:
 System.IO.FileSystemWatcher
@@ -1258,4 +466,112 @@ System.IO.RenamedEventHandler
 System.IO.NotifyFilters
 System.IO.ErrorEventArgs
 System.IO.ErrorEventHandler
-System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">865</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry></feed>
+System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1513</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23107')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23107')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23107')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+
+Commonly Used Types:
+System.IO.FileSystemWatcher
+System.IO.WatcherChangeTypes
+System.IO.FileSystemEventArgs
+System.IO.RenamedEventArgs
+System.IO.FileSystemEventHandler
+System.IO.RenamedEventHandler
+System.IO.NotifyFilters
+System.IO.ErrorEventArgs
+System.IO.ErrorEventHandler
+System.IO.WaitForChangedResult</summary><updated>2015-07-08T05:21:56Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23107')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-23107" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-23107</d:Version><d:NormalizedVersion>4.0.0-beta-23107</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-08T05:21:56.716678Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23107:dotnet|System.Runtime:4.0.20-beta-23107:dnxcore50|System.Resources.ResourceManager:4.0.0-beta-23107:dnxcore50|System.IO.FileSystem:4.0.0-beta-23107:dnxcore50|System.Threading.Overlapped:4.0.0-beta-23107:dnxcore50|System.Runtime.Handles:4.0.0-beta-23107:dnxcore50|Microsoft.Win32.Primitives:4.0.0-beta-23107:dnxcore50|System.Runtime.Extensions:4.0.10-beta-23107:dnxcore50|System.Threading:4.0.10-beta-23107:dnxcore50</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+
+Commonly Used Types:
+System.IO.FileSystemWatcher
+System.IO.WatcherChangeTypes
+System.IO.FileSystemEventArgs
+System.IO.RenamedEventArgs
+System.IO.FileSystemEventHandler
+System.IO.RenamedEventHandler
+System.IO.NotifyFilters
+System.IO.ErrorEventArgs
+System.IO.ErrorEventHandler
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-23107</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-08T05:21:56.716678Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-08T05:21:56.716678Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-08T05:21:56.716678Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>hYJS8ARiQR07L5eTfrFXvWMUilNwsqnhZ4BZcXB2uP7+7GHLx/pa/j1blal2ZBfAq6Z12X1O0Es2eS3Uyj/FNQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">93228</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+
+Commonly Used Types:
+System.IO.FileSystemWatcher
+System.IO.WatcherChangeTypes
+System.IO.FileSystemEventArgs
+System.IO.RenamedEventArgs
+System.IO.FileSystemEventHandler
+System.IO.RenamedEventHandler
+System.IO.NotifyFilters
+System.IO.ErrorEventArgs
+System.IO.ErrorEventHandler
+System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">697</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23109')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23109')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23109')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+
+Commonly Used Types:
+System.IO.FileSystemWatcher
+System.IO.WatcherChangeTypes
+System.IO.FileSystemEventArgs
+System.IO.RenamedEventArgs
+System.IO.FileSystemEventHandler
+System.IO.RenamedEventHandler
+System.IO.NotifyFilters
+System.IO.ErrorEventArgs
+System.IO.ErrorEventHandler
+System.IO.WaitForChangedResult</summary><updated>2015-07-14T16:19:32Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23109')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-23109" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-23109</d:Version><d:NormalizedVersion>4.0.0-beta-23109</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-14T16:19:32.0894325Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23109:dotnet|System.Runtime:4.0.20-beta-23109:dnxcore50|System.Resources.ResourceManager:4.0.0-beta-23109:dnxcore50|System.IO.FileSystem:4.0.0-beta-23109:dnxcore50|System.Threading.Overlapped:4.0.0-beta-23109:dnxcore50|System.Runtime.Handles:4.0.0-beta-23109:dnxcore50|Microsoft.Win32.Primitives:4.0.0-beta-23109:dnxcore50|System.Runtime.Extensions:4.0.10-beta-23109:dnxcore50|System.Threading:4.0.10-beta-23109:dnxcore50</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+
+Commonly Used Types:
+System.IO.FileSystemWatcher
+System.IO.WatcherChangeTypes
+System.IO.FileSystemEventArgs
+System.IO.RenamedEventArgs
+System.IO.FileSystemEventHandler
+System.IO.RenamedEventHandler
+System.IO.NotifyFilters
+System.IO.ErrorEventArgs
+System.IO.ErrorEventHandler
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-23109</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-14T16:19:32.0894325Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-14T16:19:32.0894325Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-14T16:19:32.0894325Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>65mjzUmGA5UUJK80qUqks+CFAEeF8X6jWR6lft3BETII5w8PtDscGF2cVVTYG6UZwbMW/roYoqiZL8NNROw7wA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">93133</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+
+Commonly Used Types:
+System.IO.FileSystemWatcher
+System.IO.WatcherChangeTypes
+System.IO.FileSystemEventArgs
+System.IO.RenamedEventArgs
+System.IO.FileSystemEventHandler
+System.IO.RenamedEventHandler
+System.IO.NotifyFilters
+System.IO.ErrorEventArgs
+System.IO.ErrorEventHandler
+System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1045</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23110')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23110')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23110')/Screenshots" /><title type="text">System.IO.FileSystem.Watcher</title><summary type="text">Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+
+Commonly Used Types:
+System.IO.FileSystemWatcher
+System.IO.WatcherChangeTypes
+System.IO.FileSystemEventArgs
+System.IO.RenamedEventArgs
+System.IO.FileSystemEventHandler
+System.IO.RenamedEventHandler
+System.IO.NotifyFilters
+System.IO.ErrorEventArgs
+System.IO.ErrorEventHandler
+System.IO.WaitForChangedResult</summary><updated>2015-07-11T02:58:58Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.IO.FileSystem.Watcher',Version='4.0.0-beta-23110')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.IO.FileSystem.Watcher/4.0.0-beta-23110" /><m:properties><d:Id>System.IO.FileSystem.Watcher</d:Id><d:Version>4.0.0-beta-23110</d:Version><d:NormalizedVersion>4.0.0-beta-23110</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-11T02:58:58.0217036Z</d:Created><d:Dependencies>::MonoAndroid10|::MonoTouch10|::xamarinios10|::xamarinmac20|System.Runtime:4.0.0:dotnet|System.Runtime:4.0.20-beta-23110:dnxcore50|System.Resources.ResourceManager:4.0.0-beta-23110:dnxcore50|System.IO.FileSystem:4.0.0-beta-23110:dnxcore50|System.Threading.Overlapped:4.0.0-beta-23110:dnxcore50|System.Runtime.Handles:4.0.0-beta-23110:dnxcore50|Microsoft.Win32.Primitives:4.0.0-beta-23110:dnxcore50|System.Runtime.Extensions:4.0.10-beta-23110:dnxcore50|System.Threading:4.0.10-beta-23110:dnxcore50</d:Dependencies><d:Description>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+
+Commonly Used Types:
+System.IO.FileSystemWatcher
+System.IO.WatcherChangeTypes
+System.IO.FileSystemEventArgs
+System.IO.RenamedEventArgs
+System.IO.FileSystemEventHandler
+System.IO.RenamedEventHandler
+System.IO.NotifyFilters
+System.IO.ErrorEventArgs
+System.IO.ErrorEventHandler
+System.IO.WaitForChangedResult</d:Description><d:DownloadCount m:type="Edm.Int32">19769</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.IO.FileSystem.Watcher/4.0.0-beta-23110</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-11T02:58:58.0217036Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-11T02:58:58.0217036Z</d:LastEdited><d:Published m:type="Edm.DateTime">1900-01-01T00:00:00</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>6nHB0VWKOchzsLI/RYgL8RFf542KZewWSSQK4gAQgn3aiGqji5SSg2uRPbs7UzFSJdoKw5kp3k0s6yNpRccXXQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">94478</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides the System.IO.FileSystemWather class, which listens to the file system change notifications and raises events when a directory, or a file in a directory, changes.
+
+Commonly Used Types:
+System.IO.FileSystemWatcher
+System.IO.WatcherChangeTypes
+System.IO.FileSystemEventArgs
+System.IO.RenamedEventArgs
+System.IO.FileSystemEventHandler
+System.IO.RenamedEventHandler
+System.IO.NotifyFilters
+System.IO.ErrorEventArgs
+System.IO.ErrorEventHandler
+System.IO.WaitForChangedResult</d:Summary><d:Tags m:null="true" /><d:Title>System.IO.FileSystem.Watcher</d:Title><d:VersionDownloadCount m:type="Edm.Int32">52</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry></feed>

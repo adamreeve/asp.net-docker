@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RandomNumberGenerator</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.RandomNumberGenerator">
+      <summary>Representa la clase abstracta de la que se derivan todas las implementaciones de los generadores de números aleatorios criptográficos.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.#ctor">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Create">
+      <summary>Cuando se reemplaza en una clase derivada, crea una instancia de la implementación predeterminada de un generador de números aleatorios criptográficos que se puede utilizar para generar datos aleatorios.</summary>
+      <returns>Nueva instancia de un generador de números aleatorios criptográficos.</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose">
+      <summary>Cuando se reemplaza en una clase derivada, libera todos los recursos usados por la instancia actual de la clase <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose(System.Boolean)">
+      <summary>Cuando se reemplaza en una clase derivada, libera los recursos no administrados usados por <see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> y, de forma opcional, libera los recursos administrados.</summary>
+      <param name="disposing">Es true para liberar tanto recursos administrados como no administrados; es false para liberar únicamente recursos no administrados.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.GetBytes(System.Byte[])">
+      <summary>Cuando se reemplaza en una clase derivada, rellena una matriz de bytes con una secuencia aleatoria de valores sólidamente cifrada.</summary>
+      <param name="data">Matriz que se va a rellenar con los bytes aleatorios sólidamente cifrados. </param>
+    </member>
+  </members>
+</doc>

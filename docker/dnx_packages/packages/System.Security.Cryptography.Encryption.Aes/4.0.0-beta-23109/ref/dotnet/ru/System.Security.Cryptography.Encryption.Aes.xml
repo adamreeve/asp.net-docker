@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Encryption.Aes</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.Aes">
+      <summary>Абстрактный базовый класс, от которого должны наследоваться все реализации стандарта AES (Advanced Encryption Standard). </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.Aes.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.Aes" />. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.Aes.Create">
+      <summary>Создает криптографический объект, используемый для выполнения алгоритма симметричного шифрования.</summary>
+      <returns>Криптографический объект, используемый для выполнения алгоритма симметричного шифрования.</returns>
+    </member>
+  </members>
+</doc>

@@ -1,220 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xml:base="https://www.myget.org/F/aspnetvnext/api/v2/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><id>https://www.myget.org/F/aspnetvnext/api/v2/FindPackagesById</id><title type="text">FindPackagesById</title><updated>2015-07-06T06:10:58Z</updated><link rel="self" title="FindPackagesById" href="FindPackagesById" /><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22811')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22811')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22811')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</summary><updated>2015-04-15T01:27:55Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22811')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Globalization.Calendars/4.0.0-beta-22811" /><m:properties><d:Id>System.Globalization.Calendars</d:Id><d:Version>4.0.0-beta-22811</d:Version><d:NormalizedVersion>4.0.0-beta-22811</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-15T01:27:55.6280151Z</d:Created><d:Dependencies>System.Globalization:4.0.0-beta-22811:|System.Runtime:4.0.0-beta-22811:</d:Dependencies><d:Description>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22811</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-15T01:27:55.6280151Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-15T01:27:55.6280151Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-15T01:27:55.6280151Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>rcqbyRu9UE3lru3h94/i26vsMH47iMhwGiYeY3whzWInti5kNTjxKlLtGFj1M5bxAhAq6J/CGmtFf6ZLe6HDTA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62326</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22821')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22821')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22821')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</summary><updated>2015-04-22T08:39:03Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22821')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Globalization.Calendars/4.0.0-beta-22821" /><m:properties><d:Id>System.Globalization.Calendars</d:Id><d:Version>4.0.0-beta-22821</d:Version><d:NormalizedVersion>4.0.0-beta-22821</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T08:39:03.7010803Z</d:Created><d:Dependencies>System.Globalization:4.0.0-beta-22821:|System.Runtime:4.0.0-beta-22821:</d:Dependencies><d:Description>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22821</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T08:39:03.7010803Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T08:39:03.7010803Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T08:39:03.7010803Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>lb806bvi2CNzNbwz2KYs0cQT5+OvPyYziOwYVUAnB4aYmZz4/25zVNQQq3U9WOmWUgZuvZJhsILAwHB8QbmO9Q==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62296</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22822')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22822')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22822')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</summary><updated>2015-04-22T20:36:02Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22822')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Globalization.Calendars/4.0.0-beta-22822" /><m:properties><d:Id>System.Globalization.Calendars</d:Id><d:Version>4.0.0-beta-22822</d:Version><d:NormalizedVersion>4.0.0-beta-22822</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-22T20:36:02.824968Z</d:Created><d:Dependencies>System.Globalization:4.0.0-beta-22822:|System.Runtime:4.0.0-beta-22822:</d:Dependencies><d:Description>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22822</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-22T20:36:02.824968Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-22T20:36:02.824968Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-22T20:36:02.824968Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>WXDnGSwrg/klszkLHgDnM7wLKNvLS5Ar+9WVk7YkGMxuHBVPQF52OF++wkhqhfdeKHCvEQhuPUrMzq7dNXRHFA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62267</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">0</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22823')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22823')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22823')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</summary><updated>2015-04-25T00:44:38Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22823')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Globalization.Calendars/4.0.0-beta-22823" /><m:properties><d:Id>System.Globalization.Calendars</d:Id><d:Version>4.0.0-beta-22823</d:Version><d:NormalizedVersion>4.0.0-beta-22823</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-25T00:44:38.2050894Z</d:Created><d:Dependencies>System.Globalization:4.0.0-beta-22823:|System.Runtime:4.0.0-beta-22823:</d:Dependencies><d:Description>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22823</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-25T00:44:38.2050894Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-25T00:44:38.2050894Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-25T00:44:38.2050894Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>/n+NkEfJbmkqKpNnplU4GAvrYQ+8hABV10qRJKWUfqV+AWWsNdWofJWk4bjEWbPrD6XrYPfk52eXT8aHYvnGHg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62337</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">3</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22825')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22825')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22825')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</summary><updated>2015-04-27T11:24:03Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22825')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Globalization.Calendars/4.0.0-beta-22825" /><m:properties><d:Id>System.Globalization.Calendars</d:Id><d:Version>4.0.0-beta-22825</d:Version><d:NormalizedVersion>4.0.0-beta-22825</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-27T11:24:03.5227728Z</d:Created><d:Dependencies>System.Globalization:4.0.0-beta-22825:|System.Runtime:4.0.0-beta-22825:</d:Dependencies><d:Description>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22825</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-27T11:24:03.5227728Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-27T11:24:03.5227728Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-27T11:24:03.5227728Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>SvzIx8ExkK63F0S7dtt0skuRgZ40RZTT+5CnEs0JnkLWVy4Wq8G8Qhlsj6CqnwsHAMD3FTX5xqS432iiG5Icng==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62273</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22828')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22828')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22828')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</summary><updated>2015-04-28T17:32:33Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22828')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Globalization.Calendars/4.0.0-beta-22828" /><m:properties><d:Id>System.Globalization.Calendars</d:Id><d:Version>4.0.0-beta-22828</d:Version><d:NormalizedVersion>4.0.0-beta-22828</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>Copyright © Microsoft Corporation</d:Copyright><d:Created m:type="Edm.DateTime">2015-04-28T17:32:33.3373425Z</d:Created><d:Dependencies>System.Globalization:4.0.0-beta-22828:|System.Runtime:4.0.0-beta-22828:</d:Dependencies><d:Description>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22828</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-28T17:32:33.3373425Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-28T17:32:33.3373425Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-28T17:32:33.3373425Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>pFK2wnPEVtxX+34q8taAHnGFYlvwNvxWNhqWNmqi3wW8HZQALGoINMbG6sr25SrgzWJQQKAAQem8kgsMR2t2xg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62318</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
-
-Commonly Used Types:
-System.Globalization.HijriCalendar
-System.Globalization.GregorianCalendar
-System.Globalization.HebrewCalendar
-System.Globalization.KoreanCalendar
-System.Globalization.ThaiBuddhistCalendar
-System.Globalization.TaiwanCalendar
-System.Globalization.JapaneseCalendar
-System.Globalization.GregorianCalendarTypes
-System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">0</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion m:null="true" /><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22829')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22829')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22829')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+<?xml version="1.0" encoding="utf-8"?><feed xml:base="https://www.myget.org/F/aspnetvnext/api/v2/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"><id>https://www.myget.org/F/aspnetvnext/api/v2/FindPackagesById</id><title type="text">FindPackagesById</title><updated>2015-07-14T20:38:59Z</updated><link rel="self" title="FindPackagesById" href="FindPackagesById" /><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22829')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22829')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-22829')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -238,7 +22,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22829</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-29T22:42:27.0232695Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-29T22:42:27.0232695Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-29T22:42:27.0232695Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>0a8rlPby+SSobbTDWF+1QlUZLRVaL5Ul0SrWgBokV/OxM6l/erGNC1NY2/Yy2EQtzRwr1+zfZ8z5SYoHf/G6BQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62302</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22829</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-29T22:42:27.0232695Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-29T22:42:27.0232695Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-29T22:42:27.0232695Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>0a8rlPby+SSobbTDWF+1QlUZLRVaL5Ul0SrWgBokV/OxM6l/erGNC1NY2/Yy2EQtzRwr1+zfZ8z5SYoHf/G6BQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62302</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -274,7 +58,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22830</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-30T20:48:34.4498061Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-30T20:48:34.4498061Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-30T20:48:34.4498061Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>9SdhrXrVBfz+LhxTHa4tlcPHD9LXQ1tEaFpN9+f6gygaM5kwoYSSEjllKQztG9f0CcOeAwxvRUKbWb22jDvp4A==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62340</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22830</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-04-30T20:48:34.4498061Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-04-30T20:48:34.4498061Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-04-30T20:48:34.4498061Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>9SdhrXrVBfz+LhxTHa4tlcPHD9LXQ1tEaFpN9+f6gygaM5kwoYSSEjllKQztG9f0CcOeAwxvRUKbWb22jDvp4A==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62340</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -310,7 +94,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22904</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-05T19:28:48.5569484Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-05T19:28:48.5569484Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-05T19:28:48.5569484Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>KALOxG//By7JZeqflVYvPXtycnEQrazdfVuzpAyR3k0WWJcWkXhTrmefUK95aRi7lBi4a8sxZnEn8EAqDkeQ6g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62273</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22904</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-05T19:28:48.5569484Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-05T19:28:48.5569484Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-05T19:28:48.5569484Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>KALOxG//By7JZeqflVYvPXtycnEQrazdfVuzpAyR3k0WWJcWkXhTrmefUK95aRi7lBi4a8sxZnEn8EAqDkeQ6g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62273</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -346,7 +130,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22905</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-06T17:57:45.2073356Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-06T17:57:45.2073356Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-06T17:57:45.2073356Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>T/1qNXYnVELojkWkOj1Dz77o68XBI7FrlgBkbHHcXDVlrdefNORw3qoTIWX/1YhfK5LQSb0MiekPmQhVzaYS6g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62313</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22905</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-06T17:57:45.2073356Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-06T17:57:45.2073356Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-06T17:57:45.2073356Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>T/1qNXYnVELojkWkOj1Dz77o68XBI7FrlgBkbHHcXDVlrdefNORw3qoTIWX/1YhfK5LQSb0MiekPmQhVzaYS6g==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62313</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -382,7 +166,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22906</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-07T20:07:54.1604458Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-07T20:07:54.1604458Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-07T20:07:54.1604458Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>TsZZ7+tfNOX7erq/spRCoiIdggI+YSl4tspB1t3kQha+nURjg2VV9n5jvmtAFCu3bPDhi6y58XNo6asqN3P9PA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62328</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22906</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-07T20:07:54.1604458Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-07T20:07:54.1604458Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-07T20:07:54.1604458Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>TsZZ7+tfNOX7erq/spRCoiIdggI+YSl4tspB1t3kQha+nURjg2VV9n5jvmtAFCu3bPDhi6y58XNo6asqN3P9PA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62328</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -418,7 +202,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22907</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-08T17:17:00.7111443Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-08T17:17:00.7111443Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-08T17:17:00.7111443Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>YS00vxjrV3JjP1VeGmBTQX1uhgNstSh7jevfJcLGS/lj9BY5GFUbgtLxZT122XrKqSbuj4oQDe3PuXxnAE75UA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62260</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22907</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-08T17:17:00.7111443Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-08T17:17:00.7111443Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-08T17:17:00.7111443Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>YS00vxjrV3JjP1VeGmBTQX1uhgNstSh7jevfJcLGS/lj9BY5GFUbgtLxZT122XrKqSbuj4oQDe3PuXxnAE75UA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62260</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -454,7 +238,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22910</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-11T16:19:43.783365Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-11T16:19:43.783365Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-11T16:19:43.783365Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>jWhrv+pEtgKTvynWDnGJtr7AwQI/vkAhF+LspBcUfGxuEv4BxoxsMpmMy7IkTteJnPgcLTkAmWVP5+DLpulCPg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62311</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22910</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-11T16:19:43.783365Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-11T16:19:43.783365Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-11T16:19:43.783365Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>jWhrv+pEtgKTvynWDnGJtr7AwQI/vkAhF+LspBcUfGxuEv4BxoxsMpmMy7IkTteJnPgcLTkAmWVP5+DLpulCPg==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62311</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -490,7 +274,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22911</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-12T16:51:54.0629296Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-12T16:51:54.0629296Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-12T16:51:54.0629296Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>1LyDSD34EsExnLyHGyecBicZRlL/bRrWpTmNuZuRULTdmP1Wj5jSEbM/FlQcZqynifCzReiGSw6eQHefYxN/gw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62310</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22911</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-12T16:51:54.0629296Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-12T16:51:54.0629296Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-12T16:51:54.0629296Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>1LyDSD34EsExnLyHGyecBicZRlL/bRrWpTmNuZuRULTdmP1Wj5jSEbM/FlQcZqynifCzReiGSw6eQHefYxN/gw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62310</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -526,7 +310,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22913</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-15T06:00:01.2409994Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-15T06:00:01.2409994Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-15T06:00:01.2409994Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>rU+JPmDtFUZzjEtlc3F+9eviciUTQDMrDUck9TLFWZ0RnFiLQyID/hYi+X+UgztNmVCBm4J/yR78mKkUcx24cA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62284</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-22913</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-05-15T06:00:01.2409994Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-05-15T06:00:01.2409994Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-05-15T06:00:01.2409994Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>rU+JPmDtFUZzjEtlc3F+9eviciUTQDMrDUck9TLFWZ0RnFiLQyID/hYi+X+UgztNmVCBm4J/yR78mKkUcx24cA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">62284</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -562,7 +346,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-08T23:45:02.2600133Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-08T23:45:02.2600133Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-08T23:45:02.2600133Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>+QTtFA77fIY7e2yxSiKljKtnoqV+TbqndIDNUADfgBuHF/WaQ/43P0e6LJQ4qu3LArSn459Gal+v/MatQ4+Kjw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">78467</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-23008</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-08T23:45:02.2600133Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-08T23:45:02.2600133Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-08T23:45:02.2600133Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>+QTtFA77fIY7e2yxSiKljKtnoqV+TbqndIDNUADfgBuHF/WaQ/43P0e6LJQ4qu3LArSn459Gal+v/MatQ4+Kjw==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">78467</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -574,7 +358,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1693</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23015')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23015')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23015')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1695</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23015')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23015')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23015')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -598,7 +382,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-16T17:00:38.2654254Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-16T17:00:38.2654254Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-16T17:00:38.2654254Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>bO4Ij3cL8p5PTDSkr9ymIdeLwEy17Gu7M3bMprMB4uOdoIXbDrDHtdcR76we7zMOe5glYfbbOvn8hUJ3TCY+ig==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">78510</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-23015</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-16T17:00:38.2654254Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-16T17:00:38.2654254Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-16T17:00:38.2654254Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>bO4Ij3cL8p5PTDSkr9ymIdeLwEy17Gu7M3bMprMB4uOdoIXbDrDHtdcR76we7zMOe5glYfbbOvn8hUJ3TCY+ig==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">78510</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -610,7 +394,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2089</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23021')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2235</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23021')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23021')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23021')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -634,7 +418,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-23T18:10:39.9456082Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-23T18:10:39.9456082Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-23T18:10:39.9456082Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>GrQWYqeO2znDNbZjTD2XI1mBvBu4YCWnRiUFhqufvvMl7ZAM6vFqTVfs+zGH8zxGKq47FSaFug1B2U/BBMvCFA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">197768</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-23021</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-06-23T18:10:39.9456082Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-06-23T18:10:39.9456082Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-06-23T18:10:39.9456082Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>GrQWYqeO2znDNbZjTD2XI1mBvBu4YCWnRiUFhqufvvMl7ZAM6vFqTVfs+zGH8zxGKq47FSaFug1B2U/BBMvCFA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">197768</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -646,7 +430,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2454</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23029')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">2570</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23029')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23029')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23029')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -670,7 +454,7 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">7146</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-01T21:17:59.1093872Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-01T21:17:59.1093872Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-01T21:17:59.1093872Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>qsw0RnYEcYfR6cTGWsO4LR9MD/HhwLO1+Y7xTUceCEhsXf5ly7WLaFkoAGP7GoxWfkvadrTBkoPRnvdS1Acpig==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">197750</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-23029</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-01T21:17:59.1093872Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-01T21:17:59.1093872Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-01T21:17:59.1093872Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>qsw0RnYEcYfR6cTGWsO4LR9MD/HhwLO1+Y7xTUceCEhsXf5ly7WLaFkoAGP7GoxWfkvadrTBkoPRnvdS1Acpig==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">197750</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
 
 Commonly Used Types:
 System.Globalization.HijriCalendar
@@ -682,4 +466,112 @@ System.Globalization.TaiwanCalendar
 System.Globalization.JapaneseCalendar
 System.Globalization.GregorianCalendarTypes
 System.Globalization.PersianCalendar
-System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">877</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry></feed>
+System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1684</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23107')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23107')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23107')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+
+Commonly Used Types:
+System.Globalization.HijriCalendar
+System.Globalization.GregorianCalendar
+System.Globalization.HebrewCalendar
+System.Globalization.KoreanCalendar
+System.Globalization.ThaiBuddhistCalendar
+System.Globalization.TaiwanCalendar
+System.Globalization.JapaneseCalendar
+System.Globalization.GregorianCalendarTypes
+System.Globalization.PersianCalendar
+System.Globalization.UmAlQuraCalendar</summary><updated>2015-07-08T05:22:14Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23107')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Globalization.Calendars/4.0.0-beta-23107" /><m:properties><d:Id>System.Globalization.Calendars</d:Id><d:Version>4.0.0-beta-23107</d:Version><d:NormalizedVersion>4.0.0-beta-23107</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-08T05:22:14.4584668Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23107:dotnet|System.Globalization:4.0.0-beta-23107:dotnet</d:Dependencies><d:Description>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+
+Commonly Used Types:
+System.Globalization.HijriCalendar
+System.Globalization.GregorianCalendar
+System.Globalization.HebrewCalendar
+System.Globalization.KoreanCalendar
+System.Globalization.ThaiBuddhistCalendar
+System.Globalization.TaiwanCalendar
+System.Globalization.JapaneseCalendar
+System.Globalization.GregorianCalendarTypes
+System.Globalization.PersianCalendar
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-23107</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-08T05:22:14.4584668Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-08T05:22:14.4584668Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-08T05:22:14.4584668Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>mzyeDpPOD+AGl4rJb7aQcWtC79XoRP5Cy0PzMgl0gZpENf78C8+ZlxmMe06+xBOGOPOdcHVWo3pwld/40/+zfQ==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">197795</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+
+Commonly Used Types:
+System.Globalization.HijriCalendar
+System.Globalization.GregorianCalendar
+System.Globalization.HebrewCalendar
+System.Globalization.KoreanCalendar
+System.Globalization.ThaiBuddhistCalendar
+System.Globalization.TaiwanCalendar
+System.Globalization.JapaneseCalendar
+System.Globalization.GregorianCalendarTypes
+System.Globalization.PersianCalendar
+System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">717</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23109')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23109')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23109')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+
+Commonly Used Types:
+System.Globalization.HijriCalendar
+System.Globalization.GregorianCalendar
+System.Globalization.HebrewCalendar
+System.Globalization.KoreanCalendar
+System.Globalization.ThaiBuddhistCalendar
+System.Globalization.TaiwanCalendar
+System.Globalization.JapaneseCalendar
+System.Globalization.GregorianCalendarTypes
+System.Globalization.PersianCalendar
+System.Globalization.UmAlQuraCalendar</summary><updated>2015-07-14T16:19:48Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23109')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Globalization.Calendars/4.0.0-beta-23109" /><m:properties><d:Id>System.Globalization.Calendars</d:Id><d:Version>4.0.0-beta-23109</d:Version><d:NormalizedVersion>4.0.0-beta-23109</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-14T16:19:48.4510295Z</d:Created><d:Dependencies>System.Runtime:4.0.0-beta-23109:dotnet|System.Globalization:4.0.0-beta-23109:dotnet</d:Dependencies><d:Description>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+
+Commonly Used Types:
+System.Globalization.HijriCalendar
+System.Globalization.GregorianCalendar
+System.Globalization.HebrewCalendar
+System.Globalization.KoreanCalendar
+System.Globalization.ThaiBuddhistCalendar
+System.Globalization.TaiwanCalendar
+System.Globalization.JapaneseCalendar
+System.Globalization.GregorianCalendarTypes
+System.Globalization.PersianCalendar
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-23109</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-14T16:19:48.4510295Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-14T16:19:48.4510295Z</d:LastEdited><d:Published m:type="Edm.DateTime">2015-07-14T16:19:48.4510295Z</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>b10atmZYEYA0ZKvXCACMBz7E7i4cLWfAUOkI1qg/AMmHbaN57udfu1tdUq0k5AwdiGcTRuII6PKCNDdLk9gKgA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">197816</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+
+Commonly Used Types:
+System.Globalization.HijriCalendar
+System.Globalization.GregorianCalendar
+System.Globalization.HebrewCalendar
+System.Globalization.KoreanCalendar
+System.Globalization.ThaiBuddhistCalendar
+System.Globalization.TaiwanCalendar
+System.Globalization.JapaneseCalendar
+System.Globalization.GregorianCalendarTypes
+System.Globalization.PersianCalendar
+System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">1037</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry><entry><id>https://www.myget.org/F/aspnetvnext/api/v2/Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23110')</id><category term="MyGet.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" /><link rel="edit" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23110')" /><link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Screenshots" type="application/atom+xml;type=feed" title="Screenshots" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23110')/Screenshots" /><title type="text">System.Globalization.Calendars</title><summary type="text">Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+
+Commonly Used Types:
+System.Globalization.HijriCalendar
+System.Globalization.GregorianCalendar
+System.Globalization.HebrewCalendar
+System.Globalization.KoreanCalendar
+System.Globalization.ThaiBuddhistCalendar
+System.Globalization.TaiwanCalendar
+System.Globalization.JapaneseCalendar
+System.Globalization.GregorianCalendarTypes
+System.Globalization.PersianCalendar
+System.Globalization.UmAlQuraCalendar</summary><updated>2015-07-11T02:59:13Z</updated><author><name>Microsoft</name></author><link rel="edit-media" title="V2FeedPackage" href="Packages(Id='System.Globalization.Calendars',Version='4.0.0-beta-23110')/$value" /><content type="binary/octet-stream" src="https://www.myget.org/F/aspnetvnext/api/v2/package/System.Globalization.Calendars/4.0.0-beta-23110" /><m:properties><d:Id>System.Globalization.Calendars</d:Id><d:Version>4.0.0-beta-23110</d:Version><d:NormalizedVersion>4.0.0-beta-23110</d:NormalizedVersion><d:Authors>Microsoft</d:Authors><d:Copyright>© Microsoft Corporation.  All rights reserved.</d:Copyright><d:Created m:type="Edm.DateTime">2015-07-11T02:59:13.9718149Z</d:Created><d:Dependencies>::MonoAndroid10|::MonoTouch10|::xamarinios10|::xamarinmac20|System.Runtime:4.0.0:dotnet|System.Globalization:4.0.0:dotnet</d:Dependencies><d:Description>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+
+Commonly Used Types:
+System.Globalization.HijriCalendar
+System.Globalization.GregorianCalendar
+System.Globalization.HebrewCalendar
+System.Globalization.KoreanCalendar
+System.Globalization.ThaiBuddhistCalendar
+System.Globalization.TaiwanCalendar
+System.Globalization.JapaneseCalendar
+System.Globalization.GregorianCalendarTypes
+System.Globalization.PersianCalendar
+System.Globalization.UmAlQuraCalendar</d:Description><d:DownloadCount m:type="Edm.Int32">10155</d:DownloadCount><d:GalleryDetailsUrl>https://www.myget.org/feed/aspnetvnext/package/nuget/System.Globalization.Calendars/4.0.0-beta-23110</d:GalleryDetailsUrl><d:IconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</d:IconUrl><d:IsLatestVersion m:type="Edm.Boolean">false</d:IsLatestVersion><d:IsAbsoluteLatestVersion m:type="Edm.Boolean">false</d:IsAbsoluteLatestVersion><d:LastUpdated m:type="Edm.DateTime">2015-07-11T02:59:13.9718149Z</d:LastUpdated><d:LastEdited m:type="Edm.DateTime">2015-07-11T02:59:13.9718149Z</d:LastEdited><d:Published m:type="Edm.DateTime">1900-01-01T00:00:00</d:Published><d:LicenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</d:LicenseUrl><d:LicenseNames>MS-EULA</d:LicenseNames><d:LicenseReportUrl m:null="true" /><d:PackageHash>p+G17m7+3TRZfJmW1EOSsnTCNVZbYOeM5H7fVhT3hGCRkfxqIL6osedcWrY+npiozPItWV62+1YjHS/TB8BdqA==</d:PackageHash><d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm><d:PackageSize m:type="Edm.Int64">199052</d:PackageSize><d:ProjectUrl m:null="true" /><d:ReleaseNotes m:null="true" /><d:ReportAbuseUrl>http://localhost</d:ReportAbuseUrl><d:RequireLicenseAcceptance m:type="Edm.Boolean">true</d:RequireLicenseAcceptance><d:Summary>Provides classes for performing date calculations using specific calendars, including the Gregorian, Julian, Hijri and Korean calendars.
+
+Commonly Used Types:
+System.Globalization.HijriCalendar
+System.Globalization.GregorianCalendar
+System.Globalization.HebrewCalendar
+System.Globalization.KoreanCalendar
+System.Globalization.ThaiBuddhistCalendar
+System.Globalization.TaiwanCalendar
+System.Globalization.JapaneseCalendar
+System.Globalization.GregorianCalendarTypes
+System.Globalization.PersianCalendar
+System.Globalization.UmAlQuraCalendar</d:Summary><d:Tags m:null="true" /><d:Title>System.Globalization.Calendars</d:Title><d:VersionDownloadCount m:type="Edm.Int32">191</d:VersionDownloadCount><d:IsPrerelease m:type="Edm.Boolean">true</d:IsPrerelease><d:MinClientVersion>3.0</d:MinClientVersion><d:Language>en-US</d:Language></m:properties></entry></feed>

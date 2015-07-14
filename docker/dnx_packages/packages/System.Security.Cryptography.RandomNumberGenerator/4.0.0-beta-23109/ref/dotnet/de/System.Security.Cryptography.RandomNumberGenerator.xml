@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RandomNumberGenerator</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.RandomNumberGenerator">
+      <summary>Stellt die abstrakte Klasse dar, von der alle Implementierungen von Zufallszahlen-Generatoren für die Kryptographie abgeleitet werden.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.#ctor">
+      <summary>Initialisiert eine neue Instanz von <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Create">
+      <summary>Erstellt beim Überschreiben in einer abgeleiteten Klasse eine Instanz der Standardimplementierung eines Kryptographie-Zufallszahlen-Generators, der zum Generieren von Zufallsdaten verwendet werden kann.</summary>
+      <returns>Eine neue Instanz eines Kryptografie-Zufallszahlen-Generators.</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose">
+      <summary>Gibt beim Überschreiben in einer abgeleiteten Klasse alle Ressourcen frei, die von der aktuellen Instanz der <see cref="T:System.Security.Cryptography.RandomNumberGenerator" />-Klasse verwendet werden.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.Dispose(System.Boolean)">
+      <summary>Gibt beim Überschreiben in einer abgeleiteten Klasse die von <see cref="T:System.Security.Cryptography.RandomNumberGenerator" /> verwendeten nicht verwalteten Ressourcen und optional die verwalteten Ressourcen frei.</summary>
+      <param name="disposing">true, um sowohl verwaltete als auch nicht verwaltete Ressourcen freizugeben, false, um ausschließlich nicht verwaltete Ressourcen freizugeben.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.RandomNumberGenerator.GetBytes(System.Byte[])">
+      <summary>Füllt beim Überschreiben in einer abgeleiteten Klasse ein Bytearray mit einer kryptographisch starken Zufallsfolge von Werten.</summary>
+      <param name="data">Das mit kryptographisch starken, zufälligen Bytes auszufüllende Array. </param>
+    </member>
+  </members>
+</doc>

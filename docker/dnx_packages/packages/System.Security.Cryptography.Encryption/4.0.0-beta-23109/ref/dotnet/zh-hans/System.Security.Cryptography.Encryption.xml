@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Encryption</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.AsymmetricAlgorithm">
+      <summary>表示非对称算法的所有实现都必须从中继承的抽象基类。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> 类的新实例。</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">派生类的实现无效。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.Dispose">
+      <summary>释放 <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> 类的当前实例所使用的所有资源。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.AsymmetricAlgorithm.Dispose(System.Boolean)">
+      <summary>释放 <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> 类使用的非托管资源，并可以选择释放托管资源。</summary>
+      <param name="disposing">若要释放托管资源和非托管资源，则为 true；若仅释放非托管资源，则为 false。</param>
+    </member>
+    <member name="P:System.Security.Cryptography.AsymmetricAlgorithm.KeySize">
+      <summary>获取或设置非对称算法所用密钥模块的大小（以位为单位）。</summary>
+      <returns>非对称算法所用密钥模块的大小（以位为单位）。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">密钥模块的大小无效。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes">
+      <summary>获取非对称算法支持的密钥大小。</summary>
+      <returns>一个数组，它包含非对称算法支持的密钥大小。</returns>
+    </member>
+    <member name="T:System.Security.Cryptography.CipherMode">
+      <summary>指定用于加密的块密码模式。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.CBC">
+      <summary>密码块链 (CBC) 模式引入了反馈。每个纯文本块在加密前，通过按位“异或”操作与前一个块的密码文本结合。这样确保了即使纯文本包含许多相同的块，这些块中的每一个也会加密为不同的密码文本块。在加密块之前，初始化向量通过按位“异或”操作与第一个纯文本块结合。如果密码文本块中有一个位出错，相应的纯文本块也将出错。此外，后面的块中与原出错位的位置相同的位也将出错。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.CTS">
+      <summary>密码文本窃用 (CTS) 模式处理任何长度的纯文本并产生长度与纯文本长度匹配的密码文本。除了最后两个纯文本块外，对于所有其他块，此模式与 CBC 模式的行为相同。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CipherMode.ECB">
+      <summary>电子密码本 (ECB) 模式分别加密每个块。任何纯文本块只要相同并且在同一消息中，或者在用相同的密钥加密的不同消息中，都将被转换成同样的密码文本块。重要事项：不建议使用此模式，因为它存在多个安全隐患。如果要加密的纯文本包含大量重复的块，则逐块破解密码文本是可行的。另外，还可以使用块分析来确定加密密钥。此外，随时准备攻击的对手可能会在您没有察觉的情况下替代和交换个别的块，这能让块在不为您所知的情况下保存并插入流中的其他位置。</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptographicException">
+      <summary>当加密操作中出现错误时引发的异常。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor">
+      <summary>使用默认属性初始化 <see cref="T:System.Security.Cryptography.CryptographicException" /> 类的新实例。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.Int32)">
+      <summary>用指定的 HRESULT 错误代码初始化 <see cref="T:System.Security.Cryptography.CryptographicException" /> 类的新实例。</summary>
+      <param name="hr">HRESULT 错误代码。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String)">
+      <summary>使用指定的错误消息初始化 <see cref="T:System.Security.Cryptography.CryptographicException" /> 类的新实例。</summary>
+      <param name="message">解释异常原因的错误信息。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.Exception)">
+      <summary>使用指定错误信息和对作为此异常原因的内部异常的引用来初始化 <see cref="T:System.Security.Cryptography.CryptographicException" /> 类的新实例。</summary>
+      <param name="message">解释异常原因的错误信息。</param>
+      <param name="inner">导致当前异常的异常。如果 <paramref name="inner" /> 参数不为 null，则当前异常将在处理内部异常的 catch 块中引发。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.String)">
+      <summary>以指定格式使用指定的错误消息来初始化 <see cref="T:System.Security.Cryptography.CryptographicException" /> 类的新实例。</summary>
+      <param name="format">用于输出错误信息的格式。</param>
+      <param name="insert">解释异常原因的错误信息。</param>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptoStream">
+      <summary>定义将数据流链接到加密转换的流。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.#ctor(System.IO.Stream,System.Security.Cryptography.ICryptoTransform,System.Security.Cryptography.CryptoStreamMode)">
+      <summary>用目标数据流、要使用的转换和流的模式初始化 <see cref="T:System.Security.Cryptography.CryptoStream" /> 类的新实例。</summary>
+      <param name="stream">对其执行加密转换的流。</param>
+      <param name="transform">要对流执行的加密转换。</param>
+      <param name="mode">
+        <see cref="T:System.Security.Cryptography.CryptoStreamMode" /> 值之一。</param>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> 不可读。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> 不可写。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="stream" /> 无效。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanRead">
+      <summary>获取一个值，该值指示当前的 <see cref="T:System.Security.Cryptography.CryptoStream" /> 是否可读。</summary>
+      <returns>如果当前流可读，则为 true；否则为 false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanSeek">
+      <summary>获取一个值，该值指示你是否可以在当前 <see cref="T:System.Security.Cryptography.CryptoStream" /> 中搜索。</summary>
+      <returns>总是为 false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.CanWrite">
+      <summary>获取一个值，该值指示当前的 <see cref="T:System.Security.Cryptography.CryptoStream" /> 是否可写。</summary>
+      <returns>如果当前流可写，则为 true；否则为 false。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Dispose(System.Boolean)">
+      <summary>释放由 <see cref="T:System.Security.Cryptography.CryptoStream" /> 占用的非托管资源，还可以释放托管资源。</summary>
+      <param name="disposing">若要释放托管资源和非托管资源，则为 true；若仅释放非托管资源，则为 false。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Flush">
+      <summary>清理当前流的所有缓冲区，并使所有缓冲数据写入基础设备。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.FlushAsync(System.Threading.CancellationToken)">
+      <summary>异步清理当前流的所有缓冲区，并使所有缓冲数据写入基础设备，并且监控取消请求。</summary>
+      <returns>表示异步刷新操作的任务。</returns>
+      <param name="cancellationToken">要监视取消请求的标记。默认值为 <see cref="P:System.Threading.CancellationToken.None" />。</param>
+      <exception cref="T:System.ObjectDisposedException">流已被释放。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.FlushFinalBlock">
+      <summary>用缓冲区的当前状态更新基础数据源或存储库，随后清除缓冲区。</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">密钥已损坏，它可能会导致流的填充无效。</exception>
+      <exception cref="T:System.NotSupportedException">当前流不可写。- 或 - 最后一个块已被转换。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.HasFlushedFinalBlock">
+      <summary>获取一个值，该值指示最终缓冲区块是否已写入基础流。</summary>
+      <returns>如果已刷新最终块，则为 true；否则为 false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.Length">
+      <summary>获取用字节表示的流长度。</summary>
+      <returns>不支持此属性。</returns>
+      <exception cref="T:System.NotSupportedException">不支持此属性。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CryptoStream.Position">
+      <summary>获取或设置当前流中的位置。</summary>
+      <returns>不支持此属性。</returns>
+      <exception cref="T:System.NotSupportedException">不支持此属性。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Read(System.Byte[],System.Int32,System.Int32)">
+      <summary>从当前流读取字节序列，并将流中的位置向前移动读取的字节数。</summary>
+      <returns>读入缓冲区中的总字节数。如果当前可用的字节数没有请求的字节数那么多，则总字节数可能小于请求的字节数；如果已到达流的末尾，则为零。</returns>
+      <param name="buffer">字节数组。从当前流中读取最多的 <paramref name="count" /> 个字节，并将它们存储在 <paramref name="buffer" /> 中。</param>
+      <param name="offset">
+        <paramref name="buffer" /> 中的字节偏移量，从该偏移量开始存储从当前流中读取的数据。</param>
+      <param name="count">要从当前流中最多读取的字节数。</param>
+      <exception cref="T:System.NotSupportedException">与当前 <see cref="T:System.Security.Cryptography.CryptoStreamMode" /> 对象关联的 <see cref="T:System.Security.Cryptography.CryptoStream" /> 与基础流不匹配。例如，对只写的基础流使用 <see cref="F:System.Security.Cryptography.CryptoStreamMode.Read" /> 时会引发此异常。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> 参数小于零。- 或 - <paramref name="count" /> 参数小于零。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="count" /> 参数和 <paramref name="offset" /> 参数的和比缓冲区的长度长。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+      <summary>从当前流异步读取字节序列，将此流中的位置提升读取的字节数，并监视取消请求数。</summary>
+      <returns>表示异步读取操作的任务。目标对象的 <paramref name="TResult" /> 参数的值包含多次读入缓冲区总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可能小于所请求的字节数，或者如果已到达流的末尾时，则为 0（零）。</returns>
+      <param name="buffer">数据写入的缓冲区。</param>
+      <param name="offset">
+        <paramref name="buffer" /> 中的字节偏移量，从该偏移量开始写入从流中读取的数据。</param>
+      <param name="count">最多读取的字节数。</param>
+      <param name="cancellationToken">要监视取消请求的标记。默认值为 <see cref="P:System.Threading.CancellationToken.None" />。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> 为 null。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> 或 <paramref name="count" /> 为负。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="offset" /> 与 <paramref name="count" /> 的和大于缓冲区长度。</exception>
+      <exception cref="T:System.NotSupportedException">流不支持读取。</exception>
+      <exception cref="T:System.ObjectDisposedException">流已被释放。</exception>
+      <exception cref="T:System.InvalidOperationException">该流正在由其前一次读取操作使用。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Seek(System.Int64,System.IO.SeekOrigin)">
+      <summary>设置当前流中的位置。</summary>
+      <returns>不支持此方法。</returns>
+      <param name="offset">相对于 <paramref name="origin" /> 参数的字节偏移量。</param>
+      <param name="origin">一个 <see cref="T:System.IO.SeekOrigin" /> 对象，该对象指示用于获得新位置的参考点。</param>
+      <exception cref="T:System.NotSupportedException">不支持此方法。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.SetLength(System.Int64)">
+      <summary>设置当前流的长度。</summary>
+      <param name="value">所需的当前流的长度（以字节表示）。</param>
+      <exception cref="T:System.NotSupportedException">此属性的存在只是为了支持从 <see cref="T:System.IO.Stream" /> 继承；无法使用此属性。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.Write(System.Byte[],System.Int32,System.Int32)">
+      <summary>将一字节序列写入当前的 <see cref="T:System.Security.Cryptography.CryptoStream" />，并将通过写入的字节数提前该流的当前位置。</summary>
+      <param name="buffer">字节数组。此方法将 <paramref name="count" /> 个字节从 <paramref name="buffer" /> 复制到当前流。</param>
+      <param name="offset">
+        <paramref name="buffer" /> 中的字节偏移量，从此偏移量开始将字节复制到当前流。</param>
+      <param name="count">要写入当前流的字节数。</param>
+      <exception cref="T:System.NotSupportedException">与当前 <see cref="T:System.Security.Cryptography.CryptoStreamMode" /> 对象关联的 <see cref="T:System.Security.Cryptography.CryptoStream" /> 与基础流不匹配。例如，对只读的基础流使用 <see cref="F:System.Security.Cryptography.CryptoStreamMode.Write" /> 时会引发此异常。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> 参数小于零。- 或 - <paramref name="count" /> 参数小于零。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="count" /> 参数和 <paramref name="offset" /> 参数的和比缓冲区的长度长。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.CryptoStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+      <summary>将字节序列异步写入当前流，将该流的当前位置向前移动写入的字节数，并监视取消请求。</summary>
+      <returns>表示异步写入操作的任务。</returns>
+      <param name="buffer">从中写入数据的缓冲区。</param>
+      <param name="offset">
+        <paramref name="buffer" /> 中的从零开始的字节偏移量，从此处开始将字节写入到该流。</param>
+      <param name="count">最多写入的字节数。</param>
+      <param name="cancellationToken">要监视取消请求的标记。默认值为 <see cref="P:System.Threading.CancellationToken.None" />。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> 为 null。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> 或 <paramref name="count" /> 为负。</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="offset" /> 与 <paramref name="count" /> 的和大于缓冲区长度。</exception>
+      <exception cref="T:System.NotSupportedException">流不支持写入。</exception>
+      <exception cref="T:System.ObjectDisposedException">流已被释放。</exception>
+      <exception cref="T:System.InvalidOperationException">该流正在由其前一次写入操作使用。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.CryptoStreamMode">
+      <summary>指定加密流的模式。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CryptoStreamMode.Read">
+      <summary>对加密流的读访问。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CryptoStreamMode.Write">
+      <summary>对加密流的写访问。</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.ICryptoTransform">
+      <summary>定义基本的加密转换运算。</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.CanReuseTransform">
+      <summary>获取一个值，该值指示是否可重复使用当前转换。</summary>
+      <returns>如果重复使用当前转换，则为 true；否则为 false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.CanTransformMultipleBlocks">
+      <summary>获取一个值，该值指示是否可以转换多个块。</summary>
+      <returns>如果可以转换多个块，则为 true；否则，为 false。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.InputBlockSize">
+      <summary>获取输入块大小。</summary>
+      <returns>输入数据块的大小（以字节为单位）。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.ICryptoTransform.OutputBlockSize">
+      <summary>获取输出块大小。</summary>
+      <returns>输出数据块的大小（以字节为单位）。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.ICryptoTransform.TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)">
+      <summary>转换输入字节数组的指定区域，并将所得到的转换复制到输出字节数组的指定区域。</summary>
+      <returns>写入的字节数。</returns>
+      <param name="inputBuffer">要为其计算转换的输入。</param>
+      <param name="inputOffset">输入字节数组中的偏移量，从该位置开始使用数据。</param>
+      <param name="inputCount">输入字节数组中用作数据的字节数。</param>
+      <param name="outputBuffer">将转换写入的输出。</param>
+      <param name="outputOffset">输出字节数组中的偏移量，从该位置开始写入数据。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.ICryptoTransform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)">
+      <summary>转换指定字节数组的指定区域。</summary>
+      <returns>计算所得的转换。</returns>
+      <param name="inputBuffer">要为其计算转换的输入。</param>
+      <param name="inputOffset">字节数组中的偏移量，从该位置开始使用数据。</param>
+      <param name="inputCount">字节数组中用作数据的字节数。</param>
+    </member>
+    <member name="T:System.Security.Cryptography.KeySizes">
+      <summary>确定对称加密算法的有效密钥大小设置。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeySizes.#ctor(System.Int32,System.Int32,System.Int32)">
+      <summary>使用指定密钥值初始化 <see cref="T:System.Security.Cryptography.KeySizes" /> 类的新实例。</summary>
+      <param name="minSize">最小有效密钥大小。</param>
+      <param name="maxSize">最大有效密钥大小。</param>
+      <param name="skipSize">有效密钥大小之间的间隔。</param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.MaxSize">
+      <summary>指定最大密钥大小（以位为单位）。</summary>
+      <returns>最大密钥大小（以位为单位）。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.MinSize">
+      <summary>指定最小密钥大小（以位为单位）。</summary>
+      <returns>最小密钥大小（以位为单位）。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.KeySizes.SkipSize">
+      <summary>指定有效密钥大小之间的间隔（以位为单位）。</summary>
+      <returns>有效密钥大小之间的间隔（以位为单位）。</returns>
+    </member>
+    <member name="T:System.Security.Cryptography.PaddingMode">
+      <summary>指定在消息数据块比加密操作所需的全部字节数短时应用的填充类型。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.None">
+      <summary>不填充。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.PKCS7">
+      <summary>PKCS #7 填充字符串由一个字节序列组成，每个字节填充该字节序列的长度。</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.PaddingMode.Zeros">
+      <summary>填充字符串由设置为零的字节组成。</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.SymmetricAlgorithm">
+      <summary>表示所有对称算法的实现都必须从中继承的抽象基类。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" /> 类的新实例。</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">从对称算法派生的类的实现无效。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.BlockSize">
+      <summary>获取或设置加密操作的块大小（以位为单位）。</summary>
+      <returns>块大小（以位为单位）。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">块大小无效。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor">
+      <summary>用当前的 <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> 属性和初始化向量 (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) 创建对称解密器对象。</summary>
+      <returns>对称解密器对象。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateDecryptor(System.Byte[],System.Byte[])">
+      <summary>当在派生类中重写时，用指定的 <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> 属性和初始化向量 (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) 创建对称解密器对象。</summary>
+      <returns>对称解密器对象。</returns>
+      <param name="rgbKey">用于对称算法的密钥。</param>
+      <param name="rgbIV">用于对称算法的初始化向量。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor">
+      <summary>用当前的 <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> 属性和初始化向量 (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) 创建对称加密器对象。</summary>
+      <returns>对称加密器对象。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.CreateEncryptor(System.Byte[],System.Byte[])">
+      <summary>当在派生类中重写时，用指定的 <see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" /> 属性和初始化向量 (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />) 创建对称加密器对象。</summary>
+      <returns>对称加密器对象。</returns>
+      <param name="rgbKey">用于对称算法的密钥。</param>
+      <param name="rgbIV">用于对称算法的初始化向量。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.Dispose">
+      <summary>释放 <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" /> 类的当前实例所使用的所有资源。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.Dispose(System.Boolean)">
+      <summary>释放由 <see cref="T:System.Security.Cryptography.SymmetricAlgorithm" /> 占用的非托管资源，还可以释放托管资源。</summary>
+      <param name="disposing">若要释放托管资源和非托管资源，则为 true；若仅释放非托管资源，则为 false。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.GenerateIV">
+      <summary>当在派生类中重写时，生成用于该算法的随机初始化向量 (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />)。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SymmetricAlgorithm.GenerateKey">
+      <summary>当在派生类中重写时，生成用于该算法的随机密钥 (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.Key" />)。</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.IV">
+      <summary>获取或设置对称算法的初始化向量 (<see cref="P:System.Security.Cryptography.SymmetricAlgorithm.IV" />)。</summary>
+      <returns>初始化向量。</returns>
+      <exception cref="T:System.ArgumentNullException">试图将初始化向量设置为 null。</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">试图将初始化向量设置为无效大小。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Key">
+      <summary>获取或设置对称算法的密钥。</summary>
+      <returns>用于对称算法的密钥。</returns>
+      <exception cref="T:System.ArgumentNullException">试图将密钥设置为 null。</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">密钥大小无效。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.KeySize">
+      <summary>获取或设置对称算法所用密钥的大小（以位为单位）。</summary>
+      <returns>对称算法所用密钥的大小（以位为单位）。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">密钥大小无效。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.LegalBlockSizes">
+      <summary>获取对称算法支持的块大小（以位为单位）。</summary>
+      <returns>一个数组，包含此算法支持的块大小。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.LegalKeySizes">
+      <summary>获取对称算法支持的密钥大小（以位为单位）。</summary>
+      <returns>一个数组，包含此算法支持的密钥大小。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Mode">
+      <summary>获取或设置对称算法的运算模式。</summary>
+      <returns>对称算法的运算模式。默认值为 <see cref="F:System.Security.Cryptography.CipherMode.CBC" />。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">该密码模式不是 <see cref="T:System.Security.Cryptography.CipherMode" /> 值之一。</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.SymmetricAlgorithm.Padding">
+      <summary>获取或设置对称算法中使用的填充模式。</summary>
+      <returns>对称算法中使用的填充模式。默认值为 <see cref="F:System.Security.Cryptography.PaddingMode.PKCS7" />。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">该填充模式不是 <see cref="T:System.Security.Cryptography.PaddingMode" /> 值之一。</exception>
+    </member>
+  </members>
+</doc>

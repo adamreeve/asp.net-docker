@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HashAlgorithm">
+      <summary>暗号ハッシュ アルゴリズムのすべての実装の派生元となる基本クラスを表します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HashAlgorithm" /> クラスの新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])">
+      <summary>指定したバイト配列のハッシュ値を計算します。</summary>
+      <returns>計算済みハッシュ コード。</returns>
+      <param name="buffer">ハッシュ コードを計算する対象の入力データ。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> は null です。</exception>
+      <exception cref="T:System.ObjectDisposedException">オブジェクトは既には帰されています。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[],System.Int32,System.Int32)">
+      <summary>指定したバイト配列の指定した領域のハッシュ値を計算します。</summary>
+      <returns>計算済みハッシュ コード。</returns>
+      <param name="buffer">ハッシュ コードを計算する対象の入力データ。</param>
+      <param name="offset">バイト配列内のデータの使用開始位置を示すオフセット。</param>
+      <param name="count">配列内でデータとして使用されるバイトの数。</param>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="count" /> が無効な値です。または<paramref name="buffer" /> の長さが無効です。</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" /> は null です。</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" /> が範囲外です。このパラメーターには、負数以外を指定する必要があります。</exception>
+      <exception cref="T:System.ObjectDisposedException">オブジェクトは既には帰されています。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)">
+      <summary>指定された <see cref="T:System.IO.Stream" /> オブジェクトのハッシュ値を計算します。</summary>
+      <returns>計算済みハッシュ コード。</returns>
+      <param name="inputStream">ハッシュ コードを計算する対象の入力データ。</param>
+      <exception cref="T:System.ObjectDisposedException">オブジェクトは既には帰されています。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HashAlgorithm" /> クラスの現在のインスタンスによって使用されているすべてのリソースを解放します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose(System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HashAlgorithm" /> で使用されているアンマネージ リソースを解放し、オプションでマネージ リソースを解放します。</summary>
+      <param name="disposing">マネージ リソースとアンマネージ リソースの両方を解放する場合は true。アンマネージ リソースだけを解放する場合は false。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>派生クラスでオーバーライドされると、ハッシュを計算するために、オブジェクトに書き込まれたデータをハッシュ アルゴリズムにルーティングします。</summary>
+      <param name="array">ハッシュ コードを計算する対象の入力データ。</param>
+      <param name="ibStart">バイト配列内のデータの使用開始位置を示すオフセット。</param>
+      <param name="cbSize">バイト配列内でデータとして使用されるバイトの数。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashFinal">
+      <summary>派生クラスでオーバーライドされると、暗号ストリーム オブジェクトによって最後のデータが処理された後に、ハッシュ計算を終了します。</summary>
+      <returns>計算済みハッシュ コード。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HashAlgorithm.HashSize">
+      <summary>計算されたハッシュ コードのサイズをビット単位で取得します。</summary>
+      <returns>計算されたハッシュ コードのサイズ (ビット単位)。</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Initialize">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HashAlgorithm" /> クラスの実装を初期化します。</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.HMAC">
+      <summary>ハッシュ ベース メッセージ認証コード (HMAC) のすべての実装の派生元にする必要のある抽象クラスを表します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HMAC" /> クラスの新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Dispose(System.Boolean)">
+      <summary>キー変更が有効な場合、<see cref="T:System.Security.Cryptography.HMAC" /> クラスによって使用されているアンマネージ リソースを解放します。また、オプションとして、マネージ リソースを解放することもできます。</summary>
+      <param name="disposing">マネージ リソースとアンマネージ リソースの両方を解放する場合は true。アンマネージ リソースだけを解放する場合は false。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>派生クラスでオーバーライドされた場合、ハッシュ値を計算するために、オブジェクトに書き込まれたデータを既定の <see cref="T:System.Security.Cryptography.HMAC" /> ハッシュ アルゴリズムにルーティングします。</summary>
+      <param name="rgb">入力データ。</param>
+      <param name="ib">バイト配列内のデータの使用開始位置を示すオフセット。</param>
+      <param name="cb">配列内でデータとして使用されるバイトの数。</param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashFinal">
+      <summary>派生クラスでオーバーライドされると、暗号ストリーム オブジェクトによって最後のデータが処理された後に、ハッシュ計算を終了します。</summary>
+      <returns>バイト配列にした計算済みのハッシュ コード。</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.HashName">
+      <summary>ハッシュに使用するハッシュ アルゴリズムの名前を取得または設定します。</summary>
+      <returns>ハッシュ アルゴリズムの名前。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">現在のハッシュ アルゴリズムは変更できません。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Initialize">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HMAC" /> の既定の実装のインスタンスを初期化します。</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.Key">
+      <summary>ハッシュ アルゴリズムで使用するキーを取得または設定します。</summary>
+      <returns>ハッシュ アルゴリズムで使用するキー。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">ハッシュが開始された後に、<see cref="P:System.Security.Cryptography.HMAC.Key" /> プロパティを変更しようとしました。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.KeyedHashAlgorithm">
+      <summary>キー付きハッシュ アルゴリズムのすべての実装の派生元となる抽象クラスを表します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" /> クラスの新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.Dispose(System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" /> で使用されているアンマネージ リソースを解放し、オプションでマネージ リソースを解放します。</summary>
+      <param name="disposing">マネージ リソースとアンマネージ リソースの両方を解放する場合は true。アンマネージ リソースだけを解放する場合は false。</param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeyedHashAlgorithm.Key">
+      <summary>ハッシュ アルゴリズムで使用するキーを取得または設定します。</summary>
+      <returns>ハッシュ アルゴリズムで使用するキー。</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">ハッシュが開始された後に、<see cref="P:System.Security.Cryptography.KeyedHashAlgorithm.Key" /> プロパティを変更しようとしました。</exception>
+    </member>
+  </members>
+</doc>

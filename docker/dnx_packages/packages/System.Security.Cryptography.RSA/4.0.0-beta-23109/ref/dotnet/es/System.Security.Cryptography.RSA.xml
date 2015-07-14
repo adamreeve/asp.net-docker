@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RSA</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.CspKeyContainerInfo">
+      <summary>Proporciona información adicional sobre un par de claves de cifrado.Esta clase no puede heredarse.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CspKeyContainerInfo.#ctor(System.Security.Cryptography.CspParameters)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" /> utilizando los parámetros especificados.</summary>
+      <param name="parameters">Un objeto <see cref="T:System.Security.Cryptography.CspParameters" /> que proporciona información sobre la clave.</param>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Accessible">
+      <summary>Obtiene un valor que indica si una clave en un contenedor de claves es accesible.</summary>
+      <returns>true si se puede obtener acceso a la clave; en caso contrario, false.</returns>
+      <exception cref="T:System.NotSupportedException">El tipo de clave no es compatible.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Exportable">
+      <summary>Obtiene un valor que indica si una clave se puede exportar de un contenedor de claves.</summary>
+      <returns>true si se puede exportar la clave; en caso contrario, false.</returns>
+      <exception cref="T:System.NotSupportedException">El tipo de clave no es compatible.</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No se puede encontrar el proveedor de servicios criptográficos.O bienNo se encontró el contenedor de claves.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.HardwareDevice">
+      <summary>Obtiene un valor que indica si es una clave de hardware.</summary>
+      <returns>true si es una clave de hardware; en caso contrario, false.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No se puede encontrar el proveedor de servicios criptográficos.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.KeyContainerName">
+      <summary>Obtiene el nombre del contenedor de claves.</summary>
+      <returns>Nombre del contenedor de claves.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.KeyNumber">
+      <summary>Obtiene un valor que describe si se creó una clave asimétrica como una clave de firma o una clave de intercambio.</summary>
+      <returns>Uno de los valores <see cref="T:System.Security.Cryptography.KeyNumber" /> que describe si una clave asimétrica se creó como una clave de firma o una clave de intercambio.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.MachineKeyStore">
+      <summary>Obtiene un valor que indica si una clave se obtiene de conjunto de claves de equipo.</summary>
+      <returns>true, si la clave se obtiene del conjunto de claves de equipo; de lo contrario, false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Protected">
+      <summary>Obtiene un valor que indica si un par de claves está protegido.</summary>
+      <returns>true si el par de claves está protegido; en caso contrario, false.</returns>
+      <exception cref="T:System.NotSupportedException">El tipo de clave no es compatible.</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No se puede encontrar el proveedor de servicios criptográficos.O bienNo se encontró el contenedor de claves.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.ProviderName">
+      <summary>Obtiene el nombre del proveedor de una clave.</summary>
+      <returns>Nombre del proveedor.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.ProviderType">
+      <summary>Obtiene el tipo de proveedor de una clave.</summary>
+      <returns>Tipo de proveedor.El valor predeterminado es 1.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.RandomlyGenerated">
+      <summary>Obtiene un valor que indica si una clase de cifrado administrada generó al azar un contenedor de claves.</summary>
+      <returns>true, si la clave de contenedor se generó al azar; en caso contrario, false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Removable">
+      <summary>Obtiene un valor que indica si una clave se puede quitar de un contenedor de claves.</summary>
+      <returns>true si la clave se puede quitar; en caso contrario, false.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No se ha encontrado el proveedor de servicios criptográficos (CSP).</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.UniqueKeyContainerName">
+      <summary>Obtiene un nombre del contenedor de claves único.</summary>
+      <returns>El nombre del contenedor de claves único.</returns>
+      <exception cref="T:System.NotSupportedException">El tipo de clave no es compatible.</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No se puede encontrar el proveedor de servicios criptográficos.O bienNo se encontró el contenedor de claves.</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.CspParameters">
+      <summary>Contiene parámetros que se pasan al proveedor de servicios criptográficos (CSP), que realiza cálculos criptográficos.Esta clase no puede heredarse.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.CspParameters" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.CspParameters" /> con el código de tipo de proveedor especificado.</summary>
+      <param name="dwTypeIn">Código de tipo de proveedor que especifica el tipo de proveedor que se va a crear. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.CspParameters" /> con el nombre y el código de tipo de proveedor especificados.</summary>
+      <param name="dwTypeIn">Código de tipo de proveedor que especifica el tipo de proveedor que se va a crear.</param>
+      <param name="strProviderNameIn">Nombre del proveedor. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String,System.String)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.CspParameters" /> con el nombre y el código de tipo de proveedor y el nombre del contenedor especificados.</summary>
+      <param name="dwTypeIn">Código de tipo de proveedor que especifica el tipo de proveedor que se va a crear.</param>
+      <param name="strProviderNameIn">Nombre del proveedor. </param>
+      <param name="strContainerNameIn">Nombre del contenedor. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.CspParameters.Flags">
+      <summary>Representa las marcas de <see cref="T:System.Security.Cryptography.CspParameters" /> que modifican el comportamiento del proveedor de servicios de cifrado (CSP).</summary>
+      <returns>Valor de enumeración o una combinación bit a bit de los valores de enumeración.</returns>
+      <exception cref="T:System.ArgumentException">El valor no es un valor de enumeración válido.</exception>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.KeyContainerName">
+      <summary>Representa el nombre del contenedor de claves para <see cref="T:System.Security.Cryptography.CspParameters" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.KeyNumber">
+      <summary>Especifica si una clave asimétrica se crea como una clave de firma o una clave de intercambio.</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.CspParameters.ParentWindowHandle">
+      <summary>Obtiene o establece un identificador a la ventana primaria no administrada para un cuadro de diálogo de contraseña de tarjeta inteligente.</summary>
+      <returns>Identificador a la ventana primaria para un cuadro de diálogo de contraseña de tarjeta inteligente.</returns>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.ProviderName">
+      <summary>Representa el nombre del proveedor para <see cref="T:System.Security.Cryptography.CspParameters" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.ProviderType">
+      <summary>Representa el código del tipo de proveedor para <see cref="T:System.Security.Cryptography.CspParameters" />.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.CspProviderFlags">
+      <summary>Especifica marcas que modifican el comportamiento de los proveedores de servicios criptográficos (CSP).</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.CreateEphemeralKey">
+      <summary>Cree una clave temporal que se libera cuando se cierra el objeto Rivest-Shamir-Adleman (RSA) asociado.No utilice esta marca si desea que su clave sea independiente del objeto RSA.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.NoFlags">
+      <summary>No especifique ninguna configuración.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.NoPrompt">
+      <summary>Evite que el CSP muestre las interfaces de usuario (IU) de este contexto.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseArchivableKey">
+      <summary>Permita que se exporte una clave para archivado o recuperación.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseDefaultKeyContainer">
+      <summary>Utilice la información de clave del contenedor de claves predeterminado.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseExistingKey">
+      <summary>Utilice la información de clave de la clave actual.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseMachineKeyStore">
+      <summary>Utilice la información de clave del almacén de claves del equipo.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseNonExportableKey">
+      <summary>Utilice la información de clave que no se puede exportar.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseUserProtectedKey">
+      <summary>Notifique al usuario mediante un cuadro de diálogo u otro método cuando algunas acciones intenten usar una clave.  Esta marca no es compatible con la marca <see cref="F:System.Security.Cryptography.CspProviderFlags.NoPrompt" />.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.ICspAsymmetricAlgorithm">
+      <summary>Define métodos que permiten a una clase <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> enumerar información del contenedor de claves e importar y exportar objetos binarios de clave compatibles con la API criptográfica de Microsoft.</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.ICspAsymmetricAlgorithm.CspKeyContainerInfo">
+      <summary>Obtiene un objeto <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" /> que describe la información adicional sobre un par de claves criptográficas.</summary>
+      <returns>Objeto <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" /> que describe información adicional sobre un par de claves criptográficas.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.ICspAsymmetricAlgorithm.ExportCspBlob(System.Boolean)">
+      <summary>Exporta un objeto binario que contiene la información de clave asociada a un objeto <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" />.  </summary>
+      <returns>Matriz de bytes que contiene la información de clave asociada a un objeto <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" />.</returns>
+      <param name="includePrivateParameters">Es true si se va a incluir la clave privada; en caso contrario, es false.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.ICspAsymmetricAlgorithm.ImportCspBlob(System.Byte[])">
+      <summary>Importa un objeto binario que representa la información de clave asimétrica.  </summary>
+      <param name="rawData">Una matriz de bytes que representa un objeto binario de clave asimétrico.</param>
+    </member>
+    <member name="T:System.Security.Cryptography.KeyNumber">
+      <summary>Especifica si crear una clave de firma asimétrica o una clave de intercambio asimétrica. </summary>
+    </member>
+    <member name="F:System.Security.Cryptography.KeyNumber.Exchange">
+      <summary>Par de intercambio de claves que se usa para cifrar las claves de sesión de modo que se puedan almacenar de forma segura e intercambiar con otros usuarios.  </summary>
+    </member>
+    <member name="F:System.Security.Cryptography.KeyNumber.Signature">
+      <summary>Par de claves de firma usado para autenticar mensajes o archivos con firma digital.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.RSA">
+      <summary>Representa la clase base de la que se heredan todas las implementaciones del algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.#ctor">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.DecryptValue(System.Byte[])">
+      <summary>Cuando se invalida en una clase derivada, descifra los datos de entrada con la clave privada.[Esta documentación es preliminar y está sujeta a cambios en la próxima versión de .NET Framework 4.6.]</summary>
+      <returns>Descifrado resultante del parámetro <paramref name="rgb" /> en texto sin formato.</returns>
+      <param name="rgb">Texto de cifrado que se va a descifrar. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.EncryptValue(System.Byte[])">
+      <summary>Cuando se invalida en una clase derivada, cifra los datos de entrada usando la clave pública.[Esta documentación es preliminar y está sujeta a cambios en la próxima versión de .NET Framework 4.6.]</summary>
+      <returns>Cifrado resultante del parámetro <paramref name="rgb" /> como texto cifrado.</returns>
+      <param name="rgb">Texto sin formato que se va a cifrar. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.ExportParameters(System.Boolean)">
+      <summary>Cuando se invalida en una clase derivada, exporta el <see cref="T:System.Security.Cryptography.RSAParameters" />.</summary>
+      <returns>Parámetros de <see cref="T:System.Security.Cryptography.DSA" />.</returns>
+      <param name="includePrivateParameters">Es true si se van a incluir parámetros privados; en caso contrario, es false. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.ImportParameters(System.Security.Cryptography.RSAParameters)">
+      <summary>Cuando se invalida en una clase derivada, importa el objeto <see cref="T:System.Security.Cryptography.RSAParameters" /> especificado.</summary>
+      <param name="parameters">Parámetros de <see cref="T:System.Security.Cryptography.RSA" />. </param>
+    </member>
+    <member name="T:System.Security.Cryptography.RSACryptoServiceProvider">
+      <summary>Realiza el cifrado y descifrado asimétricos utilizando la implementación del algoritmo <see cref="T:System.Security.Cryptography.RSA" /> proporcionada por el proveedor de servicios criptográficos (CSP).Esta clase no puede heredarse.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> utilizando la clave predeterminada.</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No puede obtenerse el proveedor de servicios criptográficos (CSP). </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Int32)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> con el tamaño de clave especificado.</summary>
+      <param name="dwKeySize">Tamaño de la clave que se va a utilizar en bits. </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No puede obtenerse el proveedor de servicios criptográficos (CSP). </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Int32,System.Security.Cryptography.CspParameters)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> con el tamaño de clave y los parámetros especificados.</summary>
+      <param name="dwKeySize">Tamaño de la clave que se va a utilizar en bits. </param>
+      <param name="parameters">Parámetros que se pasan al proveedor de servicios criptográficos (CSP). </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No se ha podido adquirir el proveedor de servicios criptográficos (CSP).O bien No se puede crear la clave. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Security.Cryptography.CspParameters)">
+      <summary>Inicializa una nueva instancia de la clase <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> con los parámetros especificados.</summary>
+      <param name="parameters">Parámetros que se pasan al proveedor de servicios criptográficos (CSP). </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No se ha podido adquirir el proveedor de servicios criptográficos (CSP). </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.CspKeyContainerInfo">
+      <summary>Obtiene un objeto <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" /> que describe la información adicional sobre un par de claves criptográficas. </summary>
+      <returns>Objeto <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" /> que describe información adicional sobre un par de claves criptográficas.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(System.Byte[],System.Boolean)">
+      <summary>Descifra los datos con el algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+      <returns>Datos descifrados, es decir, el texto sin formato original antes de que se cifrara.</returns>
+      <param name="rgb">Datos que se van a descifrar. </param>
+      <param name="fOAEP">Es true si se realiza el descifrado directo <see cref="T:System.Security.Cryptography.RSA" /> mediante el relleno OAEP (sólo disponible en un equipo con Microsoft Windows XP o posterior); en caso contrario, es false si se utiliza el relleno PKCS#1 v1.5. </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No puede obtenerse el proveedor de servicios criptográficos (CSP).O bien El parámetro <paramref name="fOAEP" /> es true y la longitud del parámetro <paramref name="rgb" /> es mayor que <see cref="P:System.Security.Cryptography.RSACryptoServiceProvider.KeySize" />.O bien El parámetro <paramref name="fOAEP" /> es true y no se admite OAEP. O bien La clave no coincide con los datos cifrados.Sin embargo, las palabras de la excepción pueden no ser precisas.Por ejemplo, puede especificar Not enough storage is available to process this command.</exception>
+      <exception cref="T:System.ArgumentNullException">El valor de <paramref name="rgb " />es null.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.DecryptValue(System.Byte[])">
+      <summary>Este método no se puede usar en la versión actual.</summary>
+      <returns>Datos descifrados, es decir, el texto sin formato original antes de que se cifrara.</returns>
+      <param name="rgb">Datos que se van a descifrar. </param>
+      <exception cref="T:System.NotSupportedException">Este método no se puede usar en la versión actual. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.Encrypt(System.Byte[],System.Boolean)">
+      <summary>Cifra los datos con el algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+      <returns>Datos cifrados.</returns>
+      <param name="rgb">Datos que se van a cifrar. </param>
+      <param name="fOAEP">Es true si se realiza el cifrado directo <see cref="T:System.Security.Cryptography.RSA" /> mediante el relleno OAEP (sólo disponible en un equipo con Microsoft Windows XP o posterior); en caso contrario, es false si se utiliza el relleno PKCS#1 v1.5. </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No puede obtenerse el proveedor de servicios criptográficos (CSP).O bien La longitud del parámetro <paramref name="rgb" /> es mayor que la máxima longitud permitida.O bien El parámetro <paramref name="fOAEP" /> es true y no se admite el relleno OAEP. </exception>
+      <exception cref="T:System.ArgumentNullException">El valor de <paramref name="rgb " />es null.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.EncryptValue(System.Byte[])">
+      <summary>Este método no se puede usar en la versión actual.</summary>
+      <returns>Datos cifrados.</returns>
+      <param name="rgb">Datos que se van a cifrar. </param>
+      <exception cref="T:System.NotSupportedException">Este método no se puede usar en la versión actual. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ExportCspBlob(System.Boolean)">
+      <summary>Exporta un objeto binario que contiene la información de clave asociada a un objeto <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" />.  </summary>
+      <returns>Exporta una matriz de bytes que contiene la información de clave asociada a un objeto <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" />.</returns>
+      <param name="includePrivateParameters">Es true si se va a incluir la clave privada; en caso contrario, es false.</param>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters(System.Boolean)">
+      <summary>Exporta <see cref="T:System.Security.Cryptography.RSAParameters" />.</summary>
+      <returns>Parámetros de <see cref="T:System.Security.Cryptography.RSA" />.</returns>
+      <param name="includePrivateParameters">Es true si se van a incluir parámetros privados; en caso contrario, es false. </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No se puede exportar la clave. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ImportCspBlob(System.Byte[])">
+      <summary>Importa un objeto binario que representa la información de clave RSA.  </summary>
+      <param name="keyBlob">Una matriz de bytes que representa un objeto binario de clave RSA.</param>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ImportParameters(System.Security.Cryptography.RSAParameters)">
+      <summary>Importa el objeto <see cref="T:System.Security.Cryptography.RSAParameters" /> especificado.</summary>
+      <param name="parameters">Parámetros de <see cref="T:System.Security.Cryptography.RSA" />. </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No puede obtenerse el proveedor de servicios criptográficos (CSP).O bien Al parámetro <paramref name="parameters" /> le faltan campos. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.KeySize">
+      <summary>Obtiene el tamaño de la clave actual.</summary>
+      <returns>Tamaño de la clave en bits.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.PersistKeyInCsp">
+      <summary>Obtiene o establece un valor que indica si la clave debe conservarse en el proveedor de servicios criptográficos (CSP).</summary>
+      <returns>true, si la clave debe conservarse en el CSP; en caso contrario, false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.PublicOnly">
+      <summary>Obtiene un valor que indica si el objeto <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> contiene solo una clave pública.</summary>
+      <returns>true, si el objeto <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> contiene solo una clave pública; de lo contrario, false.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignData(System.Byte[],System.Int32,System.Int32,System.Object)">
+      <summary>Calcula el valor hash de un subconjunto de la matriz de bytes especificada mediante el algoritmo hash establecido y firma el valor hash resultante.</summary>
+      <returns>Signatura <see cref="T:System.Security.Cryptography.RSA" /> de los datos especificados.</returns>
+      <param name="buffer">Datos de entrada a partir de los cuales se calcula el valor hash. </param>
+      <param name="offset">Desplazamiento en la matriz a partir del cual se van a empezar a usar los datos. </param>
+      <param name="count">Número de bytes de la matriz que se van a utilizar como datos. </param>
+      <param name="halg">Algoritmo hash que se utiliza para crear el valor hash. </param>
+      <exception cref="T:System.ArgumentNullException">El valor del parámetro <paramref name="halg" /> es null. </exception>
+      <exception cref="T:System.ArgumentException">El parámetro <paramref name="halg" /> no es un tipo válido. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignData(System.Byte[],System.Object)">
+      <summary>Calcula el valor hash de la matriz de bytes especificada mediante el algoritmo hash proporcionado y firma el valor hash resultante.</summary>
+      <returns>Signatura <see cref="T:System.Security.Cryptography.RSA" /> de los datos especificados.</returns>
+      <param name="buffer">Datos de entrada a partir de los cuales se calcula el valor hash. </param>
+      <param name="halg">Algoritmo hash que se utiliza para crear el valor hash. </param>
+      <exception cref="T:System.ArgumentNullException">El valor del parámetro <paramref name="halg" /> es null. </exception>
+      <exception cref="T:System.ArgumentException">El parámetro <paramref name="halg" /> no es un tipo válido. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignData(System.IO.Stream,System.Object)">
+      <summary>Calcula el valor hash del flujo de entrada especificado mediante el algoritmo hash proporcionado y firma el valor hash resultante.</summary>
+      <returns>Signatura <see cref="T:System.Security.Cryptography.RSA" /> de los datos especificados.</returns>
+      <param name="inputStream">Datos de entrada a partir de los cuales se calcula el valor hash. </param>
+      <param name="halg">Algoritmo hash que se utiliza para crear el valor hash. </param>
+      <exception cref="T:System.ArgumentNullException">El valor del parámetro <paramref name="halg" /> es null. </exception>
+      <exception cref="T:System.ArgumentException">El parámetro <paramref name="halg" /> no es un tipo válido. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignHash(System.Byte[],System.String)">
+      <summary>Calcula la firma del valor hash especificado cifrándolo con la clave privada.</summary>
+      <returns>Signatura <see cref="T:System.Security.Cryptography.RSA" /> del valor hash especificado.</returns>
+      <param name="rgbHash">Valor hash de los datos que se van a firmar. </param>
+      <param name="str">Identificador de algoritmos hash (OID) que se utiliza para crear el valor hash de los datos. </param>
+      <exception cref="T:System.ArgumentNullException">El valor del parámetro <paramref name="rgbHash" /> es null. </exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No puede obtenerse el proveedor de servicios criptográficos (CSP).O bien No existe ninguna clave privada. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.UseMachineKeyStore">
+      <summary>Obtiene o establece un valor que indica si la clave debe conservarse en el almacén de claves del equipo en lugar del almacén de perfiles de usuario.</summary>
+      <returns>true, si la clave debe conservarse en el almacén de claves del equipo; en caso contrario, es false.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.VerifyData(System.Byte[],System.Object,System.Byte[])">
+      <summary>Comprueba que una firma digital es válida determinando el valor hash en ella mediante la clave pública proporcionada y comparándola con el valor hash de los datos proporcionados.</summary>
+      <returns>true, si la firma es válida; en caso contrario, false.</returns>
+      <param name="buffer">Los datos firmados. </param>
+      <param name="halg">Nombre del algoritmo hash que se utiliza para crear el valor hash de los datos. </param>
+      <param name="signature">Datos de la firma que se van a comprobar. </param>
+      <exception cref="T:System.ArgumentNullException">El valor del parámetro <paramref name="halg" /> es null. </exception>
+      <exception cref="T:System.ArgumentException">El parámetro <paramref name="halg" /> no es un tipo válido. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.VerifyHash(System.Byte[],System.String,System.Byte[])">
+      <summary>Comprueba que una firma digital es válida determinando el valor hash en ella mediante la clave pública proporcionada y comparándola con el valor hash proporcionado.</summary>
+      <returns>true, si la firma es válida; en caso contrario, false.</returns>
+      <param name="rgbHash">Valor hash de los datos firmados. </param>
+      <param name="str">Identificador de algoritmos hash (OID) que se utiliza para crear el valor hash de los datos. </param>
+      <param name="rgbSignature">Datos de la firma que se van a comprobar. </param>
+      <exception cref="T:System.ArgumentNullException">El valor del parámetro <paramref name="rgbHash" /> es null.O bien El valor del parámetro <paramref name="rgbSignature" /> es null. </exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">No puede obtenerse el proveedor de servicios criptográficos (CSP).O bien No se puede comprobar la firma. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.RSAParameters">
+      <summary>Representa los parámetros estándar del algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.D">
+      <summary>Representa el parámetro D del algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.DP">
+      <summary>Representa el parámetro DP del algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.DQ">
+      <summary>Representa el parámetro DQ del algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.Exponent">
+      <summary>Representa el parámetro Exponent del algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.InverseQ">
+      <summary>Representa el parámetro InverseQ del algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.Modulus">
+      <summary>Representa el parámetro Modulus del algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.P">
+      <summary>Representa el parámetro P del algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.Q">
+      <summary>Representa el parámetro Q del algoritmo <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+  </members>
+</doc>

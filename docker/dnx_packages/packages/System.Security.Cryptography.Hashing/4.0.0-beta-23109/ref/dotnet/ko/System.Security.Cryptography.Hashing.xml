@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HashAlgorithm">
+      <summary>모든 암호화 해시 알고리즘의 구현이 파생되어야 하는 기본 클래스를 나타냅니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HashAlgorithm" /> 클래스의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[])">
+      <summary>지정된 바이트 배열에 대해 해시 값을 계산합니다.</summary>
+      <returns>계산된 해시 코드입니다.</returns>
+      <param name="buffer">해시 코드를 계산할 입력입니다. </param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" />가 null인 경우</exception>
+      <exception cref="T:System.ObjectDisposedException">개체가 이미 삭제되었습니다.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.Byte[],System.Int32,System.Int32)">
+      <summary>지정된 바이트 배열의 지정된 영역에 대해 해시 값을 계산합니다.</summary>
+      <returns>계산된 해시 코드입니다.</returns>
+      <param name="buffer">해시 코드를 계산할 입력입니다. </param>
+      <param name="offset">데이터 사용을 시작할 바이트 배열의 오프셋입니다. </param>
+      <param name="count">데이터로 사용할 배열의 바이트 수입니다. </param>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="count" /> 값이 잘못된 경우또는<paramref name="buffer" /> 길이가 잘못된 경우</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="buffer" />가 null인 경우</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="offset" />가 범위에서 벗어난 경우이 매개 변수에는 0 또는 양의 정수가 필요합니다.</exception>
+      <exception cref="T:System.ObjectDisposedException">개체가 이미 삭제되었습니다.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)">
+      <summary>지정된 <see cref="T:System.IO.Stream" /> 개체에 대해 해시 값을 계산합니다.</summary>
+      <returns>계산된 해시 코드입니다.</returns>
+      <param name="inputStream">해시 코드를 계산할 입력입니다. </param>
+      <exception cref="T:System.ObjectDisposedException">개체가 이미 삭제되었습니다.</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HashAlgorithm" /> 클래스의 현재 인스턴스에서 사용하는 모든 리소스를 해제합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Dispose(System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HashAlgorithm" />에서 사용하는 관리되지 않는 리소스를 해제하고, 관리되는 리소스를 선택적으로 해제할 수 있습니다.</summary>
+      <param name="disposing">관리되는 리소스와 관리되지 않는 리소스를 모두 해제하려면 true로 설정하고, 관리되지 않는 리소스만 해제하려면 false로 설정합니다. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>파생 클래스에서 재정의된 경우 개체에 쓰여진 데이터의 경로를 해시를 계산할 해시 알고리즘에 지정합니다.</summary>
+      <param name="array">해시 코드를 계산할 입력입니다. </param>
+      <param name="ibStart">데이터 사용을 시작할 바이트 배열의 오프셋입니다. </param>
+      <param name="cbSize">데이터로 사용할 바이트 배열의 바이트 수입니다. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.HashFinal">
+      <summary>파생 클래스에서 재정의된 경우 암호화 스트림 개체에서 마지막 데이터를 처리한 후 해시 계산을 완료합니다.</summary>
+      <returns>계산된 해시 코드입니다.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HashAlgorithm.HashSize">
+      <summary>계산된 해시 코드의 크기(비트)를 가져옵니다.</summary>
+      <returns>계산된 해시 코드의 크기(비트)입니다.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.HashAlgorithm.Initialize">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HashAlgorithm" /> 클래스의 구현을 초기화합니다.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.HMAC">
+      <summary>HMAC(해시 기반 메시지 인증 코드)의 모든 구현이 파생될 추상 클래스를 나타냅니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HMAC" /> 클래스의 새 인스턴스를 초기화합니다. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Dispose(System.Boolean)">
+      <summary>키 변경이 허용된 경우 <see cref="T:System.Security.Cryptography.HMAC" /> 클래스에서 사용하는 관리되지 않는 리소스를 해제하고 관리되는 리소스를 선택적으로 해제할 수 있습니다.</summary>
+      <param name="disposing">관리되는 리소스와 관리되지 않는 리소스를 모두 해제하려면 true로 설정하고, 관리되지 않는 리소스만 해제하려면 false로 설정합니다. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashCore(System.Byte[],System.Int32,System.Int32)">
+      <summary>파생 클래스에서 재정의되는 경우 개체에 쓰여진 데이터의 경로를 해시 값을 계산할 기본 <see cref="T:System.Security.Cryptography.HMAC" /> 해시 알고리즘으로 지정합니다.</summary>
+      <param name="rgb">입력 데이터입니다. </param>
+      <param name="ib">데이터 사용을 시작할 바이트 배열의 오프셋입니다. </param>
+      <param name="cb">데이터로 사용할 배열의 바이트 수입니다. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.HashFinal">
+      <summary>파생 클래스에서 재정의된 경우 암호화 스트림 개체에서 마지막 데이터를 처리한 후 해시 계산을 완료합니다.</summary>
+      <returns>바이트 배열에 있는 계산된 해시 코드입니다.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.HashName">
+      <summary>해시에 사용할 해시 알고리즘의 이름을 가져오거나 설정합니다.</summary>
+      <returns>해시 알고리즘의 이름입니다.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">현재 해시 알고리즘을 변경할 수 없는 경우</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.HMAC.Initialize">
+      <summary>
+        <see cref="T:System.Security.Cryptography.HMAC" />의 기본 구현 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.HMAC.Key">
+      <summary>해시 알고리즘에 사용될 키를 가져오거나 설정합니다.</summary>
+      <returns>해시 알고리즘에 사용될 키입니다.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">해시가 시작된 후에 <see cref="P:System.Security.Cryptography.HMAC.Key" /> 속성을 변경하려고 한 경우 </exception>
+    </member>
+    <member name="T:System.Security.Cryptography.KeyedHashAlgorithm">
+      <summary>키 지정 해시 알고리즘의 모든 구현이 파생되어야 하는 추상 클래스를 나타냅니다. </summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" /> 클래스의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.KeyedHashAlgorithm.Dispose(System.Boolean)">
+      <summary>
+        <see cref="T:System.Security.Cryptography.KeyedHashAlgorithm" />에서 사용하는 관리되지 않는 리소스를 해제하고, 관리되는 리소스를 선택적으로 해제할 수 있습니다.</summary>
+      <param name="disposing">관리되는 리소스와 관리되지 않는 리소스를 모두 해제하려면 true로 설정하고, 관리되지 않는 리소스만 해제하려면 false로 설정합니다. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.KeyedHashAlgorithm.Key">
+      <summary>해시 알고리즘에 사용될 키를 가져오거나 설정합니다.</summary>
+      <returns>해시 알고리즘에 사용될 키입니다.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">해시가 시작된 후에 <see cref="P:System.Security.Cryptography.KeyedHashAlgorithm.Key" /> 속성을 변경하려고 한 경우 </exception>
+    </member>
+  </members>
+</doc>

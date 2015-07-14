@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.RSA</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.CspKeyContainerInfo">
+      <summary>Предоставляет дополнительные сведения о паре криптографических ключей.Этот класс не наследуется.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CspKeyContainerInfo.#ctor(System.Security.Cryptography.CspParameters)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" />, используя заданные параметры.</summary>
+      <param name="parameters">Объект <see cref="T:System.Security.Cryptography.CspParameters" />, предоставляющий сведения о ключе.</param>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Accessible">
+      <summary>Получает значение, указывающее на доступность ключа в контейнере ключей.</summary>
+      <returns>Значение true, если ключ доступен; в противном случае — значение false.</returns>
+      <exception cref="T:System.NotSupportedException">Тип ключа не поддерживается.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Exportable">
+      <summary>Получает значение, указывающее на возможность экспорта ключа из контейнера ключей.</summary>
+      <returns>Значение true, если ключ можно экспортировать; в противном случае — значение false.</returns>
+      <exception cref="T:System.NotSupportedException">Тип ключа не поддерживается.</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Поставщик служб шифрования не найден.– или –Контейнер ключей не найден.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.HardwareDevice">
+      <summary>Получает значение, указывающее, является ли ключ аппаратным.</summary>
+      <returns>Значение true, если ключ является аппаратным; в противном случае — значение false.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Поставщик служб шифрования не найден.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.KeyContainerName">
+      <summary>Получает имя контейнера ключей.</summary>
+      <returns>Имя контейнера ключей.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.KeyNumber">
+      <summary>Получает значение, указывающее, будет ли созданный асимметричный ключ использоваться в качестве ключа подписи или ключа обмена.</summary>
+      <returns>Одно из значений <see cref="T:System.Security.Cryptography.KeyNumber" />, указывающее, будет ли созданный асимметричный ключ использоваться в качестве ключа подписи или ключа обмена.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.MachineKeyStore">
+      <summary>Получает значение, указывающее на принадлежность ключа набору ключей компьютера.</summary>
+      <returns>Значение true, если ключ принадлежит набору ключей компьютера; в противном случае — значение false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Protected">
+      <summary>Получает значение, указывающее, является ли пара ключей защищенной.</summary>
+      <returns>Значение true, если пара ключей защищена; в противном случае — значение false.</returns>
+      <exception cref="T:System.NotSupportedException">Тип ключа не поддерживается.</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Поставщик служб шифрования не найден.– или –Контейнер ключей не найден.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.ProviderName">
+      <summary>Получает имя поставщика ключа.</summary>
+      <returns>Имя поставщика.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.ProviderType">
+      <summary>Получает тип поставщика ключа.</summary>
+      <returns>Тип поставщика.Значение по умолчанию — 1.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.RandomlyGenerated">
+      <summary>Получает значение, указывающее, был ли контейнер ключей создан управляемым криптографическим классом с помощью генератора случайных чисел.</summary>
+      <returns>Значение true, если контейнер ключей был создан с помощью генератора случайных чисел; в противном случае — значение false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.Removable">
+      <summary>Получает значение, указывающее на возможность удаления ключа из контейнера ключей.</summary>
+      <returns>Значение true, если ключ можно удалить; в противном случае — значение false.</returns>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Поставщик служб шифрования (CSP) не найден.</exception>
+    </member>
+    <member name="P:System.Security.Cryptography.CspKeyContainerInfo.UniqueKeyContainerName">
+      <summary>Получает уникальное имя контейнера ключей.</summary>
+      <returns>Уникальное имя контейнера ключей.</returns>
+      <exception cref="T:System.NotSupportedException">Тип ключа не поддерживается.</exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Поставщик служб шифрования не найден.– или –Контейнер ключей не найден.</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.CspParameters">
+      <summary>Содержит параметры, передаваемые поставщику служб шифрования (CSP), который выполняет криптографические вычисления.Этот класс не наследуется.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.CspParameters" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.CspParameters" /> с заданным кодом типа поставщика.</summary>
+      <param name="dwTypeIn">Код типа поставщика, определяющий тип создаваемого поставщика. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.CspParameters" /> с заданным кодом типа и именем поставщика.</summary>
+      <param name="dwTypeIn">Код типа поставщика, определяющий тип создаваемого поставщика.</param>
+      <param name="strProviderNameIn">Имя поставщика. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String,System.String)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.CspParameters" /> с заданным кодом типа и именем поставщика, а также заданным именем контейнера.</summary>
+      <param name="dwTypeIn">Код типа поставщика, определяющий тип создаваемого поставщика.</param>
+      <param name="strProviderNameIn">Имя поставщика. </param>
+      <param name="strContainerNameIn">Имя контейнера. </param>
+    </member>
+    <member name="P:System.Security.Cryptography.CspParameters.Flags">
+      <summary>Представляет флаги для объекта <see cref="T:System.Security.Cryptography.CspParameters" />, которые изменяют поведение поставщика служб шифрования (CSP).</summary>
+      <returns>Значение перечисления или битовая комбинация значений перечисления.</returns>
+      <exception cref="T:System.ArgumentException">Значение не является допустимым значением перечисления.</exception>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.KeyContainerName">
+      <summary>Представляет имя контейнера ключей для <see cref="T:System.Security.Cryptography.CspParameters" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.KeyNumber">
+      <summary>Указывает, создается ли асимметричный ключ в качестве ключа подписи или ключа обмена.</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.CspParameters.ParentWindowHandle">
+      <summary>Возвращает или задает дескриптор неуправляемого родительского окна для окна ввода пароля смарт-карты.</summary>
+      <returns>Дескриптор родительского окна для окна ввода пароля смарт-карты.</returns>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.ProviderName">
+      <summary>Представляет имя поставщика для <see cref="T:System.Security.Cryptography.CspParameters" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspParameters.ProviderType">
+      <summary>Представляет код типа поставщика для <see cref="T:System.Security.Cryptography.CspParameters" />.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.CspProviderFlags">
+      <summary>Задает флаги, которые изменяют поведение поставщиков служб шифрования.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.CreateEphemeralKey">
+      <summary>Создавать временный ключ, освобождаемый при закрытии соответствующего RSA-объекта.Не используйте этот флажок, если требуется, чтобы ключ был независим от RSA-объекта.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.NoFlags">
+      <summary>Не указывать никаких параметров.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.NoPrompt">
+      <summary>Поставщик служб шифрования не должен отображать пользовательский интерфейс для данного контекста.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseArchivableKey">
+      <summary>Разрешить экспорт ключа для архивации или восстановления.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseDefaultKeyContainer">
+      <summary>Использовать сведения о ключе из контейнера ключа по умолчанию.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseExistingKey">
+      <summary>Использовать сведения о ключе из текущего ключа.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseMachineKeyStore">
+      <summary>Использовать сведения о ключе из хранилища ключей компьютера.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseNonExportableKey">
+      <summary>Использовать сведения о ключе, которые невозможно экспортировать.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.CspProviderFlags.UseUserProtectedKey">
+      <summary>Уведомлять пользователя с помощью диалогового окна или иным способом о попытках использовать ключ при выполнении определенных действий.  Этот флаг несовместим с флагом <see cref="F:System.Security.Cryptography.CspProviderFlags.NoPrompt" />.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.ICspAsymmetricAlgorithm">
+      <summary>Определяет методы, позволяющие классу <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" /> перечислять сведения о контейнере ключей, а также импортировать и экспортировать большие двоичные объекты ключа, совместимые с интерфейсом Microsoft Cryptographic API (CAPI).</summary>
+    </member>
+    <member name="P:System.Security.Cryptography.ICspAsymmetricAlgorithm.CspKeyContainerInfo">
+      <summary>Получает объект <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" />, в котором содержатся дополнительные сведения о паре криптографических ключей.</summary>
+      <returns>Объект <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" />, в котором содержатся дополнительные сведения о паре криптографических ключей.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.ICspAsymmetricAlgorithm.ExportCspBlob(System.Boolean)">
+      <summary>Экспортирует большой двоичный объект, в котором содержатся данные ключа, связанные с объектом <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" />.  </summary>
+      <returns>Массив байтов, в котором содержатся основные сведения, связанные с объектом <see cref="T:System.Security.Cryptography.AsymmetricAlgorithm" />.</returns>
+      <param name="includePrivateParameters">Значение true для включения закрытого ключа; в противном случае — значение false.</param>
+    </member>
+    <member name="M:System.Security.Cryptography.ICspAsymmetricAlgorithm.ImportCspBlob(System.Byte[])">
+      <summary>Импортирует большой двоичный объект, представляющий сведения об асимметричном ключе.  </summary>
+      <param name="rawData">Массив байтов, представляющий большой двоичный объект асимметричного ключа.</param>
+    </member>
+    <member name="T:System.Security.Cryptography.KeyNumber">
+      <summary>Указывает, нужно ли создать ассиметричный ключ подписи или ассиметричный ключ обмена. </summary>
+    </member>
+    <member name="F:System.Security.Cryptography.KeyNumber.Exchange">
+      <summary>Пара ключей обмена, используемых для зашифровки сеансовых ключей с целью безопасного хранения этих ключей и обмена ими с другими пользователями.  </summary>
+    </member>
+    <member name="F:System.Security.Cryptography.KeyNumber.Signature">
+      <summary>Пара ключей подписи, используемых для проверки подлинности подписанных цифровой подписью сообщений или файлов.</summary>
+    </member>
+    <member name="T:System.Security.Cryptography.RSA">
+      <summary>Представляет базовый класс, от которого наследуются все реализации алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.#ctor">
+      <summary>Инициализирует новый экземпляр <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.DecryptValue(System.Byte[])">
+      <summary>Если переопределено в производном классе, расшифровывает входные данные с помощью закрытого ключа.[Это предварительная документация, которая может быть изменена в следующей версии .NET Framework 4.6.]</summary>
+      <returns>Результат расшифровки значения параметра <paramref name="rgb" /> в форме обычного текста.</returns>
+      <param name="rgb">Зашифрованный текст, который необходимо расшифровать. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.EncryptValue(System.Byte[])">
+      <summary>Если переопределено в производном классе, зашифровывает входные данные с помощью открытого ключа.[Это предварительная документация, которая может быть изменена в следующей версии .NET Framework 4.6.]</summary>
+      <returns>Результат шифрования значения параметра <paramref name="rgb" /> в форме зашифрованного текста.</returns>
+      <param name="rgb">Обычный текст, который требуется зашифровать. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.ExportParameters(System.Boolean)">
+      <summary>Если переопределено в производном классе, экспортирует объект <see cref="T:System.Security.Cryptography.RSAParameters" />.</summary>
+      <returns>Параметры для <see cref="T:System.Security.Cryptography.DSA" />.</returns>
+      <param name="includePrivateParameters">Значение true для включения закрытых параметров; в противном случае — значение false. </param>
+    </member>
+    <member name="M:System.Security.Cryptography.RSA.ImportParameters(System.Security.Cryptography.RSAParameters)">
+      <summary>Если переопределено в производном классе, импортирует заданный объект <see cref="T:System.Security.Cryptography.RSAParameters" />.</summary>
+      <param name="parameters">Параметры для <see cref="T:System.Security.Cryptography.RSA" />. </param>
+    </member>
+    <member name="T:System.Security.Cryptography.RSACryptoServiceProvider">
+      <summary>Выполняет асимметричное шифрование и расшифровку с использованием реализации алгоритма <see cref="T:System.Security.Cryptography.RSA" />, предоставленного поставщиком служб шифрования (CSP).Этот класс не наследуется.</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> с использованием ключа по умолчанию.</summary>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Невозможно получить поставщика служб шифрования (CSP). </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Int32)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> с заданным размером ключа.</summary>
+      <param name="dwKeySize">Размер используемого ключа в битах. </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Невозможно получить поставщика служб шифрования (CSP). </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Int32,System.Security.Cryptography.CspParameters)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> с заданными размером ключа и параметрами.</summary>
+      <param name="dwKeySize">Размер используемого ключа в битах. </param>
+      <param name="parameters">Параметры, передаваемые поставщику служб шифрования (CSP). </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Невозможно получить CSP.-или- Невозможно создать ключ. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Security.Cryptography.CspParameters)">
+      <summary>Инициализирует новый экземпляр класса <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> заданными параметрами.</summary>
+      <param name="parameters">Параметры, передаваемые поставщику служб шифрования (CSP). </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Невозможно получить CSP. </exception>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.CspKeyContainerInfo">
+      <summary>Получает объект <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" />, в котором содержатся дополнительные сведения о паре криптографических ключей. </summary>
+      <returns>Объект <see cref="T:System.Security.Cryptography.CspKeyContainerInfo" />, в котором содержатся дополнительные сведения о паре криптографических ключей.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(System.Byte[],System.Boolean)">
+      <summary>Выполняет расшифровку данных с помощью алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+      <returns>Расшифрованные данные, которые перед шифрованием представляли собой исходный обычный текст.</returns>
+      <param name="rgb">Данные, предназначенные для расшифровки. </param>
+      <param name="fOAEP">Значение true — для прямого расшифрования <see cref="T:System.Security.Cryptography.RSA" /> с использованием заполнения OAEP (только для компьютеров с Microsoft Windows XP или более поздней ОС Microsoft Windows); значение false — для использования заполнения по стандарту PKCS 1 v1.5. </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Невозможно получить поставщика служб шифрования (CSP).-или- Параметр <paramref name="fOAEP" /> имеет значение true, а длина параметра <paramref name="rgb" /> больше значения <see cref="P:System.Security.Cryptography.RSACryptoServiceProvider.KeySize" />.-или- Параметр <paramref name="fOAEP" /> имеет значение true, а заполнение OAEP не поддерживается. -или- Ключ не соответствует зашифрованным данным.Однако формулировка исключения может быть неточной.Например, он может сообщить Not enough storage is available to process this command.</exception>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="rgb " />— null.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.DecryptValue(System.Byte[])">
+      <summary>В текущей версии этот метод не поддерживается.</summary>
+      <returns>Расшифрованные данные, которые перед шифрованием представляли собой исходный обычный текст.</returns>
+      <param name="rgb">Данные, предназначенные для расшифровки. </param>
+      <exception cref="T:System.NotSupportedException">В текущей версии этот метод не поддерживается. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.Encrypt(System.Byte[],System.Boolean)">
+      <summary>Выполняет шифрование данных с помощью алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+      <returns>Зашифрованные данные.</returns>
+      <param name="rgb">Данные, предназначенные для шифрования. </param>
+      <param name="fOAEP">Значение true — для прямого зашифрования <see cref="T:System.Security.Cryptography.RSA" /> с использованием заполнения OAEP (только для компьютеров с Microsoft Windows XP или более поздней ОС Microsoft Windows); значение false — для использования заполнения по стандарту PKCS 1 v1.5. </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Невозможно получить поставщика служб шифрования (CSP).-или- Длина значения параметра <paramref name="rgb" /> превышает максимально допустимую длину.-или- Параметр <paramref name="fOAEP" /> имеет значение true, а заполнение OAEP не поддерживается. </exception>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="rgb " />— null.</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.EncryptValue(System.Byte[])">
+      <summary>В текущей версии этот метод не поддерживается.</summary>
+      <returns>Зашифрованные данные.</returns>
+      <param name="rgb">Данные, предназначенные для шифрования. </param>
+      <exception cref="T:System.NotSupportedException">В текущей версии этот метод не поддерживается. </exception>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ExportCspBlob(System.Boolean)">
+      <summary>Экспортирует большой двоичный объект, в котором содержатся основные сведения, связанные с объектом <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" />.  </summary>
+      <returns>Массив байтов, в котором содержатся основные сведения, связанные с объектом <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" />.</returns>
+      <param name="includePrivateParameters">Значение true для включения закрытого ключа; в противном случае — значение false.</param>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ExportParameters(System.Boolean)">
+      <summary>Экспортирует объект <see cref="T:System.Security.Cryptography.RSAParameters" />.</summary>
+      <returns>Параметры для <see cref="T:System.Security.Cryptography.RSA" />.</returns>
+      <param name="includePrivateParameters">Значение true для включения параметров с модификатором доступа private; в противном случае — значение false. </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Невозможно экспортировать ключ. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ImportCspBlob(System.Byte[])">
+      <summary>Импортирует большой двоичный объект, представляющий данные ключа RSA.  </summary>
+      <param name="keyBlob">Массив байтов, представляющий большой двоичный объект ключа RSA.</param>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.ImportParameters(System.Security.Cryptography.RSAParameters)">
+      <summary>Импортирует заданные параметры <see cref="T:System.Security.Cryptography.RSAParameters" />.</summary>
+      <param name="parameters">Параметры для <see cref="T:System.Security.Cryptography.RSA" />. </param>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Невозможно получить поставщика служб шифрования (CSP).-или- В параметре <paramref name="parameters" /> заданы не все поля. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.KeySize">
+      <summary>Получает размер текущего ключа.</summary>
+      <returns>Размер ключа в битах.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.PersistKeyInCsp">
+      <summary>Получает или задает значение, указывающее, следует ли сохранить ключ у поставщика служб шифрования (CSP).</summary>
+      <returns>Значение true, если необходимо сохранить ключ у поставщика; в противном случае — значение false.</returns>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.PublicOnly">
+      <summary>Получает значение, указывающее, содержится ли в объекте <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> только открытый ключ.</summary>
+      <returns>Значение true, если в объекте <see cref="T:System.Security.Cryptography.RSACryptoServiceProvider" /> содержится только открытый ключ; в противном случае — значение false.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignData(System.Byte[],System.Int32,System.Int32,System.Object)">
+      <summary>Вычисляет хэш-значение подмножества заданного массива байтов с помощью заданного хэш-алгоритма и подписывает полученное значение хэша.</summary>
+      <returns>Подпись <see cref="T:System.Security.Cryptography.RSA" /> для указанных данных.</returns>
+      <param name="buffer">Входные данные, для которых вычисляется хэш. </param>
+      <param name="offset">Смещение в массиве, начиная с которого следует использовать данные. </param>
+      <param name="count">Число байтов в массиве для использования в качестве данных. </param>
+      <param name="halg">Хэш-алгоритм, используемый для создания хэш-значения. </param>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="halg" /> — null. </exception>
+      <exception cref="T:System.ArgumentException">Недопустимый тип значения параметра <paramref name="halg" />. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignData(System.Byte[],System.Object)">
+      <summary>Вычисляет значение хэша заданного массива байтов с помощью заданного хэш-алгоритма и подписывает полученное значение хэша.</summary>
+      <returns>Подпись <see cref="T:System.Security.Cryptography.RSA" /> для указанных данных.</returns>
+      <param name="buffer">Входные данные, для которых вычисляется хэш. </param>
+      <param name="halg">Хэш-алгоритм, используемый для создания хэш-значения. </param>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="halg" /> — null. </exception>
+      <exception cref="T:System.ArgumentException">Недопустимый тип значения параметра <paramref name="halg" />. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignData(System.IO.Stream,System.Object)">
+      <summary>Вычисляет значение хэша заданного входного потока с помощью заданного хэш-алгоритма и подписывает полученное значение хэша.</summary>
+      <returns>Подпись <see cref="T:System.Security.Cryptography.RSA" /> для указанных данных.</returns>
+      <param name="inputStream">Входные данные, для которых вычисляется хэш. </param>
+      <param name="halg">Хэш-алгоритм, используемый для создания хэш-значения. </param>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="halg" /> — null. </exception>
+      <exception cref="T:System.ArgumentException">Недопустимый тип значения параметра <paramref name="halg" />. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.SignHash(System.Byte[],System.String)">
+      <summary>Вычисляет подпись для заданного значения хэша путем шифрования подписи с помощью закрытого ключа.</summary>
+      <returns>Подпись <see cref="T:System.Security.Cryptography.RSA" /> для заданного значения хэша.</returns>
+      <param name="rgbHash">Значение хэша подписываемых данных. </param>
+      <param name="str">Идентификатор хэш-алгоритма используется для создания хэш-значения данных. </param>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="rgbHash" /> — null. </exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Невозможно получить поставщика служб шифрования (CSP).-или- Отсутствует закрытый ключ. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="P:System.Security.Cryptography.RSACryptoServiceProvider.UseMachineKeyStore">
+      <summary>Получает или задает значение, указывающее, нужно ли сохранять ключ в хранилище ключей компьютера вместо хранилища в профиле пользователя.</summary>
+      <returns>Значение true, если необходимо сохранить ключ в компьютерном хранилище ключей; в противном случае — значение false.</returns>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.VerifyData(System.Byte[],System.Object,System.Byte[])">
+      <summary>Проверяет действительность цифровой подписи путем определения значения хэша в подписи с помощью предоставленного открытого ключа и сравнения его со значением хэша предоставленных данных.</summary>
+      <returns>Значение true, если подпись действительна; в противном случае — значение false.</returns>
+      <param name="buffer">Подписанные данные. </param>
+      <param name="halg">Имя хэш-алгоритма, используемого для создания хэш-значения данных. </param>
+      <param name="signature">Подпись, подлежащая проверке. </param>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="halg" /> — null. </exception>
+      <exception cref="T:System.ArgumentException">Недопустимый тип значения параметра <paramref name="halg" />. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Security.Cryptography.RSACryptoServiceProvider.VerifyHash(System.Byte[],System.String,System.Byte[])">
+      <summary>Проверяет действительность цифровой подписи путем определения значения хэша в подписи с помощью предоставленного открытого ключа и сравнения его с предоставленным значением хэша.</summary>
+      <returns>Значение true, если подпись действительна; в противном случае — значение false.</returns>
+      <param name="rgbHash">Хэш-значение подписанных данных. </param>
+      <param name="str">Идентификатор хэш-алгоритма используется для создания хэш-значения данных. </param>
+      <param name="rgbSignature">Подпись, подлежащая проверке. </param>
+      <exception cref="T:System.ArgumentNullException">Значение параметра <paramref name="rgbHash" /> — null.-или- Значение параметра <paramref name="rgbSignature" /> — null. </exception>
+      <exception cref="T:System.Security.Cryptography.CryptographicException">Невозможно получить поставщика служб шифрования (CSP).-или- Невозможно проверить подпись. </exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.KeyContainerPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.RSAParameters">
+      <summary>Представляет стандартные параметры для алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.D">
+      <summary>Представляет параметр D для алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.DP">
+      <summary>Представляет параметр DP для алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.DQ">
+      <summary>Представляет параметр DQ для алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.Exponent">
+      <summary>Представляет параметр Exponent для алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.InverseQ">
+      <summary>Представляет параметр InverseQ для алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.Modulus">
+      <summary>Представляет параметр Modulus для алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.P">
+      <summary>Представляет параметр P для алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+    <member name="F:System.Security.Cryptography.RSAParameters.Q">
+      <summary>Представляет параметр Q для алгоритма <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+    </member>
+  </members>
+</doc>

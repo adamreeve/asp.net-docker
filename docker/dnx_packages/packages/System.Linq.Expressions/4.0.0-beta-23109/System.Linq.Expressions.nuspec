@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>System.Linq.Expressions</id>
+    <version>4.0.0-beta-23109</version>
+    <title>System.Linq.Expressions</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</licenseUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Provides classes, interfaces and enumerations that enable language-level code expressions to be represented as objects in the form of expression trees.
+
+Commonly Used Types:
+System.Linq.Expressions.Expression&lt;TDelegate&gt;
+System.Linq.Expressions.Expression
+System.Linq.Expressions.MemberExpression
+System.Linq.Expressions.ExpressionVisitor
+System.Linq.Expressions.MethodCallExpression
+System.Linq.IQueryable&lt;T&gt;
+System.Linq.IQueryable
+System.Linq.Expressions.NewExpression
+System.Linq.Expressions.ParameterExpression
+System.Linq.Expressions.ConstantExpression</description>
+    <summary>Provides classes, interfaces and enumerations that enable language-level code expressions to be represented as objects in the form of expression trees.</summary>
+    <copyright>Copyright © Microsoft Corporation</copyright>
+    <dependencies>
+      <group targetFramework=".NETPlatform5.0">
+        <dependency id="System.Reflection" version="4.0.0-beta-23109" />
+        <dependency id="System.Runtime" version="4.0.0-beta-23109" />
+      </group>
+      <group targetFramework="Windows8.0" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework="WindowsPhone8.0" />
+      <group targetFramework="WindowsPhoneApp8.1" />
+      <group targetFramework=".NETCore5.0">
+        <dependency id="System.Reflection" version="4.0.0-beta-23109" />
+        <dependency id="System.Runtime" version="4.0.0-beta-23109" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

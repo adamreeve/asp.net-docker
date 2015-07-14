@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Encryption.Aes</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.Aes">
+      <summary>高度暗号化標準 (AES: Advanced Encryption Standard) のすべての実装の継承元にする必要がある抽象基本クラスを表します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.Aes.#ctor">
+      <summary>
+        <see cref="T:System.Security.Cryptography.Aes" /> クラスの新しいインスタンスを初期化します。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.Aes.Create">
+      <summary>対称アルゴリズムを実行するために使用する暗号オブジェクトを作成します。</summary>
+      <returns>対称アルゴリズムを実行するために使用する暗号オブジェクト。</returns>
+    </member>
+  </members>
+</doc>

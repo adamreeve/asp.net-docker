@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Security.Cryptography.Hashing.Algorithms</name>
+  </assembly>
+  <members>
+    <member name="T:System.Security.Cryptography.HMACSHA1">
+      <summary>使用 <see cref="T:System.Security.Cryptography.SHA1" /> 雜湊函式，計算雜湊架構訊息驗證碼 (Hash-based Message Authentication Code，HMAC)。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA1.#ctor">
+      <summary>使用隨機產生的金鑰，初始化 <see cref="T:System.Security.Cryptography.HMACSHA1" /> 類別的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA1.#ctor(System.Byte[])">
+      <summary>使用指定的金鑰資料，初始化 <see cref="T:System.Security.Cryptography.HMACSHA1" /> 類別的新執行個體。</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA1" /> 加密的秘密金鑰。金鑰可以是任何長度，但其長度若超過 64 個位元組，便會使用 SHA-1 進行雜湊，以衍生 64 位元組金鑰。因此，秘密金鑰的建議大小為 64 個位元組。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> 參數為 null。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA256">
+      <summary>使用 <see cref="T:System.Security.Cryptography.SHA256" /> 雜湊函式，計算雜湊架構訊息驗證碼 (Hash-based Message Authentication Code，HMAC)。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA256.#ctor">
+      <summary>使用隨機產生的金鑰，初始化 <see cref="T:System.Security.Cryptography.HMACSHA256" /> 類別的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA256.#ctor(System.Byte[])">
+      <summary>使用指定的金鑰資料，初始化 <see cref="T:System.Security.Cryptography.HMACSHA256" /> 類別的新執行個體。</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA256" /> 加密的秘密金鑰。金鑰可以是任何長度。不過，建議的大小是 64 個位元組。如果索引鍵長度超過 64 個位元組，就會進行雜湊 (使用 SHA-256) 以衍生 64 位元組金鑰。如果長度少於 64 個位元組，它會填補為 64 個位元組。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> 參數為 null。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA384">
+      <summary>使用 <see cref="T:System.Security.Cryptography.SHA384" /> 雜湊函式，計算雜湊式訊息驗證碼 (Hash-based Message Authentication Code，HMAC)。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA384.#ctor">
+      <summary>以隨機產生的金鑰初始化 <see cref="T:System.Security.Cryptography.HMACSHA384" /> 類別的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA384.#ctor(System.Byte[])">
+      <summary>使用指定的金鑰資料初始化 <see cref="T:System.Security.Cryptography.HMACSHA384" /> 類別的新執行個體。</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA384" /> 加密的秘密金鑰。金鑰可以是任何長度。不過，建議的大小是 128 個位元組。如果索引鍵長度超過 128 個位元組，就會進行雜湊 (使用 SHA-384) 以衍生 128 位元組金鑰。如果長度少於 128 個位元組，它會填補為 128 個位元組。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> 參數為 null。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.HMACSHA512">
+      <summary>使用 <see cref="T:System.Security.Cryptography.SHA512" /> 雜湊函式，計算雜湊式訊息驗證碼 (Hash-based Message Authentication Code，HMAC)。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA512.#ctor">
+      <summary>使用隨機產生的金鑰，初始化 <see cref="T:System.Security.Cryptography.HMACSHA512" /> 類別的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.HMACSHA512.#ctor(System.Byte[])">
+      <summary>使用指定的金鑰資料，初始化 <see cref="T:System.Security.Cryptography.HMACSHA512" /> 類別的新執行個體。</summary>
+      <param name="key">
+        <see cref="T:System.Security.Cryptography.HMACSHA512" /> 加密的秘密金鑰。金鑰可以是任何長度。不過，建議的大小是 128 個位元組。如果索引鍵長度超過 128 個位元組，就會進行雜湊 (使用 SHA-512) 以衍生 128 位元組金鑰。如果長度少於 128 個位元組，它會填補為 128 個位元組。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> 參數為 null。</exception>
+    </member>
+    <member name="T:System.Security.Cryptography.MD5">
+      <summary>表示抽象類別 (Abstract Class)，<see cref="T:System.Security.Cryptography.MD5" /> 雜湊演算法的所有實作 (Implementation) 從它繼承。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.MD5.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.MD5" /> 的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.MD5.Create">
+      <summary>建立 <see cref="T:System.Security.Cryptography.MD5" /> 雜湊演算法之預設實作的執行個體。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.MD5" /> 雜湊演算法的新執行個體。</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">此演算法會在聯邦資訊處理標準 (FIPS) 模式啟用的情況下使用，但是和 FIPS 並不相容。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA1">
+      <summary>計算輸入資料的 <see cref="T:System.Security.Cryptography.SHA1" /> 雜湊。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA1.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.SHA1" /> 的新執行個體。</summary>
+      <exception cref="T:System.InvalidOperationException">此物件的原則與 FIPS 演算法不相容。</exception>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA1.Create">
+      <summary>建立 <see cref="T:System.Security.Cryptography.SHA1" /> 的預設實作的執行個體。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA1" /> 的新執行個體。</returns>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA256">
+      <summary>計算輸入資料的 <see cref="T:System.Security.Cryptography.SHA256" /> 雜湊。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA256.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.SHA256" /> 的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA256.Create">
+      <summary>建立 <see cref="T:System.Security.Cryptography.SHA256" /> 的預設實作的執行個體。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA256" /> 的新執行個體。</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">此演算法會在聯邦資訊處理標準 (FIPS) 模式啟用的情況下使用，但是和 FIPS 並不相容。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA384">
+      <summary>計算輸入資料的 <see cref="T:System.Security.Cryptography.SHA384" /> 雜湊。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA384.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.SHA384" /> 的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA384.Create">
+      <summary>建立 <see cref="T:System.Security.Cryptography.SHA384" /> 的預設實作的執行個體。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA384" /> 的新執行個體。</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">此演算法會在聯邦資訊處理標準 (FIPS) 模式啟用的情況下使用，但是和 FIPS 並不相容。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.Security.Cryptography.SHA512">
+      <summary>計算輸入資料的 <see cref="T:System.Security.Cryptography.SHA512" /> 雜湊。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA512.#ctor">
+      <summary>初始化 <see cref="T:System.Security.Cryptography.SHA512" /> 的新執行個體。</summary>
+    </member>
+    <member name="M:System.Security.Cryptography.SHA512.Create">
+      <summary>建立 <see cref="T:System.Security.Cryptography.SHA512" /> 的預設實作的執行個體。</summary>
+      <returns>
+        <see cref="T:System.Security.Cryptography.SHA512" /> 的新執行個體。</returns>
+      <exception cref="T:System.Reflection.TargetInvocationException">此演算法會在聯邦資訊處理標準 (FIPS) 模式啟用的情況下使用，但是和 FIPS 並不相容。</exception>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode" />
+      </PermissionSet>
+    </member>
+  </members>
+</doc>
