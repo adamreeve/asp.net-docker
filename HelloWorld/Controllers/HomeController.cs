@@ -39,7 +39,7 @@ namespace HelloMvc.Web
 
             return new Hello
             {
-                Name = "World",
+                Name = "Xero Unconference",
                 Host = Dns.GetHostName(),
                 CachedTime = cachedTime,
             };
