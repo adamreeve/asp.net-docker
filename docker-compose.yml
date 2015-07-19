@@ -1,17 +1,10 @@
 app:
-    build: ./docker
-    dockerfile: dev.Dockerfile
-    restart: always
+    build: ./
+    dockerfile: ./docker/release.Dockerfile
     links:
         - redis:redis
     ports:
         - "5004:5004"
-    volumes:
-        - HelloWorld/:/app
-        - docker/nuget_cache/:/home/aspnet/.local
-        - docker/dnx_packages/:/home/aspnet/.dnx
-    command: bash -c "dnx . kestrel"
 
 redis:
     image: redis:3.0.2
-    restart: always
